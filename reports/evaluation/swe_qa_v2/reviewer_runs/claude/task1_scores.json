@@ -1,0 +1,602 @@
+﻿[
+    {
+        "item_id":  "1X",
+        "correctness":  1,
+        "completeness":  1,
+        "relevance":  6,
+        "groundedness":  2,
+        "score_0_10":  1,
+        "hallucination":  "explicit",
+        "notes":  "Cites config property setter; reference says make_config swaps root_path to instance_path. Invented setter."
+    },
+    {
+        "item_id":  "1Y",
+        "correctness":  4,
+        "completeness":  3,
+        "relevance":  6,
+        "groundedness":  6,
+        "score_0_10":  4,
+        "hallucination":  "mild",
+        "notes":  "Says context lacks code; points to make_config call and parent init but not the swap itself."
+    },
+    {
+        "item_id":  "2X",
+        "correctness":  5,
+        "completeness":  5,
+        "relevance":  8,
+        "groundedness":  3,
+        "score_0_10":  4,
+        "hallucination":  "explicit",
+        "notes":  "Dot-ambiguity rationale ok; wrong test name/behavior (register time) and invented message/location."
+    },
+    {
+        "item_id":  "2Y",
+        "correctness":  7,
+        "completeness":  5,
+        "relevance":  8,
+        "groundedness":  8,
+        "score_0_10":  6,
+        "hallucination":  "none",
+        "notes":  "Correct that ValueError is at creation; nested naming rationale; hedges about code not shown."
+    },
+    {
+        "item_id":  "3X",
+        "correctness":  7,
+        "completeness":  6,
+        "relevance":  9,
+        "groundedness":  8,
+        "score_0_10":  7,
+        "hallucination":  "none",
+        "notes":  "Correct save_session in process_response and concurrency note; open_session location vague."
+    },
+    {
+        "item_id":  "3Y",
+        "correctness":  3,
+        "completeness":  4,
+        "relevance":  6,
+        "groundedness":  2,
+        "score_0_10":  3,
+        "hallucination":  "explicit",
+        "notes":  "Invents older-version/wsgi.py Request.push locations; RequestContext.pop save claim unsupported."
+    },
+    {
+        "item_id":  "4X",
+        "correctness":  6,
+        "completeness":  7,
+        "relevance":  9,
+        "groundedness":  4,
+        "score_0_10":  6,
+        "hallucination":  "mild",
+        "notes":  "Right split strict vs default; wrong file (globals.py) and claims about __delattr__ default behavior/message."
+    },
+    {
+        "item_id":  "4Y",
+        "correctness":  8,
+        "completeness":  3,
+        "relevance":  8,
+        "groundedness":  9,
+        "score_0_10":  4,
+        "hallucination":  "none",
+        "notes":  "Correct on __getattr__; declines deletion/pop."
+    },
+    {
+        "item_id":  "5X",
+        "correctness":  4,
+        "completeness":  4,
+        "relevance":  6,
+        "groundedness":  6,
+        "score_0_10":  4,
+        "hallucination":  "mild",
+        "notes":  "Describes different test flow (url_for/client); misses blueprint subdomain chain."
+    },
+    {
+        "item_id":  "5Y",
+        "correctness":  3,
+        "completeness":  3,
+        "relevance":  5,
+        "groundedness":  4,
+        "score_0_10":  3,
+        "hallucination":  "mild",
+        "notes":  "Generic from-memory chain; no blueprint; unverified test name."
+    },
+    {
+        "item_id":  "6X",
+        "correctness":  7,
+        "completeness":  7,
+        "relevance":  9,
+        "groundedness":  6,
+        "score_0_10":  7,
+        "hallucination":  "mild",
+        "notes":  "Correct rationale and precedence; parameter named app instead of create_app."
+    },
+    {
+        "item_id":  "6Y",
+        "correctness":  5,
+        "completeness":  3,
+        "relevance":  6,
+        "groundedness":  8,
+        "score_0_10":  4,
+        "hallucination":  "none",
+        "notes":  "Refuses class definition; plausible inference only."
+    },
+    {
+        "item_id":  "7X",
+        "correctness":  3,
+        "completeness":  2,
+        "relevance":  5,
+        "groundedness":  8,
+        "score_0_10":  3,
+        "hallucination":  "none",
+        "notes":  "Generic __fspath__ returns str; denies FakePath exists."
+    },
+    {
+        "item_id":  "7Y",
+        "correctness":  10,
+        "completeness":  9,
+        "relevance":  10,
+        "groundedness":  10,
+        "score_0_10":  10,
+        "hallucination":  "none",
+        "notes":  "Matches reference."
+    },
+    {
+        "item_id":  "8X",
+        "correctness":  9,
+        "completeness":  9,
+        "relevance":  10,
+        "groundedness":  9,
+        "score_0_10":  9,
+        "hallucination":  "none",
+        "notes":  "Matches reference PassList.to_json/serializer.tag."
+    },
+    {
+        "item_id":  "8Y",
+        "correctness":  2,
+        "completeness":  2,
+        "relevance":  7,
+        "groundedness":  1,
+        "score_0_10":  2,
+        "hallucination":  "explicit",
+        "notes":  "Invents TagList/_type_tag/dump mechanism."
+    },
+    {
+        "item_id":  "9X",
+        "correctness":  9,
+        "completeness":  8,
+        "relevance":  10,
+        "groundedness":  9,
+        "score_0_10":  9,
+        "hallucination":  "none",
+        "notes":  "Matches reference reasoning."
+    },
+    {
+        "item_id":  "9Y",
+        "correctness":  7,
+        "completeness":  7,
+        "relevance":  9,
+        "groundedness":  6,
+        "score_0_10":  7,
+        "hallucination":  "mild",
+        "notes":  "Right core; some speculative details and code sketch."
+    },
+    {
+        "item_id":  "10X",
+        "correctness":  0,
+        "completeness":  0,
+        "relevance":  3,
+        "groundedness":  1,
+        "score_0_10":  1,
+        "hallucination":  "explicit",
+        "notes":  "Denies TagTuple/tagging recursion exists; contradicts reference."
+    },
+    {
+        "item_id":  "10Y",
+        "correctness":  8,
+        "completeness":  6,
+        "relevance":  9,
+        "groundedness":  9,
+        "score_0_10":  7,
+        "hallucination":  "none",
+        "notes":  "Correct TagTuple.to_json/serializer.tag recursion; hedges on missing guard."
+    },
+    {
+        "item_id":  "11X",
+        "correctness":  1,
+        "completeness":  1,
+        "relevance":  4,
+        "groundedness":  5,
+        "score_0_10":  1,
+        "hallucination":  "mild",
+        "notes":  "Discusses stream_with_context not after_this_request."
+    },
+    {
+        "item_id":  "11Y",
+        "correctness":  1,
+        "completeness":  1,
+        "relevance":  4,
+        "groundedness":  6,
+        "score_0_10":  1,
+        "hallucination":  "mild",
+        "notes":  "Generic Flask decorator coupling; no relevant answer."
+    },
+    {
+        "item_id":  "12X",
+        "correctness":  10,
+        "completeness":  9,
+        "relevance":  10,
+        "groundedness":  9,
+        "score_0_10":  9,
+        "hallucination":  "none",
+        "notes":  "Correct class and file."
+    },
+    {
+        "item_id":  "12Y",
+        "correctness":  0,
+        "completeness":  0,
+        "relevance":  5,
+        "groundedness":  1,
+        "score_0_10":  0,
+        "hallucination":  "explicit",
+        "notes":  "Invents TestUrlGeneration in test_basic.py."
+    },
+    {
+        "item_id":  "13X",
+        "correctness":  6,
+        "completeness":  6,
+        "relevance":  9,
+        "groundedness":  5,
+        "score_0_10":  6,
+        "hallucination":  "mild",
+        "notes":  "Right purpose; wrong tag key \"uuid\" and vague on lines."
+    },
+    {
+        "item_id":  "13Y",
+        "correctness":  6,
+        "completeness":  3,
+        "relevance":  7,
+        "groundedness":  9,
+        "score_0_10":  4,
+        "hallucination":  "none",
+        "notes":  "Correct to_json/hex/key; declines why/to_python."
+    },
+    {
+        "item_id":  "14X",
+        "correctness":  5,
+        "completeness":  6,
+        "relevance":  8,
+        "groundedness":  4,
+        "score_0_10":  5,
+        "hallucination":  "mild",
+        "notes":  "Right chain app-runner-ScriptInfo but invented invoke/load_app details."
+    },
+    {
+        "item_id":  "14Y",
+        "correctness":  4,
+        "completeness":  3,
+        "relevance":  6,
+        "groundedness":  7,
+        "score_0_10":  4,
+        "hallucination":  "none",
+        "notes":  "Hedged; omits ScriptInfo created inside invoke."
+    },
+    {
+        "item_id":  "15X",
+        "correctness":  6,
+        "completeness":  6,
+        "relevance":  8,
+        "groundedness":  3,
+        "score_0_10":  5,
+        "hallucination":  "explicit",
+        "notes":  "Right reasoning but invents TagDict/to_tag/_iter_list_items."
+    },
+    {
+        "item_id":  "15Y",
+        "correctness":  10,
+        "completeness":  8,
+        "relevance":  10,
+        "groundedness":  10,
+        "score_0_10":  9,
+        "hallucination":  "none",
+        "notes":  "Matches reference incl. comment."
+    },
+    {
+        "item_id":  "16X",
+        "correctness":  8,
+        "completeness":  8,
+        "relevance":  9,
+        "groundedness":  7,
+        "score_0_10":  8,
+        "hallucination":  "mild",
+        "notes":  "Correct conditional resolution; some speculative history."
+    },
+    {
+        "item_id":  "16Y",
+        "correctness":  9,
+        "completeness":  8,
+        "relevance":  9,
+        "groundedness":  9,
+        "score_0_10":  9,
+        "hallucination":  "none",
+        "notes":  "Correct incl. kwargs popping."
+    },
+    {
+        "item_id":  "17X",
+        "correctness":  6,
+        "completeness":  6,
+        "relevance":  8,
+        "groundedness":  5,
+        "score_0_10":  6,
+        "hallucination":  "mild",
+        "notes":  "Right impact; mis-attributes cookie persistence and slightly wrong snippet."
+    },
+    {
+        "item_id":  "17Y",
+        "correctness":  8,
+        "completeness":  7,
+        "relevance":  9,
+        "groundedness":  9,
+        "score_0_10":  8,
+        "hallucination":  "none",
+        "notes":  "Correct merge behavior and consequences."
+    },
+    {
+        "item_id":  "18X",
+        "correctness":  4,
+        "completeness":  3,
+        "relevance":  6,
+        "groundedness":  4,
+        "score_0_10":  4,
+        "hallucination":  "mild",
+        "notes":  "Admits no memory of test; is_valid_cidr steps partly wrong (0-32 range, is_valid_ipv4_address)."
+    },
+    {
+        "item_id":  "18Y",
+        "correctness":  6,
+        "completeness":  3,
+        "relevance":  6,
+        "groundedness":  9,
+        "score_0_10":  4,
+        "hallucination":  "none",
+        "notes":  "Accurate about test and values; declines function branching."
+    },
+    {
+        "item_id":  "19X",
+        "correctness":  7,
+        "completeness":  7,
+        "relevance":  8,
+        "groundedness":  3,
+        "score_0_10":  5,
+        "hallucination":  "explicit",
+        "notes":  "Right last-wins behavior but wrong file (sessions.py) and fabricated code."
+    },
+    {
+        "item_id":  "19Y",
+        "correctness":  10,
+        "completeness":  9,
+        "relevance":  10,
+        "groundedness":  10,
+        "score_0_10":  10,
+        "hallucination":  "none",
+        "notes":  "Matches reference."
+    },
+    {
+        "item_id":  "20X",
+        "correctness":  4,
+        "completeness":  4,
+        "relevance":  7,
+        "groundedness":  7,
+        "score_0_10":  4,
+        "hallucination":  "mild",
+        "notes":  "Says function normalizes to uppercase; reference says case is preserved."
+    },
+    {
+        "item_id":  "20Y",
+        "correctness":  0,
+        "completeness":  0,
+        "relevance":  3,
+        "groundedness":  2,
+        "score_0_10":  1,
+        "hallucination":  "mild",
+        "notes":  "Claims test_pragmas likely does not exist in requests; no substance."
+    },
+    {
+        "item_id":  "21X",
+        "correctness":  2,
+        "completeness":  2,
+        "relevance":  6,
+        "groundedness":  2,
+        "score_0_10":  2,
+        "hallucination":  "explicit",
+        "notes":  "Puts get_auth_from_url in prepare_url and invents CVE-based flow; wrong."
+    },
+    {
+        "item_id":  "21Y",
+        "correctness":  4,
+        "completeness":  4,
+        "relevance":  7,
+        "groundedness":  8,
+        "score_0_10":  4,
+        "hallucination":  "none",
+        "notes":  "Right about prepare_url preserving auth; wrongly claims prepare does not extract credentials."
+    },
+    {
+        "item_id":  "22X",
+        "correctness":  6,
+        "completeness":  2,
+        "relevance":  6,
+        "groundedness":  9,
+        "score_0_10":  4,
+        "hallucination":  "none",
+        "notes":  "Correct file; declines context manager details."
+    },
+    {
+        "item_id":  "22Y",
+        "correctness":  1,
+        "completeness":  2,
+        "relevance":  6,
+        "groundedness":  1,
+        "score_0_10":  1,
+        "hallucination":  "explicit",
+        "notes":  "Invents root testserver.py and test_requests.py location and stop-event design."
+    },
+    {
+        "item_id":  "23X",
+        "correctness":  8,
+        "completeness":  7,
+        "relevance":  9,
+        "groundedness":  7,
+        "score_0_10":  8,
+        "hallucination":  "mild",
+        "notes":  "Correct dual-inheritance semantics; docstring quote slightly off."
+    },
+    {
+        "item_id":  "23Y",
+        "correctness":  8,
+        "completeness":  7,
+        "relevance":  9,
+        "groundedness":  9,
+        "score_0_10":  8,
+        "hallucination":  "none",
+        "notes":  "Correct; nice extra InvalidURL evidence."
+    },
+    {
+        "item_id":  "24X",
+        "correctness":  2,
+        "completeness":  2,
+        "relevance":  6,
+        "groundedness":  2,
+        "score_0_10":  2,
+        "hallucination":  "explicit",
+        "notes":  "Recommends raising ImportError; invents check_compatibility code; misses RequestsDependencyWarning."
+    },
+    {
+        "item_id":  "24Y",
+        "correctness":  9,
+        "completeness":  8,
+        "relevance":  9,
+        "groundedness":  9,
+        "score_0_10":  9,
+        "hallucination":  "none",
+        "notes":  "Matches reference warning-based approach."
+    },
+    {
+        "item_id":  "25X",
+        "correctness":  7,
+        "completeness":  6,
+        "relevance":  9,
+        "groundedness":  7,
+        "score_0_10":  7,
+        "hallucination":  "mild",
+        "notes":  "Correct rationale and caching strategy; omits __init__ parse and speculative host property."
+    },
+    {
+        "item_id":  "25Y",
+        "correctness":  5,
+        "completeness":  5,
+        "relevance":  8,
+        "groundedness":  3,
+        "score_0_10":  5,
+        "hallucination":  "explicit",
+        "notes":  "Sound caching idea but misdescribes MockRequest internals (urllib.request.Request, get_full_url)."
+    },
+    {
+        "item_id":  "26X",
+        "correctness":  9,
+        "completeness":  8,
+        "relevance":  10,
+        "groundedness":  9,
+        "score_0_10":  9,
+        "hallucination":  "none",
+        "notes":  "Matches reference reasoning."
+    },
+    {
+        "item_id":  "26Y",
+        "correctness":  8,
+        "completeness":  7,
+        "relevance":  9,
+        "groundedness":  7,
+        "score_0_10":  8,
+        "hallucination":  "mild",
+        "notes":  "Right rationale; some speculative double-read argument and sketched check."
+    },
+    {
+        "item_id":  "27X",
+        "correctness":  3,
+        "completeness":  3,
+        "relevance":  7,
+        "groundedness":  2,
+        "score_0_10":  3,
+        "hallucination":  "explicit",
+        "notes":  "Invents parametrize (None,None,None) indirect=True and test body."
+    },
+    {
+        "item_id":  "27Y",
+        "correctness":  3,
+        "completeness":  4,
+        "relevance":  8,
+        "groundedness":  3,
+        "score_0_10":  3,
+        "hallucination":  "explicit",
+        "notes":  "Claims class-level stacked parametrize decorators; reference says method-level decorator."
+    },
+    {
+        "item_id":  "28X",
+        "correctness":  9,
+        "completeness":  8,
+        "relevance":  9,
+        "groundedness":  8,
+        "score_0_10":  9,
+        "hallucination":  "none",
+        "notes":  "Matches reference cooperative super()."
+    },
+    {
+        "item_id":  "28Y",
+        "correctness":  8,
+        "completeness":  8,
+        "relevance":  9,
+        "groundedness":  8,
+        "score_0_10":  8,
+        "hallucination":  "mild",
+        "notes":  "Correct; adds minor speculation about future state."
+    },
+    {
+        "item_id":  "29X",
+        "correctness":  6,
+        "completeness":  4,
+        "relevance":  7,
+        "groundedness":  9,
+        "score_0_10":  5,
+        "hallucination":  "none",
+        "notes":  "Correct on what is shown; declines raise_for_status/adapter details."
+    },
+    {
+        "item_id":  "29Y",
+        "correctness":  9,
+        "completeness":  9,
+        "relevance":  9,
+        "groundedness":  8,
+        "score_0_10":  9,
+        "hallucination":  "none",
+        "notes":  "Matches reference hierarchy and raising sites."
+    },
+    {
+        "item_id":  "30X",
+        "correctness":  9,
+        "completeness":  9,
+        "relevance":  10,
+        "groundedness":  9,
+        "score_0_10":  9,
+        "hallucination":  "none",
+        "notes":  "Matches reference close/exit/_content_consumed logic."
+    },
+    {
+        "item_id":  "30Y",
+        "correctness":  2,
+        "completeness":  3,
+        "relevance":  7,
+        "groundedness":  1,
+        "score_0_10":  2,
+        "hallucination":  "explicit",
+        "notes":  "Fabricates close() raising RuntimeError and omits raw.close logic."
+    }
+]

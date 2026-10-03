@@ -1,0 +1,39 @@
+{
+  "protocol": "swe_qa_v2",
+  "created_utc": "2026-09-30T07:12:23Z",
+  "code_commit": "5907c79057f4e6537c225e2006e2d3f232e292f5",
+  "dataset": "peng-weihan/SWE-QA-Bench master",
+  "dataset_revision": "c13deac7a0d99b0ca2e593e004c4739475785b08",
+  "dataset_download_date": "2026-09-30",
+  "repositories": [
+    "flask",
+    "requests"
+  ],
+  "questions": 96,
+  "llm_model": "glm-5.3-flash",
+  "reasoning_effort": "low",
+  "temperature": 0,
+  "max_tokens": 1200,
+  "retrieval": {
+    "method": "hybrid",
+    "limit": 5,
+    "context_chars": 6000,
+    "headers_include_path_and_lines": true
+  },
+  "arms": {
+    "A0": "closed_book_model_citations",
+    "A1": "fixed_context_system_citations",
+    "A2": "post_hoc_model_attribution_on_fixed_A1_answer"
+  },
+  "judge": {
+    "official_swe_qa_protocol_found": true,
+    "official_prompt_artifact": "official_llm_as_a_judge.py",
+    "model": "gemini-2.5-flash",
+    "status": "attempted_http_403_no_scores"
+  },
+  "statistics": {
+    "bootstrap_resamples": 20000,
+    "bootstrap_seed": 20260930,
+    "human_seed": 20260930
+  }
+}
