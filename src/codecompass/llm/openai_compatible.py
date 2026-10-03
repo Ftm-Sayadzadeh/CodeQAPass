@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import os
 from typing import Any
 
 from codecompass._openai_compatible_http import (
@@ -59,6 +60,9 @@ class OpenAICompatibleLLMProvider:
             payload["max_tokens"] = request.max_tokens
         if request.response_format == "json":
             payload["response_format"] = {"type": "json_object"}
+        reasoning_effort = os.getenv("CODECOMPASS_LLM_REASONING_EFFORT")
+        if reasoning_effort in {"low", "high", "max"}:
+            payload["reasoning_effort"] = reasoning_effort
         return payload
 
     def _post_json(self, payload: dict[str, Any]) -> dict[str, Any]:

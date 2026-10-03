@@ -52,6 +52,7 @@ def main(argv: Sequence[str] | None = None) -> int:
             project_id=project_id,
         ),
         batch_size=args.batch_size,
+        inter_batch_delay_seconds=args.embedding_delay_seconds,
     )
     try:
         result = coordinator.index_repository(args.repository, args.project_name)
@@ -122,6 +123,12 @@ def _parser() -> argparse.ArgumentParser:
     parser.add_argument("--ollama-url", default="http://127.0.0.1:11434")
     parser.add_argument("--timeout-seconds", type=float, default=180.0)
     parser.add_argument("--batch-size", type=int, default=32)
+    parser.add_argument(
+        "--embedding-delay-seconds",
+        type=float,
+        default=1.0,
+        help="Delay between embedding batches to avoid provider rate-limit bursts",
+    )
     return parser
 
 

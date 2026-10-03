@@ -149,6 +149,7 @@ class RepositoryIndexCoordinator:
         collection_factory: CollectionFactory,
         *,
         batch_size: int = 32,
+        inter_batch_delay_seconds: float = 0.0,
         begin_activation: ActivationCallback | None = None,
         end_activation: ActivationCallback | None = None,
     ) -> None:
@@ -157,6 +158,7 @@ class RepositoryIndexCoordinator:
         self.embedding_identity = embedding_identity
         self.collection_factory = collection_factory
         self.batch_size = batch_size
+        self.inter_batch_delay_seconds = inter_batch_delay_seconds
         self.begin_activation = begin_activation or (lambda _project_id: None)
         self.end_activation = end_activation or (lambda _project_id: None)
 
@@ -439,6 +441,7 @@ class RepositoryIndexCoordinator:
                 self.embedding_provider,
                 None,
                 batch_size=self.batch_size,
+                inter_batch_delay_seconds=self.inter_batch_delay_seconds,
                 embedding_identity=self.embedding_identity,
             )
             embedded = PreparedEmbeddings((), (), (), None, 0)
@@ -580,6 +583,7 @@ class RepositoryIndexCoordinator:
             self.embedding_provider,
             None,
             batch_size=self.batch_size,
+            inter_batch_delay_seconds=self.inter_batch_delay_seconds,
             embedding_identity=self.embedding_identity,
         )
         embedded = service.prepare_chunks(prepared.chunks, progress=lambda values: emit("embedding", values))
