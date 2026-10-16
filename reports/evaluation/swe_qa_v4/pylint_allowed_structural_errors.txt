@@ -1,0 +1,25 @@
+# Pylint's official snapshot intentionally contains invalid-Python fixtures.
+# These are excluded only from structural indexing; unexpected errors remain fatal.
+doc/data/messages/s/syntax-error/bad.py
+doc/data/messages/u/using-generic-type-syntax-in-unsupported-version/bad.py
+tests/functional/g/generic_class_syntax_py312.py
+tests/functional/s/statement_without_effect_py312.py
+tests/functional/s/symlink/_binding/__init__.py
+tests/functional/s/symlink/_binding/symlink_module.py
+tests/functional/s/syntax/syntax_error.py
+tests/functional/s/syntax/syntax_error_jython.py
+tests/functional/t/tokenize_error.py
+tests/functional/t/tokenize_error_jython.py
+tests/functional/t/tokenize_error_py312.py
+tests/functional/t/type/typealias_naming_style_py312.py
+tests/functional/t/type/typevar_naming_style_py312.py
+tests/functional/u/undefined/undefined_variable_py312.py
+tests/functional/u/unknown_encoding_jython.py
+tests/functional/u/unsupported/unsupported_version_for_generic_type_syntax.py
+tests/functional/u/used/used_before_assignment_py312.py
+tests/input/func_w0122_py_30.py
+tests/regrtest_data/bad_package/__init__.py
+tests/regrtest_data/descriptor_crash.py
+tests/regrtest_data/encoding/bad_wrong_num.py
+tests/regrtest_data/invalid_encoding.py
+tests/regrtest_data/syntax_error.py

@@ -1,0 +1,168 @@
+{
+  "protocol": "swe_qa_v4",
+  "task1": {
+    "n": 90,
+    "by_arm": {
+      "a0": {
+        "n": 30,
+        "mean": 4.158333333333333,
+        "bootstrap_ci95": [
+          3.575,
+          4.716666666666667
+        ]
+      },
+      "a1": {
+        "n": 30,
+        "mean": 6.683333333333334,
+        "bootstrap_ci95": [
+          5.866666666666666,
+          7.491666666666666
+        ]
+      },
+      "b0_k5": {
+        "n": 30,
+        "mean": 7.333333333333333,
+        "bootstrap_ci95": [
+          6.458333333333333,
+          8.15
+        ]
+      }
+    },
+    "comparisons": {
+      "a1_minus_a0": {
+        "n": 30,
+        "mean": 2.525,
+        "bootstrap_ci95": [
+          1.5416666666666667,
+          3.5083333333333333
+        ]
+      },
+      "a1_minus_b0_k5": {
+        "n": 30,
+        "mean": -0.65,
+        "bootstrap_ci95": [
+          -1.65,
+          0.30833333333333335
+        ]
+      },
+      "b0_k5_minus_a0": {
+        "n": 30,
+        "mean": 3.175,
+        "bootstrap_ci95": [
+          2.0833333333333335,
+          4.258333333333334
+        ]
+      }
+    }
+  },
+  "task1_rater_agreement": {
+    "correctness": {
+      "quadratic_weighted_kappa": 0.6365465888508708,
+      "spearman": 0.655626411177229
+    },
+    "completeness": {
+      "quadratic_weighted_kappa": 0.8231877455725702,
+      "spearman": 0.8551110892755708
+    },
+    "relevance": {
+      "quadratic_weighted_kappa": 0.8822424505129292,
+      "spearman": 0.8608999191062494
+    },
+    "groundedness": {
+      "quadratic_weighted_kappa": 0.1891355828294606,
+      "spearman": 0.4198831711910345
+    },
+    "overall_mean": {
+      "spearman": 0.7463768059629191
+    }
+  },
+  "human_vs_automatic_judge": {
+    "a0": {
+      "n": 30,
+      "spearman": 0.7808256708472494
+    },
+    "a1": {
+      "n": 30,
+      "spearman": 0.9628245397682909
+    },
+    "b0_k5": {
+      "n": 30,
+      "spearman": 0.8633684338276963
+    }
+  },
+  "task2": {
+    "X": {
+      "citations": 67,
+      "strict_precision": 0.8059701492537313,
+      "lenient_precision": 0.8805970149253731,
+      "claim_questions": 23,
+      "claim_coverage": 0.9130434782608695
+    },
+    "Y": {
+      "citations": 66,
+      "strict_precision": 0.7878787878787878,
+      "lenient_precision": 0.8939393939393939,
+      "claim_questions": 23,
+      "claim_coverage": 0.9130434782608695
+    }
+  },
+  "task2_by_arm": {
+    "a1": {
+      "questions_resolved": 11,
+      "citations": 38,
+      "strict_precision": 0.5526315789473685,
+      "lenient_precision": 0.6578947368421053,
+      "claim_questions": 10,
+      "claim_coverage": 1.0
+    },
+    "a2": {
+      "questions_resolved": 11,
+      "citations": 21,
+      "strict_precision": 0.9047619047619048,
+      "lenient_precision": 1.0,
+      "claim_questions": 10,
+      "claim_coverage": 1.0
+    }
+  },
+  "task2_mapping": {
+    "resolved_questions": 11,
+    "ambiguous_questions": [
+      "flask-14",
+      "flask-30",
+      "flask-32",
+      "flask-46",
+      "pylint-15",
+      "pylint-22",
+      "pylint-23",
+      "pylint-27",
+      "pylint-40",
+      "pytest-15",
+      "pytest-18",
+      "pytest-2",
+      "pytest-27",
+      "pytest-32",
+      "pytest-33",
+      "pytest-7",
+      "requests-18",
+      "requests-43",
+      "requests-7"
+    ]
+  },
+  "task2_rater_agreement": {
+    "support": {
+      "spearman": null,
+      "exact_agreement": 0.6917293233082706
+    },
+    "missing_key_source": {
+      "spearman": null,
+      "exact_agreement": 0.5939849624060151
+    }
+  },
+  "provenance": {
+    "task1_author_sha256": "adb158ea883cfd6311b7f5470276ecf4a61e4a758d4ef993dcc642b959984837",
+    "task1_independent_sha256": "ad26b95f3199515cd0d0927e795f295681105d469a1ac561d5172eb4a3205e69",
+    "task2_author_sha256": "4535a1fc21aeb899ea382577cb84a0246c539296a52d46294cfbf4fab97faaac",
+    "task2_independent_sha256": "df66fb6e4ac9214177fd4bd1b4399d7f4f91482dea5b53e5749e65469ee7c0c4",
+    "bootstrap_seed": 20260930
+  }
+}
