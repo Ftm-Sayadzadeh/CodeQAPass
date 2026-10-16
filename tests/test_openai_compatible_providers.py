@@ -83,6 +83,33 @@ def test_openai_compatible_embedding_single_uses_provider_neutral_result(monkeyp
     assert result == EmbeddingResult([0.5, 1.0], "embed", 2)
 
 
+def test_openai_compatible_embedding_accepts_ordered_records_without_indexes(monkeypatch) -> None:
+    install_response(monkeypatch, {"model": "embed-served", "data": [
+        {"embedding": [1, 2]}, {"embedding": [3, 4]},
+    ]})
+
+    results = OpenAICompatibleEmbeddingProvider("embed", "http://localhost:8000/v1", expected_dimensions=2).embed_texts(
+        ("first", "second")
+    )
+
+    assert results == (
+        EmbeddingResult([1.0, 2.0], "embed-served", 2),
+        EmbeddingResult([3.0, 4.0], "embed-served", 2),
+    )
+
+
+def test_openai_compatible_embedding_fills_omitted_indexes(monkeypatch) -> None:
+    install_response(monkeypatch, {"data": [
+        {"embedding": [1, 2]}, {"index": 1, "embedding": [3, 4]},
+    ]})
+
+    results = OpenAICompatibleEmbeddingProvider("embed", "http://localhost:8000/v1", expected_dimensions=2).embed_texts(
+        ("first", "second")
+    )
+
+    assert results == (EmbeddingResult([1.0, 2.0], "embed", 2), EmbeddingResult([3.0, 4.0], "embed", 2))
+
+
 @pytest.mark.parametrize(
     "payload",
     [

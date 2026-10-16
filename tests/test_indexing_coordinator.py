@@ -7,6 +7,8 @@ import pytest
 
 from codecompass.embeddings import EmbeddingProviderError, EmbeddingResult, embedding_identity
 from codecompass.indexing import IndexingCoordinatorError, RepositoryIndexCoordinator
+from codecompass.indexing.models import IndexingError, IndexingStats
+from codecompass.indexing.service import PreparedRepositoryIndex
 from codecompass.indexing import cli as indexing_cli
 from codecompass.storage import SQLiteMetadataStore
 from codecompass.vector_index import ChromaVectorIndex, VectorIndexError
@@ -86,6 +88,30 @@ def test_cli_same_identity_reindex_is_a_true_noop(tmp_path: Path, monkeypatch, c
     assert "\"complete\": true" in output
     assert "\"strategy\": \"incremental\"" in output
     assert "\"no_changes\": true" in output
+
+
+def test_allowed_structural_errors_are_narrow_and_evaluation_only(tmp_path: Path) -> None:
+    coordinator = RepositoryIndexCoordinator(
+        SQLiteMetadataStore(tmp_path / "metadata.sqlite"),
+        FakeEmbeddingProvider(),
+        embedding_identity("fake", "https://example.test/v1", "fake"),
+        lambda project_id: managed_index(tmp_path, project_id),
+        allowed_structural_error_paths=frozenset({"fixtures/invalid.py"}),
+    )
+    prepared = PreparedRepositoryIndex(
+        tmp_path,
+        (),
+        (),
+        (),
+        (),
+        IndexingStats(parse_errors=2),
+        (
+            IndexingError("parse", "fixtures/invalid.py", "SyntaxError", "expected"),
+            IndexingError("parse", "unexpected.py", "SyntaxError", "unexpected"),
+        ),
+    )
+    filtered = coordinator._filter_allowed_structural_errors(prepared)
+    assert [error.relative_path for error in filtered.errors] == ["unexpected.py"]
 
 
 def test_cli_embedding_failure_preserves_previous_index(tmp_path: Path, monkeypatch, capsys) -> None:

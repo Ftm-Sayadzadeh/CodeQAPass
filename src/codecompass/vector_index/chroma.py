@@ -26,6 +26,9 @@ COLLECTION_NAME = re.compile(r"^[a-z0-9](?:[a-z0-9._-]{1,510}[a-z0-9])?$")
 GENERATION = re.compile(r"^[0-9a-f]{32}$")
 POINTER_KEYS = frozenset({"schema_version", "logical_collection", "active_collection", "generation"})
 BINDING_SCHEMA = "codecompass:managed_schema"
+# Keep staging memory bounded for large 3072-dimensional evaluation indexes.
+# This is below Chroma's client limit and does not change the resulting index.
+CHROMA_UPSERT_BATCH_SIZE = 500
 BINDING_LOGICAL = "codecompass:logical_collection"
 BINDING_GENERATION = "codecompass:generation"
 BINDING_PROJECT = "codecompass:project_id"
@@ -111,7 +114,16 @@ class ChromaVectorIndex:
             raise VectorIndexError("Duplicate chunk ids in one upsert batch")
         metadatas = [self._metadata(record, dimension) for record in records]
         try:
-            collection.upsert(ids=ids, embeddings=vectors, metadatas=metadatas)
+            # Chroma enforces a maximum batch size (currently 5,461 for the
+            # bundled client). Keep a lower stable limit so large repositories
+            # can be staged atomically without depending on that client limit.
+            for start in range(0, len(ids), CHROMA_UPSERT_BATCH_SIZE):
+                end = start + CHROMA_UPSERT_BATCH_SIZE
+                collection.upsert(
+                    ids=ids[start:end],
+                    embeddings=vectors[start:end],
+                    metadatas=metadatas[start:end],
+                )
             self._dimension = dimension
         except VectorIndexError:
             raise

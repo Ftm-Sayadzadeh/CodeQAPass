@@ -76,14 +76,29 @@ class OpenAICompatibleEmbeddingProvider:
         if not isinstance(data, list) or len(data) != expected_count:
             raise self._error("InvalidResponse", f"Expected {expected_count} embedding records")
         indexed: dict[int, list[float]] = {}
+        missing: list[dict[str, Any]] = []
         for record in data:
-            if not isinstance(record, dict) or not isinstance(record.get("index"), int):
+            if not isinstance(record, dict):
+                raise self._error("InvalidResponse", "Embedding record must be an object")
+            if "index" not in record:
+                missing.append(record)
+                continue
+            if not isinstance(record.get("index"), int):
                 raise self._error("InvalidResponse", "Embedding record must contain an integer index")
             index = record["index"]
             if index in indexed or index < 0 or index >= expected_count:
                 raise self._error("InvalidResponse", "Embedding record indexes are invalid")
             indexed[index] = self._vector(record.get("embedding"))
+        remaining = [index for index in range(expected_count) if index not in indexed]
+        if len(missing) != len(remaining):
+            raise self._error("InvalidResponse", "Embedding record indexes are incomplete")
+        # Some compatible endpoints omit indices on only part of a batch; fill the remaining positions in response order.
+        for index, record in zip(remaining, missing):
+            indexed[index] = self._vector(record.get("embedding"))
         vectors = [indexed[index] for index in range(expected_count)]
+        return self._validate_dimensions(vectors)
+
+    def _validate_dimensions(self, vectors: list[list[float]]) -> list[list[float]]:
         dimensions = {len(vector) for vector in vectors}
         if len(dimensions) != 1:
             raise self._error("InvalidResponse", "Embedding dimensions are inconsistent")
