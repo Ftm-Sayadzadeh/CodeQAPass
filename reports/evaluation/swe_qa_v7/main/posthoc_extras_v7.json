@@ -1,0 +1,54 @@
+{
+ "note": "post-hoc exploratory; frozen records only",
+ "common_answered_all_retrieval_arms": {
+  "questions": 102,
+  "means": {
+   "b0_k5": 13.987,
+   "a1_v4": 13.36,
+   "a1_v5a": 13.862,
+   "a1_v6e": 14.538
+  }
+ },
+ "latency_split_seconds": {
+  "b0_k5": {
+   "questions": 48,
+   "embedding_seconds": 1.861,
+   "local_retrieval_assembly_seconds": 0.009
+  },
+  "a1_v4": {
+   "questions": 48,
+   "embedding_seconds": 1.493,
+   "local_retrieval_assembly_seconds": 0.561
+  },
+  "a1_v5a": {
+   "questions": 48,
+   "embedding_seconds": 1.4,
+   "local_retrieval_assembly_seconds": 0.573
+  },
+  "a1_v6e": {
+   "questions": 48,
+   "embedding_seconds": 1.951,
+   "local_retrieval_assembly_seconds": 0.527
+  }
+ },
+ "cost_per_good_answer_1e-4_units": {
+  "provider_cost": {
+   "b0_k5": 0.00025,
+   "a1_v4": 0.000244,
+   "a1_v5a": 0.000325,
+   "a1_v6e": 0.000393
+  },
+  "good_answer_rate_study1": {
+   "b0_k5": 0.3438,
+   "a1_v4": 0.2812,
+   "a1_v5a": 0.3438,
+   "a1_v6e": 0.3958
+  },
+  "value": {
+   "b0_k5": 7.27,
+   "a1_v4": 8.68,
+   "a1_v5a": 9.45,
+   "a1_v6e": 9.93
+  }
+ }
+}
