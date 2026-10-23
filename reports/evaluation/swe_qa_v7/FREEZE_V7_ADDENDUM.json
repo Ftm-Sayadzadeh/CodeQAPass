@@ -1,0 +1,13 @@
+{
+ "note": "Runner amended after the freeze and before any model call. The protocol file is frozen, so the deviation is recorded here.",
+ "date": "2026-10-23",
+ "deviation_log": [
+  "Credit exhaustion looks like a plain HTTP 429 in provider error messages (the response body is hidden by the provider classes), so text matching could not detect it. The runner now classifies a 429 with one tiny probe request that reads the error body (`credit_probe`), and a confirmed credit failure stops generation, judging and timing at once (`CreditStop` / `CreditExhausted`) instead of waiting out the retry schedule. No arm, context, prompt, hypothesis, statistic or analysis rule changed.",
+  "Cost estimate correction (2026-10-23, during Study 1 judging): the protocol's cost table assumed 0.0006 credit units per judge call from a raw probe without the project's `reasoning_effort=low` setting. The real judge calls carry about 880 completion tokens (about 830 reasoning tokens) and cost about 0.0028 credit units each (measured on 310 records), so the judge cost is about 3.4 credit units for 1200 calls and the total of the experiment about 3.8 credit units (about 1.03 million Toman at 271,450 Toman per unit), not 1.1. Nothing in the design, the statistics or the analysis changed; only the cost estimate.",
+  "Credit probe hardening (2026-10-23, after the timing run): with a nearly empty balance a one-token probe still succeeded while real requests and the embedding endpoint failed with a credit 429, so 26 failures in the first retry round of the timing study were recorded as ordinary failures. `credit_probe` now tests both the chat endpoint (1200 max tokens) and the embedding endpoint. No arm, context, statistic or analysis rule changed. The 26 failed records stay in the raw timing file and are excluded from latency statistics; the 20 cells still missing at that point are measured after the recharge and reported as completed in a later session.",
+  "Analysis gap found after the analysis ran (2026-10-23): `list_cost` returned None for the closed-book arm `a0` because it makes no embedding call (its embedding usage is empty, which the function read as 'unavailable'), so analysis_v7.json lacks the a0 cost, the a1_v5a-over-a0 cost contrast and the a0 entry of the quality-adjusted cost. The frozen analysis file is not rewritten; the a0 cost is computed in a supplementary step with the same formula and zero embedding cost, and is reported as supplementary."
+ ],
+ "sha256": {
+  "scripts/evaluation/swe_qa_v7_runner.py": "89737c50e0ef80eb8f503b92de40ae20172e7d65f3636d0f106f6ce2b3720441"
+ }
+}

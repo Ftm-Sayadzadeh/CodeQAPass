@@ -1,0 +1,61 @@
+{
+  "protocol": "swe_qa_v2",
+  "created_utc": "2026-09-30T07:12:23Z",
+  "code_commit": "5907c79057f4e6537c225e2006e2d3f232e292f5",
+  "dataset": "peng-weihan/SWE-QA-Bench master",
+  "dataset_revision": "c13deac7a0d99b0ca2e593e004c4739475785b08",
+  "dataset_download_date": "2026-09-30",
+  "repositories": [
+    "flask",
+    "requests"
+  ],
+  "questions": 96,
+  "llm_model": "glm-5.3-flash",
+  "reasoning_effort": "low",
+  "temperature": 0,
+  "max_tokens": 1200,
+  "retrieval": {
+    "method": "hybrid",
+    "limit": 5,
+    "context_chars": 6000,
+    "headers_include_path_and_lines": true
+  },
+  "arms": {
+    "A0_restricted": "closed_book_context_only_system_prompt (refusal diagnostic)",
+    "A0_neutral": "closed_book_neutral_system_prompt",
+    "A1": "fixed_context_system_citations",
+    "A2": "post_hoc_model_attribution_on_fixed_A1_answer"
+  },
+  "judge": {
+    "official_swe_qa_protocol_found": true,
+    "official_prompt_artifact": "official_llm_as_a_judge.py",
+    "model": "gemini-2.5-flash",
+    "status": "completed",
+    "scores_file": "judge_scores.jsonl",
+    "summary_file": "judge_summary.json",
+    "note": "96 usable scores per arm (A0-neutral, A1) after retrying 17 HTTP 429 records; the earlier HTTP 403 attempt is kept in judge_scores_v1_403_superseded.jsonl. The judge is not the official GPT-5 judge."
+  },
+  "statistics": {
+    "bootstrap_resamples": 20000,
+    "bootstrap_seed": 20260930,
+    "wilcoxon": "two-sided signed-rank, normal approximation with tie and continuity correction"
+  },
+  "status_update": {
+    "date": "2026-10-03",
+    "executed": [
+      "A0_restricted",
+      "A0_neutral",
+      "A1",
+      "A2",
+      "retrieval_metrics(lexical,semantic,hybrid)",
+      "gemini_judge",
+      "two_llm_reviewers"
+    ],
+    "not_executed": [
+      "B0_function_chunk_baseline (code written, no runs)",
+      "human_review",
+      "persian_questions",
+      "online_human_study"
+    ]
+  }
+}

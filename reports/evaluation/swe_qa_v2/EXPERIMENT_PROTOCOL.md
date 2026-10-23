@@ -104,11 +104,37 @@ re-implementation; possible memorisation of public repositories; answer length d
 ## 8. Deviation log
 2026-10-03. Executed scope is final for the current deliverable; nothing below changes any recorded result.
 
-- B0 (sections 3, 4.1 B0 row, 4.2 B0 comparisons, 4.4 three-arm sample): code and design only; no run. E2 is therefore
-  restricted to A1 vs A0-neutral. B0 may be run later as a new, separately recorded step.
+- B0 (sections 3, 4.1 B0 row, 4.2 B0 comparisons): run on 2026-10-04 as a new, separately recorded step; the earlier entry that
+  said B0 was not run no longer holds. The three-arm reviewer sample (4.4) was not built.
+- B0 retrieval: B0 retrieved 10 chunks per question while lexical, semantic and hybrid retrieved 20, so file-level metrics
+  for the four-method comparison are computed at equal chunk depth 10 (`retrieval_metrics/metrics_depth10.json`). The original
+  20-chunk `metrics.json` for the three methods is unchanged.
+- B0 generation, first attempt (invalid): `CODECOMPASS_LLM_REASONING_EFFORT=low`, used for A0/A1/A2, was not set, so many
+  answers were truncated or unavailable (k5: 34 truncated, 26 unavailable of 96 at the time it was stopped). The run was stopped,
+  its raw records were kept unmodified as `b0/invalid_run1_no_reasoning_effort_answers_b0_k5.jsonl` and `..._k10.jsonl`, and
+  all B0 answers used in analysis come from a second run with the frozen setting. `swe_qa_b0_answers.py` now refuses to
+  generate unless the variable equals `low`. One unavailable k5 answer (requests-28) was retried once in `answers_b0_k5_retry.jsonl`.
+- B0 judging: the B0 answers were judged in a separate pass from the A0-neutral/A1 judging, with the same judge model
+  (gemini-2.5-flash), official prompt, temperature 0 and rubric. The pass was interrupted by connection failures and HTTP 429
+  and resumed; failed attempts remain in `b0/judge_scores_b0.jsonl`, a later usable record supersedes an earlier unavailable one,
+  and no unavailable record is scored as zero. Because the passes are separate, a judge drift between them cannot be excluded.
+- Roles: B0-k5 is the primary B0 comparison (same 5-chunk, 6,000-character budget as A1); B0-k10 is a sensitivity analysis.
 - Section 4.4: the reviewer sample stayed two arms (A0-neutral, A1) for answers and A1/A2 for citations; the three-arm extension was not built.
 - Sections 4.5 and 4.6 (online human study, Persian questions): not executed; they are future work and are not claimed.
 - Human scoring of the blinded CSV files: not done. E3 and E4 rest on LLM reviewers only and are labelled as such.
 - Judge: the first Gemini attempt returned HTTP 403 and is kept as superseded; the completed run retried 17 HTTP 429 records.
-  No Holm correction was applied to the judge results because no comparison reached p<0.05.
+  Holm correction (three primary comparisons on the mean of five criteria, including B0-k5) is applied in `b0/judge_summary_b0.json`.
+- B0 judging, incomplete: of 192 B0 judgements, 134 are usable (k5: 70, k10: 64) and 58 are unresolved. In the resumed pass,
+  from blind id B136 onward the judge returned truncated JSON (`finish_reason=length`, `max_tokens=500` consumed by hidden
+  reasoning), which repeating the same request does not fix: 16 records failed this way. The pass was then stopped by the author, so
+  the remaining 42 records (B150 onward in the shuffled order) were not re-attempted after the first pass's connection failures.
+  A separate network-failure retry (`b0/judge_scores_b0_retry.jsonl`, same model, prompt, temperature 0 and `max_tokens` 500) was
+  started for those 42; its first 9 records all failed again with truncated JSON, so it was stopped to avoid spending more quota.
+  Final state: 134 usable, 58 unresolved (25 truncated/invalid JSON, 33 connection failures never retried successfully), see
+  `b0_judging_status` in `b0/judge_summary_b0.json`. Unresolved records are not scored as zero and were not re-judged with a larger `max_tokens`, because
+  mixing two output limits in one score set would change the judge settings for a subset. Paired B0 comparisons use only
+  questions with a usable judged answer in both arms (A1 vs B0-k5: n=70 of 96). Judging order was shuffled (seed 20260930), so the
+  unresolved records are the tail of that order and not a content-selected subset; this is an argument, not a proof, and answer
+  length of missing and usable records is similar (median 1,116 vs 1,166 characters for k5). A uniform re-judge of all 192 B0
+  answers (and of A0-neutral and A1) with a larger limit would be a new, separately named run.
 - `provenance.json` was regenerated on 2026-10-03 to include derived-artifact hashes; earlier versions are kept.

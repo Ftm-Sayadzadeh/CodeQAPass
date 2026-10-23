@@ -1,0 +1,229 @@
+{
+  "sample_size": 24,
+  "questions": [
+    {
+      "question_id": "flask-1",
+      "repo": "flask",
+      "question": "What is the relationship between the ASCII-only encoding control parameter in the framework's JSON serialization provider and Unicode character representation in serialized output?",
+      "subqueries": [
+        "How does the ASCII-only encoding parameter affect JSON serialization?",
+        "How are Unicode characters represented in the serialized JSON output?"
+      ],
+      "decomposed": true
+    },
+    {
+      "question_id": "flask-2",
+      "repo": "flask",
+      "question": "What is the purpose of the registration tracking flag in the blueprint collection class that prevents setup methods from being called after the blueprint has been registered once?",
+      "subqueries": [
+        "What is the purpose of the registration tracking flag in the blueprint collection class that prevents setup methods from being called after the blueprint has been registered once?"
+      ],
+      "decomposed": false
+    },
+    {
+      "question_id": "flask-3",
+      "repo": "flask",
+      "question": "What is the modular component registration architecture that separates static asset serving from the main application framework while preserving consistent caching behavior across both components?",
+      "subqueries": [
+        "How are static assets registered and served by the modular component?",
+        "How is caching behavior kept consistent with the main application framework?"
+      ],
+      "decomposed": true
+    },
+    {
+      "question_id": "flask-4",
+      "repo": "flask",
+      "question": "What architectural decisions are reflected by the dual inheritance from both AssertionError and UnicodeError in the debug-mode exception class for unexpected unicode or binary data regarding separation between validation failures and encoding issues in Flask's layered architecture?",
+      "subqueries": [
+        "What architectural decisions are reflected by the dual inheritance from both AssertionError and UnicodeError in the debug-mode exception class for unexpected unicode or binary data regarding separation between validation failures and encoding issues in Flask's layered architecture?"
+      ],
+      "decomposed": false
+    },
+    {
+      "question_id": "flask-5",
+      "repo": "flask",
+      "question": "What is the dependency chain in the test function that verifies subdomain routing through configuration, route registration, and request context creation?",
+      "subqueries": [
+        "How is the subdomain routing configuration established?",
+        "How are the route and request context created in the test?"
+      ],
+      "decomposed": true
+    },
+    {
+      "question_id": "flask-6",
+      "repo": "flask",
+      "question": "What mechanisms ensure that template processing functions registered during modular component registration are accessible when templates are rendered using the shared template environment?",
+      "subqueries": [
+        "What mechanisms ensure that template processing functions registered during modular component registration are accessible when templates are rendered using the shared template environment?"
+      ],
+      "decomposed": false
+    },
+    {
+      "question_id": "requests-1",
+      "repo": "requests",
+      "question": "What is the semantic significance of the `no_proxy` keyword argument in `get_environ_proxies` overriding environment variable precedence, and what does returning a non-empty dictionary when this override is applied indicate?",
+      "subqueries": [
+        "What is the semantic significance of the `no_proxy` keyword argument in `get_environ_proxies` overriding environment variable precedence, and what does returning a non-empty dictionary when this override is applied indicate?"
+      ],
+      "decomposed": false
+    },
+    {
+      "question_id": "requests-2",
+      "repo": "requests",
+      "question": "What assumptions about encoding representation does the test_pragmas method enforce when validating that get_encodings_from_content correctly extracts and normalizes character encoding declarations from HTTP content headers?",
+      "subqueries": [
+        "How does test_pragmas detect encoding declarations in HTTP content?",
+        "How are extracted encodings normalized?"
+      ],
+      "decomposed": true
+    },
+    {
+      "question_id": "requests-3",
+      "repo": "requests",
+      "question": "What is the semantic distinction between InvalidSchema's dual inheritance from RequestException and ValueError in handling URL scheme validation failures, and how do these two parent exception types differ in the context of schema validation?",
+      "subqueries": [
+        "What is the semantic distinction between InvalidSchema's dual inheritance from RequestException and ValueError in handling URL scheme validation failures, and how do these two parent exception types differ in the context of schema validation?"
+      ],
+      "decomposed": false
+    },
+    {
+      "question_id": "requests-4",
+      "repo": "requests",
+      "question": "What is the dependency chain between the TestRequests class and the requests library's exception hierarchy, and how do these exception types interact with the error-handling mechanisms in redirect and authentication scenarios?",
+      "subqueries": [
+        "What is the dependency chain between the TestRequests class and the requests library's exception hierarchy, and how do these exception types interact with the error-handling mechanisms in redirect and authentication scenarios?"
+      ],
+      "decomposed": false
+    },
+    {
+      "question_id": "requests-5",
+      "repo": "requests",
+      "question": "What is the architectural distinction in the TestGuessJSONUTF class between BOM-based encoding detection and raw byte-pattern detection that ensures correct UTF variant identification across the utility layer?",
+      "subqueries": [
+        "How does BOM-based encoding detection identify UTF variants?",
+        "How does raw byte-pattern detection identify UTF variants?"
+      ],
+      "decomposed": true
+    },
+    {
+      "question_id": "requests-6",
+      "repo": "requests",
+      "question": "What are the critical environmental prerequisites for the TestRequests test methods that involve SSL/TLS operations to execute without failures, and how do these methods depend on external system resources?",
+      "subqueries": [
+        "What are the critical environmental prerequisites for the TestRequests test methods that involve SSL/TLS operations to execute without failures, and how do these methods depend on external system resources?"
+      ],
+      "decomposed": false
+    },
+    {
+      "question_id": "pytest-1",
+      "repo": "pytest",
+      "question": "What is the execution semantics encoded by the return value from `pytester.runpytest_subprocess()`, and what specific exit code semantics does the `.ret` attribute represent in the context of pytest's test execution model?",
+      "subqueries": [
+        "What does pytester.runpytest_subprocess() return?",
+        "What does the .ret attribute mean for pytest exit codes?"
+      ],
+      "decomposed": true
+    },
+    {
+      "question_id": "pytest-2",
+      "repo": "pytest",
+      "question": "What is the validation logic in the FixtureFunctionMarker.__call__ method that prevents double-decoration of fixture functions, and what is the semantic difference between detecting a FixtureFunctionDefinition instance versus checking for pytestmark attributes?",
+      "subqueries": [
+        "What is the validation logic in the FixtureFunctionMarker.__call__ method that prevents double-decoration of fixture functions, and what is the semantic difference between detecting a FixtureFunctionDefinition instance versus checking for pytestmark attributes?"
+      ],
+      "decomposed": false
+    },
+    {
+      "question_id": "pytest-3",
+      "repo": "pytest",
+      "question": "What is the architectural separation in the pytest fixture resolution system that decouples fixture discovery and validation to enable the error reporting mechanism that distinguishes between missing fixtures and internal failures?",
+      "subqueries": [
+        "What is the architectural separation in the pytest fixture resolution system that decouples fixture discovery and validation to enable the error reporting mechanism that distinguishes between missing fixtures and internal failures?"
+      ],
+      "decomposed": false
+    },
+    {
+      "question_id": "pytest-4",
+      "repo": "pytest",
+      "question": "How does the `from_item_and_call` classmethod implement conditional logic to determine the appropriate outcome and longrepr representation based on exception type and execution phase?",
+      "subqueries": [
+        "How does the `from_item_and_call` classmethod implement conditional logic to determine the appropriate outcome and longrepr representation based on exception type and execution phase?"
+      ],
+      "decomposed": false
+    },
+    {
+      "question_id": "pytest-5",
+      "repo": "pytest",
+      "question": "What is the dependency chain between the TestRequestScopeAccess class, the pytest fixture system, the parametrization mechanism, the Pytester fixture, and the internal request attribute resolution logic that validates request object attributes are correctly scoped?",
+      "subqueries": [
+        "How does TestRequestScopeAccess interact with the fixture system and parametrization?",
+        "How does Pytester validate scoped request attributes?"
+      ],
+      "decomposed": true
+    },
+    {
+      "question_id": "pytest-6",
+      "repo": "pytest",
+      "question": "What is the defensive layering pattern established by the exception handling architecture in _format_repr_exception to prevent cascading failures when repr() operations fail during error reporting?",
+      "subqueries": [
+        "What is the defensive layering pattern established by the exception handling architecture in _format_repr_exception to prevent cascading failures when repr() operations fail during error reporting?"
+      ],
+      "decomposed": false
+    },
+    {
+      "question_id": "pylint-1",
+      "repo": "pylint",
+      "question": "What is the lazy initialization pattern using a boolean flag in the private import checker that prevents redundant type annotation scanning across multiple import statements?",
+      "subqueries": [
+        "What is the lazy initialization pattern using a boolean flag in the private import checker that prevents redundant type annotation scanning across multiple import statements?"
+      ],
+      "decomposed": false
+    },
+    {
+      "question_id": "pylint-2",
+      "repo": "pylint",
+      "question": "What is the dependency relationship between the test class's instance initialization method accessing the class name attribute and Python's object model?",
+      "subqueries": [
+        "How does the test class initialization access the class name attribute?",
+        "What does Python's object model imply about that class-name access?"
+      ],
+      "decomposed": true
+    },
+    {
+      "question_id": "pylint-3",
+      "repo": "pylint",
+      "question": "What architectural design flaw exists in the string formatting conversion method checker that violates the contract-based responsibility separation between type inference layers and their callers?",
+      "subqueries": [
+        "What architectural design flaw exists in the string formatting conversion method checker that violates the contract-based responsibility separation between type inference layers and their callers?"
+      ],
+      "decomposed": false
+    },
+    {
+      "question_id": "pylint-4",
+      "repo": "pylint",
+      "question": "What is the contract enforcement mechanism for the method decorated with the abstract method decorator in the abstract base class that uses the ABCMeta metaclass in the generic alias test file when inherited by concrete subclasses?",
+      "subqueries": [
+        "What is the contract enforcement mechanism for the method decorated with the abstract method decorator in the abstract base class that uses the ABCMeta metaclass in the generic alias test file when inherited by concrete subclasses?"
+      ],
+      "decomposed": false
+    },
+    {
+      "question_id": "pylint-5",
+      "repo": "pylint",
+      "question": "What is the semantic relationship between input arguments and return values when the functools cache decorator is applied?",
+      "subqueries": [
+        "What is the semantic relationship between input arguments and return values when the functools cache decorator is applied?"
+      ],
+      "decomposed": false
+    },
+    {
+      "question_id": "pylint-6",
+      "repo": "pylint",
+      "question": "What dependencies exist between the named tuple storing class node metadata with method definitions and the node rendering function's formatting of method signatures with return type annotations in PlantUML output?",
+      "subqueries": [
+        "What dependencies exist between the named tuple storing class node metadata with method definitions and the node rendering function's formatting of method signatures with return type annotations in PlantUML output?"
+      ],
+      "decomposed": false
+    }
+  ]
+}

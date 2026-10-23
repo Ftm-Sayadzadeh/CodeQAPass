@@ -1,0 +1,34 @@
+{
+  "repository": "D:\\code-compass\\codecompass-local\\data\\benchmarks\\swe_qa_v6\\repos\\streamlink",
+  "commit": "ab1f36560005253ca6a290a614730bf18a29a7f9",
+  "complete": false,
+  "structural_stats": {
+    "files_discovered": 509,
+    "files_parsed": 509,
+    "scan_errors": 0,
+    "parse_errors": 0,
+    "chunk_errors": 0,
+    "symbols_extracted": 5224,
+    "chunks_generated": 5224,
+    "classes_extracted": 1281,
+    "functions_extracted": 936,
+    "methods_extracted": 3007,
+    "class_chunks": 1281,
+    "function_chunks": 936,
+    "method_chunks": 3007,
+    "storage_errors": 0
+  },
+  "structural_errors": [],
+  "errors": [
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    }
+  ],
+  "truncated_details": []
+}
+EMBEDDING_CACHE_STATS {"hits": 0, "misses": 5384, "inner_calls": 169, "failed_inner_calls": 7, "cached_vectors_at_start": 0}

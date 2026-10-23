@@ -1,0 +1,640 @@
+{
+ "budget_chars": 6000,
+ "hub_chars": 2400,
+ "outline_chars": 1400,
+ "methods_per_hub": 2,
+ "replica_exact_match": "192/192",
+ "summary": {
+  "baseline": {
+   "n": 192,
+   "gold_cov": 0.5274,
+   "gold_hit": 0.8148,
+   "ident_cov": 0.4014,
+   "blocks": 2.2135,
+   "single_block_rate": 0.3125,
+   "chars": 2454.2396,
+   "omitted": 1.1719
+  },
+  "nofocus": {
+   "n": 192,
+   "gold_cov": 0.6241,
+   "gold_hit": 0.8783,
+   "ident_cov": 0.4849,
+   "blocks": 3.2031,
+   "single_block_rate": 0.0208,
+   "chars": 3844.974,
+   "omitted": 1.7969
+  },
+  "soft_focus": {
+   "n": 192,
+   "gold_cov": 0.6241,
+   "gold_hit": 0.8783,
+   "ident_cov": 0.4831,
+   "blocks": 3.1927,
+   "single_block_rate": 0.0208,
+   "chars": 3864.4062,
+   "omitted": 1.8073
+  },
+  "outline": {
+   "n": 192,
+   "gold_cov": 0.5371,
+   "gold_hit": 0.8201,
+   "ident_cov": 0.4049,
+   "blocks": 2.5052,
+   "single_block_rate": 0.2917,
+   "chars": 2352.0156,
+   "omitted": 0.8802
+  },
+  "outline_soft": {
+   "n": 192,
+   "gold_cov": 0.6312,
+   "gold_hit": 0.8783,
+   "ident_cov": 0.4856,
+   "blocks": 3.5365,
+   "single_block_rate": 0.0104,
+   "chars": 3748.2188,
+   "omitted": 1.4635
+  },
+  "outline_soft_k10": {
+   "n": 192,
+   "gold_cov": 0.7049,
+   "gold_hit": 0.9259,
+   "ident_cov": 0.5738,
+   "blocks": 6.0521,
+   "single_block_rate": 0.0052,
+   "chars": 5117.0312,
+   "omitted": 3.9479
+  },
+  "hubless_soft_k5": {
+   "n": 192,
+   "gold_cov": 0.6747,
+   "gold_hit": 0.9365,
+   "ident_cov": 0.522,
+   "blocks": 3.8333,
+   "single_block_rate": 0.0052,
+   "chars": 4036.3229,
+   "omitted": 1.1615
+  },
+  "hubless_soft_k10": {
+   "n": 192,
+   "gold_cov": 0.6996,
+   "gold_hit": 0.9365,
+   "ident_cov": 0.5726,
+   "blocks": 5.5781,
+   "single_block_rate": 0.0052,
+   "chars": 4913.0365,
+   "omitted": 3
+  },
+  "b0_k5_reference": {
+   "n": 192,
+   "gold_cov": 0.5968,
+   "gold_hit": 0.8254,
+   "ident_cov": 0.4661,
+   "blocks": 4.9688,
+   "single_block_rate": 0,
+   "chars": 1810.0833,
+   "omitted": 0
+  }
+ },
+ "by_repo": {
+  "baseline": {
+   "flask": {
+    "n": 48,
+    "gold_cov": 0.6337,
+    "gold_hit": 0.875,
+    "ident_cov": 0.4796,
+    "blocks": 2.6667,
+    "single_block_rate": 0.125,
+    "chars": 3506.5625,
+    "omitted": 1.9583
+   },
+   "requests": {
+    "n": 48,
+    "gold_cov": 0.5298,
+    "gold_hit": 0.8723,
+    "ident_cov": 0.4129,
+    "blocks": 1.9792,
+    "single_block_rate": 0.4792,
+    "chars": 1974.5208,
+    "omitted": 0.1875
+   },
+   "pytest": {
+    "n": 48,
+    "gold_cov": 0.5539,
+    "gold_hit": 0.9149,
+    "ident_cov": 0.4086,
+    "blocks": 1.6458,
+    "single_block_rate": 0.5833,
+    "chars": 1725.8125,
+    "omitted": 0.1875
+   },
+   "pylint": {
+    "n": 48,
+    "gold_cov": 0.3901,
+    "gold_hit": 0.5957,
+    "ident_cov": 0.3045,
+    "blocks": 2.5625,
+    "single_block_rate": 0.0625,
+    "chars": 2610.0625,
+    "omitted": 2.3542
+   }
+  },
+  "nofocus": {
+   "flask": {
+    "n": 48,
+    "gold_cov": 0.7066,
+    "gold_hit": 0.9583,
+    "ident_cov": 0.5133,
+    "blocks": 2.8958,
+    "single_block_rate": 0.0417,
+    "chars": 3614.0208,
+    "omitted": 2.1042
+   },
+   "requests": {
+    "n": 48,
+    "gold_cov": 0.7317,
+    "gold_hit": 0.9787,
+    "ident_cov": 0.5742,
+    "blocks": 3.875,
+    "single_block_rate": 0,
+    "chars": 4805.5833,
+    "omitted": 1.125
+   },
+   "pytest": {
+    "n": 48,
+    "gold_cov": 0.6663,
+    "gold_hit": 0.9787,
+    "ident_cov": 0.5426,
+    "blocks": 3.4375,
+    "single_block_rate": 0,
+    "chars": 4258.0208,
+    "omitted": 1.5625
+   },
+   "pylint": {
+    "n": 48,
+    "gold_cov": 0.3901,
+    "gold_hit": 0.5957,
+    "ident_cov": 0.3093,
+    "blocks": 2.6042,
+    "single_block_rate": 0.0417,
+    "chars": 2702.2708,
+    "omitted": 2.3958
+   }
+  },
+  "soft_focus": {
+   "flask": {
+    "n": 48,
+    "gold_cov": 0.7066,
+    "gold_hit": 0.9583,
+    "ident_cov": 0.5149,
+    "blocks": 2.8958,
+    "single_block_rate": 0.0417,
+    "chars": 3662.6875,
+    "omitted": 2.1042
+   },
+   "requests": {
+    "n": 48,
+    "gold_cov": 0.7317,
+    "gold_hit": 0.9787,
+    "ident_cov": 0.5708,
+    "blocks": 3.8333,
+    "single_block_rate": 0,
+    "chars": 4829.6458,
+    "omitted": 1.1667
+   },
+   "pytest": {
+    "n": 48,
+    "gold_cov": 0.6663,
+    "gold_hit": 0.9787,
+    "ident_cov": 0.5374,
+    "blocks": 3.4375,
+    "single_block_rate": 0,
+    "chars": 4263.0208,
+    "omitted": 1.5625
+   },
+   "pylint": {
+    "n": 48,
+    "gold_cov": 0.3901,
+    "gold_hit": 0.5957,
+    "ident_cov": 0.3093,
+    "blocks": 2.6042,
+    "single_block_rate": 0.0417,
+    "chars": 2702.2708,
+    "omitted": 2.3958
+   }
+  },
+  "outline": {
+   "flask": {
+    "n": 48,
+    "gold_cov": 0.6719,
+    "gold_hit": 0.8958,
+    "ident_cov": 0.4965,
+    "blocks": 3.8333,
+    "single_block_rate": 0.0417,
+    "chars": 3414.5833,
+    "omitted": 0.7917
+   },
+   "requests": {
+    "n": 48,
+    "gold_cov": 0.5298,
+    "gold_hit": 0.8723,
+    "ident_cov": 0.4129,
+    "blocks": 1.9792,
+    "single_block_rate": 0.4792,
+    "chars": 1974.5208,
+    "omitted": 0.1875
+   },
+   "pytest": {
+    "n": 48,
+    "gold_cov": 0.5539,
+    "gold_hit": 0.9149,
+    "ident_cov": 0.4086,
+    "blocks": 1.6458,
+    "single_block_rate": 0.5833,
+    "chars": 1610.4792,
+    "omitted": 0.1875
+   },
+   "pylint": {
+    "n": 48,
+    "gold_cov": 0.3901,
+    "gold_hit": 0.5957,
+    "ident_cov": 0.3014,
+    "blocks": 2.5625,
+    "single_block_rate": 0.0625,
+    "chars": 2408.4792,
+    "omitted": 2.3542
+   }
+  },
+  "outline_soft": {
+   "flask": {
+    "n": 48,
+    "gold_cov": 0.7344,
+    "gold_hit": 0.9583,
+    "ident_cov": 0.528,
+    "blocks": 4.1458,
+    "single_block_rate": 0,
+    "chars": 3638.375,
+    "omitted": 0.8542
+   },
+   "requests": {
+    "n": 48,
+    "gold_cov": 0.7317,
+    "gold_hit": 0.9787,
+    "ident_cov": 0.5708,
+    "blocks": 3.8333,
+    "single_block_rate": 0,
+    "chars": 4829.6458,
+    "omitted": 1.1667
+   },
+   "pytest": {
+    "n": 48,
+    "gold_cov": 0.6663,
+    "gold_hit": 0.9787,
+    "ident_cov": 0.5374,
+    "blocks": 3.5625,
+    "single_block_rate": 0,
+    "chars": 4024.1667,
+    "omitted": 1.4375
+   },
+   "pylint": {
+    "n": 48,
+    "gold_cov": 0.3901,
+    "gold_hit": 0.5957,
+    "ident_cov": 0.3062,
+    "blocks": 2.6042,
+    "single_block_rate": 0.0417,
+    "chars": 2500.6875,
+    "omitted": 2.3958
+   }
+  },
+  "outline_soft_k10": {
+   "flask": {
+    "n": 48,
+    "gold_cov": 0.7917,
+    "gold_hit": 0.9583,
+    "ident_cov": 0.6293,
+    "blocks": 6.875,
+    "single_block_rate": 0,
+    "chars": 5385.875,
+    "omitted": 3.125
+   },
+   "requests": {
+    "n": 48,
+    "gold_cov": 0.7801,
+    "gold_hit": 0.9787,
+    "ident_cov": 0.644,
+    "blocks": 5.75,
+    "single_block_rate": 0,
+    "chars": 5538.4583,
+    "omitted": 4.25
+   },
+   "pytest": {
+    "n": 48,
+    "gold_cov": 0.7266,
+    "gold_hit": 0.9787,
+    "ident_cov": 0.6278,
+    "blocks": 6.1042,
+    "single_block_rate": 0,
+    "chars": 5354.8958,
+    "omitted": 3.8958
+   },
+   "pylint": {
+    "n": 48,
+    "gold_cov": 0.5195,
+    "gold_hit": 0.7872,
+    "ident_cov": 0.3942,
+    "blocks": 5.4792,
+    "single_block_rate": 0.0208,
+    "chars": 4188.8958,
+    "omitted": 4.5208
+   }
+  },
+  "hubless_soft_k5": {
+   "flask": {
+    "n": 48,
+    "gold_cov": 0.7535,
+    "gold_hit": 1,
+    "ident_cov": 0.5859,
+    "blocks": 3.9375,
+    "single_block_rate": 0,
+    "chars": 4239.1458,
+    "omitted": 1.0625
+   },
+   "requests": {
+    "n": 48,
+    "gold_cov": 0.7347,
+    "gold_hit": 0.9787,
+    "ident_cov": 0.5751,
+    "blocks": 3.8542,
+    "single_block_rate": 0,
+    "chars": 4778.8542,
+    "omitted": 1.1458
+   },
+   "pytest": {
+    "n": 48,
+    "gold_cov": 0.677,
+    "gold_hit": 0.9787,
+    "ident_cov": 0.5625,
+    "blocks": 3.5625,
+    "single_block_rate": 0,
+    "chars": 4001.1458,
+    "omitted": 1.4375
+   },
+   "pylint": {
+    "n": 48,
+    "gold_cov": 0.5319,
+    "gold_hit": 0.7872,
+    "ident_cov": 0.3645,
+    "blocks": 3.9792,
+    "single_block_rate": 0.0208,
+    "chars": 3126.1458,
+    "omitted": 1
+   }
+  },
+  "hubless_soft_k10": {
+   "flask": {
+    "n": 48,
+    "gold_cov": 0.7535,
+    "gold_hit": 1,
+    "ident_cov": 0.632,
+    "blocks": 5.5208,
+    "single_block_rate": 0,
+    "chars": 5208.8958,
+    "omitted": 2.5417
+   },
+   "requests": {
+    "n": 48,
+    "gold_cov": 0.7854,
+    "gold_hit": 0.9787,
+    "ident_cov": 0.6452,
+    "blocks": 5.8958,
+    "single_block_rate": 0,
+    "chars": 5514.1667,
+    "omitted": 4
+   },
+   "pytest": {
+    "n": 48,
+    "gold_cov": 0.7266,
+    "gold_hit": 0.9787,
+    "ident_cov": 0.6278,
+    "blocks": 5.7708,
+    "single_block_rate": 0,
+    "chars": 5350.7708,
+    "omitted": 3.8542
+   },
+   "pylint": {
+    "n": 48,
+    "gold_cov": 0.5319,
+    "gold_hit": 0.7872,
+    "ident_cov": 0.3852,
+    "blocks": 5.125,
+    "single_block_rate": 0.0208,
+    "chars": 3578.3125,
+    "omitted": 1.6042
+   }
+  },
+  "b0_k5_reference": {
+   "flask": {
+    "n": 48,
+    "gold_cov": 0.6997,
+    "gold_hit": 0.9167,
+    "ident_cov": 0.5601,
+    "blocks": 4.9792,
+    "single_block_rate": 0,
+    "chars": 2010.7708,
+    "omitted": 0
+   },
+   "requests": {
+    "n": 48,
+    "gold_cov": 0.6628,
+    "gold_hit": 0.9149,
+    "ident_cov": 0.5093,
+    "blocks": 4.9375,
+    "single_block_rate": 0,
+    "chars": 2090.9583,
+    "omitted": 0
+   },
+   "pytest": {
+    "n": 48,
+    "gold_cov": 0.5989,
+    "gold_hit": 0.8723,
+    "ident_cov": 0.5076,
+    "blocks": 4.9583,
+    "single_block_rate": 0,
+    "chars": 2209.2917,
+    "omitted": 0
+   },
+   "pylint": {
+    "n": 48,
+    "gold_cov": 0.4238,
+    "gold_hit": 0.5957,
+    "ident_cov": 0.2874,
+    "blocks": 5,
+    "single_block_rate": 0,
+    "chars": 929.3125,
+    "omitted": 0
+   }
+  }
+ },
+ "paired_vs_baseline": {
+  "nofocus": {
+   "gold_cov": {
+    "mean_delta": 0.0967,
+    "ci95": [
+     0.0647,
+     0.1302
+    ],
+    "better": 35,
+    "worse": 0,
+    "n": 189
+   },
+   "ident_cov": {
+    "mean_delta": 0.0835,
+    "ci95": [
+     0.0626,
+     0.1055
+    ],
+    "better": 71,
+    "worse": 3,
+    "n": 192
+   }
+  },
+  "soft_focus": {
+   "gold_cov": {
+    "mean_delta": 0.0967,
+    "ci95": [
+     0.0647,
+     0.1302
+    ],
+    "better": 35,
+    "worse": 0,
+    "n": 189
+   },
+   "ident_cov": {
+    "mean_delta": 0.0817,
+    "ci95": [
+     0.0629,
+     0.1024
+    ],
+    "better": 70,
+    "worse": 0,
+    "n": 192
+   }
+  },
+  "outline": {
+   "gold_cov": {
+    "mean_delta": 0.0097,
+    "ci95": [
+     0.0026,
+     0.0185
+    ],
+    "better": 6,
+    "worse": 0,
+    "n": 189
+   },
+   "ident_cov": {
+    "mean_delta": 0.0035,
+    "ci95": [
+     -0.0018,
+     0.0087
+    ],
+    "better": 17,
+    "worse": 6,
+    "n": 192
+   }
+  },
+  "outline_soft": {
+   "gold_cov": {
+    "mean_delta": 0.1037,
+    "ci95": [
+     0.0717,
+     0.137
+    ],
+    "better": 40,
+    "worse": 0,
+    "n": 189
+   },
+   "ident_cov": {
+    "mean_delta": 0.0842,
+    "ci95": [
+     0.065,
+     0.1054
+    ],
+    "better": 85,
+    "worse": 6,
+    "n": 192
+   }
+  },
+  "outline_soft_k10": {
+   "gold_cov": {
+    "mean_delta": 0.1775,
+    "ci95": [
+     0.1344,
+     0.2211
+    ],
+    "better": 68,
+    "worse": 2,
+    "n": 189
+   },
+   "ident_cov": {
+    "mean_delta": 0.1724,
+    "ci95": [
+     0.1482,
+     0.1971
+    ],
+    "better": 142,
+    "worse": 5,
+    "n": 192
+   }
+  },
+  "hubless_soft_k5": {
+   "gold_cov": {
+    "mean_delta": 0.1472,
+    "ci95": [
+     0.1067,
+     0.1888
+    ],
+    "better": 56,
+    "worse": 2,
+    "n": 189
+   },
+   "ident_cov": {
+    "mean_delta": 0.1206,
+    "ci95": [
+     0.098,
+     0.1437
+    ],
+    "better": 121,
+    "worse": 10,
+    "n": 192
+   }
+  },
+  "hubless_soft_k10": {
+   "gold_cov": {
+    "mean_delta": 0.1722,
+    "ci95": [
+     0.1313,
+     0.2139
+    ],
+    "better": 66,
+    "worse": 2,
+    "n": 189
+   },
+   "ident_cov": {
+    "mean_delta": 0.1712,
+    "ci95": [
+     0.1469,
+     0.1967
+    ],
+    "better": 138,
+    "worse": 7,
+    "n": 192
+   }
+  }
+ },
+ "verdict": {
+  "rule": "gold_cov >= 0.62 and ident_cov not below baseline (pre-declared)",
+  "best_variant": "outline_soft_k10",
+  "passed": true
+ }
+}

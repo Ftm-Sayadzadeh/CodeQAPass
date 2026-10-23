@@ -1,0 +1,17 @@
+{
+ "frozen_on": "2026-10-18",
+ "tier": "T1_conan",
+ "sha256": {
+  "reports/evaluation/swe_qa_v5/PROTOCOL_V5_DRAFT.md": "414963c3f0937f3449d90fd1b1b07fd0edf519ebf5a24ce70f2a2fb08f3a55c5",
+  "scripts/evaluation/swe_qa_v5_confirm.py": "17a84544e514fcf82169037e8951aa04f583019f722dfeb75b4a8461bf150983",
+  "scripts/evaluation/swe_qa_v5_dev_context_gate.py": "17fc96af7cd6c9c0a358179a660e5a2b23150f4e19ff57b174410268a918f80d",
+  "data/benchmarks/swe_qa_v4/dataset/conan.jsonl": "5a5e1f9498312a858ef15a55272802c2ed8ac12c4caf3d1e6fe49210ffc24bac",
+  "reports/evaluation/swe_qa_v4/SAMPLE_FREEZE.json": "90ef8510595b59b5a5f1272474086800bc103d7ab3b13bbf868c0c6c2749ac88",
+  "scripts/evaluation/swe_qa_v4_judge.py": "093cfe84b8b152a259e7bfee02d9e7eef609e4adaef18f2c1743854a442d8b71",
+  "reports/evaluation/swe_qa_v5/t1_conan/a1_cur_service_context.jsonl": "edb0815ce1424e34120d79228071c999765b39712d2df207eb8805110ded322d",
+  "reports/evaluation/swe_qa_v5/t1_conan/contexts.jsonl": "7fb775deaf4dcbfc7ffe2de870cbc4bae80f1b31407f5d3dd240e36eac3c3cc6",
+  "reports/evaluation/swe_qa_v5/t1_conan/rankings_b0.jsonl": "126aa3b251e1bbf0512ae403ec29333b8169a44b6bd86b935aec03711d6d44d2",
+  "reports/evaluation/swe_qa_v5/t1_conan/rankings_lexical.jsonl": "9bc06bc84afc5f471c8fa44b97b4808a61c2abcaecf8252bf80e9f74bc0d96ff",
+  "reports/evaluation/swe_qa_v5/t1_conan/rankings_semantic.jsonl": "ac8ce858050b614f328d83fd8b78e533c9f046ce210fc439255e03c9aebcf0d1"
+ }
+}

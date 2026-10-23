@@ -1,0 +1,28 @@
+{
+ "frozen_on": "2026-10-19",
+ "arms": [
+  "b0_k5_p",
+  "a1_v5a",
+  "a1_v6e",
+  "a1_v6"
+ ],
+ "sha256": {
+  "reports/evaluation/swe_qa_v6/PROTOCOL_V6_DRAFT.md": "760f0193e175ea479b4ae38c69199d2529133b0a322f3afd65dcbe293be6b44f",
+  "scripts/evaluation/swe_qa_v6_confirm.py": "23c2177e63eadf9dca634eeed7820dbba60354b1af2788d2e6e3e8df938a2947",
+  "scripts/evaluation/swe_qa_v6_assembly.py": "43cfd42320415d5e38d0d214a3deb8546fffdc056daa1f40c421d94bec7319d7",
+  "scripts/evaluation/swe_qa_v6_env.py": "e259147782abae9f6e48e10adc7e5bb5a3867341634a191d5476d70b1ad4ac2e",
+  "scripts/evaluation/swe_qa_v6_index.py": "7197fae1c42b1165956f4bf7536ee149bdb4899f764a5eafab657d8daedfe311",
+  "scripts/evaluation/swe_qa_v5_dev_context_gate.py": "17fc96af7cd6c9c0a358179a660e5a2b23150f4e19ff57b174410268a918f80d",
+  "scripts/evaluation/swe_qa_v5_confirm.py": "17a84544e514fcf82169037e8951aa04f583019f722dfeb75b4a8461bf150983",
+  "scripts/evaluation/swe_qa_v4_judge.py": "093cfe84b8b152a259e7bfee02d9e7eef609e4adaef18f2c1743854a442d8b71",
+  "data/benchmarks/swe_qa_v6/commits.json": "80592a632fbaeb1c6cfe3f7568e0bb4d5c3cdca6aa7323824bf35bfa2d281ebb",
+  "data/benchmarks/swe_qa_v6/dataset/streamlink.jsonl": "59914d844f35de5f627c782cb5db7d320ed44f101619f95b186151951fe4740b",
+  "data/benchmarks/swe_qa_v6/dataset/sqlfluff.jsonl": "d68d09bb18d6d7be3274b2b6a6a02ef7b1c433e9bf09a7f628fb71750b1152f7",
+  "reports/evaluation/swe_qa_v6/fresh/a1_cur_service_context.jsonl": "d9f302b6faa5443822b66cb0068c7549bb69bb55402df588941113b2ea4dbd66",
+  "reports/evaluation/swe_qa_v6/fresh/contexts.jsonl": "74d3ed5874297170d0cf978a2af4f097868ad68d450f6cf53009fa1528dd3e7e",
+  "reports/evaluation/swe_qa_v6/fresh/rankings_b0.jsonl": "c1001a601583edc0c90ffe68198509c301e04e0a718d863ec2c2b8d0aa6e6304",
+  "reports/evaluation/swe_qa_v6/fresh/rankings_lexical.jsonl": "2a8fd6b6403887f4b59e156ba6d5e292cab64ebfaf60970e4aea3a7bde0e72ee",
+  "reports/evaluation/swe_qa_v6/fresh/rankings_semantic.jsonl": "388fd53c3173b1d3a5aa5daa593394b9bb92d96efc11f4dfe3d4b729aef68689",
+  "reports/evaluation/swe_qa_v6/fresh/offline_coverage.json": "1e3335dc23bd533e8d8c07aa8ed2720246c7b74cb791108407a57440e48cb629"
+ }
+}

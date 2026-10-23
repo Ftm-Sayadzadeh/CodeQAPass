@@ -41,7 +41,7 @@
     "wilcoxon": "two-sided signed-rank, normal approximation with tie and continuity correction"
   },
   "status_update": {
-    "date": "2026-10-03",
+    "date": "2026-10-06",
     "executed": [
       "A0_restricted",
       "A0_neutral",
@@ -49,13 +49,17 @@
       "A2",
       "retrieval_metrics(lexical,semantic,hybrid)",
       "gemini_judge",
-      "two_llm_reviewers"
+      "two_llm_reviewers",
+      "B0_function_chunk_baseline: index, retrieval, answers (k5, k10; 96 each)",
+      "B0_retrieval_metrics_depth10"
     ],
     "not_executed": [
-      "B0_function_chunk_baseline (code written, no runs)",
       "human_review",
       "persian_questions",
       "online_human_study"
+    ],
+    "incomplete": [
+      "B0_judging: 134/192 usable (k5 70, k10 64); 58 unresolved (25 invalid/truncated JSON, 33 connection); retry recovery 0; judge gemini-2.5-flash, temperature 0, max_tokens 500"
     ]
   }
 }

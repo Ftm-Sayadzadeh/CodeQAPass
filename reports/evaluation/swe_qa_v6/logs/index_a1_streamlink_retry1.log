@@ -1,0 +1,30 @@
+{
+  "repository": "D:\\code-compass\\codecompass-local\\data\\benchmarks\\swe_qa_v6\\repos\\streamlink",
+  "commit": "ab1f36560005253ca6a290a614730bf18a29a7f9",
+  "python_files": 509,
+  "strategy": "full",
+  "no_changes": false,
+  "file_changes": {
+    "files_unchanged": 0,
+    "files_added": 509,
+    "files_modified": 0,
+    "files_deleted": 0
+  },
+  "symbols": 5224,
+  "canonical_chunks": 5224,
+  "embeddings": 5224,
+  "vectors": 5224,
+  "chunks_reused": 0,
+  "vectors_reused": 0,
+  "vectors_deleted": 0,
+  "truncated_embeddings": 0,
+  "embedding_retries": 0,
+  "embedding_failures": 0,
+  "vector_failures": 0,
+  "id_set_equal": true,
+  "complete": true,
+  "truncated_details": [],
+  "errors": [],
+  "allowed_structural_error_paths": []
+}
+EMBEDDING_CACHE_STATS {"hits": 5160, "misses": 64, "inner_calls": 2, "failed_inner_calls": 0, "cached_vectors_at_start": 6152}

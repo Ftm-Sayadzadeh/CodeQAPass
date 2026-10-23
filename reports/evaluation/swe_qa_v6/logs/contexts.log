@@ -1,0 +1,96 @@
+{
+ "questions": 96,
+ "a1_cur_replica_mismatches": [],
+ "offline_coverage": {
+  "b0": {
+   "gold_cov": 0.636,
+   "gold_questions": 49,
+   "ident_cov": 0.419,
+   "blocks": 4.85,
+   "chars": 1940
+  },
+  "a1_cur": {
+   "gold_cov": 0.471,
+   "gold_questions": 49,
+   "ident_cov": 0.455,
+   "blocks": 2.62,
+   "chars": 3520
+  },
+  "a1_v5a": {
+   "gold_cov": 0.553,
+   "gold_questions": 49,
+   "ident_cov": 0.512,
+   "blocks": 3,
+   "chars": 3648
+  },
+  "a1_v6": {
+   "gold_cov": 0.657,
+   "gold_questions": 49,
+   "ident_cov": 0.587,
+   "blocks": 9.17,
+   "chars": 5473
+  }
+ },
+ "by_repo": {
+  "streamlink": {
+   "b0": {
+    "gold_cov": 0.5,
+    "gold_questions": 2,
+    "ident_cov": 0.5,
+    "blocks": 4.92,
+    "chars": 1606
+   },
+   "a1_cur": {
+    "gold_cov": 0.5,
+    "gold_questions": 2,
+    "ident_cov": 0.625,
+    "blocks": 3,
+    "chars": 3456
+   },
+   "a1_v5a": {
+    "gold_cov": 0.5,
+    "gold_questions": 2,
+    "ident_cov": 0.625,
+    "blocks": 3.44,
+    "chars": 3541
+   },
+   "a1_v6": {
+    "gold_cov": 0.5,
+    "gold_questions": 2,
+    "ident_cov": 0.625,
+    "blocks": 9.56,
+    "chars": 5346
+   }
+  },
+  "sqlfluff": {
+   "b0": {
+    "gold_cov": 0.642,
+    "gold_questions": 47,
+    "ident_cov": 0.417,
+    "blocks": 4.79,
+    "chars": 2275
+   },
+   "a1_cur": {
+    "gold_cov": 0.47,
+    "gold_questions": 47,
+    "ident_cov": 0.452,
+    "blocks": 2.25,
+    "chars": 3583
+   },
+   "a1_v5a": {
+    "gold_cov": 0.555,
+    "gold_questions": 47,
+    "ident_cov": 0.51,
+    "blocks": 2.56,
+    "chars": 3755
+   },
+   "a1_v6": {
+    "gold_cov": 0.664,
+    "gold_questions": 47,
+    "ident_cov": 0.586,
+    "blocks": 8.77,
+    "chars": 5600
+   }
+  }
+ }
+}

@@ -6,6 +6,7 @@ methods embed each question once per method.
 
     python scripts/evaluation/swe_qa_retrieval_metrics.py retrieve [--methods lexical ...]   # raw rankings; reruns only append missing questions
     python scripts/evaluation/swe_qa_retrieval_metrics.py metrics    # reads raw rankings, writes metrics JSON
+    python scripts/evaluation/swe_qa_retrieval_metrics.py metrics --depth 10   # equal chunk depth, adds the B0 baseline
 """
 
 from __future__ import annotations
@@ -55,6 +56,8 @@ def gold_files(answer: str, files: list[str]) -> list[str]:
 
 
 def raw_path(method: str) -> Path:
+    if method == "b0":
+        return run.OUT / "b0" / "rankings.jsonl"
     return OUT / f"rankings_{method}.jsonl"
 
 
@@ -144,9 +147,15 @@ def wilcoxon_p(diffs: list[float]) -> float | None:
     return math.erfc(z / math.sqrt(2))
 
 
-def metrics() -> None:
-    available = tuple(m for m in METHODS if raw_path(m).exists())
+def metrics(depth: int | None = None) -> None:
+    """Without `depth`, score the three 20-chunk methods. With `depth`, truncate every ranking to its first `depth` chunks
+    and add B0, which only retrieved 10 chunks per question, so all methods are compared at the same chunk depth."""
+    available = tuple(m for m in (METHODS + ("b0",) if depth else METHODS) if raw_path(m).exists())
     by_method = {m: {r["question_id"]: r for r in map(json.loads, raw_path(m).open(encoding="utf-8"))} for m in available}
+    if depth:
+        for records_by_id in by_method.values():
+            for record in records_by_id.values():
+                record["ranking"] = record["ranking"][:depth]
     records = list(by_method[available[0]].values())
     scored = [r for r in records if r["gold_files"]]
     per: dict[str, dict[str, list[float]]] = {m: {} for m in available}
@@ -157,12 +166,13 @@ def metrics() -> None:
             for key, value in question_metrics(distinct_files(ranking), gold).items():
                 per[method].setdefault(key, []).append(value)
     summary: dict = {"questions": len(records), "questions_without_gold": [r["question_id"] for r in records if not r["gold_files"]],
-                     "scored_questions": len(scored), "chunks_per_query": CHUNKS_PER_QUERY,
+                     "scored_questions": len(scored), "chunks_per_query": depth or CHUNKS_PER_QUERY,
                      "definition": "file-level: ranking = distinct files in chunk order; gold = repo .py files named in the reference answer",
                      "methods": {}, "paired": {}, "by_repo": {}}
     for method in available:
         summary["methods"][method] = {key: {"mean": stats.mean(v), "ci95": bootstrap(v)} for key, v in per[method].items()}
-    for a, b in (("hybrid", "lexical"), ("hybrid", "semantic"), ("semantic", "lexical")):
+    for a, b in (("hybrid", "lexical"), ("hybrid", "semantic"), ("semantic", "lexical"),
+                 ("hybrid", "b0"), ("semantic", "b0"), ("lexical", "b0")):
         if a not in per or b not in per:
             continue
         summary["paired"][f"{a}_minus_{b}"] = {}
@@ -172,7 +182,7 @@ def metrics() -> None:
     for repo in run.REPOS:
         idx = [i for i, r in enumerate(scored) if r["repo"] == repo]
         summary["by_repo"][repo] = {m: {k: stats.mean(per[m][k][i] for i in idx) for k in ("hit@5", "recall@5", "precision@5", "mrr@10")} for m in available}
-    (OUT / "metrics.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
+    (OUT / (f"metrics_depth{depth}.json" if depth else "metrics.json")).write_text(json.dumps(summary, indent=2), encoding="utf-8")
     print(json.dumps({m: {k: round(v["mean"], 3) for k, v in summary["methods"][m].items()} for m in available}, indent=1))
 
 
@@ -180,5 +190,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("phase", choices=("retrieve", "metrics"))
     parser.add_argument("--methods", nargs="+", choices=METHODS, default=list(METHODS))
+    parser.add_argument("--depth", type=int, default=None)
     args = parser.parse_args()
-    retrieve(tuple(args.methods)) if args.phase == "retrieve" else metrics()
+    retrieve(tuple(args.methods)) if args.phase == "retrieve" else metrics(args.depth)

@@ -206,6 +206,17 @@ def write_provenance() -> None:
                  "A0_neutral": "a0_neutral (closed-book, neutral system prompt; project name given)",
                  "A1": "a1_codeqapass", "A2": "a2_model_citations"},
     }
+    b0_summary = OUT / "b0" / "judge_summary_b0.json"
+    if b0_summary.exists():
+        record["b0"] = {
+            "answers": {"b0_k5": 96, "b0_k10": 96},
+            "generation": {"model": os.environ.get("CODECOMPASS_COMPARE_MODEL") or "glm-5.3-flash", "temperature": 0, "max_tokens": 1200,
+                           "reasoning_effort": os.environ.get("CODECOMPASS_LLM_REASONING_EFFORT", "unset"),
+                           "prompt": "a1_template, same as A1", "invalid_first_run": "b0/invalid_run1_no_reasoning_effort_answers_*.jsonl (excluded)"},
+            "judge": {"model": "gemini-2.5-flash", "temperature": 0, "max_tokens": 500, "prompt": "official_llm_as_a_judge.py",
+                      **json.loads(b0_summary.read_text(encoding="utf-8"))["b0_judging_status"], "retry_recovery": 0},
+            "retrieval_depth": {"b0_chunks_per_question": 10, "comparison_depth": 10},
+        }
     with open_new(OUT / "provenance.json") as target:
         target.write(json.dumps(record, indent=2, ensure_ascii=False))
 

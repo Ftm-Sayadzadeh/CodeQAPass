@@ -1,0 +1,1326 @@
+[
+  {
+    "budget": 6000,
+    "sample_size": 40,
+    "gold_files": 37,
+    "full_questions": 11,
+    "avg_blocks": 4.8,
+    "avg_chars": 2511.9,
+    "avg_omitted": 1.05,
+    "rows": [
+      {
+        "question_id": "flask-1",
+        "gold": 2,
+        "full": true,
+        "blocks": 10,
+        "chars": 4582,
+        "omitted": 0
+      },
+      {
+        "question_id": "flask-2",
+        "gold": 2,
+        "full": true,
+        "blocks": 7,
+        "chars": 5400,
+        "omitted": 3
+      },
+      {
+        "question_id": "flask-3",
+        "gold": 1,
+        "full": true,
+        "blocks": 5,
+        "chars": 5502,
+        "omitted": 5
+      },
+      {
+        "question_id": "flask-4",
+        "gold": 0,
+        "full": false,
+        "blocks": 1,
+        "chars": 975,
+        "omitted": 1
+      },
+      {
+        "question_id": "flask-5",
+        "gold": 0,
+        "full": false,
+        "blocks": 1,
+        "chars": 48,
+        "omitted": 0
+      },
+      {
+        "question_id": "flask-6",
+        "gold": 1,
+        "full": false,
+        "blocks": 10,
+        "chars": 4367,
+        "omitted": 0
+      },
+      {
+        "question_id": "flask-7",
+        "gold": 1,
+        "full": false,
+        "blocks": 10,
+        "chars": 1318,
+        "omitted": 0
+      },
+      {
+        "question_id": "flask-8",
+        "gold": 2,
+        "full": true,
+        "blocks": 9,
+        "chars": 4960,
+        "omitted": 1
+      },
+      {
+        "question_id": "flask-9",
+        "gold": 0,
+        "full": false,
+        "blocks": 2,
+        "chars": 659,
+        "omitted": 0
+      },
+      {
+        "question_id": "flask-10",
+        "gold": 1,
+        "full": true,
+        "blocks": 10,
+        "chars": 1818,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-1",
+        "gold": 1,
+        "full": false,
+        "blocks": 1,
+        "chars": 231,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-2",
+        "gold": 1,
+        "full": false,
+        "blocks": 1,
+        "chars": 801,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-3",
+        "gold": 0,
+        "full": false,
+        "blocks": 1,
+        "chars": 119,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-4",
+        "gold": 1,
+        "full": false,
+        "blocks": 3,
+        "chars": 5992,
+        "omitted": 3
+      },
+      {
+        "question_id": "requests-5",
+        "gold": 1,
+        "full": false,
+        "blocks": 4,
+        "chars": 900,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-6",
+        "gold": 1,
+        "full": false,
+        "blocks": 3,
+        "chars": 5825,
+        "omitted": 4
+      },
+      {
+        "question_id": "requests-7",
+        "gold": 1,
+        "full": true,
+        "blocks": 6,
+        "chars": 5787,
+        "omitted": 4
+      },
+      {
+        "question_id": "requests-8",
+        "gold": 1,
+        "full": false,
+        "blocks": 3,
+        "chars": 630,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-9",
+        "gold": 1,
+        "full": false,
+        "blocks": 2,
+        "chars": 235,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-10",
+        "gold": 1,
+        "full": false,
+        "blocks": 2,
+        "chars": 561,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-1",
+        "gold": 1,
+        "full": false,
+        "blocks": 1,
+        "chars": 1415,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-2",
+        "gold": 1,
+        "full": false,
+        "blocks": 1,
+        "chars": 975,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-3",
+        "gold": 0,
+        "full": true,
+        "blocks": 9,
+        "chars": 5589,
+        "omitted": 1
+      },
+      {
+        "question_id": "pytest-4",
+        "gold": 1,
+        "full": false,
+        "blocks": 1,
+        "chars": 2376,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-5",
+        "gold": 1,
+        "full": false,
+        "blocks": 2,
+        "chars": 1047,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-6",
+        "gold": 1,
+        "full": false,
+        "blocks": 1,
+        "chars": 400,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-7",
+        "gold": 1,
+        "full": false,
+        "blocks": 2,
+        "chars": 817,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-8",
+        "gold": 1,
+        "full": true,
+        "blocks": 7,
+        "chars": 2668,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-9",
+        "gold": 0,
+        "full": false,
+        "blocks": 5,
+        "chars": 1556,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-10",
+        "gold": 1,
+        "full": false,
+        "blocks": 1,
+        "chars": 43,
+        "omitted": 0
+      },
+      {
+        "question_id": "pylint-1",
+        "gold": 1,
+        "full": true,
+        "blocks": 5,
+        "chars": 5532,
+        "omitted": 5
+      },
+      {
+        "question_id": "pylint-2",
+        "gold": 1,
+        "full": false,
+        "blocks": 10,
+        "chars": 1234,
+        "omitted": 0
+      },
+      {
+        "question_id": "pylint-3",
+        "gold": 1,
+        "full": false,
+        "blocks": 7,
+        "chars": 4655,
+        "omitted": 3
+      },
+      {
+        "question_id": "pylint-4",
+        "gold": 0,
+        "full": false,
+        "blocks": 1,
+        "chars": 33,
+        "omitted": 0
+      },
+      {
+        "question_id": "pylint-5",
+        "gold": 1,
+        "full": false,
+        "blocks": 10,
+        "chars": 573,
+        "omitted": 0
+      },
+      {
+        "question_id": "pylint-6",
+        "gold": 2,
+        "full": false,
+        "blocks": 7,
+        "chars": 5939,
+        "omitted": 3
+      },
+      {
+        "question_id": "pylint-7",
+        "gold": 2,
+        "full": true,
+        "blocks": 6,
+        "chars": 5765,
+        "omitted": 4
+      },
+      {
+        "question_id": "pylint-8",
+        "gold": 0,
+        "full": true,
+        "blocks": 5,
+        "chars": 5884,
+        "omitted": 5
+      },
+      {
+        "question_id": "pylint-9",
+        "gold": 1,
+        "full": false,
+        "blocks": 10,
+        "chars": 1934,
+        "omitted": 0
+      },
+      {
+        "question_id": "pylint-10",
+        "gold": 1,
+        "full": false,
+        "blocks": 10,
+        "chars": 1331,
+        "omitted": 0
+      }
+    ]
+  },
+  {
+    "budget": 8000,
+    "sample_size": 40,
+    "gold_files": 37,
+    "full_questions": 11,
+    "avg_blocks": 5.375,
+    "avg_chars": 3149.575,
+    "avg_omitted": 0.475,
+    "rows": [
+      {
+        "question_id": "flask-1",
+        "gold": 2,
+        "full": true,
+        "blocks": 10,
+        "chars": 4582,
+        "omitted": 0
+      },
+      {
+        "question_id": "flask-2",
+        "gold": 2,
+        "full": true,
+        "blocks": 8,
+        "chars": 6683,
+        "omitted": 2
+      },
+      {
+        "question_id": "flask-3",
+        "gold": 1,
+        "full": true,
+        "blocks": 7,
+        "chars": 7274,
+        "omitted": 3
+      },
+      {
+        "question_id": "flask-4",
+        "gold": 0,
+        "full": false,
+        "blocks": 2,
+        "chars": 7694,
+        "omitted": 0
+      },
+      {
+        "question_id": "flask-5",
+        "gold": 0,
+        "full": false,
+        "blocks": 1,
+        "chars": 48,
+        "omitted": 0
+      },
+      {
+        "question_id": "flask-6",
+        "gold": 1,
+        "full": false,
+        "blocks": 10,
+        "chars": 4367,
+        "omitted": 0
+      },
+      {
+        "question_id": "flask-7",
+        "gold": 1,
+        "full": false,
+        "blocks": 10,
+        "chars": 1318,
+        "omitted": 0
+      },
+      {
+        "question_id": "flask-8",
+        "gold": 2,
+        "full": true,
+        "blocks": 10,
+        "chars": 6876,
+        "omitted": 0
+      },
+      {
+        "question_id": "flask-9",
+        "gold": 0,
+        "full": false,
+        "blocks": 2,
+        "chars": 659,
+        "omitted": 0
+      },
+      {
+        "question_id": "flask-10",
+        "gold": 1,
+        "full": true,
+        "blocks": 10,
+        "chars": 1818,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-1",
+        "gold": 1,
+        "full": false,
+        "blocks": 1,
+        "chars": 231,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-2",
+        "gold": 1,
+        "full": false,
+        "blocks": 1,
+        "chars": 801,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-3",
+        "gold": 0,
+        "full": false,
+        "blocks": 1,
+        "chars": 119,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-4",
+        "gold": 1,
+        "full": false,
+        "blocks": 6,
+        "chars": 6707,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-5",
+        "gold": 1,
+        "full": false,
+        "blocks": 4,
+        "chars": 900,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-6",
+        "gold": 1,
+        "full": false,
+        "blocks": 7,
+        "chars": 7830,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-7",
+        "gold": 1,
+        "full": true,
+        "blocks": 5,
+        "chars": 7799,
+        "omitted": 5
+      },
+      {
+        "question_id": "requests-8",
+        "gold": 1,
+        "full": false,
+        "blocks": 3,
+        "chars": 630,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-9",
+        "gold": 1,
+        "full": false,
+        "blocks": 2,
+        "chars": 235,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-10",
+        "gold": 1,
+        "full": false,
+        "blocks": 2,
+        "chars": 561,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-1",
+        "gold": 1,
+        "full": false,
+        "blocks": 1,
+        "chars": 1415,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-2",
+        "gold": 1,
+        "full": false,
+        "blocks": 1,
+        "chars": 975,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-3",
+        "gold": 0,
+        "full": true,
+        "blocks": 10,
+        "chars": 7069,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-4",
+        "gold": 1,
+        "full": false,
+        "blocks": 1,
+        "chars": 2376,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-5",
+        "gold": 1,
+        "full": false,
+        "blocks": 2,
+        "chars": 1047,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-6",
+        "gold": 1,
+        "full": false,
+        "blocks": 1,
+        "chars": 400,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-7",
+        "gold": 1,
+        "full": false,
+        "blocks": 2,
+        "chars": 817,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-8",
+        "gold": 1,
+        "full": true,
+        "blocks": 7,
+        "chars": 2668,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-9",
+        "gold": 0,
+        "full": false,
+        "blocks": 5,
+        "chars": 1556,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-10",
+        "gold": 1,
+        "full": false,
+        "blocks": 1,
+        "chars": 43,
+        "omitted": 0
+      },
+      {
+        "question_id": "pylint-1",
+        "gold": 1,
+        "full": true,
+        "blocks": 7,
+        "chars": 7671,
+        "omitted": 3
+      },
+      {
+        "question_id": "pylint-2",
+        "gold": 1,
+        "full": false,
+        "blocks": 10,
+        "chars": 1234,
+        "omitted": 0
+      },
+      {
+        "question_id": "pylint-3",
+        "gold": 1,
+        "full": false,
+        "blocks": 8,
+        "chars": 7229,
+        "omitted": 2
+      },
+      {
+        "question_id": "pylint-4",
+        "gold": 0,
+        "full": false,
+        "blocks": 1,
+        "chars": 33,
+        "omitted": 0
+      },
+      {
+        "question_id": "pylint-5",
+        "gold": 1,
+        "full": false,
+        "blocks": 10,
+        "chars": 573,
+        "omitted": 0
+      },
+      {
+        "question_id": "pylint-6",
+        "gold": 2,
+        "full": false,
+        "blocks": 10,
+        "chars": 6340,
+        "omitted": 0
+      },
+      {
+        "question_id": "pylint-7",
+        "gold": 2,
+        "full": true,
+        "blocks": 8,
+        "chars": 6638,
+        "omitted": 2
+      },
+      {
+        "question_id": "pylint-8",
+        "gold": 0,
+        "full": true,
+        "blocks": 8,
+        "chars": 7502,
+        "omitted": 2
+      },
+      {
+        "question_id": "pylint-9",
+        "gold": 1,
+        "full": false,
+        "blocks": 10,
+        "chars": 1934,
+        "omitted": 0
+      },
+      {
+        "question_id": "pylint-10",
+        "gold": 1,
+        "full": false,
+        "blocks": 10,
+        "chars": 1331,
+        "omitted": 0
+      }
+    ]
+  },
+  {
+    "budget": 10000,
+    "sample_size": 40,
+    "gold_files": 37,
+    "full_questions": 11,
+    "avg_blocks": 5.35,
+    "avg_chars": 3459.4,
+    "avg_omitted": 0.5,
+    "rows": [
+      {
+        "question_id": "flask-1",
+        "gold": 2,
+        "full": true,
+        "blocks": 10,
+        "chars": 4582,
+        "omitted": 0
+      },
+      {
+        "question_id": "flask-2",
+        "gold": 2,
+        "full": true,
+        "blocks": 8,
+        "chars": 9736,
+        "omitted": 2
+      },
+      {
+        "question_id": "flask-3",
+        "gold": 1,
+        "full": true,
+        "blocks": 5,
+        "chars": 9415,
+        "omitted": 5
+      },
+      {
+        "question_id": "flask-4",
+        "gold": 0,
+        "full": false,
+        "blocks": 2,
+        "chars": 7694,
+        "omitted": 0
+      },
+      {
+        "question_id": "flask-5",
+        "gold": 0,
+        "full": false,
+        "blocks": 1,
+        "chars": 48,
+        "omitted": 0
+      },
+      {
+        "question_id": "flask-6",
+        "gold": 1,
+        "full": false,
+        "blocks": 10,
+        "chars": 4367,
+        "omitted": 0
+      },
+      {
+        "question_id": "flask-7",
+        "gold": 1,
+        "full": false,
+        "blocks": 10,
+        "chars": 1318,
+        "omitted": 0
+      },
+      {
+        "question_id": "flask-8",
+        "gold": 2,
+        "full": true,
+        "blocks": 10,
+        "chars": 6876,
+        "omitted": 0
+      },
+      {
+        "question_id": "flask-9",
+        "gold": 0,
+        "full": false,
+        "blocks": 2,
+        "chars": 659,
+        "omitted": 0
+      },
+      {
+        "question_id": "flask-10",
+        "gold": 1,
+        "full": true,
+        "blocks": 10,
+        "chars": 1818,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-1",
+        "gold": 1,
+        "full": false,
+        "blocks": 1,
+        "chars": 231,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-2",
+        "gold": 1,
+        "full": false,
+        "blocks": 1,
+        "chars": 801,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-3",
+        "gold": 0,
+        "full": false,
+        "blocks": 1,
+        "chars": 119,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-4",
+        "gold": 1,
+        "full": false,
+        "blocks": 6,
+        "chars": 6707,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-5",
+        "gold": 1,
+        "full": false,
+        "blocks": 4,
+        "chars": 900,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-6",
+        "gold": 1,
+        "full": false,
+        "blocks": 7,
+        "chars": 7830,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-7",
+        "gold": 1,
+        "full": true,
+        "blocks": 5,
+        "chars": 9859,
+        "omitted": 5
+      },
+      {
+        "question_id": "requests-8",
+        "gold": 1,
+        "full": false,
+        "blocks": 3,
+        "chars": 630,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-9",
+        "gold": 1,
+        "full": false,
+        "blocks": 2,
+        "chars": 235,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-10",
+        "gold": 1,
+        "full": false,
+        "blocks": 2,
+        "chars": 561,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-1",
+        "gold": 1,
+        "full": false,
+        "blocks": 1,
+        "chars": 1415,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-2",
+        "gold": 1,
+        "full": false,
+        "blocks": 1,
+        "chars": 975,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-3",
+        "gold": 0,
+        "full": true,
+        "blocks": 10,
+        "chars": 7069,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-4",
+        "gold": 1,
+        "full": false,
+        "blocks": 1,
+        "chars": 2376,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-5",
+        "gold": 1,
+        "full": false,
+        "blocks": 2,
+        "chars": 1047,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-6",
+        "gold": 1,
+        "full": false,
+        "blocks": 1,
+        "chars": 400,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-7",
+        "gold": 1,
+        "full": false,
+        "blocks": 2,
+        "chars": 817,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-8",
+        "gold": 1,
+        "full": true,
+        "blocks": 7,
+        "chars": 2668,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-9",
+        "gold": 0,
+        "full": false,
+        "blocks": 5,
+        "chars": 1556,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-10",
+        "gold": 1,
+        "full": false,
+        "blocks": 1,
+        "chars": 43,
+        "omitted": 0
+      },
+      {
+        "question_id": "pylint-1",
+        "gold": 1,
+        "full": true,
+        "blocks": 6,
+        "chars": 9567,
+        "omitted": 4
+      },
+      {
+        "question_id": "pylint-2",
+        "gold": 1,
+        "full": false,
+        "blocks": 10,
+        "chars": 1234,
+        "omitted": 0
+      },
+      {
+        "question_id": "pylint-3",
+        "gold": 1,
+        "full": false,
+        "blocks": 8,
+        "chars": 7229,
+        "omitted": 2
+      },
+      {
+        "question_id": "pylint-4",
+        "gold": 0,
+        "full": false,
+        "blocks": 1,
+        "chars": 33,
+        "omitted": 0
+      },
+      {
+        "question_id": "pylint-5",
+        "gold": 1,
+        "full": false,
+        "blocks": 10,
+        "chars": 573,
+        "omitted": 0
+      },
+      {
+        "question_id": "pylint-6",
+        "gold": 2,
+        "full": false,
+        "blocks": 10,
+        "chars": 6340,
+        "omitted": 0
+      },
+      {
+        "question_id": "pylint-7",
+        "gold": 2,
+        "full": true,
+        "blocks": 9,
+        "chars": 9318,
+        "omitted": 1
+      },
+      {
+        "question_id": "pylint-8",
+        "gold": 0,
+        "full": true,
+        "blocks": 9,
+        "chars": 8065,
+        "omitted": 1
+      },
+      {
+        "question_id": "pylint-9",
+        "gold": 1,
+        "full": false,
+        "blocks": 10,
+        "chars": 1934,
+        "omitted": 0
+      },
+      {
+        "question_id": "pylint-10",
+        "gold": 1,
+        "full": false,
+        "blocks": 10,
+        "chars": 1331,
+        "omitted": 0
+      }
+    ]
+  },
+  {
+    "budget": 12000,
+    "sample_size": 40,
+    "gold_files": 37,
+    "full_questions": 11,
+    "avg_blocks": 5.55,
+    "avg_chars": 3769.625,
+    "avg_omitted": 0.3,
+    "rows": [
+      {
+        "question_id": "flask-1",
+        "gold": 2,
+        "full": true,
+        "blocks": 10,
+        "chars": 4582,
+        "omitted": 0
+      },
+      {
+        "question_id": "flask-2",
+        "gold": 2,
+        "full": true,
+        "blocks": 9,
+        "chars": 11019,
+        "omitted": 1
+      },
+      {
+        "question_id": "flask-3",
+        "gold": 1,
+        "full": true,
+        "blocks": 6,
+        "chars": 11802,
+        "omitted": 4
+      },
+      {
+        "question_id": "flask-4",
+        "gold": 0,
+        "full": false,
+        "blocks": 2,
+        "chars": 7694,
+        "omitted": 0
+      },
+      {
+        "question_id": "flask-5",
+        "gold": 0,
+        "full": false,
+        "blocks": 1,
+        "chars": 48,
+        "omitted": 0
+      },
+      {
+        "question_id": "flask-6",
+        "gold": 1,
+        "full": false,
+        "blocks": 10,
+        "chars": 4367,
+        "omitted": 0
+      },
+      {
+        "question_id": "flask-7",
+        "gold": 1,
+        "full": false,
+        "blocks": 10,
+        "chars": 1318,
+        "omitted": 0
+      },
+      {
+        "question_id": "flask-8",
+        "gold": 2,
+        "full": true,
+        "blocks": 10,
+        "chars": 6876,
+        "omitted": 0
+      },
+      {
+        "question_id": "flask-9",
+        "gold": 0,
+        "full": false,
+        "blocks": 2,
+        "chars": 659,
+        "omitted": 0
+      },
+      {
+        "question_id": "flask-10",
+        "gold": 1,
+        "full": true,
+        "blocks": 10,
+        "chars": 1818,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-1",
+        "gold": 1,
+        "full": false,
+        "blocks": 1,
+        "chars": 231,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-2",
+        "gold": 1,
+        "full": false,
+        "blocks": 1,
+        "chars": 801,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-3",
+        "gold": 0,
+        "full": false,
+        "blocks": 1,
+        "chars": 119,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-4",
+        "gold": 1,
+        "full": false,
+        "blocks": 6,
+        "chars": 6707,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-5",
+        "gold": 1,
+        "full": false,
+        "blocks": 4,
+        "chars": 900,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-6",
+        "gold": 1,
+        "full": false,
+        "blocks": 7,
+        "chars": 7830,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-7",
+        "gold": 1,
+        "full": true,
+        "blocks": 8,
+        "chars": 11376,
+        "omitted": 2
+      },
+      {
+        "question_id": "requests-8",
+        "gold": 1,
+        "full": false,
+        "blocks": 3,
+        "chars": 630,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-9",
+        "gold": 1,
+        "full": false,
+        "blocks": 2,
+        "chars": 235,
+        "omitted": 0
+      },
+      {
+        "question_id": "requests-10",
+        "gold": 1,
+        "full": false,
+        "blocks": 2,
+        "chars": 561,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-1",
+        "gold": 1,
+        "full": false,
+        "blocks": 1,
+        "chars": 1415,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-2",
+        "gold": 1,
+        "full": false,
+        "blocks": 1,
+        "chars": 975,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-3",
+        "gold": 0,
+        "full": true,
+        "blocks": 10,
+        "chars": 7069,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-4",
+        "gold": 1,
+        "full": false,
+        "blocks": 1,
+        "chars": 2376,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-5",
+        "gold": 1,
+        "full": false,
+        "blocks": 2,
+        "chars": 1047,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-6",
+        "gold": 1,
+        "full": false,
+        "blocks": 1,
+        "chars": 400,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-7",
+        "gold": 1,
+        "full": false,
+        "blocks": 2,
+        "chars": 817,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-8",
+        "gold": 1,
+        "full": true,
+        "blocks": 7,
+        "chars": 2668,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-9",
+        "gold": 0,
+        "full": false,
+        "blocks": 5,
+        "chars": 1556,
+        "omitted": 0
+      },
+      {
+        "question_id": "pytest-10",
+        "gold": 1,
+        "full": false,
+        "blocks": 1,
+        "chars": 43,
+        "omitted": 0
+      },
+      {
+        "question_id": "pylint-1",
+        "gold": 1,
+        "full": true,
+        "blocks": 8,
+        "chars": 11706,
+        "omitted": 2
+      },
+      {
+        "question_id": "pylint-2",
+        "gold": 1,
+        "full": false,
+        "blocks": 10,
+        "chars": 1234,
+        "omitted": 0
+      },
+      {
+        "question_id": "pylint-3",
+        "gold": 1,
+        "full": false,
+        "blocks": 9,
+        "chars": 10379,
+        "omitted": 1
+      },
+      {
+        "question_id": "pylint-4",
+        "gold": 0,
+        "full": false,
+        "blocks": 1,
+        "chars": 33,
+        "omitted": 0
+      },
+      {
+        "question_id": "pylint-5",
+        "gold": 1,
+        "full": false,
+        "blocks": 10,
+        "chars": 573,
+        "omitted": 0
+      },
+      {
+        "question_id": "pylint-6",
+        "gold": 2,
+        "full": false,
+        "blocks": 10,
+        "chars": 6340,
+        "omitted": 0
+      },
+      {
+        "question_id": "pylint-7",
+        "gold": 2,
+        "full": true,
+        "blocks": 9,
+        "chars": 11251,
+        "omitted": 1
+      },
+      {
+        "question_id": "pylint-8",
+        "gold": 0,
+        "full": true,
+        "blocks": 9,
+        "chars": 8065,
+        "omitted": 1
+      },
+      {
+        "question_id": "pylint-9",
+        "gold": 1,
+        "full": false,
+        "blocks": 10,
+        "chars": 1934,
+        "omitted": 0
+      },
+      {
+        "question_id": "pylint-10",
+        "gold": 1,
+        "full": false,
+        "blocks": 10,
+        "chars": 1331,
+        "omitted": 0
+      }
+    ]
+  }
+]

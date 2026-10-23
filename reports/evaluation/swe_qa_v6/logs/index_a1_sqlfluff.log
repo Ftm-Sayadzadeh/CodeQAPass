@@ -1,0 +1,402 @@
+{
+  "repository": "D:\\code-compass\\codecompass-local\\data\\benchmarks\\swe_qa_v6\\repos\\sqlfluff",
+  "commit": "db9801b7eb7fd014e765117f63ee1b0675fa9f87",
+  "complete": false,
+  "structural_stats": {
+    "files_discovered": 392,
+    "files_parsed": 392,
+    "scan_errors": 0,
+    "parse_errors": 0,
+    "chunk_errors": 0,
+    "symbols_extracted": 3993,
+    "chunks_generated": 3993,
+    "classes_extracted": 2102,
+    "functions_extracted": 867,
+    "methods_extracted": 1024,
+    "class_chunks": 2102,
+    "function_chunks": 867,
+    "method_chunks": 1024,
+    "storage_errors": 0
+  },
+  "structural_errors": [],
+  "errors": [
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    },
+    {
+      "stage": "embedding",
+      "error_type": "ConnectionError"
+    }
+  ],
+  "truncated_details": []
+}
+EMBEDDING_CACHE_STATS {"hits": 0, "misses": 9995, "inner_calls": 313, "failed_inner_calls": 282, "cached_vectors_at_start": 5160}

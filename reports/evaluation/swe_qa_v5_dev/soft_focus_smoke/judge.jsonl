@@ -1,0 +1,16 @@
+{"question_id": "flask-1", "method": "semantic", "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}
+{"question_id": "flask-1", "method": "soft_focus", "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}
+{"question_id": "flask-2", "method": "semantic", "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}
+{"question_id": "flask-2", "method": "soft_focus", "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}
+{"question_id": "pylint-1", "method": "semantic", "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}
+{"question_id": "pylint-1", "method": "soft_focus", "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}
+{"question_id": "pylint-2", "method": "semantic", "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}
+{"question_id": "pylint-2", "method": "soft_focus", "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}
+{"question_id": "pytest-1", "method": "semantic", "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}
+{"question_id": "pytest-1", "method": "soft_focus", "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}
+{"question_id": "pytest-2", "method": "semantic", "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}
+{"question_id": "pytest-2", "method": "soft_focus", "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}
+{"question_id": "requests-1", "method": "semantic", "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}
+{"question_id": "requests-1", "method": "soft_focus", "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}
+{"question_id": "requests-2", "method": "semantic", "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}
+{"question_id": "requests-2", "method": "soft_focus", "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}
