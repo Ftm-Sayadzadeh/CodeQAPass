@@ -1,0 +1,3027 @@
+{
+  "sample_size": 40,
+  "sample_per_repo": 10,
+  "strength": 1.0,
+  "rows": [
+    {
+      "question_id": "flask-1",
+      "repo": "flask",
+      "context_files": [
+        "src/flask/json/provider.py",
+        "tests/test_json.py",
+        "tests/test_testing.py"
+      ],
+      "blocks": 10,
+      "chars": 4582,
+      "omitted": 0,
+      "gold_files_in_context": 2,
+      "full_gold": true,
+      "ranking": [
+        {
+          "chunk_id": "fbad377a80e8a3ce10475e18cae9843990e9cb2e7d0ce604050e9a464a1f2018",
+          "file": "src/flask/json/provider.py",
+          "start_line": 124,
+          "end_line": 215
+        },
+        {
+          "chunk_id": "ae0ba32b0075b5d1c50e2320c1faf9894eae4d8c3e1d48c77adea5c2b6a7de8a",
+          "file": "src/flask/json/provider.py",
+          "start_line": 166,
+          "end_line": 179
+        },
+        {
+          "chunk_id": "17f4c9f1840b0390389f1ba2e11e0b053e7cb0fcfac81c7051a705f67966cc32",
+          "file": "src/flask/json/provider.py",
+          "start_line": 108,
+          "end_line": 121
+        },
+        {
+          "chunk_id": "5a0aff8e019e31250e906a2a7204e989a909dc4c3e00a26631087a5f53b56d4f",
+          "file": "tests/test_json.py",
+          "start_line": 51,
+          "end_line": 54
+        },
+        {
+          "chunk_id": "28f0782e921caf3026fe464143c5e9a907bb8b99a98c3a8c763dc9bbc330fb00",
+          "file": "tests/test_json.py",
+          "start_line": 234,
+          "end_line": 243
+        },
+        {
+          "chunk_id": "a6e52703574c4cb042eb9b88ac7a433fe0d37c6f4919203ec091b1e77b0ed069",
+          "file": "tests/test_testing.py",
+          "start_line": 110,
+          "end_line": 114
+        },
+        {
+          "chunk_id": "d2f0a52385fdb8a00afe86f659f7b5e4d02d1a06e4f5f1237a271052f6faae73",
+          "file": "tests/test_json.py",
+          "start_line": 340,
+          "end_line": 346
+        },
+        {
+          "chunk_id": "22396574560d79654eed579159ab25da6d0fe53f5cb1049783025f69e7dbb5c4",
+          "file": "tests/test_json.py",
+          "start_line": 223,
+          "end_line": 257
+        },
+        {
+          "chunk_id": "51fb61ed0e92200d912d84c0144ac34fc965e4e30777407b311e6ef4f6e01b12",
+          "file": "tests/test_json.py",
+          "start_line": 191,
+          "end_line": 193
+        },
+        {
+          "chunk_id": "d80c17ee8b0fdd81ee1207542c923ae748e56b435c4be5e11436eba17a5a96c0",
+          "file": "tests/test_json.py",
+          "start_line": 241,
+          "end_line": 243
+        }
+      ]
+    },
+    {
+      "question_id": "flask-2",
+      "repo": "flask",
+      "context_files": [
+        "src/flask/sansio/blueprints.py",
+        "src/flask/sansio/scaffold.py"
+      ],
+      "blocks": 7,
+      "chars": 5400,
+      "omitted": 3,
+      "gold_files_in_context": 2,
+      "full_gold": true,
+      "ranking": [
+        {
+          "chunk_id": "c14fe4d103903cec48d86bcf019b6801282d7aa6e8527da67c01a1157f59eed5",
+          "file": "src/flask/sansio/blueprints.py",
+          "start_line": 213,
+          "end_line": 221
+        },
+        {
+          "chunk_id": "045f10ca75b0056330042dfb69a6c4df1c8bfb8fc55988ec7f75c475f62b17a9",
+          "file": "src/flask/sansio/blueprints.py",
+          "start_line": 233,
+          "end_line": 244
+        },
+        {
+          "chunk_id": "6b009a5a2c572f66e36ad3a5999428de3a8481744fde1a7569d9b39763258e7a",
+          "file": "src/flask/sansio/blueprints.py",
+          "start_line": 119,
+          "end_line": 632
+        },
+        {
+          "chunk_id": "36eb0e5cfef64af27fdfd5cb7c875a703ea5c20bf4acfc5360727bb92619687f",
+          "file": "src/flask/sansio/blueprints.py",
+          "start_line": 246,
+          "end_line": 253
+        },
+        {
+          "chunk_id": "cd0600a3e938fef8943219cc4f3d09cd1390cab022550bd3204c1fbd48d5a1ba",
+          "file": "src/flask/sansio/blueprints.py",
+          "start_line": 273,
+          "end_line": 377
+        },
+        {
+          "chunk_id": "87158ebb930fb82591052959eb2ffc43980cface260a663e83216af7d8361fb0",
+          "file": "src/flask/sansio/blueprints.py",
+          "start_line": 256,
+          "end_line": 271
+        },
+        {
+          "chunk_id": "1258b2f2b16c96bb33d72b9f29697ce0e3896e4795ba1941120279c40b08db62",
+          "file": "src/flask/sansio/blueprints.py",
+          "start_line": 34,
+          "end_line": 116
+        },
+        {
+          "chunk_id": "e6fbe0032d0b3b0858cea2e509118bda973f7128beec5ed0dd17cb9ab81e2286",
+          "file": "src/flask/sansio/scaffold.py",
+          "start_line": 42,
+          "end_line": 49
+        },
+        {
+          "chunk_id": "1194fbaf6af62a800bec7ef606a60ed7b3e402653e908d71411fc342594160b2",
+          "file": "src/flask/sansio/app.py",
+          "start_line": 570,
+          "end_line": 595
+        },
+        {
+          "chunk_id": "251004243af7f8c02e39911cde790f7987873db56e9ac2d817b5801de77eb29a",
+          "file": "src/flask/sansio/blueprints.py",
+          "start_line": 41,
+          "end_line": 85
+        }
+      ]
+    },
+    {
+      "question_id": "flask-3",
+      "repo": "flask",
+      "context_files": [
+        "src/flask/app.py",
+        "src/flask/sansio/scaffold.py",
+        "tests/test_basic.py",
+        "tests/test_blueprints.py"
+      ],
+      "blocks": 5,
+      "chars": 5502,
+      "omitted": 5,
+      "gold_files_in_context": 1,
+      "full_gold": true,
+      "ranking": [
+        {
+          "chunk_id": "b3e9b8861341cab64449d4691123e2e25e28a84ab7a463fa94ea39711bebc265",
+          "file": "tests/test_blueprints.py",
+          "start_line": 176,
+          "end_line": 220
+        },
+        {
+          "chunk_id": "a5a52a48572caf3f2fc144e4797d4c6561afcfc4dff304ad7816065fd5f81d87",
+          "file": "src/flask/sansio/scaffold.py",
+          "start_line": 52,
+          "end_line": 698
+        },
+        {
+          "chunk_id": "355f7ea3973042f58bb764a0a27316f834a06084f178ec3ed78aa6ef11bbc09d",
+          "file": "src/flask/sansio/scaffold.py",
+          "start_line": 75,
+          "end_line": 215
+        },
+        {
+          "chunk_id": "19a95a617bb412d243f7231bbad55d658c0e636ea9a822caa21f32b4f6a30d00",
+          "file": "src/flask/app.py",
+          "start_line": 226,
+          "end_line": 279
+        },
+        {
+          "chunk_id": "bfead6aae8ee45bd7a2bfa1b3e195a34ab5575285a2818299b7d381d841bf514",
+          "file": "tests/test_basic.py",
+          "start_line": 1403,
+          "end_line": 1409
+        },
+        {
+          "chunk_id": "7a80bf91fd04792119458458f6ae1fefeb0a1c69480a3b6edffa03e8ab989b9e",
+          "file": "src/flask/app.py",
+          "start_line": 308,
+          "end_line": 328
+        },
+        {
+          "chunk_id": "0d4baa780d1b098b368bf6d2202b5523125eaa6887c5cce897495d9753d18904",
+          "file": "tests/test_basic.py",
+          "start_line": 1434,
+          "end_line": 1438
+        },
+        {
+          "chunk_id": "6c41f7e93bbb2826938dd33ad058ebc6c0709e8e29f9e2cdfd0a66f32ff50f34",
+          "file": "src/flask/sansio/app.py",
+          "start_line": 59,
+          "end_line": 964
+        },
+        {
+          "chunk_id": "8988206b5c52032a4a4d850e9e64c31071f25186d9c183d9759769fc4c142736",
+          "file": "tests/test_basic.py",
+          "start_line": 1468,
+          "end_line": 1486
+        },
+        {
+          "chunk_id": "4f5a77be6caf71374bde7fd8d4e7e8a6556e67d27b4941689b12e6ccd9c918ab",
+          "file": "src/flask/sansio/app.py",
+          "start_line": 282,
+          "end_line": 411
+        }
+      ]
+    },
+    {
+      "question_id": "flask-4",
+      "repo": "flask",
+      "context_files": [
+        "src/flask/app.py"
+      ],
+      "blocks": 1,
+      "chars": 975,
+      "omitted": 1,
+      "gold_files_in_context": 0,
+      "full_gold": false,
+      "ranking": [
+        {
+          "chunk_id": "da83fef2f8079ca6de8646cfd9a71b737de7fe838b48c0f2fd97a138445997b7",
+          "file": "src/flask/debughelpers.py",
+          "start_line": 17,
+          "end_line": 20
+        },
+        {
+          "chunk_id": "baac7a642da21d40ccef0557bc17429efbfa1187f8de671d1803e127684741d2",
+          "file": "src/flask/debughelpers.py",
+          "start_line": 50,
+          "end_line": 78
+        },
+        {
+          "chunk_id": "44a92ae0d2ea5de4382d37c410dec3eca221504af0f07c0b308eef8b8fc5ea08",
+          "file": "src/flask/app.py",
+          "start_line": 81,
+          "end_line": 1536
+        },
+        {
+          "chunk_id": "37d7ad3365b6a1f47b1be55a78ca19205a267ddc52b901be9372f108658aa172",
+          "file": "src/flask/app.py",
+          "start_line": 478,
+          "end_line": 504
+        },
+        {
+          "chunk_id": "6c41f7e93bbb2826938dd33ad058ebc6c0709e8e29f9e2cdfd0a66f32ff50f34",
+          "file": "src/flask/sansio/app.py",
+          "start_line": 59,
+          "end_line": 964
+        },
+        {
+          "chunk_id": "0bcfaca090cb7f9e92e6d9df9dba799d83d5ff9431fdd8d368e92e93ef163df7",
+          "file": "src/flask/debughelpers.py",
+          "start_line": 23,
+          "end_line": 47
+        },
+        {
+          "chunk_id": "4f5a77be6caf71374bde7fd8d4e7e8a6556e67d27b4941689b12e6ccd9c918ab",
+          "file": "src/flask/sansio/app.py",
+          "start_line": 282,
+          "end_line": 411
+        },
+        {
+          "chunk_id": "e2b2d8c68d1ef8cc22504ff33438ea456fe324eb744707315797b75cbeffc8f8",
+          "file": "tests/test_reqctx.py",
+          "start_line": 213,
+          "end_line": 214
+        },
+        {
+          "chunk_id": "215b16534f87a334405bbed223998775ac3f9fbce5c8ec233071cb5d1d521012",
+          "file": "tests/test_basic.py",
+          "start_line": 1693,
+          "end_line": 1710
+        },
+        {
+          "chunk_id": "7624a5993c4134359d687ff756ff6e94c72f9f3f2aed806367d41446c7a36869",
+          "file": "tests/test_blueprints.py",
+          "start_line": 46,
+          "end_line": 77
+        }
+      ]
+    },
+    {
+      "question_id": "flask-5",
+      "repo": "flask",
+      "context_files": [
+        "tests/test_basic.py"
+      ],
+      "blocks": 1,
+      "chars": 48,
+      "omitted": 0,
+      "gold_files_in_context": 0,
+      "full_gold": false,
+      "ranking": [
+        {
+          "chunk_id": "61c9d796bd4bef0c1f0e7d5fae050181daafa6801001cb163d2f474222d63db3",
+          "file": "tests/test_basic.py",
+          "start_line": 1545,
+          "end_line": 1546
+        },
+        {
+          "chunk_id": "e1fc52192d53832bf6be72d51400590458a3ac767d0d5b410a775427baafc6d3",
+          "file": "tests/test_testing.py",
+          "start_line": 302,
+          "end_line": 318
+        },
+        {
+          "chunk_id": "0328b7c8ec4015aec63a84f8942992985ef98e4c1cbac1690f9e51e41b7630fe",
+          "file": "tests/test_reqctx.py",
+          "start_line": 63,
+          "end_line": 104
+        },
+        {
+          "chunk_id": "72059ab264d603419d952e0f3a5fbbae7827285de715dbf41fa0c3b21bfcd5e5",
+          "file": "tests/test_reqctx.py",
+          "start_line": 71,
+          "end_line": 72
+        },
+        {
+          "chunk_id": "423e4e6a02d77ebd96b0c9144156dabfd6b5d4740c07f72080c2e9f803b0c087",
+          "file": "tests/test_testing.py",
+          "start_line": 117,
+          "end_line": 138
+        },
+        {
+          "chunk_id": "c8c17b5aedcfdcf1e271ee0dc8bda5da8fa0c7afba39615b0dbcad57bab31077",
+          "file": "tests/test_blueprints.py",
+          "start_line": 953,
+          "end_line": 969
+        },
+        {
+          "chunk_id": "276964fcab9b758ed24bbc6698636388752fcc859f71ea4d520a88d350627d1f",
+          "file": "tests/test_basic.py",
+          "start_line": 1536,
+          "end_line": 1578
+        },
+        {
+          "chunk_id": "821da066ec8daf1fb7c383368c97b005035d8ef05bb26001d34f93b2daa2ff43",
+          "file": "tests/test_basic.py",
+          "start_line": 1754,
+          "end_line": 1771
+        },
+        {
+          "chunk_id": "4e049946ec7ed15b31bbf51d04c337ad3cf1a16f2b2cab6dbeb8b123bee92ad4",
+          "file": "tests/test_testing.py",
+          "start_line": 126,
+          "end_line": 127
+        },
+        {
+          "chunk_id": "482370c13925e63c1d56cdea0de19a25c4631c735291182ac74372cd99897bfe",
+          "file": "tests/test_basic.py",
+          "start_line": 1502,
+          "end_line": 1533
+        }
+      ]
+    },
+    {
+      "question_id": "flask-6",
+      "repo": "flask",
+      "context_files": [
+        "src/flask/templating.py",
+        "tests/test_blueprints.py",
+        "tests/test_templating.py"
+      ],
+      "blocks": 10,
+      "chars": 4367,
+      "omitted": 0,
+      "gold_files_in_context": 1,
+      "full_gold": false,
+      "ranking": [
+        {
+          "chunk_id": "69a50ac798e302f24846e32a2ccc12f1f585c80d8778ea3f34eaa0668c8ef192",
+          "file": "src/flask/templating.py",
+          "start_line": 39,
+          "end_line": 49
+        },
+        {
+          "chunk_id": "aa1114add22d845c49bcd809ef3469de8a09aabb66f876a3bf6d1fbc76eca7ab",
+          "file": "src/flask/templating.py",
+          "start_line": 165,
+          "end_line": 185
+        },
+        {
+          "chunk_id": "3dcd15f6d65c52963421c4c4bf8519f382cf9aabd4161a95005e5cfd8944b69c",
+          "file": "src/flask/templating.py",
+          "start_line": 126,
+          "end_line": 135
+        },
+        {
+          "chunk_id": "338bec287055eb152b1e01a433e9ee1f9cde2a37afdfa82d729b5c45e57e4f3a",
+          "file": "tests/test_templating.py",
+          "start_line": 11,
+          "end_line": 21
+        },
+        {
+          "chunk_id": "078631d798f4d53847ac9d0b34132eed8473e79330f849e0458f4d8bb8a562ec",
+          "file": "tests/test_blueprints.py",
+          "start_line": 675,
+          "end_line": 693
+        },
+        {
+          "chunk_id": "1873ab527b9c995a4ff289a358f72fccb71e508a9c23a336387cd48a5e163099",
+          "file": "src/flask/templating.py",
+          "start_line": 188,
+          "end_line": 204
+        },
+        {
+          "chunk_id": "4230cfba93bcf156bf19a77d3bcfdf6ac48f36defa9144d5497dc3543e6690df",
+          "file": "src/flask/templating.py",
+          "start_line": 24,
+          "end_line": 36
+        },
+        {
+          "chunk_id": "c626733afa2d57e97aca9138ff22eecf3be3ebbe576f78908ea8f93f855aa3a4",
+          "file": "src/flask/templating.py",
+          "start_line": 138,
+          "end_line": 150
+        },
+        {
+          "chunk_id": "423e812faab3dbcaf4109cba85d7ca750eb18cd3bab68b2a491b34cc1ed635aa",
+          "file": "src/flask/templating.py",
+          "start_line": 173,
+          "end_line": 177
+        },
+        {
+          "chunk_id": "0110eb193e62369cc22254cde154e65b9af51862210923161084dea2c5425e77",
+          "file": "tests/test_blueprints.py",
+          "start_line": 637,
+          "end_line": 641
+        }
+      ]
+    },
+    {
+      "question_id": "flask-7",
+      "repo": "flask",
+      "context_files": [
+        "src/flask/cli.py",
+        "tests/conftest.py",
+        "tests/test_converters.py",
+        "tests/test_helpers.py"
+      ],
+      "blocks": 10,
+      "chars": 1318,
+      "omitted": 0,
+      "gold_files_in_context": 1,
+      "full_gold": false,
+      "ranking": [
+        {
+          "chunk_id": "2f666b7f158384d60faae21f8c7957f66d6801fefcea2a518b89f718f72ac2f1",
+          "file": "tests/test_helpers.py",
+          "start_line": 21,
+          "end_line": 22
+        },
+        {
+          "chunk_id": "5cf9b3ce8f559b1b6a4dce672dea5668035ae865d59a249abd0485a4aaeaf921",
+          "file": "tests/test_helpers.py",
+          "start_line": 11,
+          "end_line": 22
+        },
+        {
+          "chunk_id": "12b3e4b329be6a85686ac02bd12cabe2b6b6aa992af3103d45b8466e08b4594a",
+          "file": "tests/test_helpers.py",
+          "start_line": 29,
+          "end_line": 30
+        },
+        {
+          "chunk_id": "87f7000c456a7d27b9c8b579d63bb4a70570f8c1495923e95b7415e9d9ffd3a3",
+          "file": "src/flask/cli.py",
+          "start_line": 873,
+          "end_line": 879
+        },
+        {
+          "chunk_id": "136ff48baaef7a74cc542b4cbcf304c33bb34461a585c144fb5656d6b67e198d",
+          "file": "tests/test_converters.py",
+          "start_line": 31,
+          "end_line": 34
+        },
+        {
+          "chunk_id": "6e078cd6c5dcb4c596aea97b8b286e868b0c32cc1317f59d35600bb8a3e80e46",
+          "file": "tests/test_helpers.py",
+          "start_line": 25,
+          "end_line": 30
+        },
+        {
+          "chunk_id": "97ffdbb0049abbd5c4e725928250617f84364b295ace52a6367b7951d800ef35",
+          "file": "tests/conftest.py",
+          "start_line": 108,
+          "end_line": 110
+        },
+        {
+          "chunk_id": "5e054bb0241c6e0b151fa45aa216f302fe9d7eb004faa1aa9cfa5056f4eef65d",
+          "file": "src/flask/cli.py",
+          "start_line": 780,
+          "end_line": 825
+        },
+        {
+          "chunk_id": "623ac31bb96d24699fd9fc3a4503c2c6cdaad16af5fe761ec61ce6ce0de9b5fc",
+          "file": "tests/test_converters.py",
+          "start_line": 30,
+          "end_line": 34
+        },
+        {
+          "chunk_id": "db465c9870c3af667d3054344371333defa9de2325301a9c64875ada3f69f2cf",
+          "file": "tests/test_helpers.py",
+          "start_line": 271,
+          "end_line": 272
+        }
+      ]
+    },
+    {
+      "question_id": "flask-8",
+      "repo": "flask",
+      "context_files": [
+        "src/flask/cli.py",
+        "tests/test_basic.py",
+        "tests/test_cli.py",
+        "tests/test_helpers.py"
+      ],
+      "blocks": 9,
+      "chars": 4960,
+      "omitted": 1,
+      "gold_files_in_context": 2,
+      "full_gold": true,
+      "ranking": [
+        {
+          "chunk_id": "1972618683f78559972c51b8453ee910faf826be09e36475b19699429c74409f",
+          "file": "tests/test_cli.py",
+          "start_line": 217,
+          "end_line": 219
+        },
+        {
+          "chunk_id": "ad0d26ff9bbb3da9ae8a5bf0a28c185f8164ed0f34ea20f82122d4f944f40a92",
+          "file": "tests/test_cli.py",
+          "start_line": 222,
+          "end_line": 228
+        },
+        {
+          "chunk_id": "a690f7d8bc30da179bdd2bdbad4a2a94ea4719d67c7a75be253ac399a8950789",
+          "file": "tests/test_cli.py",
+          "start_line": 195,
+          "end_line": 196
+        },
+        {
+          "chunk_id": "c13eab10f77205facc012543e207a316bc95147db350e4c48e933e838b7751db",
+          "file": "src/flask/cli.py",
+          "start_line": 241,
+          "end_line": 264
+        },
+        {
+          "chunk_id": "ea3bf121528eebfde83288e0d2869b73a150b5e438a87e3836a905b498d26c69",
+          "file": "tests/test_helpers.py",
+          "start_line": 228,
+          "end_line": 233
+        },
+        {
+          "chunk_id": "9c7488f1ff4758998f313362aa9d2c4bd1d2f29a7844798854674f14a9592f0f",
+          "file": "src/flask/cli.py",
+          "start_line": 120,
+          "end_line": 197
+        },
+        {
+          "chunk_id": "83b3197ad9930120b686b9cdbc5f0f030ef007f44bd5d24cada199fc8e70d01e",
+          "file": "tests/test_cli.py",
+          "start_line": 48,
+          "end_line": 132
+        },
+        {
+          "chunk_id": "3a942580be8cd26ab9fd767c285a8b318ba0748cb96de831a7b43c12cabfb555",
+          "file": "src/flask/cli.py",
+          "start_line": 236,
+          "end_line": 238
+        },
+        {
+          "chunk_id": "564cad69e2c492ef1e14c5b418df81c4cecc28f90f22e4c4bccc3b16841573b8",
+          "file": "src/flask/cli.py",
+          "start_line": 230,
+          "end_line": 232
+        },
+        {
+          "chunk_id": "f6c0108ae2c7c227309cf6c3b3ffbd05ee5fe0beff61b9e571d92ffabf87bf75",
+          "file": "tests/test_basic.py",
+          "start_line": 1582,
+          "end_line": 1595
+        }
+      ]
+    },
+    {
+      "question_id": "flask-9",
+      "repo": "flask",
+      "context_files": [
+        "examples/tutorial/tests/conftest.py",
+        "src/flask/app.py"
+      ],
+      "blocks": 2,
+      "chars": 659,
+      "omitted": 0,
+      "gold_files_in_context": 0,
+      "full_gold": false,
+      "ranking": [
+        {
+          "chunk_id": "0b0c46aee4b52bacb0db077103f5031f5036a887c013992599ac63312ec86c08",
+          "file": "src/flask/testing.py",
+          "start_line": 265,
+          "end_line": 298
+        },
+        {
+          "chunk_id": "6addf0a42ff5c2241805ed2d276ba8e0b27556da088b03254da4754d871bdcb0",
+          "file": "src/flask/testing.py",
+          "start_line": 271,
+          "end_line": 273
+        },
+        {
+          "chunk_id": "48d1ac178a1b79dacd2d3480c87efecb45e93bf1d71821e63c519aaaf4994689",
+          "file": "examples/tutorial/tests/conftest.py",
+          "start_line": 42,
+          "end_line": 44
+        },
+        {
+          "chunk_id": "391451985e6315f83c1c6a4dfb227a1568dced25cf90d17607d70f2826bcd592",
+          "file": "src/flask/app.py",
+          "start_line": 727,
+          "end_line": 742
+        },
+        {
+          "chunk_id": "b196e364d4e630b024e1d102c66976de167f900fe6d3c55a15551931b67ba2f2",
+          "file": "tests/test_cli.py",
+          "start_line": 459,
+          "end_line": 461
+        },
+        {
+          "chunk_id": "d2ed4bbe145532e4852e97756b5d95af9395d9f67f225e567b7cbee68ce466d9",
+          "file": "tests/test_cli.py",
+          "start_line": 289,
+          "end_line": 304
+        },
+        {
+          "chunk_id": "1fcfde3d0f9d3a7a88b13764ed46a7eac4058346fa97674b6bc858182e0bd186",
+          "file": "tests/test_cli.py",
+          "start_line": 348,
+          "end_line": 362
+        },
+        {
+          "chunk_id": "70d6032ff701e57964ec738c91a0ce1721733ac2b889551b0731e1d54e3f7990",
+          "file": "tests/test_cli.py",
+          "start_line": 413,
+          "end_line": 425
+        },
+        {
+          "chunk_id": "faae2b377d96b32db581538b75bbc99191acd893ea32044068d0125779ea71dc",
+          "file": "tests/test_cli.py",
+          "start_line": 385,
+          "end_line": 395
+        },
+        {
+          "chunk_id": "d2b5faff93a2b491353af626e55a5389c5686d63faec8b80b5edbc8d73a649c8",
+          "file": "tests/test_cli.py",
+          "start_line": 307,
+          "end_line": 317
+        }
+      ]
+    },
+    {
+      "question_id": "flask-10",
+      "repo": "flask",
+      "context_files": [
+        "src/flask/json/tag.py",
+        "tests/test_json_tag.py"
+      ],
+      "blocks": 10,
+      "chars": 1818,
+      "omitted": 0,
+      "gold_files_in_context": 1,
+      "full_gold": true,
+      "ranking": [
+        {
+          "chunk_id": "d59d4e39ec2ec0841962acdf14c48b1beeb94e40e329404e7f77c977fbc897d4",
+          "file": "src/flask/json/tag.py",
+          "start_line": 140,
+          "end_line": 141
+        },
+        {
+          "chunk_id": "7d5aabf2de778c329ad20c6e244af6510ca6d781602d3cb64696fb991d167705",
+          "file": "src/flask/json/tag.py",
+          "start_line": 133,
+          "end_line": 144
+        },
+        {
+          "chunk_id": "3859645a26dfe6eaf79696f9cdf8ca7b3ccfea5ee9e784134ff620f984270378",
+          "file": "src/flask/json/tag.py",
+          "start_line": 137,
+          "end_line": 138
+        },
+        {
+          "chunk_id": "11bd5453ebbe8286a3df62ca4b2e8d4a40d9c090f1f379f8dc0c6d956c9c4901",
+          "file": "src/flask/json/tag.py",
+          "start_line": 289,
+          "end_line": 295
+        },
+        {
+          "chunk_id": "36fd32f76281713997fce17b290caa1148937bdcffd8ed90082ab514da8a00ae",
+          "file": "src/flask/json/tag.py",
+          "start_line": 143,
+          "end_line": 144
+        },
+        {
+          "chunk_id": "6d1da1651937a13e0792b44c6158389cf22b4012d1536901e33a8d32c4a9e866",
+          "file": "src/flask/json/tag.py",
+          "start_line": 219,
+          "end_line": 327
+        },
+        {
+          "chunk_id": "b8fecd4b47ae07915a7ccf232fd0a72660894ea8ca1569dd8914afe6617a1f2c",
+          "file": "src/flask/json/tag.py",
+          "start_line": 110,
+          "end_line": 112
+        },
+        {
+          "chunk_id": "4438ddbc7e4a54081642d659606337c6e12e3475ee8ddd82b451dee45723c98e",
+          "file": "src/flask/json/tag.py",
+          "start_line": 153,
+          "end_line": 154
+        },
+        {
+          "chunk_id": "cd650e114e9937d0acbf3e128a2038f7da1138c0bd05e4d0b92655a4e4cea70b",
+          "file": "src/flask/json/tag.py",
+          "start_line": 325,
+          "end_line": 327
+        },
+        {
+          "chunk_id": "7ca31fd3f1d4fd90c1f6b87c659be88ed17c06908e72c62ffea5487800ec1621",
+          "file": "tests/test_json_tag.py",
+          "start_line": 55,
+          "end_line": 56
+        }
+      ]
+    },
+    {
+      "question_id": "requests-1",
+      "repo": "requests",
+      "context_files": [
+        "src/requests/utils.py"
+      ],
+      "blocks": 1,
+      "chars": 231,
+      "omitted": 0,
+      "gold_files_in_context": 1,
+      "full_gold": false,
+      "ranking": [
+        {
+          "chunk_id": "849e892cfcc8322baf712d2d9cbfbc19c510c8a72d2cb8cb9eacc993b49e2b16",
+          "file": "src/requests/utils.py",
+          "start_line": 816,
+          "end_line": 825
+        },
+        {
+          "chunk_id": "791983c65c423d37d056c4ac755736f7c950c3ac5fc021c9fd80621d3265aaca",
+          "file": "tests/test_utils.py",
+          "start_line": 216,
+          "end_line": 219
+        },
+        {
+          "chunk_id": "3e43ed4dfa87ed39c752fc9ed4b49ae76973bf60fa527c09d100ff375051bbd5",
+          "file": "tests/test_utils.py",
+          "start_line": 267,
+          "end_line": 272
+        },
+        {
+          "chunk_id": "c56ac0f8d845f4156ff8527e5e810abcbb549037fd10f2df8298fad13b33cd11",
+          "file": "tests/test_utils.py",
+          "start_line": 253,
+          "end_line": 255
+        },
+        {
+          "chunk_id": "fda8969b305106548eea2834b3948cb0447d68efd72427d269345e21a2c51ec0",
+          "file": "src/requests/utils.py",
+          "start_line": 854,
+          "end_line": 878
+        },
+        {
+          "chunk_id": "8291f03f391e99b60c370157fbf7e50fe85835802b967fc4fe3195c0200f7a31",
+          "file": "src/requests/utils.py",
+          "start_line": 755,
+          "end_line": 813
+        },
+        {
+          "chunk_id": "a9981433456a60a8b15567fcd5bed2a01b3312aa973bcd7b1eafb26136c9b04f",
+          "file": "tests/test_requests.py",
+          "start_line": 2625,
+          "end_line": 2635
+        },
+        {
+          "chunk_id": "0b5bbf806cc45b69ff00583d9b088e51ab131ed143fa0adb8fe5dc7133b49a16",
+          "file": "src/requests/utils.py",
+          "start_line": 764,
+          "end_line": 765
+        },
+        {
+          "chunk_id": "b14d7f9ef52372597b08c9e0c65d67a3b5963ab4b1e73d607c1099c00ca564a0",
+          "file": "src/requests/sessions.py",
+          "start_line": 302,
+          "end_line": 331
+        },
+        {
+          "chunk_id": "8612f248d3ca87671ebcfc4c80d0971ab1ae01e119f578bd3d50f40be842a9d3",
+          "file": "tests/test_utils.py",
+          "start_line": 210,
+          "end_line": 272
+        }
+      ]
+    },
+    {
+      "question_id": "requests-2",
+      "repo": "requests",
+      "context_files": [
+        "src/requests/utils.py"
+      ],
+      "blocks": 1,
+      "chars": 801,
+      "omitted": 0,
+      "gold_files_in_context": 1,
+      "full_gold": false,
+      "ranking": [
+        {
+          "chunk_id": "2a7848ef5495ca32574c2c1d5be2f9ca170f956e16b017ff1d820b06fae5e930",
+          "file": "tests/test_utils.py",
+          "start_line": 381,
+          "end_line": 384
+        },
+        {
+          "chunk_id": "f00e78c548a62dca057830d50115bb34782eb30aaaee40d60bbe7ec5807c891f",
+          "file": "src/requests/utils.py",
+          "start_line": 479,
+          "end_line": 501
+        },
+        {
+          "chunk_id": "c772a6f4d6cb979c24e27247a2c91dfef853c03f9f002c3736f9e42c73cfd8da",
+          "file": "tests/test_utils.py",
+          "start_line": 386,
+          "end_line": 392
+        },
+        {
+          "chunk_id": "b611c41c19903f8ab257ebc30ae3b98c413e610ef15de70ff6a7db56977edbb4",
+          "file": "tests/test_utils.py",
+          "start_line": 363,
+          "end_line": 392
+        },
+        {
+          "chunk_id": "738bcb12b3f075524d10d1a4496a650c043f019f284315675ffd7a109f6126a6",
+          "file": "tests/test_utils.py",
+          "start_line": 641,
+          "end_line": 642
+        },
+        {
+          "chunk_id": "33a8f493a96ef898c1ef46f799d4ef5b218a1a8ae4454ba84ef28d1ccc31298f",
+          "file": "tests/test_utils.py",
+          "start_line": 364,
+          "end_line": 366
+        },
+        {
+          "chunk_id": "e642df310eb04a29cf5c3ede27b3be8df228a13a23e16c61a172b500fba370d3",
+          "file": "tests/test_utils.py",
+          "start_line": 409,
+          "end_line": 411
+        },
+        {
+          "chunk_id": "19f51a5e3321f04da23a936eef960397603165e8fdbd792abf87c09b95a9b5e2",
+          "file": "tests/test_requests.py",
+          "start_line": 1434,
+          "end_line": 1451
+        },
+        {
+          "chunk_id": "c6cc8550cfb81e7c70dac737c6801dafa703cd5417bce3198c1d06f2bcd1f9e0",
+          "file": "tests/test_requests.py",
+          "start_line": 176,
+          "end_line": 180
+        },
+        {
+          "chunk_id": "401b4bf44db95b65cd637a485a379444019e4933eb86996b9e2b36613150d601",
+          "file": "tests/test_utils.py",
+          "start_line": 395,
+          "end_line": 427
+        }
+      ]
+    },
+    {
+      "question_id": "requests-3",
+      "repo": "requests",
+      "context_files": [
+        "src/requests/exceptions.py"
+      ],
+      "blocks": 1,
+      "chars": 119,
+      "omitted": 0,
+      "gold_files_in_context": 0,
+      "full_gold": false,
+      "ranking": [
+        {
+          "chunk_id": "8f1e1a908f19de7808191eb0d64aaa46e2dd062ef9fa385a2af28be73df19743",
+          "file": "src/requests/exceptions.py",
+          "start_line": 103,
+          "end_line": 104
+        },
+        {
+          "chunk_id": "327aa9a7dd0946ce78dace0fad5a2f8a3c68634200cc089dc7ee046cfee0c0ab",
+          "file": "src/requests/exceptions.py",
+          "start_line": 99,
+          "end_line": 100
+        },
+        {
+          "chunk_id": "1b7bd3d2584741fb4e44f23db738fccb10d9d3b8ee06a81f880ad9711695f5e0",
+          "file": "src/requests/exceptions.py",
+          "start_line": 107,
+          "end_line": 108
+        },
+        {
+          "chunk_id": "67ef5c75e001096e537ddc4e03409ca5565002537063563bba271b278ffd0e99",
+          "file": "tests/test_requests.py",
+          "start_line": 109,
+          "end_line": 111
+        },
+        {
+          "chunk_id": "7acd4cc1aa13422929644b5e655667ebfaf20f926e092ff0fe477a55a7e85606",
+          "file": "src/requests/exceptions.py",
+          "start_line": 115,
+          "end_line": 116
+        },
+        {
+          "chunk_id": "7834cd10e490bd284d713d3184edcc3ebf03d5d5b5762e235fd318719794144b",
+          "file": "src/requests/exceptions.py",
+          "start_line": 111,
+          "end_line": 112
+        },
+        {
+          "chunk_id": "1aabc3e589cbb52783232b1e350cc5e37ad3800b9e8cee5e8a206f5d47244e87",
+          "file": "src/requests/exceptions.py",
+          "start_line": 31,
+          "end_line": 52
+        },
+        {
+          "chunk_id": "c11a798c06d7a322686693acf54896b3f31b695bacec9a5c07431cf7d651fc4b",
+          "file": "tests/test_requests.py",
+          "start_line": 82,
+          "end_line": 2274
+        },
+        {
+          "chunk_id": "ac55f53fc8d12d8c1c43197a873242e77a0b3ba03130a64b9d88f00a29643c2b",
+          "file": "src/requests/exceptions.py",
+          "start_line": 91,
+          "end_line": 92
+        },
+        {
+          "chunk_id": "ff18fde51dc53d8c49e75c1a6d430df827fe804d887892caf7e7bac3f4623185",
+          "file": "src/requests/exceptions.py",
+          "start_line": 27,
+          "end_line": 28
+        }
+      ]
+    },
+    {
+      "question_id": "requests-4",
+      "repo": "requests",
+      "context_files": [
+        "tests/test_requests.py"
+      ],
+      "blocks": 3,
+      "chars": 5992,
+      "omitted": 3,
+      "gold_files_in_context": 1,
+      "full_gold": false,
+      "ranking": [
+        {
+          "chunk_id": "c11a798c06d7a322686693acf54896b3f31b695bacec9a5c07431cf7d651fc4b",
+          "file": "tests/test_requests.py",
+          "start_line": 82,
+          "end_line": 2274
+        },
+        {
+          "chunk_id": "a16e2feb28bdeb9521e2e9e44e30c91174683e57246700079588aee753079745",
+          "file": "tests/test_requests.py",
+          "start_line": 241,
+          "end_line": 250
+        },
+        {
+          "chunk_id": "91be777e067a86cb851798f0a1e99bc27bccbc4f5b38ce7804d3586b55ab8d18",
+          "file": "tests/test_requests.py",
+          "start_line": 472,
+          "end_line": 476
+        },
+        {
+          "chunk_id": "bb72a4b809daa0da5b95a04759614d65abe52978cdc04e4970a1dce38c568b90",
+          "file": "src/requests/sessions.py",
+          "start_line": 106,
+          "end_line": 353
+        },
+        {
+          "chunk_id": "7dfb002a8db1a7fcf1f913e9de17e5cdd55555cab596a3591d497efa7f5f61b1",
+          "file": "src/requests/exceptions.py",
+          "start_line": 95,
+          "end_line": 96
+        },
+        {
+          "chunk_id": "03b5ac0e8c5bbc31a0847a68f9cf962c0c59d819e89f3fe3491c06d435c8a6b5",
+          "file": "tests/test_requests.py",
+          "start_line": 2255,
+          "end_line": 2264
+        },
+        {
+          "chunk_id": "110b0b1ee595fe5ea7fc01e62541aada75bb36e91e36b93306d9b4f6373e9c48",
+          "file": "tests/test_requests.py",
+          "start_line": 1894,
+          "end_line": 1899
+        },
+        {
+          "chunk_id": "5ae5bcf006b781fcc43b290013c6e2d758a9bb77d7af801c2963e49d7b9c7efa",
+          "file": "tests/test_requests.py",
+          "start_line": 1502,
+          "end_line": 1510
+        },
+        {
+          "chunk_id": "d910c643d500e9b0da981a9bcf5089959bfa89e987516dff58467e67cb555378",
+          "file": "tests/test_requests.py",
+          "start_line": 2555,
+          "end_line": 2584
+        },
+        {
+          "chunk_id": "4e3e992d864f42bf7651a5a1fcfd338f956df229a2b3de89d80ae613a69f4aaf",
+          "file": "tests/test_requests.py",
+          "start_line": 2766,
+          "end_line": 2768
+        }
+      ]
+    },
+    {
+      "question_id": "requests-5",
+      "repo": "requests",
+      "context_files": [
+        "tests/test_utils.py"
+      ],
+      "blocks": 4,
+      "chars": 900,
+      "omitted": 0,
+      "gold_files_in_context": 1,
+      "full_gold": false,
+      "ranking": [
+        {
+          "chunk_id": "401b4bf44db95b65cd637a485a379444019e4933eb86996b9e2b36613150d601",
+          "file": "tests/test_utils.py",
+          "start_line": 395,
+          "end_line": 427
+        },
+        {
+          "chunk_id": "1c8aff977dc3a9bb47233a03a44fad51429b34a352b44893f47da6cb48baff8b",
+          "file": "tests/test_utils.py",
+          "start_line": 425,
+          "end_line": 427
+        },
+        {
+          "chunk_id": "e642df310eb04a29cf5c3ede27b3be8df228a13a23e16c61a172b500fba370d3",
+          "file": "tests/test_utils.py",
+          "start_line": 409,
+          "end_line": 411
+        },
+        {
+          "chunk_id": "cf439d934e877d11b8d9fb5b00d0df5772a2a27136ef652c71677133aac0253f",
+          "file": "tests/test_utils.py",
+          "start_line": 413,
+          "end_line": 414
+        },
+        {
+          "chunk_id": "e8fb59df7d00f8b21cad280e6e33dd834cdaaeb8e4bcf8f2991fdc234efcb4b9",
+          "file": "src/requests/utils.py",
+          "start_line": 947,
+          "end_line": 976
+        },
+        {
+          "chunk_id": "9888433c9de20afe5ac061d00e4eae37f7fa409f5c58fc9a665cb4677a1b695b",
+          "file": "tests/test_lowlevel.py",
+          "start_line": 407,
+          "end_line": 428
+        },
+        {
+          "chunk_id": "b611c41c19903f8ab257ebc30ae3b98c413e610ef15de70ff6a7db56977edbb4",
+          "file": "tests/test_utils.py",
+          "start_line": 363,
+          "end_line": 392
+        },
+        {
+          "chunk_id": "11ac6c58a646932cbba19d9375019a3fb0d9a49f1680d998e1e99149a18c3d31",
+          "file": "tests/test_utils.py",
+          "start_line": 310,
+          "end_line": 329
+        },
+        {
+          "chunk_id": "2a7848ef5495ca32574c2c1d5be2f9ca170f956e16b017ff1d820b06fae5e930",
+          "file": "tests/test_utils.py",
+          "start_line": 381,
+          "end_line": 384
+        },
+        {
+          "chunk_id": "c772a6f4d6cb979c24e27247a2c91dfef853c03f9f002c3736f9e42c73cfd8da",
+          "file": "tests/test_utils.py",
+          "start_line": 386,
+          "end_line": 392
+        }
+      ]
+    },
+    {
+      "question_id": "requests-6",
+      "repo": "requests",
+      "context_files": [
+        "tests/test_requests.py"
+      ],
+      "blocks": 3,
+      "chars": 5825,
+      "omitted": 4,
+      "gold_files_in_context": 1,
+      "full_gold": false,
+      "ranking": [
+        {
+          "chunk_id": "c11a798c06d7a322686693acf54896b3f31b695bacec9a5c07431cf7d651fc4b",
+          "file": "tests/test_requests.py",
+          "start_line": 82,
+          "end_line": 2274
+        },
+        {
+          "chunk_id": "f0f5c16871df8afb59eed30da1756b9f5cc872f6d2315ec948ec5071445b7d66",
+          "file": "tests/test_requests.py",
+          "start_line": 1051,
+          "end_line": 1058
+        },
+        {
+          "chunk_id": "b8cbe0cb9107e51bf1aae9b3ab9da640650f733b9dd7b063edfff5123d86a010",
+          "file": "tests/test_requests.py",
+          "start_line": 1026,
+          "end_line": 1049
+        },
+        {
+          "chunk_id": "85e5355a7f460f5b406659e8e27930ca29928853405781e0191e30d289d72025",
+          "file": "tests/test_requests.py",
+          "start_line": 1010,
+          "end_line": 1016
+        },
+        {
+          "chunk_id": "7157251b492b2e8a6c6171df62439c25ed17c868121ffc307a6755321c51d563",
+          "file": "tests/test_requests.py",
+          "start_line": 969,
+          "end_line": 983
+        },
+        {
+          "chunk_id": "9923035a9d45810b44fa9046ff83b5ad01bcd450a2e575f882d0eecd510abc92",
+          "file": "tests/test_requests.py",
+          "start_line": 956,
+          "end_line": 957
+        },
+        {
+          "chunk_id": "324320dced3c658518adfed87be796432d3982c9f4f3a3c64ab1642f277843ba",
+          "file": "tests/test_requests.py",
+          "start_line": 1570,
+          "end_line": 1573
+        },
+        {
+          "chunk_id": "278f1fcfdc62bf0eccddab26802324116b0ea10844cfc52a0bedd22e2290fe77",
+          "file": "tests/test_requests.py",
+          "start_line": 2874,
+          "end_line": 2903
+        },
+        {
+          "chunk_id": "308a02e3fbfd2a96ec449f1b41270a3c3e7fbf485566d5ba9ff9e1197b9b6f20",
+          "file": "tests/test_requests.py",
+          "start_line": 2970,
+          "end_line": 3007
+        },
+        {
+          "chunk_id": "cbfadb55937552df03533466abb4c099c4dbe025814da958a332690d84a3e931",
+          "file": "tests/test_requests.py",
+          "start_line": 2938,
+          "end_line": 2968
+        }
+      ]
+    },
+    {
+      "question_id": "requests-7",
+      "repo": "requests",
+      "context_files": [
+        "src/requests/models.py",
+        "tests/test_requests.py"
+      ],
+      "blocks": 6,
+      "chars": 5787,
+      "omitted": 4,
+      "gold_files_in_context": 1,
+      "full_gold": true,
+      "ranking": [
+        {
+          "chunk_id": "7d10dabe9e719925be5ae54a584b71baa7e108979edb65c587c26cffc3b4c211",
+          "file": "src/requests/models.py",
+          "start_line": 295,
+          "end_line": 310
+        },
+        {
+          "chunk_id": "fdf1f7e2643be423901cee23ec49756f4a3e5ea42123e140a472d2da52388db6",
+          "file": "src/requests/models.py",
+          "start_line": 230,
+          "end_line": 310
+        },
+        {
+          "chunk_id": "64aa27f2c946d67257ddd719eb0dd5cd81b10783115826d532fdefc4d0bfe7d4",
+          "file": "src/requests/models.py",
+          "start_line": 137,
+          "end_line": 203
+        },
+        {
+          "chunk_id": "3b379c37d3b0382678f0cff5c19320b5a1abdf7aae48563791baff73ba58d841",
+          "file": "src/requests/models.py",
+          "start_line": 313,
+          "end_line": 637
+        },
+        {
+          "chunk_id": "90887c60515eaa2cd1518ee72d054cd7e040497d089223d96a38686165eab43e",
+          "file": "src/requests/models.py",
+          "start_line": 494,
+          "end_line": 570
+        },
+        {
+          "chunk_id": "c11a798c06d7a322686693acf54896b3f31b695bacec9a5c07431cf7d651fc4b",
+          "file": "tests/test_requests.py",
+          "start_line": 82,
+          "end_line": 2274
+        },
+        {
+          "chunk_id": "8d9e9e2796d217cf0270d7509168ef47251b69b7128c7c3fb43e060b97363cf4",
+          "file": "tests/test_requests.py",
+          "start_line": 2706,
+          "end_line": 3007
+        },
+        {
+          "chunk_id": "0b4f2b6315abe22a18331a5e892f0f5a87517e3e23d1bc48beaf9e75e3890a3b",
+          "file": "tests/test_requests.py",
+          "start_line": 2738,
+          "end_line": 2748
+        },
+        {
+          "chunk_id": "a88425f9d97d654a126c27b2ca473d75958001d3b28b3620b50c43ac7cec3e5e",
+          "file": "tests/test_requests.py",
+          "start_line": 1538,
+          "end_line": 1552
+        },
+        {
+          "chunk_id": "41cb17681989a307ff3d1be56cbc7d33299ba6b1aec665aa9422abfa357131e1",
+          "file": "tests/test_requests.py",
+          "start_line": 1848,
+          "end_line": 1853
+        }
+      ]
+    },
+    {
+      "question_id": "requests-8",
+      "repo": "requests",
+      "context_files": [
+        "src/requests/exceptions.py"
+      ],
+      "blocks": 3,
+      "chars": 630,
+      "omitted": 0,
+      "gold_files_in_context": 1,
+      "full_gold": false,
+      "ranking": [
+        {
+          "chunk_id": "fd135cab65b96bf6149d1dd0125375937d8c4b98af35cfe255667a0454f63ca3",
+          "file": "src/requests/exceptions.py",
+          "start_line": 55,
+          "end_line": 56
+        },
+        {
+          "chunk_id": "0f45473fcfee1c4db54df6788b6b86d1e4e70910e27e7ee8610befacee767bc8",
+          "file": "src/requests/exceptions.py",
+          "start_line": 12,
+          "end_line": 24
+        },
+        {
+          "chunk_id": "118c54c327222a22048e9913d3fdec8b42fc5ae354c339616c28051d0f9940f2",
+          "file": "src/requests/exceptions.py",
+          "start_line": 17,
+          "end_line": 24
+        },
+        {
+          "chunk_id": "1aabc3e589cbb52783232b1e350cc5e37ad3800b9e8cee5e8a206f5d47244e87",
+          "file": "src/requests/exceptions.py",
+          "start_line": 31,
+          "end_line": 52
+        },
+        {
+          "chunk_id": "1eafb731b1b17df8ad0744c5a23a2a31512ad0a1e8134d7327b50f7ef67b0b62",
+          "file": "src/requests/exceptions.py",
+          "start_line": 119,
+          "end_line": 120
+        },
+        {
+          "chunk_id": "1d9ef7ea2a9d77a6ee038ec85555160f7d8774f7d347463b8d474b7feb04aaef",
+          "file": "src/requests/exceptions.py",
+          "start_line": 123,
+          "end_line": 124
+        },
+        {
+          "chunk_id": "43d6b448c7dda6f6fb453ed42137d73ff723aff910b914d947dc3aab1265ac5f",
+          "file": "src/requests/adapters.py",
+          "start_line": 590,
+          "end_line": 696
+        },
+        {
+          "chunk_id": "2766c96b6f311fe5e45369db333b8bae8c28de222890e860f1082a85d264723f",
+          "file": "tests/test_requests.py",
+          "start_line": 1575,
+          "end_line": 1583
+        },
+        {
+          "chunk_id": "3ae008a79675bd9e1c8cf7863d73654e35eb06df1697619b1c1a4e04754b23a5",
+          "file": "tests/test_requests.py",
+          "start_line": 2845,
+          "end_line": 2851
+        },
+        {
+          "chunk_id": "5ae5bcf006b781fcc43b290013c6e2d758a9bb77d7af801c2963e49d7b9c7efa",
+          "file": "tests/test_requests.py",
+          "start_line": 1502,
+          "end_line": 1510
+        }
+      ]
+    },
+    {
+      "question_id": "requests-9",
+      "repo": "requests",
+      "context_files": [
+        "src/requests/exceptions.py"
+      ],
+      "blocks": 2,
+      "chars": 235,
+      "omitted": 0,
+      "gold_files_in_context": 1,
+      "full_gold": false,
+      "ranking": [
+        {
+          "chunk_id": "0e4ccd6a546c0d353392035bfd15442fb9af15c2697c89eb696a0ae247545d43",
+          "file": "src/requests/exceptions.py",
+          "start_line": 135,
+          "end_line": 136
+        },
+        {
+          "chunk_id": "8b4ed0dd40f4119bf29938ebba5aeae30df0bf72926c51e8c959ff3acdacff6c",
+          "file": "src/requests/exceptions.py",
+          "start_line": 127,
+          "end_line": 128
+        },
+        {
+          "chunk_id": "91ba44ea946a17e1da308ea05950a184f63660de2389130f19eef08e5ccbe1bf",
+          "file": "src/requests/utils.py",
+          "start_line": 1071,
+          "end_line": 1086
+        },
+        {
+          "chunk_id": "e5b41198e21602cf49a7189983d38d4df27c48e1cb4b01998a90d94541918da5",
+          "file": "src/requests/models.py",
+          "start_line": 799,
+          "end_line": 855
+        },
+        {
+          "chunk_id": "1aabc3e589cbb52783232b1e350cc5e37ad3800b9e8cee5e8a206f5d47244e87",
+          "file": "src/requests/exceptions.py",
+          "start_line": 31,
+          "end_line": 52
+        },
+        {
+          "chunk_id": "f7311f1ac59280b5cee9f7a39dc9545de09f5c74b8119cbf0d753592bac61a9a",
+          "file": "tests/test_requests.py",
+          "start_line": 2020,
+          "end_line": 2041
+        },
+        {
+          "chunk_id": "88fda4c6571fd5a81fbd4ccc469d64f13d6c0d9154f7af09578f95c5c5b3030f",
+          "file": "tests/test_requests.py",
+          "start_line": 2000,
+          "end_line": 2018
+        },
+        {
+          "chunk_id": "d3d9bda539718607bfe0d91fd7ec509059739703ed3376c803362a369603051f",
+          "file": "tests/test_requests.py",
+          "start_line": 2043,
+          "end_line": 2061
+        },
+        {
+          "chunk_id": "5ae5bcf006b781fcc43b290013c6e2d758a9bb77d7af801c2963e49d7b9c7efa",
+          "file": "tests/test_requests.py",
+          "start_line": 1502,
+          "end_line": 1510
+        },
+        {
+          "chunk_id": "c11a798c06d7a322686693acf54896b3f31b695bacec9a5c07431cf7d651fc4b",
+          "file": "tests/test_requests.py",
+          "start_line": 82,
+          "end_line": 2274
+        }
+      ]
+    },
+    {
+      "question_id": "requests-10",
+      "repo": "requests",
+      "context_files": [
+        "src/requests/exceptions.py"
+      ],
+      "blocks": 2,
+      "chars": 561,
+      "omitted": 0,
+      "gold_files_in_context": 1,
+      "full_gold": false,
+      "ranking": [
+        {
+          "chunk_id": "118c54c327222a22048e9913d3fdec8b42fc5ae354c339616c28051d0f9940f2",
+          "file": "src/requests/exceptions.py",
+          "start_line": 17,
+          "end_line": 24
+        },
+        {
+          "chunk_id": "0f45473fcfee1c4db54df6788b6b86d1e4e70910e27e7ee8610befacee767bc8",
+          "file": "src/requests/exceptions.py",
+          "start_line": 12,
+          "end_line": 24
+        },
+        {
+          "chunk_id": "c9351607185133894402cd8a4d6f5950bb49349dd6033497a68b088dd002a5ab",
+          "file": "src/requests/models.py",
+          "start_line": 640,
+          "end_line": 1039
+        },
+        {
+          "chunk_id": "1e22b34ea46bf76f80c2c383705dd770bd402694f7877b09cad4b87e88a941da",
+          "file": "src/requests/models.py",
+          "start_line": 785,
+          "end_line": 787
+        },
+        {
+          "chunk_id": "bf3331ce45bd7557449804e27d1c024c09c4ed7ed3bb1be9d9f2d02858c6c0a7",
+          "file": "src/requests/models.py",
+          "start_line": 206,
+          "end_line": 227
+        },
+        {
+          "chunk_id": "1aabc3e589cbb52783232b1e350cc5e37ad3800b9e8cee5e8a206f5d47244e87",
+          "file": "src/requests/exceptions.py",
+          "start_line": 31,
+          "end_line": 52
+        },
+        {
+          "chunk_id": "fd135cab65b96bf6149d1dd0125375937d8c4b98af35cfe255667a0454f63ca3",
+          "file": "src/requests/exceptions.py",
+          "start_line": 55,
+          "end_line": 56
+        },
+        {
+          "chunk_id": "ba40d090431376368a254717d7243a2b7f1e554a08e47f1b13ba29c7307a75e1",
+          "file": "src/requests/exceptions.py",
+          "start_line": 44,
+          "end_line": 52
+        },
+        {
+          "chunk_id": "875944c5202b879cc988dd3b7f06a0ba1504c05e75861b5842bda7e8baacef5f",
+          "file": "src/requests/sessions.py",
+          "start_line": 356,
+          "end_line": 816
+        },
+        {
+          "chunk_id": "3ae008a79675bd9e1c8cf7863d73654e35eb06df1697619b1c1a4e04754b23a5",
+          "file": "tests/test_requests.py",
+          "start_line": 2845,
+          "end_line": 2851
+        }
+      ]
+    },
+    {
+      "question_id": "pytest-1",
+      "repo": "pytest",
+      "context_files": [
+        "src/_pytest/pytester.py"
+      ],
+      "blocks": 1,
+      "chars": 1415,
+      "omitted": 0,
+      "gold_files_in_context": 1,
+      "full_gold": false,
+      "ranking": [
+        {
+          "chunk_id": "feb3c9dde388fffa1fc2e79b81c8dc3e023479f95ad1e0fccbe99bfe6e1495b4",
+          "file": "src/_pytest/pytester.py",
+          "start_line": 1476,
+          "end_line": 1506
+        },
+        {
+          "chunk_id": "c68463aa6c1973fab2c4615443a68df0a452db80e386acac7a1f64a1c6a1eda0",
+          "file": "src/_pytest/pytester.py",
+          "start_line": 1153,
+          "end_line": 1195
+        },
+        {
+          "chunk_id": "0b937f036e2daa6fdf705d6bb59d06350f1144e22ba02b377c98c04a651d58a8",
+          "file": "src/_pytest/pytester.py",
+          "start_line": 477,
+          "end_line": 490
+        },
+        {
+          "chunk_id": "a6e1485763e768e1c63a87aa10f1a1a8a2f12cc8cf1a9ad930feb1f60d17e790",
+          "file": "testing/test_pytester.py",
+          "start_line": 413,
+          "end_line": 415
+        },
+        {
+          "chunk_id": "7d3a2077d9b7b674911d007236736e4c4bd4491344e5981832ac6238314e63f4",
+          "file": "testing/test_pytester.py",
+          "start_line": 444,
+          "end_line": 446
+        },
+        {
+          "chunk_id": "71bb892a69e3555294cacdc4cf135db8e81398ad56165eb06d9addec302e1107",
+          "file": "testing/test_runner.py",
+          "start_line": 651,
+          "end_line": 679
+        },
+        {
+          "chunk_id": "7168514709a944eaa97e767bb871a4dd3673e2a04a9abbbadba5e3dc53d7576a",
+          "file": "testing/test_runner.py",
+          "start_line": 731,
+          "end_line": 750
+        },
+        {
+          "chunk_id": "af1c86d3ab5d6c64d00dc249d36993ab9bf1e6e28dbf4f6859f2c624d1a28633",
+          "file": "testing/test_runner.py",
+          "start_line": 912,
+          "end_line": 927
+        },
+        {
+          "chunk_id": "70ec4f6663a0f6294a9b38fdacaf9a716e8a328a565726697db99b27314bdf70",
+          "file": "testing/test_pytester.py",
+          "start_line": 839,
+          "end_line": 845
+        },
+        {
+          "chunk_id": "d28cbabf1681eb977b91abe6e500dc242412c70a0905766b2834192cf2f10b4e",
+          "file": "testing/test_pytester.py",
+          "start_line": 418,
+          "end_line": 436
+        }
+      ]
+    },
+    {
+      "question_id": "pytest-2",
+      "repo": "pytest",
+      "context_files": [
+        "src/_pytest/fixtures.py"
+      ],
+      "blocks": 1,
+      "chars": 975,
+      "omitted": 0,
+      "gold_files_in_context": 1,
+      "full_gold": false,
+      "ranking": [
+        {
+          "chunk_id": "61dfed2b0c04afcaa3d220c0fa54c977c3d342fbe26485e49ec328fc6751f918",
+          "file": "src/_pytest/fixtures.py",
+          "start_line": 1224,
+          "end_line": 1248
+        },
+        {
+          "chunk_id": "26224454542bdfedd5e8c39f60accc538d9a446ff756886c9d87bc7d1afb03e7",
+          "file": "src/_pytest/fixtures.py",
+          "start_line": 1287,
+          "end_line": 1294
+        },
+        {
+          "chunk_id": "0946ed75eba59ff3433dfc9324b4ce115842fb2069b12cf60f0304a4858223d8",
+          "file": "src/_pytest/fixtures.py",
+          "start_line": 1210,
+          "end_line": 1248
+        },
+        {
+          "chunk_id": "0fcbd56b487b8b7c48855a24de6f8cd393e5f9eb649d2ee86c7ac48767fe3896",
+          "file": "src/_pytest/fixtures.py",
+          "start_line": 1324,
+          "end_line": 1396
+        },
+        {
+          "chunk_id": "60ee3b94d602a897696b7ec9738f949871dadb43eabdc6f08e867412734e215f",
+          "file": "src/_pytest/fixtures.py",
+          "start_line": 1278,
+          "end_line": 1285
+        },
+        {
+          "chunk_id": "c158f3991359087664e7f38bad467aa8504dd8803430b6c0ce6ac5c454b68d9d",
+          "file": "src/_pytest/fixtures.py",
+          "start_line": 1252,
+          "end_line": 1297
+        },
+        {
+          "chunk_id": "ed241a18b95725b45889ae7823e2282bb7f398a106649c4bcab2630ec895aba7",
+          "file": "src/_pytest/mark/structures.py",
+          "start_line": 391,
+          "end_line": 404
+        },
+        {
+          "chunk_id": "af5c58afd810bf101cf841da6e98686cb715e5c6d2c646169831032a7338bdf7",
+          "file": "src/_pytest/fixtures.py",
+          "start_line": 1313,
+          "end_line": 1321
+        },
+        {
+          "chunk_id": "3298016ecb437007e8cc2590d7d42fb1895f52088a05180079cc1ff5a4cd8012",
+          "file": "src/_pytest/fixtures.py",
+          "start_line": 1221,
+          "end_line": 1222
+        },
+        {
+          "chunk_id": "c07a10d7d7a53952ebf6cb497061d830ae31d9c204d70089c472f71b89b07357",
+          "file": "src/_pytest/fixtures.py",
+          "start_line": 161,
+          "end_line": 165
+        }
+      ]
+    },
+    {
+      "question_id": "pytest-3",
+      "repo": "pytest",
+      "context_files": [
+        "src/_pytest/fixtures.py",
+        "testing/python/collect.py",
+        "testing/python/fixtures.py",
+        "testing/test_junitxml.py"
+      ],
+      "blocks": 9,
+      "chars": 5589,
+      "omitted": 1,
+      "gold_files_in_context": 0,
+      "full_gold": true,
+      "ranking": [
+        {
+          "chunk_id": "40a02e8c38ee971c1e567150eac2776ccf806444eb6d667e0127cb52051fcaec",
+          "file": "src/_pytest/fixtures.py",
+          "start_line": 815,
+          "end_line": 879
+        },
+        {
+          "chunk_id": "68108e19c71fa9949cc9f1c850a43495ea72a3bd48d4b77a6a740ace509767e4",
+          "file": "testing/python/fixtures.py",
+          "start_line": 616,
+          "end_line": 652
+        },
+        {
+          "chunk_id": "f2eaa11416a1095fce787218b314b7a510edeb472da8edb7aed1758a879731f3",
+          "file": "src/_pytest/fixtures.py",
+          "start_line": 882,
+          "end_line": 913
+        },
+        {
+          "chunk_id": "53c0a5e440878d3f1207a6cb653d590bd822861a41e31e149c5c93d81c186514",
+          "file": "src/_pytest/fixtures.py",
+          "start_line": 827,
+          "end_line": 879
+        },
+        {
+          "chunk_id": "c158f3991359087664e7f38bad467aa8504dd8803430b6c0ce6ac5c454b68d9d",
+          "file": "src/_pytest/fixtures.py",
+          "start_line": 1252,
+          "end_line": 1297
+        },
+        {
+          "chunk_id": "2669862d8ca11fc341e2d326bba5ba49d80a9d3f91328d6b12c125baa074a12b",
+          "file": "testing/python/fixtures.py",
+          "start_line": 4566,
+          "end_line": 4574
+        },
+        {
+          "chunk_id": "05766bb7cdfcde6378e250cef692935da50e1985a8ed997c0c5b8da02a0d5c6e",
+          "file": "src/_pytest/fixtures.py",
+          "start_line": 975,
+          "end_line": 1140
+        },
+        {
+          "chunk_id": "6e427effa9b5e8e84dcfaf4efc40a96e91c554eda08ed7995c8a8c89b2e115ca",
+          "file": "testing/python/collect.py",
+          "start_line": 1130,
+          "end_line": 1156
+        },
+        {
+          "chunk_id": "3682d3326387db8ea29f40267d8f4ff3e485dfaf0915138e4bed9438958dfd33",
+          "file": "testing/test_junitxml.py",
+          "start_line": 56,
+          "end_line": 63
+        },
+        {
+          "chunk_id": "47d7303931c47bceed2b48f149cd353beefa3fb257312b74ae4501623eb0cb40",
+          "file": "testing/test_conftest.py",
+          "start_line": 315,
+          "end_line": 357
+        }
+      ]
+    },
+    {
+      "question_id": "pytest-4",
+      "repo": "pytest",
+      "context_files": [
+        "src/_pytest/reports.py"
+      ],
+      "blocks": 1,
+      "chars": 2376,
+      "omitted": 0,
+      "gold_files_in_context": 1,
+      "full_gold": false,
+      "ranking": [
+        {
+          "chunk_id": "fe779e1f07f6a510f509b1547e62a415f7f70368f1eeb5cabbdb084b2168f8ed",
+          "file": "src/_pytest/reports.py",
+          "start_line": 334,
+          "end_line": 396
+        },
+        {
+          "chunk_id": "467d6121ccda1ffc28b1bd55b7c4c3e911e821f1174833049a8ad866fd533538",
+          "file": "src/_pytest/skipping.py",
+          "start_line": 272,
+          "end_line": 307
+        },
+        {
+          "chunk_id": "2a865bcd20df9893a90ed562ef23e7a386de33dd831eff32bc4804675a1ab0d1",
+          "file": "src/_pytest/runner.py",
+          "start_line": 324,
+          "end_line": 359
+        },
+        {
+          "chunk_id": "e01191a20247a59e7f78c48618272592fc3ddd634f2556f8181a211e31ad6e41",
+          "file": "src/_pytest/nodes.py",
+          "start_line": 408,
+          "end_line": 464
+        },
+        {
+          "chunk_id": "0c9da1647c2fb047e2a1866eab18f062aa37325dc186357917e45b991b91db71",
+          "file": "src/_pytest/python.py",
+          "start_line": 1706,
+          "end_line": 1713
+        },
+        {
+          "chunk_id": "3e8988e2ade555b277c030c6f51dfeed1d00d56eefd5edf46adb2c71cbdfc036",
+          "file": "src/_pytest/runner.py",
+          "start_line": 230,
+          "end_line": 253
+        },
+        {
+          "chunk_id": "6dcf21afe44fdddb28bf0cc35f5ae6f29fbee3250938dd3e7822db1c8f723d0f",
+          "file": "src/_pytest/runner.py",
+          "start_line": 367,
+          "end_line": 368
+        },
+        {
+          "chunk_id": "2e5290741efd499fb2cf01b5fff3a84c44419b641fd344bbf6d257c7b2bbfefa",
+          "file": "src/_pytest/terminal.py",
+          "start_line": 325,
+          "end_line": 337
+        },
+        {
+          "chunk_id": "b4e2ccf9460bf29bb5d107d6331353b537068ad75141a6692adb6c63dcd2f055",
+          "file": "src/_pytest/_code/code.py",
+          "start_line": 1053,
+          "end_line": 1103
+        },
+        {
+          "chunk_id": "64a32dc22629750a4e53a1892495f52b831c780ff1e5afe021d52fdc0a7c1776",
+          "file": "testing/io/test_saferepr.py",
+          "start_line": 68,
+          "end_line": 126
+        }
+      ]
+    },
+    {
+      "question_id": "pytest-5",
+      "repo": "pytest",
+      "context_files": [
+        "testing/python/fixtures.py"
+      ],
+      "blocks": 2,
+      "chars": 1047,
+      "omitted": 0,
+      "gold_files_in_context": 1,
+      "full_gold": false,
+      "ranking": [
+        {
+          "chunk_id": "e7ebd94c0fb693335c81d7dfcec84f62b6837f68ee4596cbf3e6bab79d8a5260",
+          "file": "testing/python/fixtures.py",
+          "start_line": 3430,
+          "end_line": 3479
+        },
+        {
+          "chunk_id": "0b937f036e2daa6fdf705d6bb59d06350f1144e22ba02b377c98c04a651d58a8",
+          "file": "src/_pytest/pytester.py",
+          "start_line": 477,
+          "end_line": 490
+        },
+        {
+          "chunk_id": "40e28ae66e4be50b257f2fea31c9722c8a1a529d8d940b218d882f9f300e71c4",
+          "file": "testing/python/fixtures.py",
+          "start_line": 3461,
+          "end_line": 3479
+        },
+        {
+          "chunk_id": "3348a1408b1a699c190034c31e2103874496941c918b4f4741b37372e57d7cf7",
+          "file": "src/_pytest/fixtures.py",
+          "start_line": 372,
+          "end_line": 681
+        },
+        {
+          "chunk_id": "08ba67ef07c76f4b620e5a47029f1d9a5ee97ee7a3327a8616c2cc3da76ffdd6",
+          "file": "testing/test_doctest.py",
+          "start_line": 1373,
+          "end_line": 1400
+        },
+        {
+          "chunk_id": "ec19aaa30cd3397dd8f3d808e526c292753181eea66cc48a823cbfae362cb09a",
+          "file": "testing/python/fixtures.py",
+          "start_line": 1136,
+          "end_line": 1147
+        },
+        {
+          "chunk_id": "44fd91af71f22242e301274533531ea4ba0cffdda57b169437a4d557f95762ac",
+          "file": "testing/python/fixtures.py",
+          "start_line": 3153,
+          "end_line": 3167
+        },
+        {
+          "chunk_id": "dac1c82b0cda3feab33e682ea2cdcf463d4f7e398b25674bf894560b5d448d07",
+          "file": "testing/python/metafunc.py",
+          "start_line": 139,
+          "end_line": 150
+        },
+        {
+          "chunk_id": "92a5213b212c63f5822dafa7fea560cd90dc24d586c07d6c9405fc8e0be26a97",
+          "file": "testing/python/fixtures.py",
+          "start_line": 1142,
+          "end_line": 1147
+        },
+        {
+          "chunk_id": "67193cf652b00cf839b0c2c0840bd8fd06239f00ce99ae33861a9332188d6cd4",
+          "file": "src/_pytest/fixtures.py",
+          "start_line": 684,
+          "end_line": 723
+        }
+      ]
+    },
+    {
+      "question_id": "pytest-6",
+      "repo": "pytest",
+      "context_files": [
+        "src/_pytest/_io/saferepr.py"
+      ],
+      "blocks": 1,
+      "chars": 400,
+      "omitted": 0,
+      "gold_files_in_context": 1,
+      "full_gold": false,
+      "ranking": [
+        {
+          "chunk_id": "3f029b513012084f0602da64b2946f97749775b7e5126362b533b30a9b101479",
+          "file": "src/_pytest/_io/saferepr.py",
+          "start_line": 16,
+          "end_line": 25
+        },
+        {
+          "chunk_id": "e70a5b2854f9cabdc6d0552bf0d191e554484efcb2d4a1fceae0e01a1328f46a",
+          "file": "src/_pytest/_io/saferepr.py",
+          "start_line": 57,
+          "end_line": 69
+        },
+        {
+          "chunk_id": "d566c9fc560657f1350cd8fb15c6dce920cc94d32369f5f75b41cf939cfcf930",
+          "file": "src/_pytest/_io/saferepr.py",
+          "start_line": 36,
+          "end_line": 80
+        },
+        {
+          "chunk_id": "64a32dc22629750a4e53a1892495f52b831c780ff1e5afe021d52fdc0a7c1776",
+          "file": "testing/io/test_saferepr.py",
+          "start_line": 68,
+          "end_line": 126
+        },
+        {
+          "chunk_id": "589ff762cc869907b7f749b28abfaf6787b4216987616a72e0acbc88055ff84d",
+          "file": "src/_pytest/_io/saferepr.py",
+          "start_line": 83,
+          "end_line": 92
+        },
+        {
+          "chunk_id": "765ddcda460e9720687a64860a4e1727e1595d8d780d0ff20d7e157f831ec31f",
+          "file": "src/_pytest/_io/saferepr.py",
+          "start_line": 99,
+          "end_line": 111
+        },
+        {
+          "chunk_id": "c29158f37a6ba023975cc79e4068bc514e58308ac33dca87daf127389558621a",
+          "file": "src/_pytest/_io/pprint.py",
+          "start_line": 590,
+          "end_line": 646
+        },
+        {
+          "chunk_id": "495ab2b8d8f590554295a5a366599c8988bc229a80d1150189e30b9fa2f72e9b",
+          "file": "src/_pytest/_io/saferepr.py",
+          "start_line": 7,
+          "end_line": 13
+        },
+        {
+          "chunk_id": "263826508f1d858924da9f92cd5e1bd7a2133aa4e575bbc3b8e9b312dd5b2e29",
+          "file": "src/_pytest/_io/saferepr.py",
+          "start_line": 71,
+          "end_line": 80
+        },
+        {
+          "chunk_id": "23eaaadbac429ca9611cd4973b8dc16b3d9df724f67ee915d0112e7f56590b22",
+          "file": "testing/io/test_saferepr.py",
+          "start_line": 39,
+          "end_line": 65
+        }
+      ]
+    },
+    {
+      "question_id": "pytest-7",
+      "repo": "pytest",
+      "context_files": [
+        "src/_pytest/legacypath.py"
+      ],
+      "blocks": 2,
+      "chars": 817,
+      "omitted": 0,
+      "gold_files_in_context": 1,
+      "full_gold": false,
+      "ranking": [
+        {
+          "chunk_id": "5f517e7c2caf3eff4af05cb140244c5260bec1d0902eaccfedda46b4245ea6e3",
+          "file": "src/_pytest/legacypath.py",
+          "start_line": 306,
+          "end_line": 320
+        },
+        {
+          "chunk_id": "32ec99716b52773a260f61b32e94bc182b7ced06201ac7caab824307bf5cc527",
+          "file": "src/_pytest/legacypath.py",
+          "start_line": 60,
+          "end_line": 62
+        },
+        {
+          "chunk_id": "5aae7b12eec5e22d27a5cbaed4bc7651cf9eda9061ace2fefd9d792064a9e3a6",
+          "file": "src/_pytest/legacypath.py",
+          "start_line": 299,
+          "end_line": 302
+        },
+        {
+          "chunk_id": "cc7af301c20c196bc6209689fa2b7b62817521be1d1f5e7b12d241707f9a3629",
+          "file": "src/_pytest/legacypath.py",
+          "start_line": 256,
+          "end_line": 263
+        },
+        {
+          "chunk_id": "b36aae4af7f3f25bbdce5caf96c38f34a92be6ef0d0cff330205d7f75d690ef6",
+          "file": "src/_pytest/legacypath.py",
+          "start_line": 296,
+          "end_line": 320
+        },
+        {
+          "chunk_id": "0fd305597526172dfffb195a1ac4f55b04c2564baac1e7d28186e6e56d3f8f82",
+          "file": "testing/test_legacypath.py",
+          "start_line": 68,
+          "end_line": 69
+        },
+        {
+          "chunk_id": "4184064939c7b892d34f0e425cc10abe9a591777cd77c640546ca2f2c26ade46",
+          "file": "src/_pytest/legacypath.py",
+          "start_line": 440,
+          "end_line": 459
+        },
+        {
+          "chunk_id": "b848b35fbae9346fe5dbb5e0ce583dfe90b7b708422f8ecf42799f4ceecf15fb",
+          "file": "src/_pytest/legacypath.py",
+          "start_line": 287,
+          "end_line": 289
+        },
+        {
+          "chunk_id": "08061c40f5cbf8a874ba2774dc3395c5832f05df9d5d4388a5ef2926125c12ef",
+          "file": "src/_pytest/legacypath.py",
+          "start_line": 253,
+          "end_line": 263
+        },
+        {
+          "chunk_id": "2ccea10ae8255066c365b8595b98d719da81efb14ed5a02c219053ea4bcdc0e1",
+          "file": "src/_pytest/legacypath.py",
+          "start_line": 65,
+          "end_line": 66
+        }
+      ]
+    },
+    {
+      "question_id": "pytest-8",
+      "repo": "pytest",
+      "context_files": [
+        "src/_pytest/_argcomplete.py",
+        "testing/test_argcomplete.py"
+      ],
+      "blocks": 7,
+      "chars": 2668,
+      "omitted": 0,
+      "gold_files_in_context": 1,
+      "full_gold": true,
+      "ranking": [
+        {
+          "chunk_id": "86c4751d56b9b1a0c278bf3809f7bd757d82f791785d346dc5290e49103cbeb1",
+          "file": "testing/test_argcomplete.py",
+          "start_line": 72,
+          "end_line": 99
+        },
+        {
+          "chunk_id": "c53af2213749641ae201da414ccbb80f4db0efd05b334fca22767e5ad45a525f",
+          "file": "testing/test_argcomplete.py",
+          "start_line": 39,
+          "end_line": 69
+        },
+        {
+          "chunk_id": "17b1e7730f28a01da7028e31d064c4631bb62438d7366152b193fd4973fe44fb",
+          "file": "testing/test_argcomplete.py",
+          "start_line": 74,
+          "end_line": 89
+        },
+        {
+          "chunk_id": "0f3d7ba1d70502b92ee76c0edb61f2281ddd7c22b416a6074b9c82ee4c34f5e8",
+          "file": "src/_pytest/_argcomplete.py",
+          "start_line": 74,
+          "end_line": 99
+        },
+        {
+          "chunk_id": "937860df9b504e081c293d16db8353662ecef0bebbc6f391177844c4ff2b327d",
+          "file": "testing/test_argcomplete.py",
+          "start_line": 92,
+          "end_line": 99
+        },
+        {
+          "chunk_id": "5bf07266f1a54530d6ff36f6895fbcc808bef795933633e0e86dce9011c1d98a",
+          "file": "testing/test_argcomplete.py",
+          "start_line": 50,
+          "end_line": 69
+        },
+        {
+          "chunk_id": "51ac78e48a4b7c91db2d38cad81bb9f3f67a5a3d920fab1c77cd88471285c31a",
+          "file": "src/_pytest/_argcomplete.py",
+          "start_line": 80,
+          "end_line": 99
+        },
+        {
+          "chunk_id": "572ac846870b52c15702ef415fe8ca047d52d67ff60295c668769a8e6ce9a2b1",
+          "file": "testing/test_argcomplete.py",
+          "start_line": 15,
+          "end_line": 24
+        },
+        {
+          "chunk_id": "aecbbf94e8e03f3a7cb398718b2cf2129b621a60d363cd93f02b90c676b3d7c4",
+          "file": "src/_pytest/pytester.py",
+          "start_line": 1539,
+          "end_line": 1554
+        },
+        {
+          "chunk_id": "2cce8589079aef998af59f312f51e7b3de3c01fe7a1e978c624e4bd7e7df38ea",
+          "file": "testing/test_parseopt.py",
+          "start_line": 303,
+          "end_line": 358
+        }
+      ]
+    },
+    {
+      "question_id": "pytest-9",
+      "repo": "pytest",
+      "context_files": [
+        "testing/test_skipping.py"
+      ],
+      "blocks": 5,
+      "chars": 1556,
+      "omitted": 0,
+      "gold_files_in_context": 0,
+      "full_gold": false,
+      "ranking": [
+        {
+          "chunk_id": "2191858ef73295982c6ec2325801b39c07ce517fd1fbfe0df5c8be7c171e12fa",
+          "file": "testing/test_skipping.py",
+          "start_line": 15,
+          "end_line": 295
+        },
+        {
+          "chunk_id": "5b98cd2a1574553a7376b90779b70000088927039ac54db6b2352b7d29c4c983",
+          "file": "testing/test_skipping.py",
+          "start_line": 48,
+          "end_line": 59
+        },
+        {
+          "chunk_id": "36aa7b67fd4e6a1be816e363966b886450fbc8e64f0127d28de1a6e5a8ccce5d",
+          "file": "testing/test_skipping.py",
+          "start_line": 61,
+          "end_line": 72
+        },
+        {
+          "chunk_id": "7ad7d208e201ee9b084012fda82822c12d0982844abe701673eacc0b04a8c76a",
+          "file": "testing/test_skipping.py",
+          "start_line": 146,
+          "end_line": 159
+        },
+        {
+          "chunk_id": "fbf15c524371df49458bd8405759c2c73d0fba1b4d51787909656f0b437be892",
+          "file": "testing/test_skipping.py",
+          "start_line": 16,
+          "end_line": 19
+        },
+        {
+          "chunk_id": "235a8e53a3299ce09f77c09b4df01c216794d2ea71a093bb3fdfaf4fbdb6b147",
+          "file": "testing/test_skipping.py",
+          "start_line": 885,
+          "end_line": 895
+        },
+        {
+          "chunk_id": "90b08c5e989f0adf7e92ecddf0dcf8ca2fdef92e7d2cad191a4189c4716b7e4f",
+          "file": "src/_pytest/skipping.py",
+          "start_line": 88,
+          "end_line": 158
+        },
+        {
+          "chunk_id": "4087c9fac6258a7119470290ddaa9f28233b5278c58ebb23eb443600cd9f8669",
+          "file": "testing/test_skipping.py",
+          "start_line": 1247,
+          "end_line": 1298
+        },
+        {
+          "chunk_id": "9c6ccec72cbd94d596419b682ad05fdf94c9c8c59262ae19627896c34553f5df",
+          "file": "testing/test_runner.py",
+          "start_line": 796,
+          "end_line": 798
+        },
+        {
+          "chunk_id": "8d737e577515996ba1a0ca3b27a388bc43d63bee39f4ffdeff10adaa4e5600a5",
+          "file": "testing/test_skipping.py",
+          "start_line": 770,
+          "end_line": 881
+        }
+      ]
+    },
+    {
+      "question_id": "pytest-10",
+      "repo": "pytest",
+      "context_files": [
+        "src/_pytest/compat.py"
+      ],
+      "blocks": 1,
+      "chars": 43,
+      "omitted": 0,
+      "gold_files_in_context": 1,
+      "full_gold": false,
+      "ranking": [
+        {
+          "chunk_id": "d6a155e6798f619ae92cd5a136420d5bfa74a87b6d55a4bf193a7633b4bb6daa",
+          "file": "src/_pytest/compat.py",
+          "start_line": 43,
+          "end_line": 44
+        },
+        {
+          "chunk_id": "a9673192d76eaf57244f0c82281b936526d915a077eec8363b2319af8bbf864e",
+          "file": "src/_pytest/assertion/rewrite.py",
+          "start_line": 50,
+          "end_line": 51
+        },
+        {
+          "chunk_id": "82f765e9e68ecb68577f2c16f5ece341965406f63ac3cb639ed47cf9c9cf9199",
+          "file": "src/_pytest/config/argparsing.py",
+          "start_line": 23,
+          "end_line": 25
+        },
+        {
+          "chunk_id": "e031d1e051302a2ba682831c7934a20c989e8fc5880b1b1d058f00ba4c352e51",
+          "file": "src/_pytest/monkeypatch.py",
+          "start_line": 108,
+          "end_line": 110
+        },
+        {
+          "chunk_id": "599a058e19cce83d3fc2415ea1bd4743a6302fb917ff9e94ce3aa2e71c932f9b",
+          "file": "src/_pytest/config/__init__.py",
+          "start_line": 894,
+          "end_line": 896
+        },
+        {
+          "chunk_id": "5e5e4029b569d914574fd374a6c0c60c6b4e505508284d6405106d9f853fe73e",
+          "file": "src/_pytest/config/argparsing.py",
+          "start_line": 24,
+          "end_line": 25
+        },
+        {
+          "chunk_id": "cb8523979eb5fea0939bb7b514606428d7ed4c1e76e4186fad5c67c8fd227e91",
+          "file": "src/_pytest/config/__init__.py",
+          "start_line": 895,
+          "end_line": 896
+        },
+        {
+          "chunk_id": "d2cff360be308601a2410f308af43bdffe70c274bbce79a78fd438115a8c2d41",
+          "file": "src/_pytest/monkeypatch.py",
+          "start_line": 109,
+          "end_line": 110
+        },
+        {
+          "chunk_id": "3153d8ad07b75fd39bb3a0acd95ad73c640509e4c3a29f540e7bc9fce71dd3a4",
+          "file": "src/_pytest/pytester.py",
+          "start_line": 648,
+          "end_line": 1536
+        },
+        {
+          "chunk_id": "5535d72c4dab9776129e52a296e8c29c4342034e06edc57662df807cd8bae957",
+          "file": "src/_pytest/python.py",
+          "start_line": 327,
+          "end_line": 327
+        }
+      ]
+    },
+    {
+      "question_id": "pylint-1",
+      "repo": "pylint",
+      "context_files": [
+        "pylint/checkers/imports.py",
+        "pylint/checkers/utils.py",
+        "pylint/extensions/private_import.py",
+        "pylint/extensions/typing.py"
+      ],
+      "blocks": 5,
+      "chars": 5532,
+      "omitted": 5,
+      "gold_files_in_context": 1,
+      "full_gold": true,
+      "ranking": [
+        {
+          "chunk_id": "fe7922c6c88696c7463a044bbf26634f0e948035540ff0026c92656d86312dcc",
+          "file": "pylint/checkers/imports.py",
+          "start_line": 324,
+          "end_line": 1257
+        },
+        {
+          "chunk_id": "56bc0e09a6f32d8767d3d50e862912222ee4a8464cfbe528ef0245093d97b895",
+          "file": "pylint/extensions/private_import.py",
+          "start_line": 33,
+          "end_line": 38
+        },
+        {
+          "chunk_id": "6648459b8125a480602ef3d9e4450f4033c854e17e4ab667cae8fa8654af1e32",
+          "file": "pylint/extensions/private_import.py",
+          "start_line": 41,
+          "end_line": 55
+        },
+        {
+          "chunk_id": "c935f8a8018574a53c68ceb76fc27ea6bd80dd0dc40bc83f72415638d874b02c",
+          "file": "pylint/checkers/variables.py",
+          "start_line": 3258,
+          "end_line": 3346
+        },
+        {
+          "chunk_id": "42756789d3eeb9f742c1c7345440bda4aa295cb28628649cebc5007743fa5181",
+          "file": "pylint/extensions/typing.py",
+          "start_line": 89,
+          "end_line": 558
+        },
+        {
+          "chunk_id": "1e8eb844a539081d6ae835e90bf8d2ec494062583ebbf2a48245f9b8836bd9a9",
+          "file": "pylint/checkers/typecheck.py",
+          "start_line": 821,
+          "end_line": 2223
+        },
+        {
+          "chunk_id": "2fbc0d017d4e5549c8b3b4415a8418d27f07b4a56167be08cafcbab976e1e47f",
+          "file": "pylint/checkers/utils.py",
+          "start_line": 1607,
+          "end_line": 1610
+        },
+        {
+          "chunk_id": "a13a47c113de6f793a882fe39f13c1748410bc1b5a5b243eca9ad343a581e37f",
+          "file": "pylint/extensions/typing.py",
+          "start_line": 202,
+          "end_line": 205
+        },
+        {
+          "chunk_id": "25814944e5e5b0218ebb5d7682edfa63ecec77b7aae4b1d2ca8fa3f9856bd287",
+          "file": "pylint/extensions/private_import.py",
+          "start_line": 58,
+          "end_line": 97
+        },
+        {
+          "chunk_id": "78da306c906ed2cd1d35592e56205263a74a0cb81d49f7ecfbeef3f362aa2941",
+          "file": "pylint/checkers/classes/class_checker.py",
+          "start_line": 1513,
+          "end_line": 1529
+        }
+      ]
+    },
+    {
+      "question_id": "pylint-2",
+      "repo": "pylint",
+      "context_files": [
+        "tests/functional/a/access/access_to__name__.py",
+        "tests/functional/c/class_members_py30.py",
+        "tests/functional/m/member/member_checks.py",
+        "tests/functional/m/metaclass_attr_access.py",
+        "tests/functional/n/no/no_member_assign_same_line.py",
+        "tests/functional/s/super/super_with_arguments.py",
+        "tests/functional/u/unpacking/unpacking_non_sequence.py",
+        "tests/functional/u/unused/unused_import_py30.py"
+      ],
+      "blocks": 10,
+      "chars": 1234,
+      "omitted": 0,
+      "gold_files_in_context": 1,
+      "full_gold": false,
+      "ranking": [
+        {
+          "chunk_id": "34bfb04c83fe6d46ed4532f67f5e607f66bd51e7f82816cb72413bd602b216bf",
+          "file": "tests/functional/m/metaclass_attr_access.py",
+          "start_line": 18,
+          "end_line": 19
+        },
+        {
+          "chunk_id": "bb68cd9d0ce9e60490c5d9687585e7643d8f74d7eff50ce03f62150da898cd34",
+          "file": "tests/functional/m/metaclass_attr_access.py",
+          "start_line": 13,
+          "end_line": 19
+        },
+        {
+          "chunk_id": "09e0adcc665b80907d63535eef07561e1ddb37aa0f4a9f2ee78908bccf76e108",
+          "file": "tests/functional/u/unpacking/unpacking_non_sequence.py",
+          "start_line": 111,
+          "end_line": 113
+        },
+        {
+          "chunk_id": "8dd6378500d1b43fc3ca8f6a26b3e4129fbf9ccfcd853e6661e595bbbac53b00",
+          "file": "tests/functional/m/member/member_checks.py",
+          "start_line": 167,
+          "end_line": 170
+        },
+        {
+          "chunk_id": "a6466b9c76da01274ab26abd086bcdfa3ed86f0998920d38bc2f076ff9094ca9",
+          "file": "tests/functional/a/access/access_to__name__.py",
+          "start_line": 20,
+          "end_line": 21
+        },
+        {
+          "chunk_id": "46f139f9158ba3d9009bd7f05dd0ba380d7af67bfe44ee1ff260c7d04184373e",
+          "file": "tests/functional/u/unused/unused_import_py30.py",
+          "start_line": 11,
+          "end_line": 13
+        },
+        {
+          "chunk_id": "3d69fe91d804bc6db62795b8de6a934d67563ec14136064bc96046ed45584ac1",
+          "file": "tests/functional/c/class_members_py30.py",
+          "start_line": 34,
+          "end_line": 35
+        },
+        {
+          "chunk_id": "31670bc967c8d797150c1ba8da8d3a373bd17dcad2ef2b372ffe75cacf404cd2",
+          "file": "tests/functional/m/member/member_checks.py",
+          "start_line": 169,
+          "end_line": 170
+        },
+        {
+          "chunk_id": "b6dd9774f6b6be3d4b8b345c1485b697ef1e301c61e5dc4f0f9849fb75ed2490",
+          "file": "tests/functional/n/no/no_member_assign_same_line.py",
+          "start_line": 13,
+          "end_line": 16
+        },
+        {
+          "chunk_id": "b885ce56f5fd5c66f4ecbeac0a7e19273266565acdc7e2a40ec554735a8dfe9b",
+          "file": "tests/functional/s/super/super_with_arguments.py",
+          "start_line": 30,
+          "end_line": 35
+        }
+      ]
+    },
+    {
+      "question_id": "pylint-3",
+      "repo": "pylint",
+      "context_files": [
+        "pylint/checkers/classes/special_methods_checker.py",
+        "pylint/checkers/logging.py",
+        "pylint/checkers/strings.py",
+        "tests/functional/i/invalid/invalid_format_returned.py",
+        "tests/functional/s/string/string_formatting.py"
+      ],
+      "blocks": 7,
+      "chars": 4655,
+      "omitted": 3,
+      "gold_files_in_context": 1,
+      "full_gold": false,
+      "ranking": [
+        {
+          "chunk_id": "725f5a8f9716102394cd581d6fd2eadaba1320c54ef3424b990af6272c9e151f",
+          "file": "tests/functional/s/string/string_formatting.py",
+          "start_line": 216,
+          "end_line": 222
+        },
+        {
+          "chunk_id": "bdd21283bbf339b17c29d584fdd1b188559040adf689dfa4c678210042bd823a",
+          "file": "pylint/checkers/strings.py",
+          "start_line": 223,
+          "end_line": 239
+        },
+        {
+          "chunk_id": "b5ed304baca3b41d8da68ed7b19cb1a77dcdf47723871892506b75c0077e7de7",
+          "file": "pylint/checkers/strings.py",
+          "start_line": 242,
+          "end_line": 636
+        },
+        {
+          "chunk_id": "b1c3fb1f4e5bc93581b5bed39380d6d2316e48df28fda587e5c2c520911e4028",
+          "file": "pylint/checkers/logging.py",
+          "start_line": 321,
+          "end_line": 370
+        },
+        {
+          "chunk_id": "a089acbc636676ce9c6845e8f0ca2f6d7b9762e8114a8949df84a753b25278ff",
+          "file": "pylint/checkers/logging.py",
+          "start_line": 373,
+          "end_line": 385
+        },
+        {
+          "chunk_id": "4e664e92b05d85b02d404847c87e47c8002874c7652e014c98ef314936176032",
+          "file": "pylint/checkers/utils.py",
+          "start_line": 510,
+          "end_line": 583
+        },
+        {
+          "chunk_id": "734e35468bfb9fb38fef98e05b25f82857add5e8095e8fde7f9269713c72851c",
+          "file": "tests/functional/i/invalid/invalid_format_returned.py",
+          "start_line": 23,
+          "end_line": 25
+        },
+        {
+          "chunk_id": "ce55656ab689f66935a70a3de2b45d3af196e9b6b4b3bb841334ca13aa4dbfa8",
+          "file": "pylint/checkers/classes/special_methods_checker.py",
+          "start_line": 364,
+          "end_line": 366
+        },
+        {
+          "chunk_id": "83832f4d78af0639a6a3ce32fafaa7666859b7f587a40c37edcca1eceaa5684f",
+          "file": "pylint/checkers/format.py",
+          "start_line": 147,
+          "end_line": 725
+        },
+        {
+          "chunk_id": "1e8eb844a539081d6ae835e90bf8d2ec494062583ebbf2a48245f9b8836bd9a9",
+          "file": "pylint/checkers/typecheck.py",
+          "start_line": 821,
+          "end_line": 2223
+        }
+      ]
+    },
+    {
+      "question_id": "pylint-4",
+      "repo": "pylint",
+      "context_files": [
+        "tests/functional/a/abstract/abstract_class_instantiated.py"
+      ],
+      "blocks": 1,
+      "chars": 33,
+      "omitted": 0,
+      "gold_files_in_context": 0,
+      "full_gold": false,
+      "ranking": [
+        {
+          "chunk_id": "477a2e152a2563d4a97d89b183b5463f0ab24bae4aca9a12c670727c57d9f8b1",
+          "file": "tests/functional/a/abstract/abstract_class_instantiated.py",
+          "start_line": 137,
+          "end_line": 138
+        },
+        {
+          "chunk_id": "9d6b85edde64d253c5e27a9eb1d97988d24d88a48c2861252073bd118603570e",
+          "file": "tests/functional/g/generic_alias/generic_alias_related.py",
+          "start_line": 48,
+          "end_line": 51
+        },
+        {
+          "chunk_id": "4cb796d86b7f5cbc8cdaa3bd3dacaadc62eb6bdf5926e75806306a341ae0d437",
+          "file": "tests/functional/g/generic_alias/generic_alias_related_py39.py",
+          "start_line": 50,
+          "end_line": 53
+        },
+        {
+          "chunk_id": "8c3ca435d899b83e361d22bb9f723881289ff657ea37b9592101d30cf435c1f8",
+          "file": "tests/functional/g/generic_alias/generic_alias_related_py39.py",
+          "start_line": 52,
+          "end_line": 53
+        },
+        {
+          "chunk_id": "fe88ec912f1472dec82a3fb322405ea9329cf4f10352471ebddcc8a1a1d0cb78",
+          "file": "tests/functional/g/generic_alias/generic_alias_related.py",
+          "start_line": 50,
+          "end_line": 51
+        },
+        {
+          "chunk_id": "0933b4355c9aefeadf158743bf8cc9963ff6e46855b1bb6fcdabe7cfc3b50e20",
+          "file": "tests/functional/g/generic_alias/generic_alias_related.py",
+          "start_line": 53,
+          "end_line": 54
+        },
+        {
+          "chunk_id": "af516078e6d7fa7f2e10d691f14c972527fb06541a624fda02a078ae38075745",
+          "file": "tests/functional/g/generic_alias/generic_alias_typing.py",
+          "start_line": 68,
+          "end_line": 69
+        },
+        {
+          "chunk_id": "7d544b44108ffa389c785298fcec3d6db1edee6734b6f6387aaee3fdddf5da7a",
+          "file": "tests/functional/u/unsubscriptable_value.py",
+          "start_line": 93,
+          "end_line": 102
+        },
+        {
+          "chunk_id": "5afefda71a03435c9a70c60b674aa86c0568f8314adfe68b63dac41fb559af52",
+          "file": "tests/functional/g/generic_alias/generic_alias_related_py39.py",
+          "start_line": 55,
+          "end_line": 56
+        },
+        {
+          "chunk_id": "8658b5a69c2a6eb5efc9d0d3f2cf003855253f2db1c9e48bf15f3e070e00308f",
+          "file": "tests/functional/g/generic_alias/generic_alias_collections.py",
+          "start_line": 71,
+          "end_line": 72
+        }
+      ]
+    },
+    {
+      "question_id": "pylint-5",
+      "repo": "pylint",
+      "context_files": [
+        "doc/data/messages/m/method-cache-max-size-none/bad.py",
+        "doc/data/messages/m/method-cache-max-size-none/good.py",
+        "tests/functional/m/method_cache_max_size_none.py",
+        "tests/functional/t/too/too_many_arguments_issue_1045.py"
+      ],
+      "blocks": 10,
+      "chars": 573,
+      "omitted": 0,
+      "gold_files_in_context": 1,
+      "full_gold": false,
+      "ranking": [
+        {
+          "chunk_id": "79ff06cbcddc28045b0a8affd118f37f0fd17739b0e4799bf785caf0a8a9a6ff",
+          "file": "doc/data/messages/m/method-cache-max-size-none/good.py",
+          "start_line": 5,
+          "end_line": 8
+        },
+        {
+          "chunk_id": "2148bcf2466ff63eaf6ee9eedc0bcf6f4093193d91a3e6d6b4dd89c88c9f8eb0",
+          "file": "doc/data/messages/m/method-cache-max-size-none/good.py",
+          "start_line": 11,
+          "end_line": 16
+        },
+        {
+          "chunk_id": "dbfdeb462179fa323d8e39e8affcb17beb1f1637a9a2ee674cb6e0f7eb430b63",
+          "file": "doc/data/messages/m/method-cache-max-size-none/bad.py",
+          "start_line": 9,
+          "end_line": 12
+        },
+        {
+          "chunk_id": "40922bc8f3c3f006fbeb427ada04ee59be007692851986579067dfd511b058b6",
+          "file": "doc/data/messages/m/method-cache-max-size-none/bad.py",
+          "start_line": 4,
+          "end_line": 12
+        },
+        {
+          "chunk_id": "7ee4c4298a473f01d78f9a986f86f052a24a0661efb98412eb81ac212d05e63e",
+          "file": "tests/functional/t/too/too_many_arguments_issue_1045.py",
+          "start_line": 9,
+          "end_line": 10
+        },
+        {
+          "chunk_id": "d17dde2ffe052f4fc34c650a088a09d4db7d999fcfcd65d68d4783ff4b29daba",
+          "file": "tests/functional/m/method_cache_max_size_none.py",
+          "start_line": 93,
+          "end_line": 94
+        },
+        {
+          "chunk_id": "f852acfdf74d83c47e0de946f4da4b3b384fbd077b6c30b8aa939e9b591a3543",
+          "file": "tests/functional/m/method_cache_max_size_none.py",
+          "start_line": 13,
+          "end_line": 14
+        },
+        {
+          "chunk_id": "b3fa8e2b5708a7ad0c96c45cfb407d07a26a695eb5bcb2782f5e0154ba11acd7",
+          "file": "tests/functional/m/method_cache_max_size_none.py",
+          "start_line": 85,
+          "end_line": 86
+        },
+        {
+          "chunk_id": "695b51e62a7a1bba66bc614860fcfdad9d3c2e13466856d28db4be6d5e47b8e1",
+          "file": "tests/functional/m/method_cache_max_size_none.py",
+          "start_line": 31,
+          "end_line": 32
+        },
+        {
+          "chunk_id": "d4d4de994d2e392c493e271450defddf93a637c83d5e4e4b11dc3d526b4a0e2b",
+          "file": "tests/functional/m/method_cache_max_size_none.py",
+          "start_line": 35,
+          "end_line": 36
+        }
+      ]
+    },
+    {
+      "question_id": "pylint-6",
+      "repo": "pylint",
+      "context_files": [
+        "pylint/checkers/classes/class_checker.py",
+        "pylint/pyreverse/diagrams.py",
+        "pylint/pyreverse/mermaidjs_printer.py",
+        "pylint/pyreverse/plantuml_printer.py",
+        "pylint/pyreverse/printer.py",
+        "tests/pyreverse/functional/class_diagrams/annotations/line_breaks.py",
+        "tests/pyreverse/functional/class_diagrams/annotations/method_annotation.py"
+      ],
+      "blocks": 9,
+      "chars": 4476,
+      "omitted": 1,
+      "gold_files_in_context": 2,
+      "full_gold": false,
+      "ranking": [
+        {
+          "chunk_id": "a765f9d3d52883d652bf2c3072d9247a28c44d9a3708ce11ba2e85b96d000c28",
+          "file": "tests/pyreverse/functional/class_diagrams/annotations/line_breaks.py",
+          "start_line": 3,
+          "end_line": 10
+        },
+        {
+          "chunk_id": "84a26f1d8217ad158c2c5545eddad17e78cf23d968c8a7bf8930e544381a535a",
+          "file": "tests/pyreverse/functional/class_diagrams/annotations/method_annotation.py",
+          "start_line": 19,
+          "end_line": 22
+        },
+        {
+          "chunk_id": "515dc8da280bf6c31fa3cfa1c70240743eae13b51c145e1c5139fd21ceb10750",
+          "file": "tests/pyreverse/functional/class_diagrams/annotations/line_breaks.py",
+          "start_line": 6,
+          "end_line": 10
+        },
+        {
+          "chunk_id": "df86472c2348475eb6eda56e3d3866f52eceabd41ea5bdb4af303f69f3d58892",
+          "file": "pylint/pyreverse/plantuml_printer.py",
+          "start_line": 13,
+          "end_line": 99
+        },
+        {
+          "chunk_id": "d422c478d0b67e023347af4a07905500ef00f81c130402a544b7eb0ed713933b",
+          "file": "pylint/pyreverse/printer.py",
+          "start_line": 38,
+          "end_line": 43
+        },
+        {
+          "chunk_id": "cca492ba03dc59866e8306d98a399a628db4e643d605615242d8afdfbbeee730",
+          "file": "pylint/pyreverse/plantuml_printer.py",
+          "start_line": 46,
+          "end_line": 82
+        },
+        {
+          "chunk_id": "4b39001be14c48fbd98b215361ade2c2098da7c6e5ea0ba3361e565021eff02a",
+          "file": "pylint/pyreverse/mermaidjs_printer.py",
+          "start_line": 13,
+          "end_line": 103
+        },
+        {
+          "chunk_id": "c26082cc452dd6177324c20c1550e584c100b9d676c4f4caee076a93c1d79691",
+          "file": "pylint/pyreverse/diagrams.py",
+          "start_line": 121,
+          "end_line": 159
+        },
+        {
+          "chunk_id": "2f9c3ddb7efed2a4b524b68296cec28ab5e788f1616cc18e049582862df5fbb3",
+          "file": "pylint/pyreverse/mermaidjs_printer.py",
+          "start_line": 40,
+          "end_line": 84
+        },
+        {
+          "chunk_id": "46bbea94f28a972579fe04a87b3e3007d31c8b46a4be23bf4dc65b61a80da824",
+          "file": "pylint/checkers/classes/class_checker.py",
+          "start_line": 74,
+          "end_line": 78
+        }
+      ]
+    },
+    {
+      "question_id": "pylint-7",
+      "repo": "pylint",
+      "context_files": [
+        "pylint/checkers/variables.py",
+        "tests/functional/u/unused/unused_variable.py"
+      ],
+      "blocks": 6,
+      "chars": 5822,
+      "omitted": 4,
+      "gold_files_in_context": 2,
+      "full_gold": true,
+      "ranking": [
+        {
+          "chunk_id": "e465f1df16f9d3f458d1c00ea09adc13c9804b7167a5add1b9bd19160e4086f3",
+          "file": "tests/functional/u/unused/unused_variable.py",
+          "start_line": 180,
+          "end_line": 188
+        },
+        {
+          "chunk_id": "855fc03527cdbc1f5157e321eae4a7bb3a28627bdd797d03798c735dd93ced92",
+          "file": "tests/functional/u/unused/unused_variable.py",
+          "start_line": 203,
+          "end_line": 218
+        },
+        {
+          "chunk_id": "dd64cdf8ed3201e3457d436532c9366f365f8e82c806ab7d2228cbe6953533c1",
+          "file": "tests/functional/u/unused/unused_variable.py",
+          "start_line": 128,
+          "end_line": 135
+        },
+        {
+          "chunk_id": "ee190c4e65793d933fb390c2b581378f3d67bfeb5a1f90ccaf0bd37c78cad450",
+          "file": "tests/functional/u/unused/unused_variable.py",
+          "start_line": 109,
+          "end_line": 117
+        },
+        {
+          "chunk_id": "8a4646cae9a4acd709cba72dcd0f598ff3f243fe40355ed68509ae299f1436a3",
+          "file": "pylint/checkers/variables.py",
+          "start_line": 993,
+          "end_line": 1065
+        },
+        {
+          "chunk_id": "ff572a84c4f99b8526f79d1c0183dff2071bef8b8d59a5839e80c58933e77474",
+          "file": "pylint/checkers/variables.py",
+          "start_line": 1089,
+          "end_line": 1135
+        },
+        {
+          "chunk_id": "73bae9ec6c3a89e664975ba78f41411e8bbfa6fc32971d535fd63cd9e0753798",
+          "file": "pylint/checkers/variables.py",
+          "start_line": 1200,
+          "end_line": 3489
+        },
+        {
+          "chunk_id": "ad1062f81b22eea5920a17c2c78062efa45c5cf553d9cbc2bc5dbef9d5751e34",
+          "file": "pylint/checkers/refactoring/refactoring_checker.py",
+          "start_line": 752,
+          "end_line": 754
+        },
+        {
+          "chunk_id": "5617d7260a5b8fb98814447db9f78e5cc8e9c0687d8297b11a722ee8d137ac08",
+          "file": "pylint/checkers/variables.py",
+          "start_line": 1675,
+          "end_line": 1688
+        },
+        {
+          "chunk_id": "685fc7dc7174018e61ee271654208d2e73e40dd01c8617b8f414b9a8fdc30641",
+          "file": "pylint/checkers/exceptions.py",
+          "start_line": 480,
+          "end_line": 535
+        }
+      ]
+    },
+    {
+      "question_id": "pylint-8",
+      "repo": "pylint",
+      "context_files": [
+        "pylint/checkers/base/basic_error_checker.py",
+        "pylint/checkers/variables.py",
+        "pylint/extensions/consider_refactoring_into_while_condition.py"
+      ],
+      "blocks": 5,
+      "chars": 5884,
+      "omitted": 5,
+      "gold_files_in_context": 0,
+      "full_gold": true,
+      "ranking": [
+        {
+          "chunk_id": "7c8574231bf59ca4f902365cb7290b1850ad30cfe96c5433cc62a66885860cb5",
+          "file": "pylint/checkers/refactoring/refactoring_checker.py",
+          "start_line": 226,
+          "end_line": 2466
+        },
+        {
+          "chunk_id": "e77c9efa700a36778e7f0692ad03e6da1a071c002e830937229990457309d6e0",
+          "file": "pylint/extensions/consider_refactoring_into_while_condition.py",
+          "start_line": 48,
+          "end_line": 89
+        },
+        {
+          "chunk_id": "d46d41a33865bba019a520b8ded74d1b0a519e8ecb00f6d2b94a7d72f229abd7",
+          "file": "pylint/extensions/consider_refactoring_into_while_condition.py",
+          "start_line": 21,
+          "end_line": 89
+        },
+        {
+          "chunk_id": "f74511393682690d25b8c140e97de11e1ffd5846a5e39217ff3103647de8ca12",
+          "file": "pylint/extensions/consider_refactoring_into_while_condition.py",
+          "start_line": 45,
+          "end_line": 46
+        },
+        {
+          "chunk_id": "8a4646cae9a4acd709cba72dcd0f598ff3f243fe40355ed68509ae299f1436a3",
+          "file": "pylint/checkers/variables.py",
+          "start_line": 993,
+          "end_line": 1065
+        },
+        {
+          "chunk_id": "024ae6d62aa241b9daeebd0d3da5422dc73e784fa4af62a336dcad34c400ef97",
+          "file": "pylint/checkers/base/basic_error_checker.py",
+          "start_line": 47,
+          "end_line": 67
+        },
+        {
+          "chunk_id": "9dc9240fe4a598b99e2b2213d771f15056863fc487d8485c99e87c8fb4fb6e9b",
+          "file": "pylint/checkers/base/basic_error_checker.py",
+          "start_line": 26,
+          "end_line": 44
+        },
+        {
+          "chunk_id": "2b591a1a4af308637a494326a50de5086dbb73c4a93b22f80f00b53e425c33da",
+          "file": "tests/functional/ext/consider_refactoring_into_while_condition/consider_refactoring_into_while_condition.py",
+          "start_line": 200,
+          "end_line": 213
+        },
+        {
+          "chunk_id": "7de7778a7b71dd58c53392f616b3ccdc74ef42773dacf778c643197ce7b5f005",
+          "file": "tests/functional/ext/consider_refactoring_into_while_condition/consider_refactoring_into_while_condition.py",
+          "start_line": 225,
+          "end_line": 239
+        },
+        {
+          "chunk_id": "1464ba7500e6c6679e325d3d66d707d5320c1e4d112afa42f66cdd6ab1505147",
+          "file": "tests/functional/ext/consider_refactoring_into_while_condition/consider_refactoring_into_while_condition.py",
+          "start_line": 241,
+          "end_line": 258
+        }
+      ]
+    },
+    {
+      "question_id": "pylint-9",
+      "repo": "pylint",
+      "context_files": [
+        "doc/data/messages/b/bad-exception-cause/bad.py",
+        "doc/data/messages/l/lost-exception/good.py",
+        "doc/data/messages/r/raising-bad-type/bad.py",
+        "doc/data/messages/r/raising-bad-type/good.py",
+        "tests/functional/b/broad_exception/broad_exception_raised.py",
+        "tests/functional/i/invalid/invalid_exceptions/invalid_exceptions_raised.py",
+        "tests/functional/t/try_except_raise_crash.py",
+        "tests/functional/u/unused/unused_variable.py"
+      ],
+      "blocks": 10,
+      "chars": 1934,
+      "omitted": 0,
+      "gold_files_in_context": 1,
+      "full_gold": false,
+      "ranking": [
+        {
+          "chunk_id": "c9fee235808021445ac025f911c653a45f3971912acf8d8ab8de2df804d05c67",
+          "file": "doc/data/messages/l/lost-exception/good.py",
+          "start_line": 6,
+          "end_line": 10
+        },
+        {
+          "chunk_id": "300fa963babce7d574e602bdc2f8e14cedc7e2e3b50fb5dd9809b0432d2a272b",
+          "file": "doc/data/messages/b/bad-exception-cause/bad.py",
+          "start_line": 1,
+          "end_line": 8
+        },
+        {
+          "chunk_id": "dd716512f1522b69646f9f0d9eba7c453f110db1dce9fea7becb29d539755cb2",
+          "file": "tests/functional/i/invalid/invalid_exceptions/invalid_exceptions_raised.py",
+          "start_line": 46,
+          "end_line": 48
+        },
+        {
+          "chunk_id": "dd64cdf8ed3201e3457d436532c9366f365f8e82c806ab7d2228cbe6953533c1",
+          "file": "tests/functional/u/unused/unused_variable.py",
+          "start_line": 128,
+          "end_line": 135
+        },
+        {
+          "chunk_id": "f57f1c6bae14a9610308f79ed191f0120766aab7414600428b302cd8299a55ea",
+          "file": "tests/functional/i/invalid/invalid_exceptions/invalid_exceptions_raised.py",
+          "start_line": 78,
+          "end_line": 89
+        },
+        {
+          "chunk_id": "54014c82c5db715783e84449ac4c14b4dab1edbe7be3c9ccbd369f1b92de9494",
+          "file": "doc/data/messages/r/raising-bad-type/bad.py",
+          "start_line": 6,
+          "end_line": 10
+        },
+        {
+          "chunk_id": "501b14194de16bc1938b6ad87ea1e1dfcb28714f130d594a19f6f1696f8b178e",
+          "file": "tests/functional/b/broad_exception/broad_exception_raised.py",
+          "start_line": 33,
+          "end_line": 38
+        },
+        {
+          "chunk_id": "24f94c37c93742a46b22272274aa66130eb69586bba0dae14a24c03df1077f00",
+          "file": "tests/functional/t/try_except_raise_crash.py",
+          "start_line": 20,
+          "end_line": 26
+        },
+        {
+          "chunk_id": "d02e51ebdd53220706cad59432c4a9a9286007f03221ca3572f962902e5b463e",
+          "file": "doc/data/messages/r/raising-bad-type/good.py",
+          "start_line": 6,
+          "end_line": 10
+        },
+        {
+          "chunk_id": "0381e73fe1f0bd49529ef35fcecd28dc256dc77205732a734389a5585777e6b0",
+          "file": "tests/functional/b/broad_exception/broad_exception_raised.py",
+          "start_line": 41,
+          "end_line": 46
+        }
+      ]
+    },
+    {
+      "question_id": "pylint-10",
+      "repo": "pylint",
+      "context_files": [
+        "tests/functional/b/bugfix_local_scope_metaclass_1177.py",
+        "tests/functional/ext/typing/typing_consider_using_alias_without_future.py",
+        "tests/functional/ext/typing/typing_deprecated_alias.py",
+        "tests/functional/n/not_callable.py",
+        "tests/functional/u/used/used_before_assignment_py37.py",
+        "tests/functional/u/used/used_before_assignment_type_annotations.py",
+        "tests/functional/u/used/used_before_assignment_typing.py"
+      ],
+      "blocks": 10,
+      "chars": 1331,
+      "omitted": 0,
+      "gold_files_in_context": 1,
+      "full_gold": false,
+      "ranking": [
+        {
+          "chunk_id": "cc611f688cd07809c7899d2516bcbbd161a8e3f3b7a9b20733e33580ff20ca2f",
+          "file": "tests/functional/u/used/used_before_assignment_typing.py",
+          "start_line": 202,
+          "end_line": 203
+        },
+        {
+          "chunk_id": "85a9d673dd84ed2f0af93b8a8cbffb6257136703085ed65ded9bb359468d0307",
+          "file": "tests/functional/u/used/used_before_assignment_type_annotations.py",
+          "start_line": 77,
+          "end_line": 90
+        },
+        {
+          "chunk_id": "5eb5e339b0defb0bdba317974fb874eb586688b97352d81fd9db0bd265e99f4c",
+          "file": "tests/functional/u/used/used_before_assignment_type_annotations.py",
+          "start_line": 81,
+          "end_line": 88
+        },
+        {
+          "chunk_id": "ad267cc959bd388a9b6c78bf430dbea1048230fa543cd4da402d7d0e9c0e87de",
+          "file": "tests/functional/u/used/used_before_assignment_py37.py",
+          "start_line": 32,
+          "end_line": 35
+        },
+        {
+          "chunk_id": "42431d17b6b698e36f2fcf13c2d8ae839477f9356b9ee87c449fd9c5358974f8",
+          "file": "tests/functional/u/used/used_before_assignment_typing.py",
+          "start_line": 201,
+          "end_line": 205
+        },
+        {
+          "chunk_id": "85768cf24dc9140ee858cd90259e1555c37a0423e6294fe665235a64d33fa1ad",
+          "file": "tests/functional/n/not_callable.py",
+          "start_line": 149,
+          "end_line": 155
+        },
+        {
+          "chunk_id": "d36d1b5d8deee9d7dd5a98d13bbe3914d941b47ea8fee5b72511eec66e49c0cd",
+          "file": "tests/functional/ext/typing/typing_consider_using_alias_without_future.py",
+          "start_line": 62,
+          "end_line": 63
+        },
+        {
+          "chunk_id": "b34d7a5cfc97dc9950f762791a52943bab7db22cea484f04c51d814a6b0a5d03",
+          "file": "tests/functional/ext/typing/typing_deprecated_alias.py",
+          "start_line": 55,
+          "end_line": 56
+        },
+        {
+          "chunk_id": "4b19e04e2f2b7c6c6117c3e82622f018270892317f603d2d6d451f9bdb62fb21",
+          "file": "tests/functional/b/bugfix_local_scope_metaclass_1177.py",
+          "start_line": 60,
+          "end_line": 64
+        },
+        {
+          "chunk_id": "1553966c56f74aca70de7bf15fcb73992cc1856ed8ed6a25e1cc93ff1c53c8a7",
+          "file": "tests/functional/b/bugfix_local_scope_metaclass_1177.py",
+          "start_line": 13,
+          "end_line": 20
+        }
+      ]
+    }
+  ]
+}

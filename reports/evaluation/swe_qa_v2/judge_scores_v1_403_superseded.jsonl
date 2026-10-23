@@ -1,0 +1,3 @@
+{"blind_id": "J001", "question_id": "flask-29", "arm": "a0_closed_book", "judge_model": "gemini-2.5-flash", "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 403", "attempts": 4}
+{"blind_id": "J002", "question_id": "requests-4", "arm": "a1_codeqapass", "judge_model": "gemini-2.5-flash", "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 403", "attempts": 4}
+{"blind_id": "J003", "question_id": "requests-34", "arm": "a1_codeqapass", "judge_model": "gemini-2.5-flash", "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 403", "attempts": 4}

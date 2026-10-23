@@ -1,0 +1,65 @@
+{
+ "note": "structural/provenance check only; not semantic support",
+ "checks": [
+  "schema_ok",
+  "lines_positive_ordered",
+  "chunk_in_sqlite",
+  "file_matches_sqlite",
+  "range_inside_sqlite_range",
+  "range_equals_sqlite_range",
+  "chunk_in_context"
+ ],
+ "arms": {
+  "a1_v4": {
+   "records": 192,
+   "usable_answers": 190,
+   "answers_with_citations": 190,
+   "answers_all_citations_valid": 190,
+   "citations": 425,
+   "citations_passing": {
+    "schema_ok": 425,
+    "lines_positive_ordered": 425,
+    "chunk_in_sqlite": 425,
+    "file_matches_sqlite": 425,
+    "range_inside_sqlite_range": 425,
+    "range_equals_sqlite_range": 425,
+    "chunk_in_context": 0
+   },
+   "chunk_in_context_checked": 0
+  },
+  "a1_v5a": {
+   "records": 192,
+   "usable_answers": 192,
+   "answers_with_citations": 192,
+   "answers_all_citations_valid": 192,
+   "citations": 736,
+   "citations_passing": {
+    "schema_ok": 736,
+    "lines_positive_ordered": 736,
+    "chunk_in_sqlite": 736,
+    "file_matches_sqlite": 736,
+    "range_inside_sqlite_range": 736,
+    "range_equals_sqlite_range": 736,
+    "chunk_in_context": 736
+   },
+   "chunk_in_context_checked": 736
+  },
+  "a1_v6e": {
+   "records": 192,
+   "usable_answers": 192,
+   "answers_with_citations": 192,
+   "answers_all_citations_valid": 192,
+   "citations": 1726,
+   "citations_passing": {
+    "schema_ok": 1726,
+    "lines_positive_ordered": 1726,
+    "chunk_in_sqlite": 1726,
+    "file_matches_sqlite": 1726,
+    "range_inside_sqlite_range": 1726,
+    "range_equals_sqlite_range": 809,
+    "chunk_in_context": 1726
+   },
+   "chunk_in_context_checked": 1726
+  }
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "questions": 96,
+ "constants": {
+  "retrieval_depth": 10,
+  "methods_per_hub": 2,
+  "hub_chars": 2400,
+  "outline_chars": 1400,
+  "budget_chars": 6000
+ },
+ "summary": {
+  "v5a": {
+   "n": 96,
+   "gold_cov": 0.5531,
+   "ident_cov": 0.5122,
+   "blocks": 3,
+   "chars": 3646.0729,
+   "omitted": 2
+  },
+  "method_rescue_k10": {
+   "n": 96,
+   "gold_cov": 0.6337,
+   "ident_cov": 0.5612,
+   "blocks": 5.4167,
+   "chars": 5213.1979,
+   "omitted": 4.5833
+  }
+ },
+ "method_rescue_k10_vs_v5a": {
+  "gold_cov": {
+   "mean_delta": 0.0806,
+   "better": 10,
+   "worse": 1,
+   "n": 49
+  },
+  "ident_cov": {
+   "mean_delta": 0.049,
+   "better": 25,
+   "worse": 2,
+   "n": 49
+  },
+  "blocks": {
+   "mean_delta": 2.4167,
+   "better": 91,
+   "worse": 2,
+   "n": 96
+  },
+  "chars": {
+   "mean_delta": 1567.125,
+   "better": 93,
+   "worse": 0,
+   "n": 96
+  },
+  "omitted": {
+   "mean_delta": 2.5833,
+   "better": 92,
+   "worse": 0,
+   "n": 96
+  }
+ },
+ "gate": {
+  "rule": "method rescue must improve both gold_cov and ident_cov; generation is required before adoption",
+  "offline_pass": true
+ }
+}

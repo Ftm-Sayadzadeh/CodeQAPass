@@ -1,0 +1,30 @@
+{
+  "repository": "D:\\code-compass\\codecompass-local\\data\\benchmarks\\swe_qa_v6\\repos\\sqlfluff",
+  "commit": "db9801b7eb7fd014e765117f63ee1b0675fa9f87",
+  "python_files": 392,
+  "strategy": "full",
+  "no_changes": false,
+  "file_changes": {
+    "files_unchanged": 0,
+    "files_added": 392,
+    "files_modified": 0,
+    "files_deleted": 0
+  },
+  "symbols": 3993,
+  "canonical_chunks": 3993,
+  "embeddings": 3993,
+  "vectors": 3993,
+  "chunks_reused": 0,
+  "vectors_reused": 0,
+  "vectors_deleted": 0,
+  "truncated_embeddings": 0,
+  "embedding_retries": 0,
+  "embedding_failures": 0,
+  "vector_failures": 0,
+  "id_set_equal": true,
+  "complete": true,
+  "truncated_details": [],
+  "errors": [],
+  "allowed_structural_error_paths": []
+}
+EMBEDDING_CACHE_STATS {"hits": 1984, "misses": 2009, "inner_calls": 63, "failed_inner_calls": 0, "cached_vectors_at_start": 7208}

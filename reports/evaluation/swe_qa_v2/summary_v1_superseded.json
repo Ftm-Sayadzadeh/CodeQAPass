@@ -1,0 +1,48 @@
+{
+  "arms": {
+    "a0_closed_book": {
+      "usable": 96,
+      "truncated": 0,
+      "unavailable": 0
+    },
+    "a1_codeqapass": {
+      "usable": 96,
+      "truncated": 0,
+      "unavailable": 0
+    },
+    "a2_model_citations": {
+      "usable": 96,
+      "truncated": 0,
+      "unavailable": 0
+    }
+  },
+  "citation_metrics": {
+    "a0_closed_book": {
+      "citations": 2,
+      "errors": 2,
+      "error_rate": 1.0,
+      "wilson_95": [
+        0.34237195288961925,
+        1.0
+      ]
+    },
+    "a1_codeqapass": {
+      "citations": 325,
+      "errors": 0,
+      "error_rate": 0.0,
+      "wilson_95": [
+        0.0,
+        0.011682220254371706
+      ]
+    },
+    "a2_model_citations": {
+      "citations": 229,
+      "errors": 0,
+      "error_rate": 0.0,
+      "wilson_95": [
+        0.0,
+        0.016498769979247693
+      ]
+    }
+  }
+}

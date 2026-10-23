@@ -1,0 +1,225 @@
+{
+ "questions": 33,
+ "arms": {
+  "a0": {
+   "judged": 33,
+   "mean_score": 9.976,
+   "criteria": {
+    "correctness": 7.848,
+    "completeness": 6.758,
+    "relevance": 12.106,
+    "clarity": 14.348,
+    "reasoning": 8.818
+   },
+   "status_counts": {
+    "usable": 33
+   },
+   "refusal_rate": 0.0
+  },
+  "b0_k5": {
+   "judged": 33,
+   "mean_score": 11.694,
+   "criteria": {
+    "correctness": 10.53,
+    "completeness": 9.136,
+    "relevance": 13.121,
+    "clarity": 15.045,
+    "reasoning": 10.636
+   },
+   "status_counts": {
+    "usable": 33
+   },
+   "refusal_rate": 0.242,
+   "delivered": {
+    "gold_cov": 0.587,
+    "ident_cov": 0.629,
+    "blocks": 4.85
+   }
+  },
+  "b0_k10": {
+   "judged": 33,
+   "mean_score": 11.806,
+   "criteria": {
+    "correctness": 10.53,
+    "completeness": 9.045,
+    "relevance": 13.258,
+    "clarity": 15.394,
+    "reasoning": 10.803
+   },
+   "status_counts": {
+    "usable": 33
+   },
+   "refusal_rate": 0.273,
+   "delivered": {
+    "gold_cov": 0.602,
+    "ident_cov": 0.691,
+    "blocks": 8.73
+   }
+  },
+  "a1_cur": {
+   "judged": 33,
+   "mean_score": 7.767,
+   "criteria": {
+    "correctness": 5.97,
+    "completeness": 5.045,
+    "relevance": 8.606,
+    "clarity": 12.742,
+    "reasoning": 6.47
+   },
+   "status_counts": {
+    "no_evidence": 1,
+    "usable": 32
+   },
+   "refusal_rate": 0.485,
+   "delivered": {
+    "gold_cov": 0.371,
+    "ident_cov": 0.459,
+    "blocks": 2.21
+   }
+  },
+  "a1_v5a": {
+   "judged": 33,
+   "mean_score": 10.112,
+   "criteria": {
+    "correctness": 8.379,
+    "completeness": 7.152,
+    "relevance": 11.576,
+    "clarity": 14.485,
+    "reasoning": 8.97
+   },
+   "status_counts": {
+    "usable": 33
+   },
+   "refusal_rate": 0.273,
+   "delivered": {
+    "gold_cov": 0.515,
+    "ident_cov": 0.591,
+    "blocks": 3.21
+   }
+  },
+  "a1_v5b": {
+   "judged": 33,
+   "mean_score": 11.055,
+   "criteria": {
+    "correctness": 9.561,
+    "completeness": 8.333,
+    "relevance": 12.167,
+    "clarity": 15.182,
+    "reasoning": 10.03
+   },
+   "status_counts": {
+    "usable": 33
+   },
+   "refusal_rate": 0.303,
+   "delivered": {
+    "gold_cov": 0.555,
+    "ident_cov": 0.629,
+    "blocks": 4.64
+   }
+  }
+ },
+ "primary": {
+  "H1_v5a_minus_a1_cur": {
+   "pairs": 33,
+   "mean_difference": 2.345,
+   "bootstrap_ci95": [
+    1.061,
+    3.852
+   ],
+   "wilcoxon_p": 0.0008329176782509335,
+   "better": 24,
+   "worse": 9
+  },
+  "H2_v5a_minus_b0_k5": {
+   "pairs": 33,
+   "mean_difference": -1.582,
+   "bootstrap_ci95": [
+    -3.694,
+    0.567
+   ],
+   "wilcoxon_p": 0.11624182946741951,
+   "better": 13,
+   "worse": 19,
+   "non_inferior_margin_1.5": false,
+   "superior": false
+  },
+  "holm_adjusted_p": {
+   "H1": 0.001665835356501867,
+   "H2": 0.11624182946741951
+  }
+ },
+ "exploratory": {
+  "a1_v5b_minus_a1_v5a": {
+   "pairs": 33,
+   "mean_difference": 0.942,
+   "bootstrap_ci95": [
+    -0.282,
+    2.318
+   ],
+   "wilcoxon_p": 0.44322596231176764,
+   "better": 17,
+   "worse": 15
+  },
+  "a1_v5b_minus_b0_k10": {
+   "pairs": 33,
+   "mean_difference": -0.752,
+   "bootstrap_ci95": [
+    -2.912,
+    1.333
+   ],
+   "wilcoxon_p": 0.6422373946263016,
+   "better": 14,
+   "worse": 19
+  },
+  "a1_cur_minus_b0_k5": {
+   "pairs": 33,
+   "mean_difference": -3.927,
+   "bootstrap_ci95": [
+    -5.891,
+    -2.112
+   ],
+   "wilcoxon_p": 0.0007565514143360418,
+   "better": 10,
+   "worse": 23
+  },
+  "a1_cur_minus_a0": {
+   "pairs": 33,
+   "mean_difference": -2.209,
+   "bootstrap_ci95": [
+    -4.461,
+    0.124
+   ],
+   "wilcoxon_p": 0.06571152840153503,
+   "better": 11,
+   "worse": 22
+  },
+  "b0_k5_minus_a0": {
+   "pairs": 33,
+   "mean_difference": 1.718,
+   "bootstrap_ci95": [
+    -0.867,
+    4.279
+   ],
+   "wilcoxon_p": 0.18906912801254477,
+   "better": 19,
+   "worse": 14
+  },
+  "a1_v5a_minus_a0": {
+   "pairs": 33,
+   "mean_difference": 0.136,
+   "bootstrap_ci95": [
+    -2.288,
+    2.558
+   ],
+   "wilcoxon_p": 0.9928717200835039,
+   "better": 15,
+   "worse": 18
+  }
+ },
+ "judge_pass_agreement": {
+  "n": 198,
+  "spearman": 0.97,
+  "mean_abs_difference": 0.906
+ },
+ "note": "T1 has 33 questions: results are labelled promising / not supported, never established (protocol section 6)."
+}

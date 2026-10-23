@@ -1,0 +1,87 @@
+{
+  "note": "Structural checks only. Zero errors for A1 is an invariant of deterministic citation construction, and A2 mostly copies context headers; neither shows that citations support any claim.",
+  "arms": {
+    "a0_closed_book": {
+      "usable": 96,
+      "truncated": 0,
+      "unavailable": 0
+    },
+    "a0_neutral": {
+      "usable": 96,
+      "truncated": 0,
+      "unavailable": 0
+    },
+    "a1_codeqapass": {
+      "usable": 96,
+      "truncated": 0,
+      "unavailable": 0
+    },
+    "a2_model_citations": {
+      "usable": 96,
+      "truncated": 0,
+      "unavailable": 0
+    }
+  },
+  "citation_metrics": {
+    "a0_closed_book": {
+      "kind": "measured",
+      "citations": 2,
+      "errors": 1,
+      "error_rate": 0.5,
+      "wilson_95": [
+        0.09452865480086614,
+        0.9054713451991339
+      ],
+      "questions_with_citation": 2,
+      "questions_without_citation": 94,
+      "citation_omission_rate": 0.9791666666666666,
+      "refusal_like_answers": 93
+    },
+    "a0_neutral": {
+      "kind": "measured",
+      "citations": 2,
+      "errors": 0,
+      "error_rate": 0.0,
+      "wilson_95": [
+        0.0,
+        0.6576280471103807
+      ],
+      "questions_with_citation": 2,
+      "questions_without_citation": 94,
+      "citation_omission_rate": 0.9791666666666666,
+      "refusal_like_answers": 9
+    },
+    "a1_codeqapass": {
+      "kind": "invariant",
+      "citations": 325,
+      "errors": 0,
+      "error_rate": 0.0,
+      "wilson_95": [
+        0.0,
+        0.011682220254371706
+      ],
+      "questions_with_citation": 96,
+      "questions_without_citation": 0,
+      "citation_omission_rate": 0.0,
+      "refusal_like_answers": 12,
+      "citations_identical_to_a_context_block": 325,
+      "context_blocks_cited": "325/325"
+    },
+    "a2_model_citations": {
+      "kind": "measured",
+      "citations": 229,
+      "errors": 0,
+      "error_rate": 0.0,
+      "wilson_95": [
+        0.0,
+        0.016498769979247693
+      ],
+      "questions_with_citation": 96,
+      "questions_without_citation": 0,
+      "citation_omission_rate": 0.0,
+      "refusal_like_answers": 0,
+      "citations_identical_to_a_context_block": 227,
+      "context_blocks_cited": "239/325"
+    }
+  }
+}

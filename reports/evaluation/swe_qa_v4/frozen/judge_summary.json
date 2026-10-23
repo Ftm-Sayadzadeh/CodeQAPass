@@ -1,0 +1,115 @@
+{
+  "judge_model": "gemini-2.5-flash",
+  "temperature": 0.0,
+  "max_tokens": 2000,
+  "bootstrap": {
+    "resamples": 20000,
+    "seed": 20260930
+  },
+  "records": {
+    "total": 576,
+    "usable": 576,
+    "unavailable": 0,
+    "unavailable_by_category": {}
+  },
+  "comparisons": {
+    "a1_minus_a0": {
+      "n_pairs": 192,
+      "difference_mean": -1.7729166666666665,
+      "bootstrap_ci95": [
+        -2.7760416666666647,
+        -0.729166666666667
+      ],
+      "wilcoxon_p": 0.0008971626381118423,
+      "by_repo": {
+        "flask": {
+          "n": 48,
+          "difference_mean": -3.245833333333333
+        },
+        "pylint": {
+          "n": 48,
+          "difference_mean": -1.6208333333333331
+        },
+        "pytest": {
+          "n": 48,
+          "difference_mean": -0.28750000000000003
+        },
+        "requests": {
+          "n": 48,
+          "difference_mean": -1.9375
+        }
+      },
+      "non_inferiority": {
+        "margin": 1.5,
+        "lower_ci95": -2.7760416666666647,
+        "criterion": "lower_ci95 > -margin",
+        "passed": false
+      }
+    },
+    "a1_minus_b0_k5": {
+      "n_pairs": 192,
+      "difference_mean": -1.3552083333333333,
+      "bootstrap_ci95": [
+        -2.1270833333333337,
+        -0.5697916666666667
+      ],
+      "wilcoxon_p": 0.0008279251406042659,
+      "by_repo": {
+        "flask": {
+          "n": 48,
+          "difference_mean": -2.8458333333333337
+        },
+        "pylint": {
+          "n": 48,
+          "difference_mean": -0.03333333333333325
+        },
+        "pytest": {
+          "n": 48,
+          "difference_mean": -0.3208333333333334
+        },
+        "requests": {
+          "n": 48,
+          "difference_mean": -2.220833333333333
+        }
+      },
+      "non_inferiority": {
+        "margin": 1.5,
+        "lower_ci95": -2.1270833333333337,
+        "criterion": "lower_ci95 > -margin",
+        "passed": false
+      }
+    },
+    "b0_k5_minus_a0": {
+      "n_pairs": 192,
+      "difference_mean": -0.4177083333333332,
+      "bootstrap_ci95": [
+        -1.3885416666666668,
+        0.5447916666666669
+      ],
+      "wilcoxon_p": 0.43426775295561565,
+      "by_repo": {
+        "flask": {
+          "n": 48,
+          "difference_mean": -0.3999999999999997
+        },
+        "pylint": {
+          "n": 48,
+          "difference_mean": -1.5875
+        },
+        "pytest": {
+          "n": 48,
+          "difference_mean": 0.03333333333333341
+        },
+        "requests": {
+          "n": 48,
+          "difference_mean": 0.2833333333333333
+        }
+      }
+    }
+  },
+  "holm_adjusted_p": {
+    "a1_minus_a0": 0.002483775421812798,
+    "a1_minus_b0_k5": 0.002483775421812798,
+    "b0_k5_minus_a0": 0.43426775295561565
+  }
+}

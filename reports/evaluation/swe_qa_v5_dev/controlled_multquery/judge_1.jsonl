@@ -1,0 +1,48 @@
+{"question_id": "flask-1", "method": "semantic", "rep": 1, "status": "unavailable", "error": "OpenAI-compatible request timed out"}
+{"question_id": "flask-1", "method": "multquery", "rep": 1, "status": "usable", "scores": {"correctness": 18, "completeness": 15, "relevance": 20, "clarity": 18, "reasoning": 18}, "mean": 17.8}
+{"question_id": "flask-2", "method": "semantic", "rep": 1, "status": "usable", "scores": {"correctness": 15, "completeness": 12, "relevance": 18, "clarity": 16, "reasoning": 14}, "mean": 15.0}
+{"question_id": "flask-2", "method": "multquery", "rep": 1, "status": "usable", "scores": {"correctness": 15, "completeness": 12, "relevance": 18, "clarity": 16, "reasoning": 14}, "mean": 15.0}
+{"question_id": "flask-3", "method": "semantic", "rep": 1, "status": "usable", "scores": {"correctness": 17, "completeness": 16, "relevance": 19, "clarity": 19, "reasoning": 18}, "mean": 17.8}
+{"question_id": "flask-3", "method": "multquery", "rep": 1, "status": "usable", "scores": {"correctness": 12, "completeness": 11, "relevance": 15, "clarity": 16, "reasoning": 12}, "mean": 13.2}
+{"question_id": "flask-4", "method": "semantic", "rep": 1, "status": "usable", "scores": {"correctness": 1, "completeness": 1, "relevance": 5, "clarity": 12, "reasoning": 3}, "mean": 4.4}
+{"question_id": "flask-4", "method": "multquery", "rep": 1, "status": "usable", "scores": {"correctness": 1, "completeness": 1, "relevance": 1, "clarity": 1, "reasoning": 1}, "mean": 1.0}
+{"question_id": "flask-5", "method": "semantic", "rep": 1, "status": "usable", "scores": {"correctness": 1, "completeness": 1, "relevance": 1, "clarity": 1, "reasoning": 1}, "mean": 1.0}
+{"question_id": "flask-5", "method": "multquery", "rep": 1, "status": "usable", "scores": {"correctness": 1, "completeness": 1, "relevance": 5, "clarity": 15, "reasoning": 1}, "mean": 4.6}
+{"question_id": "flask-6", "method": "semantic", "rep": 1, "status": "usable", "scores": {"correctness": 13, "completeness": 10, "relevance": 15, "clarity": 16, "reasoning": 12}, "mean": 13.2}
+{"question_id": "flask-6", "method": "multquery", "rep": 1, "status": "usable", "scores": {"correctness": 1, "completeness": 1, "relevance": 5, "clarity": 12, "reasoning": 2}, "mean": 4.2}
+{"question_id": "pylint-1", "method": "semantic", "rep": 1, "status": "usable", "scores": {"correctness": 15, "completeness": 13, "relevance": 18, "clarity": 16, "reasoning": 14}, "mean": 15.2}
+{"question_id": "pylint-1", "method": "multquery", "rep": 1, "status": "usable", "scores": {"correctness": 14, "completeness": 10, "relevance": 15, "clarity": 14, "reasoning": 12}, "mean": 13.0}
+{"question_id": "pylint-2", "method": "semantic", "rep": 1, "status": "usable", "scores": {"correctness": 15, "completeness": 13, "relevance": 16, "clarity": 17, "reasoning": 14}, "mean": 15.0}
+{"question_id": "pylint-2", "method": "multquery", "rep": 1, "status": "usable", "scores": {"correctness": 1, "completeness": 1, "relevance": 1, "clarity": 12, "reasoning": 1}, "mean": 3.2}
+{"question_id": "pylint-3", "method": "semantic", "rep": 1, "status": "usable", "scores": {"correctness": 2, "completeness": 2, "relevance": 5, "clarity": 12, "reasoning": 3}, "mean": 4.8}
+{"question_id": "pylint-3", "method": "multquery", "rep": 1, "status": "usable", "scores": {"correctness": 2, "completeness": 1, "relevance": 3, "clarity": 8, "reasoning": 4}, "mean": 3.6}
+{"question_id": "pylint-4", "method": "semantic", "rep": 1, "status": "usable", "scores": {"correctness": 10, "completeness": 8, "relevance": 14, "clarity": 14, "reasoning": 9}, "mean": 11.0}
+{"question_id": "pylint-4", "method": "multquery", "rep": 1, "status": "usable", "scores": {"correctness": 1, "completeness": 1, "relevance": 5, "clarity": 15, "reasoning": 2}, "mean": 4.8}
+{"question_id": "pylint-5", "method": "semantic", "rep": 1, "status": "usable", "scores": {"correctness": 1, "completeness": 1, "relevance": 5, "clarity": 15, "reasoning": 1}, "mean": 4.6}
+{"question_id": "pylint-5", "method": "multquery", "rep": 1, "status": "usable", "scores": {"correctness": 2, "completeness": 1, "relevance": 5, "clarity": 12, "reasoning": 2}, "mean": 4.4}
+{"question_id": "pylint-6", "method": "semantic", "rep": 1, "status": "usable", "scores": {"correctness": 18, "completeness": 16, "relevance": 19, "clarity": 19, "reasoning": 18}, "mean": 18.0}
+{"question_id": "pylint-6", "method": "multquery", "rep": 1, "status": "usable", "scores": {"correctness": 17, "completeness": 12, "relevance": 18, "clarity": 18, "reasoning": 16}, "mean": 16.2}
+{"question_id": "pytest-1", "method": "semantic", "rep": 1, "status": "usable", "scores": {"correctness": 12, "completeness": 8, "relevance": 15, "clarity": 14, "reasoning": 10}, "mean": 11.8}
+{"question_id": "pytest-1", "method": "multquery", "rep": 1, "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}
+{"question_id": "pytest-2", "method": "semantic", "rep": 1, "status": "usable", "scores": {"correctness": 19, "completeness": 19, "relevance": 20, "clarity": 20, "reasoning": 19}, "mean": 19.4}
+{"question_id": "pytest-2", "method": "multquery", "rep": 1, "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}
+{"question_id": "pytest-3", "method": "semantic", "rep": 1, "status": "usable", "scores": {"correctness": 11, "completeness": 9, "relevance": 15, "clarity": 14, "reasoning": 12}, "mean": 12.2}
+{"question_id": "pytest-3", "method": "multquery", "rep": 1, "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}
+{"question_id": "pytest-4", "method": "semantic", "rep": 1, "status": "usable", "scores": {"correctness": 18, "completeness": 18, "relevance": 20, "clarity": 19, "reasoning": 19}, "mean": 18.8}
+{"question_id": "pytest-4", "method": "multquery", "rep": 1, "status": "usable", "scores": {"correctness": 20, "completeness": 19, "relevance": 20, "clarity": 20, "reasoning": 20}, "mean": 19.8}
+{"question_id": "pytest-5", "method": "semantic", "rep": 1, "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}
+{"question_id": "pytest-5", "method": "multquery", "rep": 1, "status": "usable", "scores": {"correctness": 8, "completeness": 5, "relevance": 12, "clarity": 15, "reasoning": 10}, "mean": 10.0}
+{"question_id": "pytest-6", "method": "semantic", "rep": 1, "status": "usable", "scores": {"correctness": 13, "completeness": 12, "relevance": 17, "clarity": 16, "reasoning": 13}, "mean": 14.2}
+{"question_id": "pytest-6", "method": "multquery", "rep": 1, "status": "usable", "scores": {"correctness": 13, "completeness": 12, "relevance": 17, "clarity": 16, "reasoning": 13}, "mean": 14.2}
+{"question_id": "requests-1", "method": "semantic", "rep": 1, "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}
+{"question_id": "requests-1", "method": "multquery", "rep": 1, "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}
+{"question_id": "requests-2", "method": "semantic", "rep": 1, "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}
+{"question_id": "requests-2", "method": "multquery", "rep": 1, "status": "usable", "scores": {"correctness": 3, "completeness": 2, "relevance": 10, "clarity": 15, "reasoning": 3}, "mean": 6.6}
+{"question_id": "requests-3", "method": "semantic", "rep": 1, "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}
+{"question_id": "requests-3", "method": "multquery", "rep": 1, "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}
+{"question_id": "requests-4", "method": "semantic", "rep": 1, "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}
+{"question_id": "requests-4", "method": "multquery", "rep": 1, "status": "usable", "scores": {"correctness": 12, "completeness": 12, "relevance": 15, "clarity": 16, "reasoning": 13}, "mean": 13.6}
+{"question_id": "requests-5", "method": "semantic", "rep": 1, "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}
+{"question_id": "requests-5", "method": "multquery", "rep": 1, "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}
+{"question_id": "requests-6", "method": "semantic", "rep": 1, "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}
+{"question_id": "requests-6", "method": "multquery", "rep": 1, "status": "unavailable", "error": "OpenAI-compatible request failed with HTTP 429"}

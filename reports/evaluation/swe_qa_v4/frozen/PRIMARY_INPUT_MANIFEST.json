@@ -1,0 +1,72 @@
+{
+  "protocol": "swe_qa_v4",
+  "purpose": "derived frozen primary-answer inputs; raw records remain unchanged",
+  "questions": 192,
+  "repositories": [
+    "flask",
+    "requests",
+    "pytest",
+    "pylint"
+  ],
+  "snapshots": {
+    "flask": "85c5d93cbd049c4bd0679c36fd1ddcae8c37b642",
+    "requests": "46e939b5525d9c72b677340985582b04b128478a",
+    "pytest": "5989efe3efec31a9d14f550d89903b6311dfc828",
+    "pylint": "44740e5e5cdd2b80321a4f0ed4254213d058b9f6"
+  },
+  "arms": {
+    "a0": {
+      "usable": 192
+    },
+    "b0_k5": {
+      "usable": 192
+    },
+    "a1": {
+      "usable": 190,
+      "no_evidence": 2
+    }
+  },
+  "raw_sources": {
+    "a0": [
+      {
+        "path": "D:\\code-compass\\codecompass-local\\reports\\evaluation\\swe_qa_v4\\main_avalai_gemini2\\main_a0.jsonl",
+        "sha256": "9c23e5ac29e686efa36b583de02e08f04fceb4944a13d940ad3064e187db4d37"
+      },
+      {
+        "path": "D:\\code-compass\\codecompass-local\\reports\\evaluation\\swe_qa_v4\\main_avalai_gemini2_flask_requests\\main_a0.jsonl",
+        "sha256": "767cf24485c6491b68edb7e9ec16361710cf3b3ba542b2ae7f1505b5ac3b9e60"
+      }
+    ],
+    "b0_k5": [
+      {
+        "path": "D:\\code-compass\\codecompass-local\\reports\\evaluation\\swe_qa_v4\\main_avalai_gemini2\\main_b0_k5.jsonl",
+        "sha256": "507d6a3f4d3e1928f7e7ce43d1176b83385ac8458d6285ae8622ace984dbe644"
+      },
+      {
+        "path": "D:\\code-compass\\codecompass-local\\reports\\evaluation\\swe_qa_v4\\main_avalai_gemini2_flask_requests\\main_b0_k5.jsonl",
+        "sha256": "a99642b12f289e898def9b832abc729e2169eee33e7ee10f26a88c760f278674"
+      }
+    ],
+    "a1": [
+      {
+        "path": "D:\\code-compass\\codecompass-local\\reports\\evaluation\\swe_qa_v4\\main_avalai_gemini2\\main_a1.jsonl",
+        "sha256": "f6bb485f0e159ded02a4fbdd2b6bdd551750eaf3be14ec68702c0cf3d59ad8dc"
+      },
+      {
+        "path": "D:\\code-compass\\codecompass-local\\reports\\evaluation\\swe_qa_v4\\main_avalai_gemini2_flask_requests\\main_a1.jsonl",
+        "sha256": "0426d5ebacf8351b06cd017dcb1d55aed43773323fed5b21abf3fed6352bd674"
+      }
+    ]
+  },
+  "derived_outputs": {
+    "main_a0_combined.jsonl": "cec400918f11c11835578297d65235541ce68b64afac5b4977640b4b1b1699ac",
+    "main_b0_k5_combined.jsonl": "6b55907a5f10db81ba3da76869f5d37fc4a5764a279e2de6ae5429a5c287c00b",
+    "main_a1_combined.jsonl": "01e830ad4854460c506816b35baff238153fae1d587c3a7de62b1e9ebe5a28a5"
+  },
+  "v2_records_pooled": false,
+  "notes": [
+    "All three primary arms were generated under the v4 frozen settings.",
+    "No v2/v3 answer record is pooled into this manifest.",
+    "A1 no_evidence records remain explicit and are not scored as zero."
+  ]
+}

@@ -65,13 +65,14 @@ class VectorIndexingService:
         batch_size: int = 32,
         max_retries: int = 2,
         retry_delay_seconds: float = 0.5,
+        inter_batch_delay_seconds: float = 0.0,
         embedding_identity: EmbeddingIdentity | None = None,
     ) -> None:
         if batch_size < 1:
             raise ValueError("Embedding batch size must be positive")
         if getattr(embedding_provider, "truncate", False):
             raise ValueError("Reliable indexing requires provider truncation to be disabled and observable")
-        if max_retries < 0 or retry_delay_seconds < 0:
+        if max_retries < 0 or retry_delay_seconds < 0 or inter_batch_delay_seconds < 0:
             raise ValueError("Retry limits and delay must be non-negative")
         self.store = store
         self.embedding_provider = embedding_provider
@@ -79,6 +80,7 @@ class VectorIndexingService:
         self.batch_size = batch_size
         self.max_retries = max_retries
         self.retry_delay_seconds = retry_delay_seconds
+        self.inter_batch_delay_seconds = inter_batch_delay_seconds
         self.embedding_identity = embedding_identity
         self._embedding_retries = 0
         self._progress: Callable[[dict[str, int]], None] | None = None
@@ -183,7 +185,9 @@ class VectorIndexingService:
         embedded: list[_EmbeddedChunk] = []
         truncated: list[TruncatedEmbedding] = []
         errors: list[VectorIndexingError] = []
-        for start in range(0, len(chunks), self.batch_size):
+        for batch_number, start in enumerate(range(0, len(chunks), self.batch_size)):
+            if batch_number and self.inter_batch_delay_seconds:
+                time.sleep(self.inter_batch_delay_seconds)
             batch_embedded, batch_truncated, batch_errors = self._embed_batch(chunks[start : start + self.batch_size])
             embedded.extend(batch_embedded)
             truncated.extend(batch_truncated)
@@ -281,6 +285,10 @@ class VectorIndexingService:
 
     def _embed_with_retry(self, texts: tuple[str, ...]) -> tuple[EmbeddingResult, ...]:
         transient = {
+            # urllib transport failures are normalized by the provider layer
+            # to this stable name; retry them before declaring the batch failed.
+            "ConnectionError",
+            "HTTPError",
             "ConnectionAbortedError",
             "ConnectionResetError",
             "RemoteDisconnected",
@@ -294,8 +302,9 @@ class VectorIndexingService:
                 if error.error_type not in transient or attempt == self.max_retries:
                     raise
                 self._embedding_retries += 1
-                if self.retry_delay_seconds:
-                    time.sleep(self.retry_delay_seconds)
+                delay = self.retry_delay_seconds * (2**attempt)
+                if delay:
+                    time.sleep(delay)
         raise AssertionError("unreachable")
 
     def _embedding_error(

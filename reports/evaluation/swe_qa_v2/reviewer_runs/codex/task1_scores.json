@@ -1,0 +1,602 @@
+[
+  {
+    "item_id": "1X",
+    "correctness": 2,
+    "completeness": 2,
+    "relevance": 8,
+    "groundedness": 2,
+    "score_0_10": 2,
+    "hallucination": "explicit",
+    "notes": "Contains a material unsupported or incorrect repository-specific claim."
+  },
+  {
+    "item_id": "1Y",
+    "correctness": 3,
+    "completeness": 2,
+    "relevance": 9,
+    "groundedness": 8,
+    "score_0_10": 3,
+    "hallucination": "mild",
+    "notes": "Minor unsupported or version-dependent detail."
+  },
+  {
+    "item_id": "2X",
+    "correctness": 8,
+    "completeness": 9,
+    "relevance": 9,
+    "groundedness": 7,
+    "score_0_10": 8,
+    "hallucination": "explicit",
+    "notes": "Contains a material unsupported or incorrect repository-specific claim."
+  },
+  {
+    "item_id": "2Y",
+    "correctness": 9,
+    "completeness": 8,
+    "relevance": 10,
+    "groundedness": 10,
+    "score_0_10": 9,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "3X",
+    "correctness": 9,
+    "completeness": 8,
+    "relevance": 10,
+    "groundedness": 9,
+    "score_0_10": 9,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "3Y",
+    "correctness": 7,
+    "completeness": 9,
+    "relevance": 9,
+    "groundedness": 6,
+    "score_0_10": 7,
+    "hallucination": "explicit",
+    "notes": "Contains a material unsupported or incorrect repository-specific claim."
+  },
+  {
+    "item_id": "4X",
+    "correctness": 10,
+    "completeness": 10,
+    "relevance": 10,
+    "groundedness": 8,
+    "score_0_10": 9,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "4Y",
+    "correctness": 7,
+    "completeness": 4,
+    "relevance": 10,
+    "groundedness": 10,
+    "score_0_10": 6,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "5X",
+    "correctness": 10,
+    "completeness": 10,
+    "relevance": 10,
+    "groundedness": 9,
+    "score_0_10": 10,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "5Y",
+    "correctness": 2,
+    "completeness": 8,
+    "relevance": 9,
+    "groundedness": 4,
+    "score_0_10": 4,
+    "hallucination": "explicit",
+    "notes": "Contains a material unsupported or incorrect repository-specific claim."
+  },
+  {
+    "item_id": "6X",
+    "correctness": 10,
+    "completeness": 10,
+    "relevance": 10,
+    "groundedness": 9,
+    "score_0_10": 10,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "6Y",
+    "correctness": 6,
+    "completeness": 4,
+    "relevance": 10,
+    "groundedness": 9,
+    "score_0_10": 6,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "7X",
+    "correctness": 7,
+    "completeness": 5,
+    "relevance": 10,
+    "groundedness": 6,
+    "score_0_10": 6,
+    "hallucination": "mild",
+    "notes": "Minor unsupported or version-dependent detail."
+  },
+  {
+    "item_id": "7Y",
+    "correctness": 10,
+    "completeness": 10,
+    "relevance": 10,
+    "groundedness": 10,
+    "score_0_10": 10,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "8X",
+    "correctness": 10,
+    "completeness": 10,
+    "relevance": 10,
+    "groundedness": 9,
+    "score_0_10": 10,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "8Y",
+    "correctness": 3,
+    "completeness": 5,
+    "relevance": 9,
+    "groundedness": 4,
+    "score_0_10": 4,
+    "hallucination": "explicit",
+    "notes": "Contains a material unsupported or incorrect repository-specific claim."
+  },
+  {
+    "item_id": "9X",
+    "correctness": 10,
+    "completeness": 9,
+    "relevance": 10,
+    "groundedness": 9,
+    "score_0_10": 9,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "9Y",
+    "correctness": 9,
+    "completeness": 9,
+    "relevance": 10,
+    "groundedness": 8,
+    "score_0_10": 9,
+    "hallucination": "mild",
+    "notes": "Minor unsupported or version-dependent detail."
+  },
+  {
+    "item_id": "10X",
+    "correctness": 2,
+    "completeness": 2,
+    "relevance": 9,
+    "groundedness": 5,
+    "score_0_10": 3,
+    "hallucination": "explicit",
+    "notes": "Contains a material unsupported or incorrect repository-specific claim."
+  },
+  {
+    "item_id": "10Y",
+    "correctness": 9,
+    "completeness": 9,
+    "relevance": 10,
+    "groundedness": 10,
+    "score_0_10": 9,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "11X",
+    "correctness": 9,
+    "completeness": 9,
+    "relevance": 9,
+    "groundedness": 8,
+    "score_0_10": 9,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "11Y",
+    "correctness": 2,
+    "completeness": 4,
+    "relevance": 8,
+    "groundedness": 4,
+    "score_0_10": 4,
+    "hallucination": "explicit",
+    "notes": "Contains a material unsupported or incorrect repository-specific claim."
+  },
+  {
+    "item_id": "12X",
+    "correctness": 10,
+    "completeness": 10,
+    "relevance": 10,
+    "groundedness": 10,
+    "score_0_10": 10,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "12Y",
+    "correctness": 2,
+    "completeness": 8,
+    "relevance": 9,
+    "groundedness": 5,
+    "score_0_10": 4,
+    "hallucination": "explicit",
+    "notes": "Contains a material unsupported or incorrect repository-specific claim."
+  },
+  {
+    "item_id": "13X",
+    "correctness": 10,
+    "completeness": 10,
+    "relevance": 10,
+    "groundedness": 9,
+    "score_0_10": 10,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "13Y",
+    "correctness": 10,
+    "completeness": 7,
+    "relevance": 10,
+    "groundedness": 10,
+    "score_0_10": 8,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "14X",
+    "correctness": 10,
+    "completeness": 10,
+    "relevance": 10,
+    "groundedness": 9,
+    "score_0_10": 10,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "14Y",
+    "correctness": 8,
+    "completeness": 7,
+    "relevance": 10,
+    "groundedness": 9,
+    "score_0_10": 8,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "15X",
+    "correctness": 10,
+    "completeness": 10,
+    "relevance": 10,
+    "groundedness": 10,
+    "score_0_10": 10,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "15Y",
+    "correctness": 10,
+    "completeness": 10,
+    "relevance": 10,
+    "groundedness": 10,
+    "score_0_10": 10,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "16X",
+    "correctness": 9,
+    "completeness": 9,
+    "relevance": 10,
+    "groundedness": 8,
+    "score_0_10": 9,
+    "hallucination": "mild",
+    "notes": "Minor unsupported or version-dependent detail."
+  },
+  {
+    "item_id": "16Y",
+    "correctness": 9,
+    "completeness": 9,
+    "relevance": 10,
+    "groundedness": 10,
+    "score_0_10": 9,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "17X",
+    "correctness": 8,
+    "completeness": 8,
+    "relevance": 10,
+    "groundedness": 9,
+    "score_0_10": 8,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "17Y",
+    "correctness": 8,
+    "completeness": 7,
+    "relevance": 10,
+    "groundedness": 10,
+    "score_0_10": 8,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "18X",
+    "correctness": 9,
+    "completeness": 10,
+    "relevance": 10,
+    "groundedness": 8,
+    "score_0_10": 9,
+    "hallucination": "mild",
+    "notes": "Minor unsupported or version-dependent detail."
+  },
+  {
+    "item_id": "18Y",
+    "correctness": 2,
+    "completeness": 2,
+    "relevance": 9,
+    "groundedness": 5,
+    "score_0_10": 3,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "19X",
+    "correctness": 10,
+    "completeness": 10,
+    "relevance": 10,
+    "groundedness": 9,
+    "score_0_10": 10,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "19Y",
+    "correctness": 9,
+    "completeness": 9,
+    "relevance": 10,
+    "groundedness": 8,
+    "score_0_10": 9,
+    "hallucination": "mild",
+    "notes": "Minor unsupported or version-dependent detail."
+  },
+  {
+    "item_id": "20X",
+    "correctness": 10,
+    "completeness": 10,
+    "relevance": 10,
+    "groundedness": 9,
+    "score_0_10": 10,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "20Y",
+    "correctness": 3,
+    "completeness": 5,
+    "relevance": 9,
+    "groundedness": 6,
+    "score_0_10": 4,
+    "hallucination": "explicit",
+    "notes": "Contains a material unsupported or incorrect repository-specific claim."
+  },
+  {
+    "item_id": "21X",
+    "correctness": 10,
+    "completeness": 10,
+    "relevance": 10,
+    "groundedness": 10,
+    "score_0_10": 10,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "21Y",
+    "correctness": 10,
+    "completeness": 10,
+    "relevance": 10,
+    "groundedness": 10,
+    "score_0_10": 10,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "22X",
+    "correctness": 9,
+    "completeness": 9,
+    "relevance": 10,
+    "groundedness": 8,
+    "score_0_10": 9,
+    "hallucination": "mild",
+    "notes": "Minor unsupported or version-dependent detail."
+  },
+  {
+    "item_id": "22Y",
+    "correctness": 10,
+    "completeness": 10,
+    "relevance": 10,
+    "groundedness": 10,
+    "score_0_10": 10,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "23X",
+    "correctness": 10,
+    "completeness": 10,
+    "relevance": 10,
+    "groundedness": 10,
+    "score_0_10": 10,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "23Y",
+    "correctness": 10,
+    "completeness": 10,
+    "relevance": 10,
+    "groundedness": 10,
+    "score_0_10": 10,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "24X",
+    "correctness": 2,
+    "completeness": 5,
+    "relevance": 9,
+    "groundedness": 3,
+    "score_0_10": 3,
+    "hallucination": "explicit",
+    "notes": "Contains a material unsupported or incorrect repository-specific claim."
+  },
+  {
+    "item_id": "24Y",
+    "correctness": 10,
+    "completeness": 10,
+    "relevance": 10,
+    "groundedness": 10,
+    "score_0_10": 10,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "25X",
+    "correctness": 10,
+    "completeness": 10,
+    "relevance": 10,
+    "groundedness": 9,
+    "score_0_10": 10,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "25Y",
+    "correctness": 10,
+    "completeness": 10,
+    "relevance": 10,
+    "groundedness": 10,
+    "score_0_10": 10,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "26X",
+    "correctness": 10,
+    "completeness": 10,
+    "relevance": 10,
+    "groundedness": 9,
+    "score_0_10": 10,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "26Y",
+    "correctness": 10,
+    "completeness": 10,
+    "relevance": 10,
+    "groundedness": 10,
+    "score_0_10": 10,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "27X",
+    "correctness": 10,
+    "completeness": 10,
+    "relevance": 10,
+    "groundedness": 9,
+    "score_0_10": 10,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "27Y",
+    "correctness": 10,
+    "completeness": 10,
+    "relevance": 10,
+    "groundedness": 10,
+    "score_0_10": 10,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "28X",
+    "correctness": 10,
+    "completeness": 10,
+    "relevance": 10,
+    "groundedness": 9,
+    "score_0_10": 10,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "28Y",
+    "correctness": 10,
+    "completeness": 10,
+    "relevance": 10,
+    "groundedness": 10,
+    "score_0_10": 10,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "29X",
+    "correctness": 2,
+    "completeness": 2,
+    "relevance": 9,
+    "groundedness": 5,
+    "score_0_10": 3,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "29Y",
+    "correctness": 10,
+    "completeness": 10,
+    "relevance": 10,
+    "groundedness": 10,
+    "score_0_10": 10,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "30X",
+    "correctness": 10,
+    "completeness": 10,
+    "relevance": 10,
+    "groundedness": 9,
+    "score_0_10": 10,
+    "hallucination": "none",
+    "notes": ""
+  },
+  {
+    "item_id": "30Y",
+    "correctness": 3,
+    "completeness": 5,
+    "relevance": 9,
+    "groundedness": 4,
+    "score_0_10": 4,
+    "hallucination": "explicit",
+    "notes": "Contains a material unsupported or incorrect repository-specific claim."
+  }
+]

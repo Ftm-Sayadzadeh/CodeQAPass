@@ -1,0 +1,1036 @@
+{
+  "reviewer_model": "GPT-5 (Codex)",
+  "reviewer_version": "Version not exposed in runtime",
+  "execution_date": "2026-09-30",
+  "temperature": 0,
+  "any_item_unavailable": false,
+  "files_outside_folder_accessible": false,
+  "identity_revealing_cue": "None noticed.",
+  "outside_folder_access_confirmation": "Confirmed: no files outside the current evaluation folder were accessed.",
+  "raw_transcript": {
+    "task1_judgments": [
+      {
+        "item_id": "1X",
+        "correctness": 2,
+        "completeness": 2,
+        "relevance": 8,
+        "groundedness": 2,
+        "score_0_10": 2,
+        "hallucination": "explicit",
+        "notes": "Contains a material unsupported or incorrect repository-specific claim."
+      },
+      {
+        "item_id": "1Y",
+        "correctness": 3,
+        "completeness": 2,
+        "relevance": 9,
+        "groundedness": 8,
+        "score_0_10": 3,
+        "hallucination": "mild",
+        "notes": "Minor unsupported or version-dependent detail."
+      },
+      {
+        "item_id": "2X",
+        "correctness": 8,
+        "completeness": 9,
+        "relevance": 9,
+        "groundedness": 7,
+        "score_0_10": 8,
+        "hallucination": "explicit",
+        "notes": "Contains a material unsupported or incorrect repository-specific claim."
+      },
+      {
+        "item_id": "2Y",
+        "correctness": 9,
+        "completeness": 8,
+        "relevance": 10,
+        "groundedness": 10,
+        "score_0_10": 9,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "3X",
+        "correctness": 9,
+        "completeness": 8,
+        "relevance": 10,
+        "groundedness": 9,
+        "score_0_10": 9,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "3Y",
+        "correctness": 7,
+        "completeness": 9,
+        "relevance": 9,
+        "groundedness": 6,
+        "score_0_10": 7,
+        "hallucination": "explicit",
+        "notes": "Contains a material unsupported or incorrect repository-specific claim."
+      },
+      {
+        "item_id": "4X",
+        "correctness": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "groundedness": 8,
+        "score_0_10": 9,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "4Y",
+        "correctness": 7,
+        "completeness": 4,
+        "relevance": 10,
+        "groundedness": 10,
+        "score_0_10": 6,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "5X",
+        "correctness": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "groundedness": 9,
+        "score_0_10": 10,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "5Y",
+        "correctness": 2,
+        "completeness": 8,
+        "relevance": 9,
+        "groundedness": 4,
+        "score_0_10": 4,
+        "hallucination": "explicit",
+        "notes": "Contains a material unsupported or incorrect repository-specific claim."
+      },
+      {
+        "item_id": "6X",
+        "correctness": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "groundedness": 9,
+        "score_0_10": 10,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "6Y",
+        "correctness": 6,
+        "completeness": 4,
+        "relevance": 10,
+        "groundedness": 9,
+        "score_0_10": 6,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "7X",
+        "correctness": 7,
+        "completeness": 5,
+        "relevance": 10,
+        "groundedness": 6,
+        "score_0_10": 6,
+        "hallucination": "mild",
+        "notes": "Minor unsupported or version-dependent detail."
+      },
+      {
+        "item_id": "7Y",
+        "correctness": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "groundedness": 10,
+        "score_0_10": 10,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "8X",
+        "correctness": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "groundedness": 9,
+        "score_0_10": 10,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "8Y",
+        "correctness": 3,
+        "completeness": 5,
+        "relevance": 9,
+        "groundedness": 4,
+        "score_0_10": 4,
+        "hallucination": "explicit",
+        "notes": "Contains a material unsupported or incorrect repository-specific claim."
+      },
+      {
+        "item_id": "9X",
+        "correctness": 10,
+        "completeness": 9,
+        "relevance": 10,
+        "groundedness": 9,
+        "score_0_10": 9,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "9Y",
+        "correctness": 9,
+        "completeness": 9,
+        "relevance": 10,
+        "groundedness": 8,
+        "score_0_10": 9,
+        "hallucination": "mild",
+        "notes": "Minor unsupported or version-dependent detail."
+      },
+      {
+        "item_id": "10X",
+        "correctness": 2,
+        "completeness": 2,
+        "relevance": 9,
+        "groundedness": 5,
+        "score_0_10": 3,
+        "hallucination": "explicit",
+        "notes": "Contains a material unsupported or incorrect repository-specific claim."
+      },
+      {
+        "item_id": "10Y",
+        "correctness": 9,
+        "completeness": 9,
+        "relevance": 10,
+        "groundedness": 10,
+        "score_0_10": 9,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "11X",
+        "correctness": 9,
+        "completeness": 9,
+        "relevance": 9,
+        "groundedness": 8,
+        "score_0_10": 9,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "11Y",
+        "correctness": 2,
+        "completeness": 4,
+        "relevance": 8,
+        "groundedness": 4,
+        "score_0_10": 4,
+        "hallucination": "explicit",
+        "notes": "Contains a material unsupported or incorrect repository-specific claim."
+      },
+      {
+        "item_id": "12X",
+        "correctness": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "groundedness": 10,
+        "score_0_10": 10,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "12Y",
+        "correctness": 2,
+        "completeness": 8,
+        "relevance": 9,
+        "groundedness": 5,
+        "score_0_10": 4,
+        "hallucination": "explicit",
+        "notes": "Contains a material unsupported or incorrect repository-specific claim."
+      },
+      {
+        "item_id": "13X",
+        "correctness": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "groundedness": 9,
+        "score_0_10": 10,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "13Y",
+        "correctness": 10,
+        "completeness": 7,
+        "relevance": 10,
+        "groundedness": 10,
+        "score_0_10": 8,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "14X",
+        "correctness": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "groundedness": 9,
+        "score_0_10": 10,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "14Y",
+        "correctness": 8,
+        "completeness": 7,
+        "relevance": 10,
+        "groundedness": 9,
+        "score_0_10": 8,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "15X",
+        "correctness": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "groundedness": 10,
+        "score_0_10": 10,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "15Y",
+        "correctness": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "groundedness": 10,
+        "score_0_10": 10,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "16X",
+        "correctness": 9,
+        "completeness": 9,
+        "relevance": 10,
+        "groundedness": 8,
+        "score_0_10": 9,
+        "hallucination": "mild",
+        "notes": "Minor unsupported or version-dependent detail."
+      },
+      {
+        "item_id": "16Y",
+        "correctness": 9,
+        "completeness": 9,
+        "relevance": 10,
+        "groundedness": 10,
+        "score_0_10": 9,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "17X",
+        "correctness": 8,
+        "completeness": 8,
+        "relevance": 10,
+        "groundedness": 9,
+        "score_0_10": 8,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "17Y",
+        "correctness": 8,
+        "completeness": 7,
+        "relevance": 10,
+        "groundedness": 10,
+        "score_0_10": 8,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "18X",
+        "correctness": 9,
+        "completeness": 10,
+        "relevance": 10,
+        "groundedness": 8,
+        "score_0_10": 9,
+        "hallucination": "mild",
+        "notes": "Minor unsupported or version-dependent detail."
+      },
+      {
+        "item_id": "18Y",
+        "correctness": 2,
+        "completeness": 2,
+        "relevance": 9,
+        "groundedness": 5,
+        "score_0_10": 3,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "19X",
+        "correctness": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "groundedness": 9,
+        "score_0_10": 10,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "19Y",
+        "correctness": 9,
+        "completeness": 9,
+        "relevance": 10,
+        "groundedness": 8,
+        "score_0_10": 9,
+        "hallucination": "mild",
+        "notes": "Minor unsupported or version-dependent detail."
+      },
+      {
+        "item_id": "20X",
+        "correctness": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "groundedness": 9,
+        "score_0_10": 10,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "20Y",
+        "correctness": 3,
+        "completeness": 5,
+        "relevance": 9,
+        "groundedness": 6,
+        "score_0_10": 4,
+        "hallucination": "explicit",
+        "notes": "Contains a material unsupported or incorrect repository-specific claim."
+      },
+      {
+        "item_id": "21X",
+        "correctness": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "groundedness": 10,
+        "score_0_10": 10,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "21Y",
+        "correctness": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "groundedness": 10,
+        "score_0_10": 10,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "22X",
+        "correctness": 9,
+        "completeness": 9,
+        "relevance": 10,
+        "groundedness": 8,
+        "score_0_10": 9,
+        "hallucination": "mild",
+        "notes": "Minor unsupported or version-dependent detail."
+      },
+      {
+        "item_id": "22Y",
+        "correctness": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "groundedness": 10,
+        "score_0_10": 10,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "23X",
+        "correctness": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "groundedness": 10,
+        "score_0_10": 10,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "23Y",
+        "correctness": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "groundedness": 10,
+        "score_0_10": 10,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "24X",
+        "correctness": 2,
+        "completeness": 5,
+        "relevance": 9,
+        "groundedness": 3,
+        "score_0_10": 3,
+        "hallucination": "explicit",
+        "notes": "Contains a material unsupported or incorrect repository-specific claim."
+      },
+      {
+        "item_id": "24Y",
+        "correctness": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "groundedness": 10,
+        "score_0_10": 10,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "25X",
+        "correctness": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "groundedness": 9,
+        "score_0_10": 10,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "25Y",
+        "correctness": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "groundedness": 10,
+        "score_0_10": 10,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "26X",
+        "correctness": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "groundedness": 9,
+        "score_0_10": 10,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "26Y",
+        "correctness": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "groundedness": 10,
+        "score_0_10": 10,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "27X",
+        "correctness": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "groundedness": 9,
+        "score_0_10": 10,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "27Y",
+        "correctness": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "groundedness": 10,
+        "score_0_10": 10,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "28X",
+        "correctness": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "groundedness": 9,
+        "score_0_10": 10,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "28Y",
+        "correctness": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "groundedness": 10,
+        "score_0_10": 10,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "29X",
+        "correctness": 2,
+        "completeness": 2,
+        "relevance": 9,
+        "groundedness": 5,
+        "score_0_10": 3,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "29Y",
+        "correctness": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "groundedness": 10,
+        "score_0_10": 10,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "30X",
+        "correctness": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "groundedness": 9,
+        "score_0_10": 10,
+        "hallucination": "none",
+        "notes": ""
+      },
+      {
+        "item_id": "30Y",
+        "correctness": 3,
+        "completeness": 5,
+        "relevance": 9,
+        "groundedness": 4,
+        "score_0_10": 4,
+        "hallucination": "explicit",
+        "notes": "Contains a material unsupported or incorrect repository-specific claim."
+      }
+    ],
+    "task2_judgments": [
+      {
+        "item_id": "1X",
+        "n_supporting_citations": 1,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 1,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "1Y",
+        "n_supporting_citations": 1,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 1,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "2X",
+        "n_supporting_citations": 2,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 1,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "2Y",
+        "n_supporting_citations": 2,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 1,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "3X",
+        "n_supporting_citations": 3,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 1,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "3Y",
+        "n_supporting_citations": 3,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 1,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "4X",
+        "n_supporting_citations": 0,
+        "n_unsupported_citations": 2,
+        "missing_key_source_0_or_1": 1,
+        "notes": "Reviewed 2 cited ranges; 2 did not support any claim."
+      },
+      {
+        "item_id": "4Y",
+        "n_supporting_citations": 0,
+        "n_unsupported_citations": 2,
+        "missing_key_source_0_or_1": 1,
+        "notes": "Reviewed 2 cited ranges; 2 did not support any claim."
+      },
+      {
+        "item_id": "5X",
+        "n_supporting_citations": 1,
+        "n_unsupported_citations": 1,
+        "missing_key_source_0_or_1": 1,
+        "notes": "Reviewed 2 cited ranges; 1 did not support any claim."
+      },
+      {
+        "item_id": "5Y",
+        "n_supporting_citations": 1,
+        "n_unsupported_citations": 1,
+        "missing_key_source_0_or_1": 1,
+        "notes": "Reviewed 2 cited ranges; 1 did not support any claim."
+      },
+      {
+        "item_id": "6X",
+        "n_supporting_citations": 2,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 1,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "6Y",
+        "n_supporting_citations": 2,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 1,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "7X",
+        "n_supporting_citations": 2,
+        "n_unsupported_citations": 1,
+        "missing_key_source_0_or_1": 0,
+        "notes": "Reviewed 3 cited ranges; 1 did not support any claim."
+      },
+      {
+        "item_id": "7Y",
+        "n_supporting_citations": 2,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 0,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "8X",
+        "n_supporting_citations": 2,
+        "n_unsupported_citations": 2,
+        "missing_key_source_0_or_1": 1,
+        "notes": "Reviewed 4 cited ranges; 2 did not support any claim."
+      },
+      {
+        "item_id": "8Y",
+        "n_supporting_citations": 2,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 1,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "9X",
+        "n_supporting_citations": 2,
+        "n_unsupported_citations": 1,
+        "missing_key_source_0_or_1": 0,
+        "notes": "Reviewed 3 cited ranges; 1 did not support any claim."
+      },
+      {
+        "item_id": "9Y",
+        "n_supporting_citations": 2,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 0,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "10X",
+        "n_supporting_citations": 2,
+        "n_unsupported_citations": 1,
+        "missing_key_source_0_or_1": 0,
+        "notes": "Reviewed 3 cited ranges; 1 did not support any claim."
+      },
+      {
+        "item_id": "10Y",
+        "n_supporting_citations": 2,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 0,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "11X",
+        "n_supporting_citations": 3,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 0,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "11Y",
+        "n_supporting_citations": 0,
+        "n_unsupported_citations": 3,
+        "missing_key_source_0_or_1": 1,
+        "notes": "Reviewed 3 cited ranges; 3 did not support any claim."
+      },
+      {
+        "item_id": "12X",
+        "n_supporting_citations": 1,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 0,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "12Y",
+        "n_supporting_citations": 1,
+        "n_unsupported_citations": 2,
+        "missing_key_source_0_or_1": 0,
+        "notes": "Reviewed 3 cited ranges; 2 did not support any claim."
+      },
+      {
+        "item_id": "13X",
+        "n_supporting_citations": 2,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 0,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "13Y",
+        "n_supporting_citations": 2,
+        "n_unsupported_citations": 1,
+        "missing_key_source_0_or_1": 0,
+        "notes": "Reviewed 3 cited ranges; 1 did not support any claim."
+      },
+      {
+        "item_id": "14X",
+        "n_supporting_citations": 4,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 0,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "14Y",
+        "n_supporting_citations": 3,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 0,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "15X",
+        "n_supporting_citations": 1,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 0,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "15Y",
+        "n_supporting_citations": 1,
+        "n_unsupported_citations": 3,
+        "missing_key_source_0_or_1": 0,
+        "notes": "Reviewed 4 cited ranges; 3 did not support any claim."
+      },
+      {
+        "item_id": "16X",
+        "n_supporting_citations": 2,
+        "n_unsupported_citations": 3,
+        "missing_key_source_0_or_1": 0,
+        "notes": "Reviewed 5 cited ranges; 3 did not support any claim."
+      },
+      {
+        "item_id": "16Y",
+        "n_supporting_citations": 2,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 0,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "17X",
+        "n_supporting_citations": 3,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 0,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "17Y",
+        "n_supporting_citations": 3,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 0,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "18X",
+        "n_supporting_citations": 2,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 0,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "18Y",
+        "n_supporting_citations": 2,
+        "n_unsupported_citations": 2,
+        "missing_key_source_0_or_1": 0,
+        "notes": "Reviewed 4 cited ranges; 2 did not support any claim."
+      },
+      {
+        "item_id": "19X",
+        "n_supporting_citations": 1,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 0,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "19Y",
+        "n_supporting_citations": 1,
+        "n_unsupported_citations": 2,
+        "missing_key_source_0_or_1": 0,
+        "notes": "Reviewed 3 cited ranges; 2 did not support any claim."
+      },
+      {
+        "item_id": "20X",
+        "n_supporting_citations": 2,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 0,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "20Y",
+        "n_supporting_citations": 0,
+        "n_unsupported_citations": 4,
+        "missing_key_source_0_or_1": 1,
+        "notes": "Reviewed 4 cited ranges; 4 did not support any claim."
+      },
+      {
+        "item_id": "21X",
+        "n_supporting_citations": 4,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 0,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "21Y",
+        "n_supporting_citations": 2,
+        "n_unsupported_citations": 2,
+        "missing_key_source_0_or_1": 1,
+        "notes": "Reviewed 4 cited ranges; 2 did not support any claim."
+      },
+      {
+        "item_id": "22X",
+        "n_supporting_citations": 2,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 0,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "22Y",
+        "n_supporting_citations": 2,
+        "n_unsupported_citations": 2,
+        "missing_key_source_0_or_1": 0,
+        "notes": "Reviewed 4 cited ranges; 2 did not support any claim."
+      },
+      {
+        "item_id": "23X",
+        "n_supporting_citations": 4,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 0,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "23Y",
+        "n_supporting_citations": 4,
+        "n_unsupported_citations": 1,
+        "missing_key_source_0_or_1": 0,
+        "notes": "Reviewed 5 cited ranges; 1 did not support any claim."
+      },
+      {
+        "item_id": "24X",
+        "n_supporting_citations": 3,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 0,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "24Y",
+        "n_supporting_citations": 3,
+        "n_unsupported_citations": 2,
+        "missing_key_source_0_or_1": 0,
+        "notes": "Reviewed 5 cited ranges; 2 did not support any claim."
+      },
+      {
+        "item_id": "25X",
+        "n_supporting_citations": 4,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 0,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "25Y",
+        "n_supporting_citations": 4,
+        "n_unsupported_citations": 1,
+        "missing_key_source_0_or_1": 0,
+        "notes": "Reviewed 5 cited ranges; 1 did not support any claim."
+      },
+      {
+        "item_id": "26X",
+        "n_supporting_citations": 2,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 0,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "26Y",
+        "n_supporting_citations": 2,
+        "n_unsupported_citations": 1,
+        "missing_key_source_0_or_1": 0,
+        "notes": "Reviewed 3 cited ranges; 1 did not support any claim."
+      },
+      {
+        "item_id": "27X",
+        "n_supporting_citations": 3,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 0,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "27Y",
+        "n_supporting_citations": 3,
+        "n_unsupported_citations": 1,
+        "missing_key_source_0_or_1": 0,
+        "notes": "Reviewed 4 cited ranges; 1 did not support any claim."
+      },
+      {
+        "item_id": "28X",
+        "n_supporting_citations": 5,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 0,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "28Y",
+        "n_supporting_citations": 5,
+        "n_unsupported_citations": 0,
+        "missing_key_source_0_or_1": 0,
+        "notes": "All cited ranges support at least one claim."
+      },
+      {
+        "item_id": "29X",
+        "n_supporting_citations": 3,
+        "n_unsupported_citations": 1,
+        "missing_key_source_0_or_1": 0,
+        "notes": "Reviewed 4 cited ranges; 1 did not support any claim."
+      },
+      {
+        "item_id": "29Y",
+        "n_supporting_citations": 3,
+        "n_unsupported_citations": 1,
+        "missing_key_source_0_or_1": 0,
+        "notes": "Reviewed 4 cited ranges; 1 did not support any claim."
+      },
+      {
+        "item_id": "30X",
+        "n_supporting_citations": 3,
+        "n_unsupported_citations": 1,
+        "missing_key_source_0_or_1": 0,
+        "notes": "Reviewed 4 cited ranges; 1 did not support any claim."
+      },
+      {
+        "item_id": "30Y",
+        "n_supporting_citations": 3,
+        "n_unsupported_citations": 1,
+        "missing_key_source_0_or_1": 0,
+        "notes": "Reviewed 4 cited ranges; 1 did not support any claim."
+      }
+    ]
+  }
+}

@@ -149,16 +149,22 @@ class RepositoryIndexCoordinator:
         collection_factory: CollectionFactory,
         *,
         batch_size: int = 32,
+        inter_batch_delay_seconds: float = 0.0,
         begin_activation: ActivationCallback | None = None,
         end_activation: ActivationCallback | None = None,
+        allowed_structural_error_paths: frozenset[str] = frozenset(),
     ) -> None:
         self.store = store
         self.embedding_provider = embedding_provider
         self.embedding_identity = embedding_identity
         self.collection_factory = collection_factory
         self.batch_size = batch_size
+        self.inter_batch_delay_seconds = inter_batch_delay_seconds
         self.begin_activation = begin_activation or (lambda _project_id: None)
         self.end_activation = end_activation or (lambda _project_id: None)
+        # Evaluation-only exception for repositories that intentionally ship
+        # invalid Python fixtures. Unexpected structural errors remain fatal.
+        self.allowed_structural_error_paths = allowed_structural_error_paths
 
     def index_repository(
         self,
@@ -264,6 +270,7 @@ class RepositoryIndexCoordinator:
     ) -> CoordinatedIndexingResult:
         old_chunk_ids = {chunk.chunk_id for chunk in self.store.list_chunks(existing.id)} if existing is not None else set()
         prepared = service.prepare_files(scan, scan.files, emit)
+        prepared = self._filter_allowed_structural_errors(prepared)
         self._require_prepared(prepared)
         if prepared.chunks:
             emit("preflight", {"files_discovered": len(scan.files)})
@@ -439,6 +446,7 @@ class RepositoryIndexCoordinator:
                 self.embedding_provider,
                 None,
                 batch_size=self.batch_size,
+                inter_batch_delay_seconds=self.inter_batch_delay_seconds,
                 embedding_identity=self.embedding_identity,
             )
             embedded = PreparedEmbeddings((), (), (), None, 0)
@@ -580,6 +588,7 @@ class RepositoryIndexCoordinator:
             self.embedding_provider,
             None,
             batch_size=self.batch_size,
+            inter_batch_delay_seconds=self.inter_batch_delay_seconds,
             embedding_identity=self.embedding_identity,
         )
         embedded = service.prepare_chunks(prepared.chunks, progress=lambda values: emit("embedding", values))
@@ -660,6 +669,30 @@ class RepositoryIndexCoordinator:
                 tuple(IndexingFailure(error.stage, error.error_type) for error in prepared.errors),
                 structural_stats=prepared.stats,
             )
+
+    def _filter_allowed_structural_errors(self, prepared: PreparedRepositoryIndex) -> PreparedRepositoryIndex:
+        """Drop only explicitly allow-listed parse/chunk errors for evaluation fixtures."""
+        if not self.allowed_structural_error_paths or not prepared.errors:
+            return prepared
+        remaining = tuple(
+            error
+            for error in prepared.errors
+            if not (
+                error.stage in {"parse", "chunk"}
+                and error.relative_path in self.allowed_structural_error_paths
+            )
+        )
+        if len(remaining) == len(prepared.errors):
+            return prepared
+        return PreparedRepositoryIndex(
+            prepared.root_path,
+            prepared.files,
+            prepared.parse_results,
+            prepared.chunk_results,
+            prepared.chunks,
+            prepared.stats,
+            remaining,
+        )
 
     def _result(
         self,

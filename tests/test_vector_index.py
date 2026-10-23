@@ -66,6 +66,29 @@ def test_export_vectors_returns_exact_embeddings_and_safe_metadata(tmp_path: Pat
     assert set(exported[0].metadata) == {"chunk_id", "project_id", "content_hash", "embedding_model", "dimensions"}
 
 
+def test_upsert_splits_large_batches_for_chroma_limits(tmp_path: Path) -> None:
+    vector_index = index(tmp_path, "large_batch_index")
+
+    class RecordingCollection:
+        def __init__(self) -> None:
+            self.calls: list[int] = []
+
+        def upsert(self, *, ids, embeddings, metadatas) -> None:
+            self.calls.append(len(ids))
+            assert len(ids) == len(embeddings) == len(metadatas)
+
+        def get(self, *, include, limit=None):
+            return {"metadatas": []}
+
+    collection = RecordingCollection()
+    vector_index._collection = collection
+    records = tuple(record(f"chunk-{number}", [1.0, 2.0]) for number in range(5001))
+
+    vector_index.upsert(records)
+
+    assert collection.calls == [500] * 10 + [1]
+
+
 def test_missing_managed_pointer_fails_closed(tmp_path: Path) -> None:
     first = managed_index(tmp_path)
     names = {collection.name for collection in first._client.list_collections()}

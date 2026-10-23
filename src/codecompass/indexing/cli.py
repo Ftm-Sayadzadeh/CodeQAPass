@@ -52,6 +52,8 @@ def main(argv: Sequence[str] | None = None) -> int:
             project_id=project_id,
         ),
         batch_size=args.batch_size,
+        inter_batch_delay_seconds=args.embedding_delay_seconds,
+        allowed_structural_error_paths=_load_allowed_structural_error_paths(args.allowed_structural_errors_file, parser),
     )
     try:
         result = coordinator.index_repository(args.repository, args.project_name)
@@ -95,6 +97,9 @@ def main(argv: Sequence[str] | None = None) -> int:
         "complete": True,
         "truncated_details": [asdict(item) for item in result.truncated],
         "errors": [],
+        "allowed_structural_error_paths": sorted(
+            _load_allowed_structural_error_paths(args.allowed_structural_errors_file, parser)
+        ),
     }
     print(json.dumps(output, indent=2))
     return 0
@@ -122,7 +127,32 @@ def _parser() -> argparse.ArgumentParser:
     parser.add_argument("--ollama-url", default="http://127.0.0.1:11434")
     parser.add_argument("--timeout-seconds", type=float, default=180.0)
     parser.add_argument("--batch-size", type=int, default=32)
+    parser.add_argument(
+        "--embedding-delay-seconds",
+        type=float,
+        default=1.0,
+        help="Delay between embedding batches to avoid provider rate-limit bursts",
+    )
+    parser.add_argument(
+        "--allowed-structural-errors-file",
+        type=Path,
+        help="Evaluation-only newline-delimited relative paths whose parse/chunk errors are expected fixtures",
+    )
     return parser
+
+
+def _load_allowed_structural_error_paths(path: Path | None, parser: argparse.ArgumentParser) -> frozenset[str]:
+    if path is None:
+        return frozenset()
+    try:
+        values = {
+            line.strip().replace("\\", "/")
+            for line in path.read_text(encoding="utf-8").splitlines()
+            if line.strip() and not line.lstrip().startswith("#")
+        }
+    except OSError as error:
+        parser.error(f"cannot read allowed structural errors file: {error}")
+    return frozenset(values)
 
 
 if __name__ == "__main__":

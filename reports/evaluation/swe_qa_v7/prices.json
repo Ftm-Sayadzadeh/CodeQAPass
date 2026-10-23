@@ -1,0 +1,28 @@
+{
+ "read_at": "2026-10-22T16:15:15.694810+00:00",
+ "unit": "credit units per million tokens",
+ "dashboard_toman_per_credit_unit": 271450,
+ "pricing": {
+  "glm-5.3-flash": {
+   "input": 0.15,
+   "cached_input": 0.03,
+   "output": 0.5
+  },
+  "gemini-embedding-2": {
+   "input": 0.2,
+   "cached_input": 0.02,
+   "image_input": 0.45,
+   "audio_input": 6.5,
+   "video_input": 12.0,
+   "output": 0.15
+  },
+  "gemini-2.5-flash": {
+   "input": 0.3,
+   "cached_input": 0.15,
+   "output": 2.5,
+   "audio_input": 1.0,
+   "audio_cached_input": 0.25,
+   "audio_output": 1.0
+  }
+ }
+}

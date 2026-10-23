@@ -1,0 +1,18 @@
+{
+  "protocol": "swe_qa_v4",
+  "task1_rows": 90,
+  "questions": 30,
+  "arms": [
+    "a0",
+    "a1",
+    "b0_k5"
+  ],
+  "question_ids_sha256": "6d9530be9bd09f1310ce0af56c4d1dc3b6661773ffbfd834b78fc78b93e688b2",
+  "task1_sha256": "148818f0cb9155f7f859cc7dc1188f0c23293fd0caedf949f375f4cb56606e45",
+  "a2_task2_status": "ready_for_human_scoring",
+  "blinding_note": "Task-1 arm labels are omitted; item IDs are random. No plaintext arm key is written.",
+  "task2_rows": 133,
+  "task2_questions": 30,
+  "task2_sha256": "746e633912b26be415e21d58d68c19d5a44b789a246603e4e311856234e87e7d",
+  "task2_code_sha256": "df9dcfb62c24cd3c195d74255db65149a3330563126f87e811d9d265de98351a"
+}

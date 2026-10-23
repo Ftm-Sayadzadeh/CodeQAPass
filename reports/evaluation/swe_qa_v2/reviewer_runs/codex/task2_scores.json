@@ -1,0 +1,422 @@
+[
+  {
+    "item_id": "1X",
+    "n_supporting_citations": 1,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 1,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "1Y",
+    "n_supporting_citations": 1,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 1,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "2X",
+    "n_supporting_citations": 2,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 1,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "2Y",
+    "n_supporting_citations": 2,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 1,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "3X",
+    "n_supporting_citations": 3,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 1,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "3Y",
+    "n_supporting_citations": 3,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 1,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "4X",
+    "n_supporting_citations": 0,
+    "n_unsupported_citations": 2,
+    "missing_key_source_0_or_1": 1,
+    "notes": "Reviewed 2 cited ranges; 2 did not support any claim."
+  },
+  {
+    "item_id": "4Y",
+    "n_supporting_citations": 0,
+    "n_unsupported_citations": 2,
+    "missing_key_source_0_or_1": 1,
+    "notes": "Reviewed 2 cited ranges; 2 did not support any claim."
+  },
+  {
+    "item_id": "5X",
+    "n_supporting_citations": 1,
+    "n_unsupported_citations": 1,
+    "missing_key_source_0_or_1": 1,
+    "notes": "Reviewed 2 cited ranges; 1 did not support any claim."
+  },
+  {
+    "item_id": "5Y",
+    "n_supporting_citations": 1,
+    "n_unsupported_citations": 1,
+    "missing_key_source_0_or_1": 1,
+    "notes": "Reviewed 2 cited ranges; 1 did not support any claim."
+  },
+  {
+    "item_id": "6X",
+    "n_supporting_citations": 2,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 1,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "6Y",
+    "n_supporting_citations": 2,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 1,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "7X",
+    "n_supporting_citations": 2,
+    "n_unsupported_citations": 1,
+    "missing_key_source_0_or_1": 0,
+    "notes": "Reviewed 3 cited ranges; 1 did not support any claim."
+  },
+  {
+    "item_id": "7Y",
+    "n_supporting_citations": 2,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 0,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "8X",
+    "n_supporting_citations": 2,
+    "n_unsupported_citations": 2,
+    "missing_key_source_0_or_1": 1,
+    "notes": "Reviewed 4 cited ranges; 2 did not support any claim."
+  },
+  {
+    "item_id": "8Y",
+    "n_supporting_citations": 2,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 1,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "9X",
+    "n_supporting_citations": 2,
+    "n_unsupported_citations": 1,
+    "missing_key_source_0_or_1": 0,
+    "notes": "Reviewed 3 cited ranges; 1 did not support any claim."
+  },
+  {
+    "item_id": "9Y",
+    "n_supporting_citations": 2,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 0,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "10X",
+    "n_supporting_citations": 2,
+    "n_unsupported_citations": 1,
+    "missing_key_source_0_or_1": 0,
+    "notes": "Reviewed 3 cited ranges; 1 did not support any claim."
+  },
+  {
+    "item_id": "10Y",
+    "n_supporting_citations": 2,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 0,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "11X",
+    "n_supporting_citations": 3,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 0,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "11Y",
+    "n_supporting_citations": 0,
+    "n_unsupported_citations": 3,
+    "missing_key_source_0_or_1": 1,
+    "notes": "Reviewed 3 cited ranges; 3 did not support any claim."
+  },
+  {
+    "item_id": "12X",
+    "n_supporting_citations": 1,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 0,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "12Y",
+    "n_supporting_citations": 1,
+    "n_unsupported_citations": 2,
+    "missing_key_source_0_or_1": 0,
+    "notes": "Reviewed 3 cited ranges; 2 did not support any claim."
+  },
+  {
+    "item_id": "13X",
+    "n_supporting_citations": 2,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 0,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "13Y",
+    "n_supporting_citations": 2,
+    "n_unsupported_citations": 1,
+    "missing_key_source_0_or_1": 0,
+    "notes": "Reviewed 3 cited ranges; 1 did not support any claim."
+  },
+  {
+    "item_id": "14X",
+    "n_supporting_citations": 4,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 0,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "14Y",
+    "n_supporting_citations": 3,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 0,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "15X",
+    "n_supporting_citations": 1,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 0,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "15Y",
+    "n_supporting_citations": 1,
+    "n_unsupported_citations": 3,
+    "missing_key_source_0_or_1": 0,
+    "notes": "Reviewed 4 cited ranges; 3 did not support any claim."
+  },
+  {
+    "item_id": "16X",
+    "n_supporting_citations": 2,
+    "n_unsupported_citations": 3,
+    "missing_key_source_0_or_1": 0,
+    "notes": "Reviewed 5 cited ranges; 3 did not support any claim."
+  },
+  {
+    "item_id": "16Y",
+    "n_supporting_citations": 2,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 0,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "17X",
+    "n_supporting_citations": 3,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 0,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "17Y",
+    "n_supporting_citations": 3,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 0,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "18X",
+    "n_supporting_citations": 2,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 0,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "18Y",
+    "n_supporting_citations": 2,
+    "n_unsupported_citations": 2,
+    "missing_key_source_0_or_1": 0,
+    "notes": "Reviewed 4 cited ranges; 2 did not support any claim."
+  },
+  {
+    "item_id": "19X",
+    "n_supporting_citations": 1,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 0,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "19Y",
+    "n_supporting_citations": 1,
+    "n_unsupported_citations": 2,
+    "missing_key_source_0_or_1": 0,
+    "notes": "Reviewed 3 cited ranges; 2 did not support any claim."
+  },
+  {
+    "item_id": "20X",
+    "n_supporting_citations": 2,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 0,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "20Y",
+    "n_supporting_citations": 0,
+    "n_unsupported_citations": 4,
+    "missing_key_source_0_or_1": 1,
+    "notes": "Reviewed 4 cited ranges; 4 did not support any claim."
+  },
+  {
+    "item_id": "21X",
+    "n_supporting_citations": 4,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 0,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "21Y",
+    "n_supporting_citations": 2,
+    "n_unsupported_citations": 2,
+    "missing_key_source_0_or_1": 1,
+    "notes": "Reviewed 4 cited ranges; 2 did not support any claim."
+  },
+  {
+    "item_id": "22X",
+    "n_supporting_citations": 2,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 0,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "22Y",
+    "n_supporting_citations": 2,
+    "n_unsupported_citations": 2,
+    "missing_key_source_0_or_1": 0,
+    "notes": "Reviewed 4 cited ranges; 2 did not support any claim."
+  },
+  {
+    "item_id": "23X",
+    "n_supporting_citations": 4,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 0,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "23Y",
+    "n_supporting_citations": 4,
+    "n_unsupported_citations": 1,
+    "missing_key_source_0_or_1": 0,
+    "notes": "Reviewed 5 cited ranges; 1 did not support any claim."
+  },
+  {
+    "item_id": "24X",
+    "n_supporting_citations": 3,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 0,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "24Y",
+    "n_supporting_citations": 3,
+    "n_unsupported_citations": 2,
+    "missing_key_source_0_or_1": 0,
+    "notes": "Reviewed 5 cited ranges; 2 did not support any claim."
+  },
+  {
+    "item_id": "25X",
+    "n_supporting_citations": 4,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 0,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "25Y",
+    "n_supporting_citations": 4,
+    "n_unsupported_citations": 1,
+    "missing_key_source_0_or_1": 0,
+    "notes": "Reviewed 5 cited ranges; 1 did not support any claim."
+  },
+  {
+    "item_id": "26X",
+    "n_supporting_citations": 2,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 0,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "26Y",
+    "n_supporting_citations": 2,
+    "n_unsupported_citations": 1,
+    "missing_key_source_0_or_1": 0,
+    "notes": "Reviewed 3 cited ranges; 1 did not support any claim."
+  },
+  {
+    "item_id": "27X",
+    "n_supporting_citations": 3,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 0,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "27Y",
+    "n_supporting_citations": 3,
+    "n_unsupported_citations": 1,
+    "missing_key_source_0_or_1": 0,
+    "notes": "Reviewed 4 cited ranges; 1 did not support any claim."
+  },
+  {
+    "item_id": "28X",
+    "n_supporting_citations": 5,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 0,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "28Y",
+    "n_supporting_citations": 5,
+    "n_unsupported_citations": 0,
+    "missing_key_source_0_or_1": 0,
+    "notes": "All cited ranges support at least one claim."
+  },
+  {
+    "item_id": "29X",
+    "n_supporting_citations": 3,
+    "n_unsupported_citations": 1,
+    "missing_key_source_0_or_1": 0,
+    "notes": "Reviewed 4 cited ranges; 1 did not support any claim."
+  },
+  {
+    "item_id": "29Y",
+    "n_supporting_citations": 3,
+    "n_unsupported_citations": 1,
+    "missing_key_source_0_or_1": 0,
+    "notes": "Reviewed 4 cited ranges; 1 did not support any claim."
+  },
+  {
+    "item_id": "30X",
+    "n_supporting_citations": 3,
+    "n_unsupported_citations": 1,
+    "missing_key_source_0_or_1": 0,
+    "notes": "Reviewed 4 cited ranges; 1 did not support any claim."
+  },
+  {
+    "item_id": "30Y",
+    "n_supporting_citations": 3,
+    "n_unsupported_citations": 1,
+    "missing_key_source_0_or_1": 0,
+    "notes": "Reviewed 4 cited ranges; 1 did not support any claim."
+  }
+]

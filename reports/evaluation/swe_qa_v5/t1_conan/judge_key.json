@@ -1,0 +1,798 @@
+{
+ "seed": 20260930,
+ "records": 198,
+ "mapping": {
+  "K001": {
+   "question_id": "conan-45",
+   "arm": "b0_k10"
+  },
+  "K002": {
+   "question_id": "conan-24",
+   "arm": "b0_k5"
+  },
+  "K003": {
+   "question_id": "conan-48",
+   "arm": "b0_k5"
+  },
+  "K004": {
+   "question_id": "conan-3",
+   "arm": "a0"
+  },
+  "K005": {
+   "question_id": "conan-27",
+   "arm": "a1_v5b"
+  },
+  "K006": {
+   "question_id": "conan-17",
+   "arm": "a1_v5b"
+  },
+  "K007": {
+   "question_id": "conan-45",
+   "arm": "a0"
+  },
+  "K008": {
+   "question_id": "conan-11",
+   "arm": "b0_k10"
+  },
+  "K009": {
+   "question_id": "conan-13",
+   "arm": "a1_cur"
+  },
+  "K010": {
+   "question_id": "conan-44",
+   "arm": "a1_v5a"
+  },
+  "K011": {
+   "question_id": "conan-14",
+   "arm": "b0_k10"
+  },
+  "K012": {
+   "question_id": "conan-32",
+   "arm": "a0"
+  },
+  "K013": {
+   "question_id": "conan-27",
+   "arm": "a1_cur"
+  },
+  "K014": {
+   "question_id": "conan-6",
+   "arm": "a1_cur"
+  },
+  "K015": {
+   "question_id": "conan-32",
+   "arm": "a1_v5b"
+  },
+  "K016": {
+   "question_id": "conan-14",
+   "arm": "a1_v5b"
+  },
+  "K017": {
+   "question_id": "conan-46",
+   "arm": "a0"
+  },
+  "K018": {
+   "question_id": "conan-39",
+   "arm": "a1_cur"
+  },
+  "K019": {
+   "question_id": "conan-32",
+   "arm": "a1_cur"
+  },
+  "K020": {
+   "question_id": "conan-34",
+   "arm": "a0"
+  },
+  "K021": {
+   "question_id": "conan-28",
+   "arm": "a0"
+  },
+  "K022": {
+   "question_id": "conan-4",
+   "arm": "a1_cur"
+  },
+  "K023": {
+   "question_id": "conan-24",
+   "arm": "b0_k10"
+  },
+  "K024": {
+   "question_id": "conan-48",
+   "arm": "a0"
+  },
+  "K025": {
+   "question_id": "conan-28",
+   "arm": "a1_v5b"
+  },
+  "K026": {
+   "question_id": "conan-43",
+   "arm": "a1_v5b"
+  },
+  "K027": {
+   "question_id": "conan-31",
+   "arm": "a1_cur"
+  },
+  "K028": {
+   "question_id": "conan-17",
+   "arm": "b0_k10"
+  },
+  "K029": {
+   "question_id": "conan-11",
+   "arm": "a0"
+  },
+  "K030": {
+   "question_id": "conan-35",
+   "arm": "a1_cur"
+  },
+  "K031": {
+   "question_id": "conan-34",
+   "arm": "b0_k5"
+  },
+  "K032": {
+   "question_id": "conan-45",
+   "arm": "a1_v5b"
+  },
+  "K033": {
+   "question_id": "conan-37",
+   "arm": "a0"
+  },
+  "K034": {
+   "question_id": "conan-17",
+   "arm": "b0_k5"
+  },
+  "K035": {
+   "question_id": "conan-44",
+   "arm": "a1_v5b"
+  },
+  "K036": {
+   "question_id": "conan-34",
+   "arm": "b0_k10"
+  },
+  "K037": {
+   "question_id": "conan-32",
+   "arm": "b0_k10"
+  },
+  "K038": {
+   "question_id": "conan-43",
+   "arm": "a1_v5a"
+  },
+  "K039": {
+   "question_id": "conan-6",
+   "arm": "b0_k5"
+  },
+  "K040": {
+   "question_id": "conan-33",
+   "arm": "b0_k10"
+  },
+  "K041": {
+   "question_id": "conan-48",
+   "arm": "a1_v5a"
+  },
+  "K042": {
+   "question_id": "conan-39",
+   "arm": "a1_v5a"
+  },
+  "K043": {
+   "question_id": "conan-46",
+   "arm": "a1_v5b"
+  },
+  "K044": {
+   "question_id": "conan-38",
+   "arm": "a0"
+  },
+  "K045": {
+   "question_id": "conan-17",
+   "arm": "a1_cur"
+  },
+  "K046": {
+   "question_id": "conan-30",
+   "arm": "a1_v5a"
+  },
+  "K047": {
+   "question_id": "conan-6",
+   "arm": "a0"
+  },
+  "K048": {
+   "question_id": "conan-43",
+   "arm": "a0"
+  },
+  "K049": {
+   "question_id": "conan-23",
+   "arm": "b0_k10"
+  },
+  "K050": {
+   "question_id": "conan-43",
+   "arm": "b0_k10"
+  },
+  "K051": {
+   "question_id": "conan-22",
+   "arm": "b0_k5"
+  },
+  "K052": {
+   "question_id": "conan-12",
+   "arm": "a1_v5b"
+  },
+  "K053": {
+   "question_id": "conan-33",
+   "arm": "a1_v5a"
+  },
+  "K054": {
+   "question_id": "conan-11",
+   "arm": "a1_v5b"
+  },
+  "K055": {
+   "question_id": "conan-39",
+   "arm": "b0_k5"
+  },
+  "K056": {
+   "question_id": "conan-4",
+   "arm": "b0_k5"
+  },
+  "K057": {
+   "question_id": "conan-13",
+   "arm": "a1_v5b"
+  },
+  "K058": {
+   "question_id": "conan-18",
+   "arm": "a0"
+  },
+  "K059": {
+   "question_id": "conan-38",
+   "arm": "a1_cur"
+  },
+  "K060": {
+   "question_id": "conan-35",
+   "arm": "b0_k5"
+  },
+  "K061": {
+   "question_id": "conan-37",
+   "arm": "a1_v5a"
+  },
+  "K062": {
+   "question_id": "conan-30",
+   "arm": "a1_cur"
+  },
+  "K063": {
+   "question_id": "conan-38",
+   "arm": "a1_v5a"
+  },
+  "K064": {
+   "question_id": "conan-39",
+   "arm": "a0"
+  },
+  "K065": {
+   "question_id": "conan-39",
+   "arm": "b0_k10"
+  },
+  "K066": {
+   "question_id": "conan-14",
+   "arm": "a1_cur"
+  },
+  "K067": {
+   "question_id": "conan-44",
+   "arm": "b0_k5"
+  },
+  "K068": {
+   "question_id": "conan-26",
+   "arm": "a1_v5a"
+  },
+  "K069": {
+   "question_id": "conan-43",
+   "arm": "a1_cur"
+  },
+  "K070": {
+   "question_id": "conan-29",
+   "arm": "a0"
+  },
+  "K071": {
+   "question_id": "conan-13",
+   "arm": "a0"
+  },
+  "K072": {
+   "question_id": "conan-26",
+   "arm": "b0_k5"
+  },
+  "K073": {
+   "question_id": "conan-29",
+   "arm": "b0_k10"
+  },
+  "K074": {
+   "question_id": "conan-45",
+   "arm": "a1_v5a"
+  },
+  "K075": {
+   "question_id": "conan-26",
+   "arm": "a1_v5b"
+  },
+  "K076": {
+   "question_id": "conan-22",
+   "arm": "b0_k10"
+  },
+  "K077": {
+   "question_id": "conan-4",
+   "arm": "b0_k10"
+  },
+  "K078": {
+   "question_id": "conan-38",
+   "arm": "a1_v5b"
+  },
+  "K079": {
+   "question_id": "conan-39",
+   "arm": "a1_v5b"
+  },
+  "K080": {
+   "question_id": "conan-8",
+   "arm": "b0_k10"
+  },
+  "K081": {
+   "question_id": "conan-18",
+   "arm": "b0_k10"
+  },
+  "K082": {
+   "question_id": "conan-12",
+   "arm": "a1_v5a"
+  },
+  "K083": {
+   "question_id": "conan-13",
+   "arm": "a1_v5a"
+  },
+  "K084": {
+   "question_id": "conan-30",
+   "arm": "b0_k5"
+  },
+  "K085": {
+   "question_id": "conan-23",
+   "arm": "a1_v5a"
+  },
+  "K086": {
+   "question_id": "conan-23",
+   "arm": "a1_cur"
+  },
+  "K087": {
+   "question_id": "conan-8",
+   "arm": "b0_k5"
+  },
+  "K088": {
+   "question_id": "conan-44",
+   "arm": "a0"
+  },
+  "K089": {
+   "question_id": "conan-46",
+   "arm": "b0_k10"
+  },
+  "K090": {
+   "question_id": "conan-48",
+   "arm": "a1_v5b"
+  },
+  "K091": {
+   "question_id": "conan-22",
+   "arm": "a1_v5a"
+  },
+  "K092": {
+   "question_id": "conan-34",
+   "arm": "a1_v5a"
+  },
+  "K093": {
+   "question_id": "conan-26",
+   "arm": "b0_k10"
+  },
+  "K094": {
+   "question_id": "conan-23",
+   "arm": "a0"
+  },
+  "K095": {
+   "question_id": "conan-8",
+   "arm": "a1_v5b"
+  },
+  "K096": {
+   "question_id": "conan-29",
+   "arm": "a1_v5b"
+  },
+  "K097": {
+   "question_id": "conan-15",
+   "arm": "a0"
+  },
+  "K098": {
+   "question_id": "conan-32",
+   "arm": "a1_v5a"
+  },
+  "K099": {
+   "question_id": "conan-33",
+   "arm": "b0_k5"
+  },
+  "K100": {
+   "question_id": "conan-31",
+   "arm": "b0_k5"
+  },
+  "K101": {
+   "question_id": "conan-6",
+   "arm": "b0_k10"
+  },
+  "K102": {
+   "question_id": "conan-23",
+   "arm": "a1_v5b"
+  },
+  "K103": {
+   "question_id": "conan-22",
+   "arm": "a1_v5b"
+  },
+  "K104": {
+   "question_id": "conan-14",
+   "arm": "b0_k5"
+  },
+  "K105": {
+   "question_id": "conan-3",
+   "arm": "a1_cur"
+  },
+  "K106": {
+   "question_id": "conan-4",
+   "arm": "a1_v5b"
+  },
+  "K107": {
+   "question_id": "conan-11",
+   "arm": "a1_cur"
+  },
+  "K108": {
+   "question_id": "conan-44",
+   "arm": "b0_k10"
+  },
+  "K109": {
+   "question_id": "conan-37",
+   "arm": "b0_k10"
+  },
+  "K110": {
+   "question_id": "conan-11",
+   "arm": "b0_k5"
+  },
+  "K111": {
+   "question_id": "conan-16",
+   "arm": "b0_k5"
+  },
+  "K112": {
+   "question_id": "conan-37",
+   "arm": "a1_cur"
+  },
+  "K113": {
+   "question_id": "conan-29",
+   "arm": "a1_v5a"
+  },
+  "K114": {
+   "question_id": "conan-28",
+   "arm": "a1_cur"
+  },
+  "K115": {
+   "question_id": "conan-37",
+   "arm": "a1_v5b"
+  },
+  "K116": {
+   "question_id": "conan-3",
+   "arm": "b0_k10"
+  },
+  "K117": {
+   "question_id": "conan-45",
+   "arm": "b0_k5"
+  },
+  "K118": {
+   "question_id": "conan-18",
+   "arm": "b0_k5"
+  },
+  "K119": {
+   "question_id": "conan-13",
+   "arm": "b0_k5"
+  },
+  "K120": {
+   "question_id": "conan-16",
+   "arm": "a1_cur"
+  },
+  "K121": {
+   "question_id": "conan-43",
+   "arm": "b0_k5"
+  },
+  "K122": {
+   "question_id": "conan-34",
+   "arm": "a1_v5b"
+  },
+  "K123": {
+   "question_id": "conan-37",
+   "arm": "b0_k5"
+  },
+  "K124": {
+   "question_id": "conan-8",
+   "arm": "a0"
+  },
+  "K125": {
+   "question_id": "conan-28",
+   "arm": "b0_k10"
+  },
+  "K126": {
+   "question_id": "conan-24",
+   "arm": "a1_cur"
+  },
+  "K127": {
+   "question_id": "conan-27",
+   "arm": "a1_v5a"
+  },
+  "K128": {
+   "question_id": "conan-12",
+   "arm": "b0_k5"
+  },
+  "K129": {
+   "question_id": "conan-31",
+   "arm": "a0"
+  },
+  "K130": {
+   "question_id": "conan-29",
+   "arm": "b0_k5"
+  },
+  "K131": {
+   "question_id": "conan-11",
+   "arm": "a1_v5a"
+  },
+  "K132": {
+   "question_id": "conan-16",
+   "arm": "a1_v5a"
+  },
+  "K133": {
+   "question_id": "conan-35",
+   "arm": "b0_k10"
+  },
+  "K134": {
+   "question_id": "conan-3",
+   "arm": "b0_k5"
+  },
+  "K135": {
+   "question_id": "conan-31",
+   "arm": "b0_k10"
+  },
+  "K136": {
+   "question_id": "conan-3",
+   "arm": "a1_v5a"
+  },
+  "K137": {
+   "question_id": "conan-14",
+   "arm": "a0"
+  },
+  "K138": {
+   "question_id": "conan-17",
+   "arm": "a1_v5a"
+  },
+  "K139": {
+   "question_id": "conan-12",
+   "arm": "b0_k10"
+  },
+  "K140": {
+   "question_id": "conan-35",
+   "arm": "a1_v5a"
+  },
+  "K141": {
+   "question_id": "conan-44",
+   "arm": "a1_cur"
+  },
+  "K142": {
+   "question_id": "conan-24",
+   "arm": "a1_v5b"
+  },
+  "K143": {
+   "question_id": "conan-12",
+   "arm": "a1_cur"
+  },
+  "K144": {
+   "question_id": "conan-22",
+   "arm": "a0"
+  },
+  "K145": {
+   "question_id": "conan-28",
+   "arm": "b0_k5"
+  },
+  "K146": {
+   "question_id": "conan-15",
+   "arm": "b0_k5"
+  },
+  "K147": {
+   "question_id": "conan-3",
+   "arm": "a1_v5b"
+  },
+  "K148": {
+   "question_id": "conan-14",
+   "arm": "a1_v5a"
+  },
+  "K149": {
+   "question_id": "conan-18",
+   "arm": "a1_cur"
+  },
+  "K150": {
+   "question_id": "conan-24",
+   "arm": "a1_v5a"
+  },
+  "K151": {
+   "question_id": "conan-15",
+   "arm": "a1_v5b"
+  },
+  "K152": {
+   "question_id": "conan-13",
+   "arm": "b0_k10"
+  },
+  "K153": {
+   "question_id": "conan-23",
+   "arm": "b0_k5"
+  },
+  "K154": {
+   "question_id": "conan-16",
+   "arm": "a1_v5b"
+  },
+  "K155": {
+   "question_id": "conan-32",
+   "arm": "b0_k5"
+  },
+  "K156": {
+   "question_id": "conan-4",
+   "arm": "a0"
+  },
+  "K157": {
+   "question_id": "conan-18",
+   "arm": "a1_v5a"
+  },
+  "K158": {
+   "question_id": "conan-8",
+   "arm": "a1_cur"
+  },
+  "K159": {
+   "question_id": "conan-29",
+   "arm": "a1_cur"
+  },
+  "K160": {
+   "question_id": "conan-16",
+   "arm": "b0_k10"
+  },
+  "K161": {
+   "question_id": "conan-48",
+   "arm": "a1_cur"
+  },
+  "K162": {
+   "question_id": "conan-12",
+   "arm": "a0"
+  },
+  "K163": {
+   "question_id": "conan-46",
+   "arm": "b0_k5"
+  },
+  "K164": {
+   "question_id": "conan-26",
+   "arm": "a0"
+  },
+  "K165": {
+   "question_id": "conan-6",
+   "arm": "a1_v5b"
+  },
+  "K166": {
+   "question_id": "conan-30",
+   "arm": "a0"
+  },
+  "K167": {
+   "question_id": "conan-30",
+   "arm": "b0_k10"
+  },
+  "K168": {
+   "question_id": "conan-48",
+   "arm": "b0_k10"
+  },
+  "K169": {
+   "question_id": "conan-33",
+   "arm": "a0"
+  },
+  "K170": {
+   "question_id": "conan-38",
+   "arm": "b0_k10"
+  },
+  "K171": {
+   "question_id": "conan-15",
+   "arm": "a1_v5a"
+  },
+  "K172": {
+   "question_id": "conan-4",
+   "arm": "a1_v5a"
+  },
+  "K173": {
+   "question_id": "conan-27",
+   "arm": "b0_k5"
+  },
+  "K174": {
+   "question_id": "conan-35",
+   "arm": "a0"
+  },
+  "K175": {
+   "question_id": "conan-45",
+   "arm": "a1_cur"
+  },
+  "K176": {
+   "question_id": "conan-24",
+   "arm": "a0"
+  },
+  "K177": {
+   "question_id": "conan-17",
+   "arm": "a0"
+  },
+  "K178": {
+   "question_id": "conan-26",
+   "arm": "a1_cur"
+  },
+  "K179": {
+   "question_id": "conan-31",
+   "arm": "a1_v5a"
+  },
+  "K180": {
+   "question_id": "conan-34",
+   "arm": "a1_cur"
+  },
+  "K181": {
+   "question_id": "conan-15",
+   "arm": "b0_k10"
+  },
+  "K182": {
+   "question_id": "conan-30",
+   "arm": "a1_v5b"
+  },
+  "K183": {
+   "question_id": "conan-28",
+   "arm": "a1_v5a"
+  },
+  "K184": {
+   "question_id": "conan-27",
+   "arm": "a0"
+  },
+  "K185": {
+   "question_id": "conan-16",
+   "arm": "a0"
+  },
+  "K186": {
+   "question_id": "conan-22",
+   "arm": "a1_cur"
+  },
+  "K187": {
+   "question_id": "conan-8",
+   "arm": "a1_v5a"
+  },
+  "K188": {
+   "question_id": "conan-33",
+   "arm": "a1_v5b"
+  },
+  "K189": {
+   "question_id": "conan-31",
+   "arm": "a1_v5b"
+  },
+  "K190": {
+   "question_id": "conan-46",
+   "arm": "a1_cur"
+  },
+  "K191": {
+   "question_id": "conan-6",
+   "arm": "a1_v5a"
+  },
+  "K192": {
+   "question_id": "conan-27",
+   "arm": "b0_k10"
+  },
+  "K193": {
+   "question_id": "conan-18",
+   "arm": "a1_v5b"
+  },
+  "K194": {
+   "question_id": "conan-38",
+   "arm": "b0_k5"
+  },
+  "K195": {
+   "question_id": "conan-35",
+   "arm": "a1_v5b"
+  },
+  "K196": {
+   "question_id": "conan-46",
+   "arm": "a1_v5a"
+  },
+  "K197": {
+   "question_id": "conan-15",
+   "arm": "a1_cur"
+  },
+  "K198": {
+   "question_id": "conan-33",
+   "arm": "a1_cur"
+  }
+ }
+}

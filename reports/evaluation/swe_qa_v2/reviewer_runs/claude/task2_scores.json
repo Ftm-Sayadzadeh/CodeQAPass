@@ -1,0 +1,422 @@
+﻿[
+    {
+        "item_id":  "1X",
+        "n_supporting_citations":  1,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  1,
+        "notes":  "Range covers App.__init__ incl. super().__init__(root_path) and make_config call; make_config body (the actual root_path swap) not cited."
+    },
+    {
+        "item_id":  "1Y",
+        "n_supporting_citations":  1,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  1,
+        "notes":  "Same as 1X."
+    },
+    {
+        "item_id":  "2X",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  1,
+        "notes":  "App.__init__ shows blueprints dict; test lines 254-256 support ValueError at creation; Blueprint.__init__ validation and dotted-endpoint code not cited."
+    },
+    {
+        "item_id":  "2Y",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  1,
+        "notes":  "Same as 2X."
+    },
+    {
+        "item_id":  "3X",
+        "n_supporting_citations":  3,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "process_response and SessionInterface docs (open/save/concurrency) support all claims; 277-284 is a subset of 114-284 but supports save_session claim."
+    },
+    {
+        "item_id":  "3Y",
+        "n_supporting_citations":  3,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "Same as 3X."
+    },
+    {
+        "item_id":  "4X",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "Class range and __getattr__ range both support the __getattr__ claims (range also contains __delattr__/pop)."
+    },
+    {
+        "item_id":  "4Y",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "Same as 4X."
+    },
+    {
+        "item_id":  "5X",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "url_for range supports req_ctx/url_adapter/_external claims; test_subdomain supports config/route/client claims."
+    },
+    {
+        "item_id":  "5Y",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "Same as 5X."
+    },
+    {
+        "item_id":  "6X",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  1,
+        "notes":  "find_app_by_string and _set_app support the claims made; ScriptInfo class (needed for the question) not cited."
+    },
+    {
+        "item_id":  "6Y",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  1,
+        "notes":  "Same as 6X."
+    },
+    {
+        "item_id":  "7X",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  1,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "tests/test_helpers.py FakePath ranges support; sansio/app.py:282-411 is unrelated to FakePath."
+    },
+    {
+        "item_id":  "7Y",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "FakePath class and __fspath__ ranges support the claim."
+    },
+    {
+        "item_id":  "8X",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  2,
+        "missing_key_source_0_or_1":  1,
+        "notes":  "tag.py 140-141 and 153-154 support to_json recursion; config.py and provider.py unrelated; TaggedJSONSerializer.tag dispatcher not cited."
+    },
+    {
+        "item_id":  "8Y",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  1,
+        "notes":  "Both tag.py ranges support to_json; dispatcher TaggedJSONSerializer.tag not cited."
+    },
+    {
+        "item_id":  "9X",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  1,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "sessions.py 298-399 and 317-335 support get_signing_serializer claim; dispatch_request is irrelevant."
+    },
+    {
+        "item_id":  "9Y",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  1,
+        "notes":  "Class attributes and get_signing_serializer support construction claim; per-request call sites in open_session/save_session not cited."
+    },
+    {
+        "item_id":  "10X",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  1,
+        "missing_key_source_0_or_1":  1,
+        "notes":  "TagTuple ranges support to_json claim; url_for irrelevant; TaggedJSONSerializer.tag not cited."
+    },
+    {
+        "item_id":  "10Y",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  1,
+        "notes":  "TagTuple ranges support; TaggedJSONSerializer.tag not cited (answer admits)."
+    },
+    {
+        "item_id":  "11X",
+        "n_supporting_citations":  3,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "process_response, stream_with_context and test comment support the claims made."
+    },
+    {
+        "item_id":  "11Y",
+        "n_supporting_citations":  3,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "Same as 11X."
+    },
+    {
+        "item_id":  "12X",
+        "n_supporting_citations":  1,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "TestUrlFor range contains anchor/scheme/method tests."
+    },
+    {
+        "item_id":  "12Y",
+        "n_supporting_citations":  1,
+        "n_unsupported_citations":  2,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "TestUrlFor supports; test_request_context and test_testing 92-93 unrelated."
+    },
+    {
+        "item_id":  "13X",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "TagUUID range and to_json range support hex/key claims."
+    },
+    {
+        "item_id":  "13Y",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  1,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "TagUUID ranges support; provider.py range unrelated."
+    },
+    {
+        "item_id":  "14X",
+        "n_supporting_citations":  3,
+        "n_unsupported_citations":  1,
+        "missing_key_source_0_or_1":  1,
+        "notes":  "conftest runner, FlaskCliRunner and test_cli invoke support; app.run range unrelated; cli.py ScriptInfo/app loading helper not cited (answer admits)."
+    },
+    {
+        "item_id":  "14Y",
+        "n_supporting_citations":  3,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  1,
+        "notes":  "Same supporting ranges; app-loading helper in cli.py not cited."
+    },
+    {
+        "item_id":  "15X",
+        "n_supporting_citations":  1,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "PassDict.to_json comment range supports."
+    },
+    {
+        "item_id":  "15Y",
+        "n_supporting_citations":  1,
+        "n_unsupported_citations":  3,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "PassDict range supports; config.py, provider.py and TagDict ranges unrelated."
+    },
+    {
+        "item_id":  "16X",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  3,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "exceptions.py ranges support; api.py, RequestHooksMixin and Response.json unrelated."
+    },
+    {
+        "item_id":  "16Y",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "Both exceptions.py ranges support."
+    },
+    {
+        "item_id":  "17X",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  1,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "merge_cookies and prepare_request (merge at line 473) support; Session.__init__ 390-449 unrelated to claims."
+    },
+    {
+        "item_id":  "17Y",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  1,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "Same as 17X."
+    },
+    {
+        "item_id":  "18X",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  1,
+        "notes":  "Test range supports claims; is_valid_cidr implementation not cited (answer admits)."
+    },
+    {
+        "item_id":  "18Y",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  2,
+        "missing_key_source_0_or_1":  1,
+        "notes":  "Test ranges support; adapters.py and unquote_header_value unrelated; is_valid_cidr not cited."
+    },
+    {
+        "item_id":  "19X",
+        "n_supporting_citations":  1,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "Response.links supports all claims."
+    },
+    {
+        "item_id":  "19Y",
+        "n_supporting_citations":  1,
+        "n_unsupported_citations":  2,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "Response.links supports; adapters.py and api.py unrelated."
+    },
+    {
+        "item_id":  "20X",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  1,
+        "notes":  "test_pragmas and test_precedence support; get_encodings_from_content impl and content parametrization not cited though answer infers normalization."
+    },
+    {
+        "item_id":  "20Y",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  2,
+        "missing_key_source_0_or_1":  1,
+        "notes":  "Test ranges support; prepare_body and Response.__init__ unrelated; implementation not cited."
+    },
+    {
+        "item_id":  "21X",
+        "n_supporting_citations":  4,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  1,
+        "notes":  "proxy_headers, prepare, prepare_url and long-authinfo test support claims; prepare_auth/get_auth_from_url not cited."
+    },
+    {
+        "item_id":  "21Y",
+        "n_supporting_citations":  4,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  1,
+        "notes":  "Same as 21X."
+    },
+    {
+        "item_id":  "22X",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "TestTestServer and Server ranges support claims."
+    },
+    {
+        "item_id":  "22Y",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  2,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "Test and server ranges support; adapters.py and api.py unrelated."
+    },
+    {
+        "item_id":  "23X",
+        "n_supporting_citations":  4,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "tls_context ValueError-\u003eInvalidURL and three exception definitions support."
+    },
+    {
+        "item_id":  "23Y",
+        "n_supporting_citations":  4,
+        "n_unsupported_citations":  1,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "Same plus adapters.py 373-421 unrelated."
+    },
+    {
+        "item_id":  "24X",
+        "n_supporting_citations":  3,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  1,
+        "notes":  "check_compatibility and warning classes support; try/except converting failures to warnings (lines ~100-119) not cited."
+    },
+    {
+        "item_id":  "24Y",
+        "n_supporting_citations":  3,
+        "n_unsupported_citations":  2,
+        "missing_key_source_0_or_1":  1,
+        "notes":  "Supporting ranges as 24X; sessions.py redirect ranges unrelated; import-time try/except not cited."
+    },
+    {
+        "item_id":  "25X",
+        "n_supporting_citations":  4,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "MockRequest, get_host, get_full_url and host ranges support."
+    },
+    {
+        "item_id":  "25Y",
+        "n_supporting_citations":  4,
+        "n_unsupported_citations":  1,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "Same plus Session.request range unrelated."
+    },
+    {
+        "item_id":  "26X",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "_encode_files and prepare_body support."
+    },
+    {
+        "item_id":  "26Y",
+        "n_supporting_citations":  2,
+        "n_unsupported_citations":  1,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "Supporting ranges as 26X; test_conflicting_post_params tests str data + files ValueError, not the stream NotImplementedError."
+    },
+    {
+        "item_id":  "27X",
+        "n_supporting_citations":  3,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  1,
+        "notes":  "TestTimeout class range, test_none_timeout and api.request support; httpbin fixture in conftest.py not cited."
+    },
+    {
+        "item_id":  "27Y",
+        "n_supporting_citations":  3,
+        "n_unsupported_citations":  1,
+        "missing_key_source_0_or_1":  1,
+        "notes":  "Supporting ranges as 27X; test_invalid_timeout unrelated; conftest httpbin not cited."
+    },
+    {
+        "item_id":  "28X",
+        "n_supporting_citations":  5,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "BaseAdapter, HTTPAdapter and init ranges support claims."
+    },
+    {
+        "item_id":  "28Y",
+        "n_supporting_citations":  5,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "Same as 28X."
+    },
+    {
+        "item_id":  "29X",
+        "n_supporting_citations":  4,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  1,
+        "notes":  "HTTPError, test_http_error, Session.__init__ mounting and pool-key ranges support claims made; raise_for_status and HTTPAdapter.send not cited (answer admits)."
+    },
+    {
+        "item_id":  "29Y",
+        "n_supporting_citations":  4,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  1,
+        "notes":  "Same as 29X."
+    },
+    {
+        "item_id":  "30X",
+        "n_supporting_citations":  4,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "close, __exit__, resolve_redirects (resp.close at 196) and context manager test support."
+    },
+    {
+        "item_id":  "30Y",
+        "n_supporting_citations":  4,
+        "n_unsupported_citations":  0,
+        "missing_key_source_0_or_1":  0,
+        "notes":  "Same as 30X."
+    }
+]

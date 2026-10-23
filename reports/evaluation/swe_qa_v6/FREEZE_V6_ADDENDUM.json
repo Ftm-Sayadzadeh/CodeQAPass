@@ -1,0 +1,8 @@
+{
+ "note": "runner amended after the freeze for rate-limit-aware retries (see protocol section 9); contexts, prompts and arms unchanged; runner amended again to stop judge passes on credit errors",
+ "date": "2026-10-19",
+ "sha256": {
+  "scripts/evaluation/swe_qa_v6_confirm.py": "f269035f593e2349d8b3c6941ed6de52e923555c4a0ac2a9008080c5f886f48c",
+  "reports/evaluation/swe_qa_v6/PROTOCOL_V6_DRAFT.md": "b603ec832977229ed05885cc708c0d9710e6629ad8905a9b25f6b4f40d092cc7"
+ }
+}

@@ -1,0 +1,1084 @@
+{
+  "sample_size": 40,
+  "sample_per_repo": 10,
+  "base_k": 5,
+  "fallback_k": 10,
+  "min_blocks": 3,
+  "min_omitted": 2,
+  "fallback_count": 18,
+  "rows": [
+    {
+      "question_id": "flask-1",
+      "repo": "flask",
+      "used_k": 5,
+      "k5": {
+        "context_files": [
+          "src/flask/json/provider.py",
+          "tests/test_json.py",
+          "tests/test_testing.py"
+        ],
+        "blocks": 5,
+        "chars": 2313,
+        "omitted": 0,
+        "gold_files_in_context": 2,
+        "full_gold": true
+      },
+      "chosen": {
+        "context_files": [
+          "src/flask/json/provider.py",
+          "tests/test_json.py",
+          "tests/test_testing.py"
+        ],
+        "blocks": 5,
+        "chars": 2313,
+        "omitted": 0,
+        "gold_files_in_context": 2,
+        "full_gold": true
+      }
+    },
+    {
+      "question_id": "flask-2",
+      "repo": "flask",
+      "used_k": 5,
+      "k5": {
+        "context_files": [
+          "src/flask/sansio/blueprints.py"
+        ],
+        "blocks": 5,
+        "chars": 4401,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "src/flask/sansio/blueprints.py"
+        ],
+        "blocks": 5,
+        "chars": 4401,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      }
+    },
+    {
+      "question_id": "flask-3",
+      "repo": "flask",
+      "used_k": 5,
+      "k5": {
+        "context_files": [
+          "src/flask/app.py",
+          "src/flask/sansio/scaffold.py",
+          "tests/test_basic.py",
+          "tests/test_blueprints.py"
+        ],
+        "blocks": 4,
+        "chars": 5279,
+        "omitted": 1,
+        "gold_files_in_context": 1,
+        "full_gold": true
+      },
+      "chosen": {
+        "context_files": [
+          "src/flask/app.py",
+          "src/flask/sansio/scaffold.py",
+          "tests/test_basic.py",
+          "tests/test_blueprints.py"
+        ],
+        "blocks": 4,
+        "chars": 5279,
+        "omitted": 1,
+        "gold_files_in_context": 1,
+        "full_gold": true
+      }
+    },
+    {
+      "question_id": "flask-4",
+      "repo": "flask",
+      "used_k": 10,
+      "k5": {
+        "context_files": [
+          "src/flask/app.py"
+        ],
+        "blocks": 1,
+        "chars": 975,
+        "omitted": 1,
+        "gold_files_in_context": 0,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "src/flask/app.py"
+        ],
+        "blocks": 1,
+        "chars": 975,
+        "omitted": 1,
+        "gold_files_in_context": 0,
+        "full_gold": false
+      }
+    },
+    {
+      "question_id": "flask-5",
+      "repo": "flask",
+      "used_k": 10,
+      "k5": {
+        "context_files": [
+          "tests/test_basic.py"
+        ],
+        "blocks": 1,
+        "chars": 48,
+        "omitted": 0,
+        "gold_files_in_context": 0,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "tests/test_basic.py"
+        ],
+        "blocks": 1,
+        "chars": 48,
+        "omitted": 0,
+        "gold_files_in_context": 0,
+        "full_gold": false
+      }
+    },
+    {
+      "question_id": "flask-6",
+      "repo": "flask",
+      "used_k": 5,
+      "k5": {
+        "context_files": [
+          "src/flask/templating.py",
+          "tests/test_blueprints.py",
+          "tests/test_templating.py"
+        ],
+        "blocks": 5,
+        "chars": 2667,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "src/flask/templating.py",
+          "tests/test_blueprints.py",
+          "tests/test_templating.py"
+        ],
+        "blocks": 5,
+        "chars": 2667,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      }
+    },
+    {
+      "question_id": "flask-7",
+      "repo": "flask",
+      "used_k": 5,
+      "k5": {
+        "context_files": [
+          "src/flask/cli.py",
+          "tests/test_converters.py",
+          "tests/test_helpers.py"
+        ],
+        "blocks": 5,
+        "chars": 806,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "src/flask/cli.py",
+          "tests/test_converters.py",
+          "tests/test_helpers.py"
+        ],
+        "blocks": 5,
+        "chars": 806,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      }
+    },
+    {
+      "question_id": "flask-8",
+      "repo": "flask",
+      "used_k": 5,
+      "k5": {
+        "context_files": [
+          "src/flask/cli.py",
+          "tests/test_cli.py",
+          "tests/test_helpers.py"
+        ],
+        "blocks": 5,
+        "chars": 1735,
+        "omitted": 0,
+        "gold_files_in_context": 2,
+        "full_gold": true
+      },
+      "chosen": {
+        "context_files": [
+          "src/flask/cli.py",
+          "tests/test_cli.py",
+          "tests/test_helpers.py"
+        ],
+        "blocks": 5,
+        "chars": 1735,
+        "omitted": 0,
+        "gold_files_in_context": 2,
+        "full_gold": true
+      }
+    },
+    {
+      "question_id": "flask-9",
+      "repo": "flask",
+      "used_k": 10,
+      "k5": {
+        "context_files": [
+          "examples/tutorial/tests/conftest.py"
+        ],
+        "blocks": 1,
+        "chars": 104,
+        "omitted": 0,
+        "gold_files_in_context": 0,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "examples/tutorial/tests/conftest.py",
+          "src/flask/app.py"
+        ],
+        "blocks": 2,
+        "chars": 659,
+        "omitted": 0,
+        "gold_files_in_context": 0,
+        "full_gold": false
+      }
+    },
+    {
+      "question_id": "flask-10",
+      "repo": "flask",
+      "used_k": 5,
+      "k5": {
+        "context_files": [
+          "src/flask/json/tag.py"
+        ],
+        "blocks": 5,
+        "chars": 565,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": true
+      },
+      "chosen": {
+        "context_files": [
+          "src/flask/json/tag.py"
+        ],
+        "blocks": 5,
+        "chars": 565,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": true
+      }
+    },
+    {
+      "question_id": "requests-1",
+      "repo": "requests",
+      "used_k": 10,
+      "k5": {
+        "context_files": [
+          "src/requests/utils.py"
+        ],
+        "blocks": 1,
+        "chars": 231,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "src/requests/utils.py"
+        ],
+        "blocks": 1,
+        "chars": 231,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      }
+    },
+    {
+      "question_id": "requests-2",
+      "repo": "requests",
+      "used_k": 10,
+      "k5": {
+        "context_files": [
+          "src/requests/utils.py"
+        ],
+        "blocks": 1,
+        "chars": 801,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "src/requests/utils.py"
+        ],
+        "blocks": 1,
+        "chars": 801,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      }
+    },
+    {
+      "question_id": "requests-3",
+      "repo": "requests",
+      "used_k": 10,
+      "k5": {
+        "context_files": [
+          "src/requests/exceptions.py"
+        ],
+        "blocks": 1,
+        "chars": 119,
+        "omitted": 0,
+        "gold_files_in_context": 0,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "src/requests/exceptions.py"
+        ],
+        "blocks": 1,
+        "chars": 119,
+        "omitted": 0,
+        "gold_files_in_context": 0,
+        "full_gold": false
+      }
+    },
+    {
+      "question_id": "requests-4",
+      "repo": "requests",
+      "used_k": 5,
+      "k5": {
+        "context_files": [
+          "tests/test_requests.py"
+        ],
+        "blocks": 3,
+        "chars": 5992,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "tests/test_requests.py"
+        ],
+        "blocks": 3,
+        "chars": 5992,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      }
+    },
+    {
+      "question_id": "requests-5",
+      "repo": "requests",
+      "used_k": 5,
+      "k5": {
+        "context_files": [
+          "tests/test_utils.py"
+        ],
+        "blocks": 4,
+        "chars": 900,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "tests/test_utils.py"
+        ],
+        "blocks": 4,
+        "chars": 900,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      }
+    },
+    {
+      "question_id": "requests-6",
+      "repo": "requests",
+      "used_k": 10,
+      "k5": {
+        "context_files": [
+          "tests/test_requests.py"
+        ],
+        "blocks": 2,
+        "chars": 5671,
+        "omitted": 3,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "tests/test_requests.py"
+        ],
+        "blocks": 3,
+        "chars": 5825,
+        "omitted": 4,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      }
+    },
+    {
+      "question_id": "requests-7",
+      "repo": "requests",
+      "used_k": 5,
+      "k5": {
+        "context_files": [
+          "src/requests/models.py"
+        ],
+        "blocks": 4,
+        "chars": 4761,
+        "omitted": 1,
+        "gold_files_in_context": 1,
+        "full_gold": true
+      },
+      "chosen": {
+        "context_files": [
+          "src/requests/models.py"
+        ],
+        "blocks": 4,
+        "chars": 4761,
+        "omitted": 1,
+        "gold_files_in_context": 1,
+        "full_gold": true
+      }
+    },
+    {
+      "question_id": "requests-8",
+      "repo": "requests",
+      "used_k": 10,
+      "k5": {
+        "context_files": [
+          "src/requests/exceptions.py"
+        ],
+        "blocks": 2,
+        "chars": 198,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "src/requests/exceptions.py"
+        ],
+        "blocks": 3,
+        "chars": 630,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      }
+    },
+    {
+      "question_id": "requests-9",
+      "repo": "requests",
+      "used_k": 10,
+      "k5": {
+        "context_files": [
+          "src/requests/exceptions.py"
+        ],
+        "blocks": 2,
+        "chars": 235,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "src/requests/exceptions.py"
+        ],
+        "blocks": 2,
+        "chars": 235,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      }
+    },
+    {
+      "question_id": "requests-10",
+      "repo": "requests",
+      "used_k": 10,
+      "k5": {
+        "context_files": [
+          "src/requests/exceptions.py"
+        ],
+        "blocks": 2,
+        "chars": 561,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "src/requests/exceptions.py"
+        ],
+        "blocks": 2,
+        "chars": 561,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      }
+    },
+    {
+      "question_id": "pytest-1",
+      "repo": "pytest",
+      "used_k": 5,
+      "k5": {
+        "context_files": [
+          "testing/test_pytester.py",
+          "testing/test_runner.py"
+        ],
+        "blocks": 5,
+        "chars": 2387,
+        "omitted": 0,
+        "gold_files_in_context": 0,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "testing/test_pytester.py",
+          "testing/test_runner.py"
+        ],
+        "blocks": 5,
+        "chars": 2387,
+        "omitted": 0,
+        "gold_files_in_context": 0,
+        "full_gold": false
+      }
+    },
+    {
+      "question_id": "pytest-2",
+      "repo": "pytest",
+      "used_k": 10,
+      "k5": {
+        "context_files": [
+          "src/_pytest/fixtures.py"
+        ],
+        "blocks": 1,
+        "chars": 975,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "src/_pytest/fixtures.py"
+        ],
+        "blocks": 1,
+        "chars": 975,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      }
+    },
+    {
+      "question_id": "pytest-3",
+      "repo": "pytest",
+      "used_k": 5,
+      "k5": {
+        "context_files": [
+          "src/_pytest/fixtures.py",
+          "testing/python/collect.py",
+          "testing/python/fixtures.py"
+        ],
+        "blocks": 5,
+        "chars": 4636,
+        "omitted": 0,
+        "gold_files_in_context": 0,
+        "full_gold": true
+      },
+      "chosen": {
+        "context_files": [
+          "src/_pytest/fixtures.py",
+          "testing/python/collect.py",
+          "testing/python/fixtures.py"
+        ],
+        "blocks": 5,
+        "chars": 4636,
+        "omitted": 0,
+        "gold_files_in_context": 0,
+        "full_gold": true
+      }
+    },
+    {
+      "question_id": "pytest-4",
+      "repo": "pytest",
+      "used_k": 10,
+      "k5": {
+        "context_files": [
+          "src/_pytest/reports.py"
+        ],
+        "blocks": 1,
+        "chars": 2376,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "src/_pytest/reports.py"
+        ],
+        "blocks": 1,
+        "chars": 2376,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      }
+    },
+    {
+      "question_id": "pytest-5",
+      "repo": "pytest",
+      "used_k": 10,
+      "k5": {
+        "context_files": [
+          "testing/python/fixtures.py"
+        ],
+        "blocks": 1,
+        "chars": 361,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "testing/python/fixtures.py"
+        ],
+        "blocks": 2,
+        "chars": 1047,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      }
+    },
+    {
+      "question_id": "pytest-6",
+      "repo": "pytest",
+      "used_k": 10,
+      "k5": {
+        "context_files": [
+          "src/_pytest/_io/saferepr.py"
+        ],
+        "blocks": 1,
+        "chars": 400,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "src/_pytest/_io/saferepr.py"
+        ],
+        "blocks": 1,
+        "chars": 400,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      }
+    },
+    {
+      "question_id": "pytest-7",
+      "repo": "pytest",
+      "used_k": 10,
+      "k5": {
+        "context_files": [
+          "src/_pytest/legacypath.py"
+        ],
+        "blocks": 2,
+        "chars": 817,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "src/_pytest/legacypath.py"
+        ],
+        "blocks": 2,
+        "chars": 817,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      }
+    },
+    {
+      "question_id": "pytest-8",
+      "repo": "pytest",
+      "used_k": 5,
+      "k5": {
+        "context_files": [
+          "src/_pytest/_argcomplete.py",
+          "testing/test_argcomplete.py"
+        ],
+        "blocks": 4,
+        "chars": 686,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": true
+      },
+      "chosen": {
+        "context_files": [
+          "src/_pytest/_argcomplete.py",
+          "testing/test_argcomplete.py"
+        ],
+        "blocks": 4,
+        "chars": 686,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": true
+      }
+    },
+    {
+      "question_id": "pytest-9",
+      "repo": "pytest",
+      "used_k": 10,
+      "k5": {
+        "context_files": [
+          "testing/test_skipping.py"
+        ],
+        "blocks": 2,
+        "chars": 430,
+        "omitted": 0,
+        "gold_files_in_context": 0,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "testing/test_skipping.py"
+        ],
+        "blocks": 5,
+        "chars": 1556,
+        "omitted": 0,
+        "gold_files_in_context": 0,
+        "full_gold": false
+      }
+    },
+    {
+      "question_id": "pytest-10",
+      "repo": "pytest",
+      "used_k": 10,
+      "k5": {
+        "context_files": [
+          "src/_pytest/compat.py"
+        ],
+        "blocks": 1,
+        "chars": 43,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "src/_pytest/compat.py"
+        ],
+        "blocks": 1,
+        "chars": 43,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      }
+    },
+    {
+      "question_id": "pylint-1",
+      "repo": "pylint",
+      "used_k": 10,
+      "k5": {
+        "context_files": [
+          "pylint/checkers/imports.py",
+          "pylint/extensions/private_import.py"
+        ],
+        "blocks": 3,
+        "chars": 5138,
+        "omitted": 2,
+        "gold_files_in_context": 1,
+        "full_gold": true
+      },
+      "chosen": {
+        "context_files": [
+          "pylint/checkers/imports.py",
+          "pylint/checkers/utils.py",
+          "pylint/extensions/private_import.py",
+          "pylint/extensions/typing.py"
+        ],
+        "blocks": 5,
+        "chars": 5532,
+        "omitted": 5,
+        "gold_files_in_context": 1,
+        "full_gold": true
+      }
+    },
+    {
+      "question_id": "pylint-2",
+      "repo": "pylint",
+      "used_k": 5,
+      "k5": {
+        "context_files": [
+          "tests/functional/a/access/access_to__name__.py",
+          "tests/functional/m/member/member_checks.py",
+          "tests/functional/m/metaclass_attr_access.py",
+          "tests/functional/u/unused/unused_import_py30.py"
+        ],
+        "blocks": 5,
+        "chars": 410,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "tests/functional/a/access/access_to__name__.py",
+          "tests/functional/m/member/member_checks.py",
+          "tests/functional/m/metaclass_attr_access.py",
+          "tests/functional/u/unused/unused_import_py30.py"
+        ],
+        "blocks": 5,
+        "chars": 410,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      }
+    },
+    {
+      "question_id": "pylint-3",
+      "repo": "pylint",
+      "used_k": 5,
+      "k5": {
+        "context_files": [
+          "pylint/checkers/logging.py",
+          "pylint/checkers/strings.py",
+          "tests/functional/s/string/string_formatting.py"
+        ],
+        "blocks": 5,
+        "chars": 4431,
+        "omitted": 0,
+        "gold_files_in_context": 0,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "pylint/checkers/logging.py",
+          "pylint/checkers/strings.py",
+          "tests/functional/s/string/string_formatting.py"
+        ],
+        "blocks": 5,
+        "chars": 4431,
+        "omitted": 0,
+        "gold_files_in_context": 0,
+        "full_gold": false
+      }
+    },
+    {
+      "question_id": "pylint-4",
+      "repo": "pylint",
+      "used_k": 5,
+      "k5": {
+        "context_files": [
+          "tests/functional/g/generic_alias/generic_alias_related.py",
+          "tests/functional/g/generic_alias/generic_alias_related_py39.py"
+        ],
+        "blocks": 5,
+        "chars": 222,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "tests/functional/g/generic_alias/generic_alias_related.py",
+          "tests/functional/g/generic_alias/generic_alias_related_py39.py"
+        ],
+        "blocks": 5,
+        "chars": 222,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      }
+    },
+    {
+      "question_id": "pylint-5",
+      "repo": "pylint",
+      "used_k": 5,
+      "k5": {
+        "context_files": [
+          "doc/data/messages/m/method-cache-max-size-none/bad.py",
+          "doc/data/messages/m/method-cache-max-size-none/good.py",
+          "tests/functional/m/method_cache_max_size_none.py",
+          "tests/functional/t/too/too_many_arguments_issue_1045.py"
+        ],
+        "blocks": 5,
+        "chars": 363,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "doc/data/messages/m/method-cache-max-size-none/bad.py",
+          "doc/data/messages/m/method-cache-max-size-none/good.py",
+          "tests/functional/m/method_cache_max_size_none.py",
+          "tests/functional/t/too/too_many_arguments_issue_1045.py"
+        ],
+        "blocks": 5,
+        "chars": 363,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      }
+    },
+    {
+      "question_id": "pylint-6",
+      "repo": "pylint",
+      "used_k": 5,
+      "k5": {
+        "context_files": [
+          "pylint/pyreverse/diagrams.py",
+          "pylint/pyreverse/mermaidjs_printer.py",
+          "pylint/pyreverse/plantuml_printer.py",
+          "pylint/pyreverse/printer.py"
+        ],
+        "blocks": 5,
+        "chars": 4047,
+        "omitted": 0,
+        "gold_files_in_context": 2,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "pylint/pyreverse/diagrams.py",
+          "pylint/pyreverse/mermaidjs_printer.py",
+          "pylint/pyreverse/plantuml_printer.py",
+          "pylint/pyreverse/printer.py"
+        ],
+        "blocks": 5,
+        "chars": 4047,
+        "omitted": 0,
+        "gold_files_in_context": 2,
+        "full_gold": false
+      }
+    },
+    {
+      "question_id": "pylint-7",
+      "repo": "pylint",
+      "used_k": 5,
+      "k5": {
+        "context_files": [
+          "pylint/checkers/variables.py",
+          "tests/functional/u/unused/unused_variable.py"
+        ],
+        "blocks": 4,
+        "chars": 5399,
+        "omitted": 1,
+        "gold_files_in_context": 2,
+        "full_gold": true
+      },
+      "chosen": {
+        "context_files": [
+          "pylint/checkers/variables.py",
+          "tests/functional/u/unused/unused_variable.py"
+        ],
+        "blocks": 4,
+        "chars": 5399,
+        "omitted": 1,
+        "gold_files_in_context": 2,
+        "full_gold": true
+      }
+    },
+    {
+      "question_id": "pylint-8",
+      "repo": "pylint",
+      "used_k": 5,
+      "k5": {
+        "context_files": [
+          "pylint/checkers/variables.py",
+          "pylint/extensions/consider_refactoring_into_while_condition.py"
+        ],
+        "blocks": 4,
+        "chars": 5255,
+        "omitted": 1,
+        "gold_files_in_context": 0,
+        "full_gold": true
+      },
+      "chosen": {
+        "context_files": [
+          "pylint/checkers/variables.py",
+          "pylint/extensions/consider_refactoring_into_while_condition.py"
+        ],
+        "blocks": 4,
+        "chars": 5255,
+        "omitted": 1,
+        "gold_files_in_context": 0,
+        "full_gold": true
+      }
+    },
+    {
+      "question_id": "pylint-9",
+      "repo": "pylint",
+      "used_k": 5,
+      "k5": {
+        "context_files": [
+          "doc/data/messages/l/lost-exception/good.py",
+          "doc/data/messages/r/raising-bad-type/bad.py",
+          "tests/functional/i/invalid/invalid_exceptions/invalid_exceptions_raised.py",
+          "tests/functional/u/unused/unused_variable.py"
+        ],
+        "blocks": 5,
+        "chars": 985,
+        "omitted": 0,
+        "gold_files_in_context": 0,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "doc/data/messages/l/lost-exception/good.py",
+          "doc/data/messages/r/raising-bad-type/bad.py",
+          "tests/functional/i/invalid/invalid_exceptions/invalid_exceptions_raised.py",
+          "tests/functional/u/unused/unused_variable.py"
+        ],
+        "blocks": 5,
+        "chars": 985,
+        "omitted": 0,
+        "gold_files_in_context": 0,
+        "full_gold": false
+      }
+    },
+    {
+      "question_id": "pylint-10",
+      "repo": "pylint",
+      "used_k": 5,
+      "k5": {
+        "context_files": [
+          "tests/functional/u/used/used_before_assignment_py37.py",
+          "tests/functional/u/used/used_before_assignment_type_annotations.py",
+          "tests/functional/u/used/used_before_assignment_typing.py"
+        ],
+        "blocks": 5,
+        "chars": 881,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      },
+      "chosen": {
+        "context_files": [
+          "tests/functional/u/used/used_before_assignment_py37.py",
+          "tests/functional/u/used/used_before_assignment_type_annotations.py",
+          "tests/functional/u/used/used_before_assignment_typing.py"
+        ],
+        "blocks": 5,
+        "chars": 881,
+        "omitted": 0,
+        "gold_files_in_context": 1,
+        "full_gold": false
+      }
+    }
+  ]
+}

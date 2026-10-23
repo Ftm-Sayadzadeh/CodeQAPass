@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import http.client
 import socket
 import urllib.error
 import urllib.request
@@ -63,7 +64,7 @@ def post_json(
         if isinstance(error.reason, (socket.timeout, TimeoutError)):
             raise OpenAICompatibleHTTPError("TimeoutError", "OpenAI-compatible request timed out") from None
         raise OpenAICompatibleHTTPError("ConnectionError", "OpenAI-compatible request failed") from None
-    except OSError:
+    except (OSError, http.client.IncompleteRead):
         raise OpenAICompatibleHTTPError("ConnectionError", "OpenAI-compatible request failed") from None
     try:
         text = raw.decode("utf-8")

@@ -1,0 +1,16 @@
+{"question_id": "flask-1", "method": "semantic", "status": "usable", "scores": {"correctness": 18, "completeness": 17, "relevance": 20, "clarity": 19, "reasoning": 18}, "mean": 18.4}
+{"question_id": "flask-1", "method": "citation_prompt", "status": "usable", "scores": {"correctness": 15, "completeness": 14, "relevance": 18, "clarity": 17, "reasoning": 15}, "mean": 15.8}
+{"question_id": "flask-2", "method": "semantic", "status": "usable", "scores": {"correctness": 17, "completeness": 14, "relevance": 19, "clarity": 18, "reasoning": 16}, "mean": 16.8}
+{"question_id": "flask-2", "method": "citation_prompt", "status": "usable", "scores": {"correctness": 18, "completeness": 15, "relevance": 20, "clarity": 19, "reasoning": 18}, "mean": 18.0}
+{"question_id": "pylint-1", "method": "semantic", "status": "usable", "scores": {"correctness": 15, "completeness": 12, "relevance": 18, "clarity": 16, "reasoning": 14}, "mean": 15.0}
+{"question_id": "pylint-1", "method": "citation_prompt", "status": "usable", "scores": {"correctness": 15, "completeness": 12, "relevance": 18, "clarity": 16, "reasoning": 14}, "mean": 15.0}
+{"question_id": "pylint-2", "method": "semantic", "status": "usable", "scores": {"correctness": 12, "completeness": 12, "relevance": 15, "clarity": 16, "reasoning": 13}, "mean": 13.6}
+{"question_id": "pylint-2", "method": "citation_prompt", "status": "usable", "scores": {"correctness": 2, "completeness": 2, "relevance": 5, "clarity": 10, "reasoning": 2}, "mean": 4.2}
+{"question_id": "pytest-1", "method": "semantic", "status": "usable", "scores": {"correctness": 15, "completeness": 12, "relevance": 16, "clarity": 16, "reasoning": 14}, "mean": 14.6}
+{"question_id": "pytest-1", "method": "citation_prompt", "status": "usable", "scores": {"correctness": 15, "completeness": 11, "relevance": 17, "clarity": 18, "reasoning": 14}, "mean": 15.0}
+{"question_id": "pytest-2", "method": "semantic", "status": "usable", "scores": {"correctness": 16, "completeness": 15, "relevance": 18, "clarity": 18, "reasoning": 17}, "mean": 16.8}
+{"question_id": "pytest-2", "method": "citation_prompt", "status": "usable", "scores": {"correctness": 19, "completeness": 18, "relevance": 19, "clarity": 19, "reasoning": 19}, "mean": 18.8}
+{"question_id": "requests-1", "method": "semantic", "status": "usable", "scores": {"correctness": 15, "completeness": 12, "relevance": 18, "clarity": 18, "reasoning": 14}, "mean": 15.4}
+{"question_id": "requests-1", "method": "citation_prompt", "status": "usable", "scores": {"correctness": 15, "completeness": 12, "relevance": 18, "clarity": 17, "reasoning": 14}, "mean": 15.2}
+{"question_id": "requests-2", "method": "semantic", "status": "usable", "scores": {"correctness": 3, "completeness": 2, "relevance": 10, "clarity": 15, "reasoning": 4}, "mean": 6.8}
+{"question_id": "requests-2", "method": "citation_prompt", "status": "usable", "scores": {"correctness": 2, "completeness": 2, "relevance": 12, "clarity": 15, "reasoning": 6}, "mean": 7.4}

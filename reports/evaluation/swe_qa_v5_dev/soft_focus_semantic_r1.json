@@ -1,0 +1,372 @@
+{
+  "method": "semantic",
+  "rescue": 1,
+  "sample_size": 40,
+  "gold_files": 47,
+  "full_questions": 14,
+  "avg_blocks": 5.3,
+  "avg_chars": 2690.9,
+  "avg_omitted": 1.1,
+  "rows": [
+    {
+      "question_id": "flask-1",
+      "repo": "flask",
+      "gold": 2,
+      "full": true,
+      "blocks": 10,
+      "chars": 4582,
+      "omitted": 0
+    },
+    {
+      "question_id": "flask-2",
+      "repo": "flask",
+      "gold": 2,
+      "full": true,
+      "blocks": 7,
+      "chars": 5400,
+      "omitted": 3
+    },
+    {
+      "question_id": "flask-3",
+      "repo": "flask",
+      "gold": 1,
+      "full": true,
+      "blocks": 5,
+      "chars": 5502,
+      "omitted": 5
+    },
+    {
+      "question_id": "flask-4",
+      "repo": "flask",
+      "gold": 1,
+      "full": true,
+      "blocks": 2,
+      "chars": 1152,
+      "omitted": 1
+    },
+    {
+      "question_id": "flask-5",
+      "repo": "flask",
+      "gold": 1,
+      "full": false,
+      "blocks": 2,
+      "chars": 523,
+      "omitted": 0
+    },
+    {
+      "question_id": "flask-6",
+      "repo": "flask",
+      "gold": 1,
+      "full": false,
+      "blocks": 10,
+      "chars": 4367,
+      "omitted": 0
+    },
+    {
+      "question_id": "flask-7",
+      "repo": "flask",
+      "gold": 1,
+      "full": false,
+      "blocks": 10,
+      "chars": 1318,
+      "omitted": 0
+    },
+    {
+      "question_id": "flask-8",
+      "repo": "flask",
+      "gold": 2,
+      "full": true,
+      "blocks": 9,
+      "chars": 4960,
+      "omitted": 1
+    },
+    {
+      "question_id": "flask-9",
+      "repo": "flask",
+      "gold": 1,
+      "full": false,
+      "blocks": 3,
+      "chars": 879,
+      "omitted": 0
+    },
+    {
+      "question_id": "flask-10",
+      "repo": "flask",
+      "gold": 1,
+      "full": true,
+      "blocks": 10,
+      "chars": 1818,
+      "omitted": 0
+    },
+    {
+      "question_id": "requests-1",
+      "repo": "requests",
+      "gold": 2,
+      "full": true,
+      "blocks": 2,
+      "chars": 594,
+      "omitted": 0
+    },
+    {
+      "question_id": "requests-2",
+      "repo": "requests",
+      "gold": 2,
+      "full": true,
+      "blocks": 2,
+      "chars": 968,
+      "omitted": 0
+    },
+    {
+      "question_id": "requests-3",
+      "repo": "requests",
+      "gold": 0,
+      "full": false,
+      "blocks": 2,
+      "chars": 228,
+      "omitted": 0
+    },
+    {
+      "question_id": "requests-4",
+      "repo": "requests",
+      "gold": 1,
+      "full": false,
+      "blocks": 3,
+      "chars": 5992,
+      "omitted": 4
+    },
+    {
+      "question_id": "requests-5",
+      "repo": "requests",
+      "gold": 2,
+      "full": false,
+      "blocks": 5,
+      "chars": 2066,
+      "omitted": 0
+    },
+    {
+      "question_id": "requests-6",
+      "repo": "requests",
+      "gold": 1,
+      "full": false,
+      "blocks": 3,
+      "chars": 5825,
+      "omitted": 5
+    },
+    {
+      "question_id": "requests-7",
+      "repo": "requests",
+      "gold": 1,
+      "full": true,
+      "blocks": 6,
+      "chars": 5787,
+      "omitted": 4
+    },
+    {
+      "question_id": "requests-8",
+      "repo": "requests",
+      "gold": 1,
+      "full": false,
+      "blocks": 4,
+      "chars": 1046,
+      "omitted": 0
+    },
+    {
+      "question_id": "requests-9",
+      "repo": "requests",
+      "gold": 2,
+      "full": false,
+      "blocks": 3,
+      "chars": 869,
+      "omitted": 0
+    },
+    {
+      "question_id": "requests-10",
+      "repo": "requests",
+      "gold": 2,
+      "full": false,
+      "blocks": 3,
+      "chars": 587,
+      "omitted": 0
+    },
+    {
+      "question_id": "pytest-1",
+      "repo": "pytest",
+      "gold": 1,
+      "full": false,
+      "blocks": 2,
+      "chars": 1592,
+      "omitted": 0
+    },
+    {
+      "question_id": "pytest-2",
+      "repo": "pytest",
+      "gold": 1,
+      "full": false,
+      "blocks": 2,
+      "chars": 1333,
+      "omitted": 0
+    },
+    {
+      "question_id": "pytest-3",
+      "repo": "pytest",
+      "gold": 0,
+      "full": true,
+      "blocks": 9,
+      "chars": 5589,
+      "omitted": 1
+    },
+    {
+      "question_id": "pytest-4",
+      "repo": "pytest",
+      "gold": 1,
+      "full": false,
+      "blocks": 2,
+      "chars": 3712,
+      "omitted": 0
+    },
+    {
+      "question_id": "pytest-5",
+      "repo": "pytest",
+      "gold": 2,
+      "full": false,
+      "blocks": 3,
+      "chars": 1290,
+      "omitted": 0
+    },
+    {
+      "question_id": "pytest-6",
+      "repo": "pytest",
+      "gold": 1,
+      "full": false,
+      "blocks": 2,
+      "chars": 571,
+      "omitted": 0
+    },
+    {
+      "question_id": "pytest-7",
+      "repo": "pytest",
+      "gold": 1,
+      "full": false,
+      "blocks": 3,
+      "chars": 1079,
+      "omitted": 0
+    },
+    {
+      "question_id": "pytest-8",
+      "repo": "pytest",
+      "gold": 1,
+      "full": true,
+      "blocks": 8,
+      "chars": 3061,
+      "omitted": 0
+    },
+    {
+      "question_id": "pytest-9",
+      "repo": "pytest",
+      "gold": 0,
+      "full": false,
+      "blocks": 6,
+      "chars": 1971,
+      "omitted": 0
+    },
+    {
+      "question_id": "pytest-10",
+      "repo": "pytest",
+      "gold": 1,
+      "full": false,
+      "blocks": 2,
+      "chars": 57,
+      "omitted": 0
+    },
+    {
+      "question_id": "pylint-1",
+      "repo": "pylint",
+      "gold": 1,
+      "full": true,
+      "blocks": 5,
+      "chars": 5532,
+      "omitted": 5
+    },
+    {
+      "question_id": "pylint-2",
+      "repo": "pylint",
+      "gold": 1,
+      "full": false,
+      "blocks": 10,
+      "chars": 1234,
+      "omitted": 0
+    },
+    {
+      "question_id": "pylint-3",
+      "repo": "pylint",
+      "gold": 1,
+      "full": false,
+      "blocks": 7,
+      "chars": 4655,
+      "omitted": 3
+    },
+    {
+      "question_id": "pylint-4",
+      "repo": "pylint",
+      "gold": 1,
+      "full": false,
+      "blocks": 2,
+      "chars": 71,
+      "omitted": 0
+    },
+    {
+      "question_id": "pylint-5",
+      "repo": "pylint",
+      "gold": 1,
+      "full": false,
+      "blocks": 10,
+      "chars": 573,
+      "omitted": 0
+    },
+    {
+      "question_id": "pylint-6",
+      "repo": "pylint",
+      "gold": 2,
+      "full": false,
+      "blocks": 7,
+      "chars": 5939,
+      "omitted": 3
+    },
+    {
+      "question_id": "pylint-7",
+      "repo": "pylint",
+      "gold": 2,
+      "full": true,
+      "blocks": 6,
+      "chars": 5765,
+      "omitted": 4
+    },
+    {
+      "question_id": "pylint-8",
+      "repo": "pylint",
+      "gold": 0,
+      "full": true,
+      "blocks": 5,
+      "chars": 5884,
+      "omitted": 5
+    },
+    {
+      "question_id": "pylint-9",
+      "repo": "pylint",
+      "gold": 1,
+      "full": false,
+      "blocks": 10,
+      "chars": 1934,
+      "omitted": 0
+    },
+    {
+      "question_id": "pylint-10",
+      "repo": "pylint",
+      "gold": 1,
+      "full": false,
+      "blocks": 10,
+      "chars": 1331,
+      "omitted": 0
+    }
+  ]
+}

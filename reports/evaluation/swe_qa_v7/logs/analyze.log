@@ -1,0 +1,30 @@
+{
+ "primary": {
+  "H1": {
+   "comparison": "a1_v5a - a1_v4",
+   "mean_difference": 1.4667,
+   "ci95": [
+    0.8661,
+    2.0745
+   ],
+   "holm_adjusted_p": 0.00046403162560370854,
+   "decision": {
+    "superiority_supported": true
+   }
+  },
+  "H2": {
+   "comparison": "a1_v5a - b0_k5",
+   "mean_difference": 0.388,
+   "ci95": [
+    -0.3375,
+    1.0958
+   ],
+   "holm_adjusted_p": 0.4048156655339538,
+   "decision": {
+    "superiority_supported": false,
+    "non_inferiority_margin": -1.5,
+    "non_inferior": true
+   }
+  }
+ }
+}
