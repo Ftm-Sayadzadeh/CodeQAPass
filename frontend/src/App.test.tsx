@@ -119,7 +119,7 @@ async function ready() {
   expect((await screen.findAllByText("63.3%")).length).toBeGreaterThan(0);
 }
 
-describe("CodeCompass SPA", () => {
+describe("CodeQAPass SPA", () => {
   it("opens the styled project menu and closes it after selection", async () => {
     installApi();
     render(<App />);
@@ -310,7 +310,7 @@ describe("CodeCompass SPA", () => {
     await ready();
 
     fireEvent.change(screen.getByLabelText("Ask about this codebase"), { target: { value: "How does escape_silent handle None?" } });
-    fireEvent.click(screen.getByRole("button", { name: "Ask CodeCompass" }));
+    fireEvent.click(screen.getByRole("button", { name: "Ask CodeQAPass" }));
     expect(screen.getByRole("status")).toHaveTextContent("Retrieving evidence and generating answer...");
     expect(await screen.findByText("It returns an empty Markup instance.")).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "Edit question" })).toBeInTheDocument();
@@ -325,7 +325,7 @@ describe("CodeCompass SPA", () => {
     expect(fetchMock).toHaveBeenCalledWith("/api/projects/1/files/4/content", expect.anything());
     fireEvent.click(screen.getByRole("button", { name: "Edit question" }));
     expect(screen.getByLabelText("Ask about this codebase")).toHaveValue("How does escape_silent handle None?");
-    fireEvent.click(screen.getByRole("button", { name: "Ask CodeCompass" }));
+    fireEvent.click(screen.getByRole("button", { name: "Ask CodeQAPass" }));
     expect(await screen.findByRole("button", { name: "New question" })).toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: "New question" }));
     expect(screen.getByLabelText("Ask about this codebase")).toHaveValue("");
@@ -346,7 +346,7 @@ describe("CodeCompass SPA", () => {
     await ready();
 
     fireEvent.change(screen.getByLabelText("Ask about this codebase"), { target: { value: "Explain it" } });
-    fireEvent.click(screen.getByRole("button", { name: "Ask CodeCompass" }));
+    fireEvent.click(screen.getByRole("button", { name: "Ask CodeQAPass" }));
     expect((await screen.findByText("Result")).tagName).toBe("STRONG");
     expect(screen.getByText("escape_silent")).toHaveAttribute("dir", "ltr");
     expect(screen.getAllByRole("listitem")).toHaveLength(2);
@@ -369,13 +369,13 @@ describe("CodeCompass SPA", () => {
     await ready();
     fireEvent.change(screen.getByLabelText("Ask about this codebase"), { target: { value: "Question" } });
 
-    fireEvent.click(screen.getByRole("button", { name: "Ask CodeCompass" }));
+    fireEvent.click(screen.getByRole("button", { name: "Ask CodeQAPass" }));
     await screen.findByText("An answer that may look unfinished");
     expect(screen.queryByText("The answer reached its token limit.")).not.toBeInTheDocument();
 
     truncated = true;
     fireEvent.click(screen.getByRole("button", { name: "Edit question" }));
-    fireEvent.click(screen.getByRole("button", { name: "Ask CodeCompass" }));
+    fireEvent.click(screen.getByRole("button", { name: "Ask CodeQAPass" }));
     expect(await screen.findByText("The answer reached its token limit.")).toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: "Edit question" }));
     expect(screen.getByLabelText("Answer token budget")).toBeVisible();
@@ -392,7 +392,7 @@ describe("CodeCompass SPA", () => {
     await ready();
 
     fireEvent.change(screen.getByLabelText("Ask about this codebase"), { target: { value: "Question" } });
-    fireEvent.click(screen.getByRole("button", { name: "Ask CodeCompass" }));
+    fireEvent.click(screen.getByRole("button", { name: "Ask CodeQAPass" }));
     await waitFor(() => expect(askBodies).toHaveLength(1));
     expect(askBodies[0]).not.toHaveProperty("max_tokens");
 
@@ -404,7 +404,7 @@ describe("CodeCompass SPA", () => {
     fireEvent.change(screen.getByLabelText("LLM model preset"), { target: { value: "custom" } });
     fireEvent.change(screen.getAllByLabelText("Model")[1], { target: { value: "another-model" } });
     expect(budget).toHaveValue(1024);
-    fireEvent.click(screen.getByRole("button", { name: "Ask CodeCompass" }));
+    fireEvent.click(screen.getByRole("button", { name: "Ask CodeQAPass" }));
     await waitFor(() => expect(askBodies).toHaveLength(2));
     expect(askBodies[1]).toHaveProperty("max_tokens", 1024);
 
@@ -415,7 +415,7 @@ describe("CodeCompass SPA", () => {
     for (const invalid of ["0", "-1", "8001", "1.5"]) {
       fireEvent.change(updatedBudget, { target: { value: invalid } });
       expect(screen.getByRole("alert")).toHaveTextContent("Enter an integer from 1 to 8000.");
-      expect(screen.getByRole("button", { name: "Ask CodeCompass" })).toBeDisabled();
+      expect(screen.getByRole("button", { name: "Ask CodeQAPass" })).toBeDisabled();
     }
     expect(askBodies).toHaveLength(2);
   });

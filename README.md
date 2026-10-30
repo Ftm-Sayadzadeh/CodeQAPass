@@ -1,10 +1,12 @@
-# CodeCompass Local
+# CodeQAPass
 
-CodeCompass is a local-first system for understanding Python repositories through Persian or English questions. It combines deterministic code analysis, lexical and semantic retrieval, grounded answer generation, function documentation, and verified navigation to the exact source file, symbol, and line range.
+CodeQAPass (Code Question Answering over Retrieved Passages) is a local-first system for understanding Python repositories through Persian or English questions. It combines deterministic code analysis, lexical and semantic retrieval, grounded answer generation, function documentation, and verified navigation to the exact source file, symbol, and line range.
 
-The project was developed as a bachelor's thesis and is complete. The [final thesis report is available as a PDF](docs/Fatemeh_Sayadzadeh_CodeCompass_Final_Report.pdf). The latest release is [`v1.1.3-final-thesis-report`](https://github.com/Ftm-Sayadzadeh/codecompass-local/releases/tag/v1.1.3-final-thesis-report).
+The project was developed as a bachelor's thesis and is complete. The [final thesis report is available as a PDF](docs/Fatemeh_Sayadzadeh_CodeCompass_Final_Report.pdf). The latest release is [`v1.1.3-final-thesis-report`](https://github.com/Ftm-Sayadzadeh/CodeQAPass/releases/tag/v1.1.3-final-thesis-report).
 
-![CodeCompass workspace](docs/assets/codecompass-workspace.png)
+> **Naming.** The project was previously called *CodeCompass Local*, and the thesis report PDF file name still uses that name. The Python package (`codecompass`), the `CODECOMPASS_*` environment variables, and the browser storage key keep the old prefix for compatibility.
+
+![CodeQAPass workspace](docs/assets/codeqapass-workspace.png)
 
 ## What It Does
 
@@ -55,9 +57,21 @@ The final study found a model-dependent trade-off rather than a universal winner
 
 The post-thesis experiment compared whole-repository context, lexical RAG, semantic RAG, hybrid RAG, and a tool-using Git agent. Semantic RAG offered the best measured balance of quality, latency, cost, and repository scale. The agent did not show a significant quality advantage over Semantic RAG in the independent human sample and cost roughly 8.5-10 times more per effective answer.
 
-![Frozen evaluation dashboard](docs/assets/codecompass-final-evaluation.png)
+![Frozen evaluation dashboard](docs/assets/codeqapass-final-evaluation.png)
 
 See the [publication report](reports/evaluation/final_thesis_evaluation_v1/final_thesis_evaluation_report.md) and [PDF](reports/evaluation/final_thesis_evaluation_v1/final_thesis_evaluation_report.pdf) for the complete methodology, case-level evidence, limitations, hashes, and human evaluation.
+
+### SWE-QA controlled evaluation (post-thesis)
+
+A later study re-evaluates the system on the English [SWE-QA](https://arxiv.org/abs/2509.14635) questions: 192 questions over four pinned Python repositories (Flask, Requests, pytest, Pylint), with closed-book generation (A0), a dense function-chunk baseline (B0-k5), the production configuration (A1-v4), and a revised context assembly (A1-v5a). Protocols, prompts, subsets, and prices were frozen by SHA-256 hash before generation, and raw records are append-only.
+
+- Hybrid retrieval raised Recall@5 over the dense baseline by 0.077 (95% CI [0.035, 0.120]), but the production configuration delivered less gold evidence to the generator than the baseline (0.527 vs 0.597), because large class-overview chunks and a hard symbol filter consumed the context.
+- The revised assembly raised the automatic-judge score by 1.47 points over production (Holm p = 0.0005), mainly by reducing explicit refusals; on questions both configurations answered, the gain is 0.35 points (95% CI [-0.15, 0.87]). It is non-inferior, but not superior, to the dense baseline, at 1.24 times its latency, 1.49 times its tokens, and 1.31 times its cost.
+- A post hoc offline ablation shows that giving the baseline the same character budget equalizes delivered gold evidence (0.672 vs 0.675).
+- Blinded independent human review of 30 questions ranks all retrieval configurations far above closed-book generation, but rater agreement is low and citation precision is lower for the revised assembly.
+- A retrieval-only Persian check on machine-translated questions kept semantic retrieval largely intact (Recall@5 0.693 vs 0.709 in English); the translation was not validated by native speakers.
+
+The revised assembly was designed on the benchmark used to evaluate it and was evaluated by offline replay of its rules; the production path is unchanged. This is a re-evaluation, not an independent test. Frozen protocols, rankings, judge records, and analyses are in `reports/evaluation/swe_qa_v2/` through `reports/evaluation/swe_qa_v7/`, with the scripts in `scripts/evaluation/swe_qa_*.py`.
 
 ## Requirements
 
@@ -111,7 +125,7 @@ Supported provider types:
 
 The provider, base URL, model, timeout, optional dimensions, and request-scoped API key can be supplied through the UI. Backend defaults can also be configured with `CODECOMPASS_PROVIDER`, `CODECOMPASS_BASE_URL`, `CODECOMPASS_API_KEY`, `CODECOMPASS_EMBEDDING_MODEL`, `CODECOMPASS_LLM_MODEL`, `CODECOMPASS_TIMEOUT_SECONDS`, and `CODECOMPASS_EMBEDDING_DIMENSIONS`.
 
-An index is compatible only with the embedding provider, model, and dimensions used to create it. CodeCompass validates this identity before semantic or hybrid retrieval. See [docs/providers.md](docs/providers.md) for examples and safety rules.
+An index is compatible only with the embedding provider, model, and dimensions used to create it. CodeQAPass validates this identity before semantic or hybrid retrieval. See [docs/providers.md](docs/providers.md) for examples and safety rules.
 
 ## Tests
 
@@ -163,6 +177,7 @@ Frozen metrics describe specific datasets, model versions, providers, and execut
 - The final QA set contains one unavailable GLM combination and seven usable outputs with provider-confirmed token-limit truncation.
 - The frontend production bundle includes Monaco and may emit a non-blocking large-chunk warning during Vite build.
 - Context-strategy results cover three frozen repositories and one generation model; whole-repository execution was unavailable for the largest repository, and the independent blind validation used one reviewer.
+- The SWE-QA study is English-only for answer quality, uses external embedding, generation, and judging providers, and its human review covers 30 questions with two raters who agree only weakly.
 
 ## Project Documents
 
@@ -181,3 +196,4 @@ Frozen metrics describe specific datasets, model versions, providers, and execut
 - `v1.1.0-evaluation-dashboard`: dual official/final evaluation dashboard.
 - `v1.1.1-final-documentation`: finalized project documentation and handoff materials.
 - `v1.1.2-context-strategy-evaluation`: frozen context-strategy, Git-agent, and independent blind-review results with updated project documentation.
+- `v1.1.3-final-thesis-report`: final thesis report PDF and README link.

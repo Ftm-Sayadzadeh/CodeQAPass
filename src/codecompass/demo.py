@@ -38,7 +38,7 @@ def format_answer(answer: QAAnswer) -> str:
     """Format a grounded answer for terminal display."""
     lines = [
         "================================",
-        "CodeCompass Grounded QA Demo",
+        "CodeQAPass Grounded QA Demo",
         "================================",
         "",
         "Question:",
@@ -141,7 +141,7 @@ def main(argv: Sequence[str] | None = None) -> int:
             )
         )
     except (QAError, StorageError) as error:
-        parser.exit(1, f"CodeCompass demo failed: {error}\n")
+        parser.exit(1, f"CodeQAPass demo failed: {error}\n")
 
     print(format_answer(answer))
     return 0

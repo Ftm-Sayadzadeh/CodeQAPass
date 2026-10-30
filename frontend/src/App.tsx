@@ -300,9 +300,9 @@ export default function App() {
   return (
     <div className="app-shell">
       <header className="topbar">
-        <a className="brand" href="#workspace" aria-label="CodeCompass workspace">
+        <a className="brand" href="#workspace" aria-label="CodeQAPass workspace">
           <Compass size={25} />
-          <span><strong>CodeCompass</strong><small>Local code intelligence</small></span>
+          <span><strong>CodeQAPass</strong><small>Local code intelligence</small></span>
         </a>
         <ProjectSwitcher projects={projects} project={project} loading={projectLoading} onSelect={(projectId) => void loadProject(projectId)} />
         {project && !projectLoading && !project.vector_complete ? (
