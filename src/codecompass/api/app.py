@@ -48,10 +48,10 @@ def get_runtime(request: Request) -> APIRuntime:
 def create_app(settings: APISettings | None = None) -> FastAPI:
     """Create the local API without making external provider calls."""
     error_responses = {
-        status: {"model": ErrorEnvelope, "description": "Safe CodeCompass error"}
+        status: {"model": ErrorEnvelope, "description": "Safe CodeQAPass error"}
         for status in (400, 404, 409, 422, 500, 502, 503, 504)
     }
-    app = FastAPI(title="CodeCompass API", version="1.0.0", responses=error_responses)
+    app = FastAPI(title="CodeQAPass API", version="1.0.0", responses=error_responses)
     app.state.runtime = APIRuntime(settings or APISettings.from_environment())
 
     @app.exception_handler(APIError)

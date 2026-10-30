@@ -5,7 +5,14 @@ from __future__ import annotations
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts" / "evaluation"))
+import pytest
+
+ROOT = Path(__file__).resolve().parents[1]
+# data/benchmarks/ is git-ignored, so a fresh clone (and CI) does not have the v6 benchmark data the helpers read on import.
+if not (ROOT / "data" / "benchmarks" / "swe_qa_v6" / "commits.json").exists():
+    pytest.skip("SWE-QA v6 benchmark data (git-ignored data/benchmarks/) is not present", allow_module_level=True)
+
+sys.path.insert(0, str(ROOT / "scripts" / "evaluation"))
 
 import swe_qa_v6_confirm as confirm  # noqa: E402
 from codecompass.qa.prompt import SYSTEM_PROMPT  # noqa: E402

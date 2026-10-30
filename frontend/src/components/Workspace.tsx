@@ -112,7 +112,7 @@ function AskPanel({ result, loading, error, onAsk, onNewQuestion, onOpenCitation
           </div>
           <button className="primary-button" type="submit" disabled={loading || !question.trim() || Boolean(maxTokensError)}>
             {loading ? <LoaderCircle className="spin" size={17} /> : <Send size={17} />}
-            {loading ? "Generating answer..." : "Ask CodeCompass"}
+            {loading ? "Generating answer..." : "Ask CodeQAPass"}
           </button>
         </div>
       </form>}

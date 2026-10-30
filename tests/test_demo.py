@@ -16,7 +16,7 @@ def test_format_answer_prints_verified_citations() -> None:
 
     output = format_answer(answer)
 
-    assert output.startswith("================================\nCodeCompass Grounded QA Demo\n================================")
+    assert output.startswith("================================\nCodeQAPass Grounded QA Demo\n================================")
     assert "Question:\nWhere is escaping implemented?" in output
     assert "Answer:\nThe escape function handles it. return escape(value)" in output
     assert "```" not in output

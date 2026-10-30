@@ -48,10 +48,10 @@ export function describeError(error: unknown) {
   if (error instanceof ApiError) {
     return messages[error.code] ?? {
       title: "Request failed",
-      message: error.status >= 500 ? "CodeCompass could not complete the request." : error.message,
+      message: error.status >= 500 ? "CodeQAPass could not complete the request." : error.message,
     };
   }
-  return { title: "Connection failed", message: "The CodeCompass API is not reachable." };
+  return { title: "Connection failed", message: "The CodeQAPass API is not reachable." };
 }
 
 export function ErrorMessage({ error, onReindex }: { error: unknown; onReindex?: () => void }) {
