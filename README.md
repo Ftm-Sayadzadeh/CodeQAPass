@@ -4,7 +4,7 @@ CodeQAPass (Code Question Answering over Retrieved Passages) is a local-first sy
 
 The project was developed as a bachelor's thesis and is complete. The [final thesis report is available as a PDF](docs/Fatemeh_Sayadzadeh_CodeCompass_Final_Report.pdf). The latest release is [`v1.1.3-final-thesis-report`](https://github.com/Ftm-Sayadzadeh/CodeQAPass/releases/tag/v1.1.3-final-thesis-report).
 
-> **Naming.** The project was previously called *CodeCompass Local*, and the thesis report PDF file name still uses that name. The Python package (`codecompass`), the `CODECOMPASS_*` environment variables, and the browser storage key keep the old prefix for compatibility.
+> The Python package is named `codecompass`, and its runtime settings use the `CODECOMPASS_*` prefix.
 
 ![CodeQAPass workspace](docs/assets/codeqapass-workspace.png)
 
