@@ -179,6 +179,10 @@ Frozen metrics describe specific datasets, model versions, providers, and execut
 - Context-strategy results cover three frozen repositories and one generation model; whole-repository execution was unavailable for the largest repository, and the independent blind validation used one reviewer.
 - The SWE-QA study is English-only for answer quality, uses external embedding, generation, and judging providers, and its human review covers 30 questions with two raters who agree only weakly.
 
+## License and Citation
+
+CodeQAPass is released under the [MIT License](LICENSE). Citation metadata is in [CITATION.cff](CITATION.cff); GitHub's "Cite this repository" button uses it. The benchmark questions and reference answers used in the SWE-QA evaluation come from [SWE-QA](https://arxiv.org/abs/2509.14635) and remain subject to that project's terms.
+
 ## Project Documents
 
 - [PROJECT_BRIEF.md](PROJECT_BRIEF.md): final academic and engineering scope.
