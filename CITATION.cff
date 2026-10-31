@@ -17,6 +17,7 @@ authors:
     given-names: Mohammadreza
     affiliation: "Department of Software Engineering, University of Isfahan"
 repository-code: "https://github.com/Ftm-Sayadzadeh/CodeQAPass"
+doi: "10.5281/zenodo.23835360"
 license: MIT
 keywords:
   - code search
