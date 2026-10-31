@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use CodeQAPass or its frozen evaluation records, please cite it as below."
+title: "CodeQAPass: A Bilingual Evidence-Grounded System for Python Codebase Understanding"
+type: software
+abstract: >-
+  CodeQAPass (Code Question Answering over Retrieved Passages) is a local-first system for understanding
+  Python repositories through Persian or English questions. It combines deterministic code analysis, lexical
+  and semantic retrieval, grounded answer generation, function documentation, and verified navigation to the
+  exact source file, symbol, and line range. File paths, symbols, source hashes, and line ranges come from
+  canonical SQLite metadata, never from model-generated text.
+authors:
+  - family-names: Sayadzadeh
+    given-names: Fatemeh
+    orcid: "https://orcid.org/0009-0001-3267-796X"
+    affiliation: "Department of Software Engineering, University of Isfahan"
+  - family-names: Sharbaf
+    given-names: Mohammadreza
+    affiliation: "Department of Software Engineering, University of Isfahan"
+repository-code: "https://github.com/Ftm-Sayadzadeh/CodeQAPass"
+license: MIT
+keywords:
+  - code search
+  - retrieval-augmented generation
+  - Python repositories
+  - bilingual retrieval
+  - grounded generation
+  - source citations
