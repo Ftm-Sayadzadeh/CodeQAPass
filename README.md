@@ -1,5 +1,7 @@
 # CodeQAPass
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23835360.svg)](https://doi.org/10.5281/zenodo.23835360)
+
 CodeQAPass (Code Question Answering over Retrieved Passages) is a local-first system for understanding Python repositories through Persian or English questions. It combines deterministic code analysis, lexical and semantic retrieval, grounded answer generation, function documentation, and verified navigation to the exact source file, symbol, and line range.
 
 The project was developed as a bachelor's thesis and is complete. The [final thesis report is available as a PDF](docs/Fatemeh_Sayadzadeh_CodeCompass_Final_Report.pdf). The latest release is [`v1.1.3-final-thesis-report`](https://github.com/Ftm-Sayadzadeh/CodeQAPass/releases/tag/v1.1.3-final-thesis-report).
@@ -181,7 +183,7 @@ Frozen metrics describe specific datasets, model versions, providers, and execut
 
 ## License and Citation
 
-CodeQAPass is released under the [MIT License](LICENSE). Citation metadata is in [CITATION.cff](CITATION.cff); GitHub's "Cite this repository" button uses it. The benchmark questions and reference answers used in the SWE-QA evaluation come from [SWE-QA](https://arxiv.org/abs/2509.14635) and remain subject to that project's terms.
+CodeQAPass is released under the [MIT License](LICENSE). Citation metadata is in [CITATION.cff](CITATION.cff); GitHub's "Cite this repository" button uses it. Releases are archived in Zenodo; the DOI badge above resolves to all versions, and each release has its own version DOI (for example `10.5281/zenodo.23835361` for `v1.2.0-spe-submission`). The benchmark questions and reference answers used in the SWE-QA evaluation come from [SWE-QA](https://arxiv.org/abs/2509.14635) and remain subject to that project's terms.
 
 ## Project Documents
 
